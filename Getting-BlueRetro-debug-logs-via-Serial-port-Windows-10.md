@@ -1,4 +1,4 @@
-# **When using DevKitC USB port for serial debug DO NOT CONNECT the 5V pin coming from game system. Power will be provided from USB**
+# **When using DevKitC USB port for serial debug DO NOT CONNECT the 3.3v or 5V pin coming from game system. Power will be provided from USB**
 
 ## Getting BlueRetro debug logs via Serial port Windows 10
 1. Download & install [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) or use your favorite terminal emulator.
