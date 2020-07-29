@@ -11,4 +11,4 @@
 5. Back in session you may save those setting for later.
 6. Click "Open"
 7. Reproduce issue and copy the whole log to a .txt file.
-8. Open issue in GitHub and attach file with write step for reproduction.
+8. Open issue in GitHub and attach file with step for reproduction.
