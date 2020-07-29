@@ -2,8 +2,11 @@ Welcome to the BlueRetro wiki!
 
 # Dev board setup
 ## ESP32-DevKitC V4 WROOM
-1. Follow step "Dev env setup" at [BlueRetroRoot](https://github.com/darthcloud/BlueRetroRoot). (Required for step 3)
-
+1. Linux:\
+   Install [esp-idf prerequisites](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/linux-setup.html).\
+   Windows:\
+   Install [esp-idf prerequisites](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/windows-setup.html).
+   
 2. Download latest binary from [GitHub](https://github.com/darthcloud/BlueRetro/releases) and flash them on your ESP32.\
   Linux:\
   `~/BlueRetroRoot/python_env/idf4.2_py3.7_env/bin/python ~/BlueRetroRoot/esp-idf/components/esptool_py/esptool/esptool.py -p /dev/ttyUSB0 -b 460800 --before default_reset --after hard_reset --chip esp32  write_flash --flash_mode dio --flash_size detect --flash_freq 40m 0x1000 bootloader.bin 0x8000 partition-table.bin 0x10000 BlueRetro.bin`\
@@ -34,10 +37,11 @@ https://darthcloud.github.io/samples/web-bluetooth/blueretro_presets.html
    Pair via inquiry first (SYNC), on subsequent connection you can simply page (button press or power on button).
 
 ## ESP-WROVER-KIT V4.1 (PHASE OUT, NOT RECOMMENDED)
-1. Linux only: Follow step "Dev env setup" at [BlueRetroRoot](https://github.com/darthcloud/BlueRetroRoot).
+1. Linux only:\
+   Install [esp-idf prerequisites](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/linux-setup.html).
 
 2. Download latest binary from [GitHub](https://github.com/darthcloud/BlueRetro/releases) and flash them on your ESP32.\
-Linux:
+Linux:\
 `~/BlueRetroRoot/python_env/idf4.2_py3.7_env/bin/python ~/BlueRetroRoot/esp-idf/components/esptool_py/esptool/esptool.py -p /dev/ttyUSB0 -b 460800 --before default_reset --after hard_reset --chip esp32  write_flash --flash_mode dio --flash_size detect --flash_freq 40m 0x1000 bootloader.bin 0x8000 partition-table.bin 0x10000 BlueRetro.bin`\
 Windows:\
 [Flashing firmware Windows 10](https://github.com/darthcloud/BlueRetro/wiki/Flashing-firmware-Windows-10)
