@@ -1,8 +1,8 @@
 Welcome to the BlueRetro wiki!
 
 # Dev board setup
-## ESP32-DevKitC V4
-1. Linux only: Follow step "Dev env setup" at [BlueRetroRoot](https://github.com/darthcloud/BlueRetroRoot).
+## ESP32-DevKitC V4 WROOM
+1. Follow step "Dev env setup" at [BlueRetroRoot](https://github.com/darthcloud/BlueRetroRoot). (Required for step 3)
 
 2. Download latest binary from [GitHub](https://github.com/darthcloud/BlueRetro/releases) and flash them on your ESP32.\
   Linux:\
@@ -10,24 +10,30 @@ Welcome to the BlueRetro wiki!
   Windows:\
   [Flashing firmware Windows 10](https://github.com/darthcloud/BlueRetro/wiki/Flashing-firmware-Windows-10)
 
-3. Burn the flash voltage eFuses for avoiding conflict between D2 & MTDI strapping.
-https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/sd_pullup_requirements.html
+3. Burn the flash voltage eFuses for avoiding conflict between D2 & MTDI strapping. (Only for WROOM or WROVER**-B** module)\
+https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/sd_pullup_requirements.html#strapping-conflicts-dat2
 
-4. Install DB25 connector & PmodMicroSD board.
+4. Install DB25 connector & PmodMicroSD board.\
+   It is important to keep the sd card jumper wire very short (<= 2 inch) and plug them directly to the ESP32 pin (not via breadboard).\
+   It's critical for the 2 GND on the PMOD to be plug directly to the ESP32 GND pin via short wire!!\
 https://github.com/darthcloud/BlueRetroHW/blob/master/BlueRetro.pdf
 
-5. Build target system cable adapter.
-https://github.com/darthcloud/BlueRetroHW/blob/master/BlueRetro.pdf
+5. Build target system cable adapter.\
+https://github.com/darthcloud/BlueRetroHW/blob/master/BlueRetro.pdf \
+https://github.com/darthcloud/BlueRetroHW/blob/master/Saturn.pdf \
+https://github.com/darthcloud/BlueRetroHW/blob/master/NES.pdf
 
-6. Insert blank SD card.
+6. Insert blank SD card. BlueRetro will format the card itself.
 
-7. (Optional) Power on system and connect via Web Bluetooth to configure adapter.
-https://darthcloud.github.io/samples/web-bluetooth/blueretro.html
+7. (Optional) Power on system and connect via Web Bluetooth to configure adapter.\
+   The config mode is only available if no controller is connected. \
+https://darthcloud.github.io/samples/web-bluetooth/blueretro.html \
 https://darthcloud.github.io/samples/web-bluetooth/blueretro_presets.html
 
-8. Pair via inquiry first, on subsequent connection you can simply page.
+8. BlueRetro is always in pairing mode if no controller connected (and stay in pairing mode for 1 minute after one device connected)\
+   Pair via inquiry first (SYNC), on subsequent connection you can simply page (button press or power on button).
 
-## ESP-WROVER-KIT V4.1
+## ESP-WROVER-KIT V4.1 (PHASE OUT, NOT RECOMMENDED)
 1. Linux only: Follow step "Dev env setup" at [BlueRetroRoot](https://github.com/darthcloud/BlueRetroRoot).
 
 2. Download latest binary from [GitHub](https://github.com/darthcloud/BlueRetro/releases) and flash them on your ESP32.\
@@ -40,16 +46,20 @@ Windows:\
    Short R12 & R24\
    Don't short TXD and RXD0
 
-4. Install DB25 connector
+4. Install DB25 connector\
 https://github.com/darthcloud/BlueRetroHW/blob/master/BlueRetro.pdf
 
-5. Build target system cable adapter.
-https://github.com/darthcloud/BlueRetroHW/blob/master/BlueRetro.pdf
+5. Build target system cable adapter.\
+https://github.com/darthcloud/BlueRetroHW/blob/master/BlueRetro.pdf \
+https://github.com/darthcloud/BlueRetroHW/blob/master/Saturn.pdf \
+https://github.com/darthcloud/BlueRetroHW/blob/master/NES.pdf
 
-6. Insert blank SD card.
+6. Insert blank SD card. BlueRetro will format the card itself.
 
-7. (Optional) Power on system and connect via Web Bluetooth to configure adapter.
-https://darthcloud.github.io/samples/web-bluetooth/blueretro.html
+7. (Optional) Power on system and connect via Web Bluetooth to configure adapter.\
+   The config mode is only available if no controller is connected. \
+https://darthcloud.github.io/samples/web-bluetooth/blueretro.html \
 https://darthcloud.github.io/samples/web-bluetooth/blueretro_presets.html
 
-8. Pair via inquiry first, on subsequent connection you can simply page.
+8. BlueRetro is always in pairing mode if no controller connected (and stay in pairing mode for 1 minute after one device connected)\
+   Pair via inquiry first (SYNC or pairing mode), on subsequent connection you can simply page (button press or power on button).
