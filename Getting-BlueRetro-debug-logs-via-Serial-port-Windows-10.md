@@ -6,6 +6,8 @@
 ![](img/putty_lRphcbP80S.png)
 3. In "Terminal" check "Implicit CR in every LF"\
 ![](img/putty_rU4TrkHm7S.png)
+4. (Optional) If reboot on serial connection is undesirable, disable flow control under serial menu.\
+![](img/putty_dsuoK5lVJ7.png)
 4. Back in session you may save those setting for later.
 5. Click "Open"
 6. Reproduce issue and copy the whole log to a .txt file.
