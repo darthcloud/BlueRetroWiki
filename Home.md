@@ -29,8 +29,8 @@ https://github.com/darthcloud/BlueRetroHW/blob/master/NES.pdf
 
 7. (Optional) Power on system and connect via Web Bluetooth to configure adapter.\
    The config mode is only available if no controller is connected. \
-https://darthcloud.github.io/samples/web-bluetooth/blueretro.html \
-https://darthcloud.github.io/samples/web-bluetooth/blueretro_presets.html
+https://darthcloud.github.io/BlueRetroWebCfg/blueretro.html \
+https://darthcloud.github.io/BlueRetroWebCfg/blueretro_presets.html
 
 8. BlueRetro is always in pairing mode if no controller connected (and stay in pairing mode for 1 minute after one device connected)\
    Pair via inquiry first (SYNC or pairing mode), on subsequent connection you can simply page (button press or power on button).
