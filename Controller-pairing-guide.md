@@ -16,3 +16,31 @@
 6. Boot up BlueRetro and press the PS button, the controller shall connect to BlueRetro.
 ## Reconnect
 1. Simply press PS button to reconnect to BlueRetro.
+# PS4
+## First pairing
+1. Boot up BlueRetro
+2. Press & hold simultaneously Share & PS buttons until the LED blick white.
+3. Color on controller will change once once pairing is complete.
+## Reconnect
+1. Simply press PS button to reconnect to BlueRetro.
+# Xbox One S & Adaptive controller
+## First pairing
+1. Boot up BlueRetro
+2. Power on controller via Xbox button and then hold the black sync button until the logo blick.
+3. Logo will stop blinking on controller once once pairing is complete.
+## Reconnect
+1. Simply hold Xbox button for a small moment to power on controller and it will reconnect to BlueRetro.
+# Wii & WiiU Pro
+## First pairing
+1. Boot up BlueRetro
+2. Press red Sync button
+3. LEDs will stop blinking on controller once once pairing is complete.
+## Reconnect
+1. Simply press any button on controller and it will reconnect to BlueRetro.
+# Switch Pro & Joycon
+## First pairing
+1. Boot up BlueRetro
+2. Press and hold sync button until LEDs move in a left/right pattern.
+3. LEDs will stop pattern on controller once once pairing is complete.
+## Reconnect
+1. Simply press any button twice on controller and it will reconnect to BlueRetro.
