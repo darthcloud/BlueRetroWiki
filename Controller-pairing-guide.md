@@ -10,8 +10,8 @@
 # local_bdaddr: 84:0D:8E:E6:5A:56
 ```
 3. Connect your PS3 controller to PC using USB cable.
-4. Launch Sixaxis pair tool and type in the address found in step #2.
-![](img/SixaxisPairTool_v0FDiegEiq.png)\
+4. Launch Sixaxis pair tool and type in the address found in step #2.\
+![](img/SixaxisPairTool_v0FDiegEiq.png)
 5. Click update once done disconnect controller from PC.
 6. Boot up BlueRetro and press the PS button, the controller shall connect to BlueRetro.
 ## Reconnect
