@@ -34,3 +34,4 @@ https://darthcloud.github.io/BlueRetroWebCfg/blueretro_presets.html
 
 8. BlueRetro is always in pairing mode if no controller connected (and stay in pairing mode for 1 minute after one device connected)\
    Pair via inquiry first (SYNC or pairing mode), on subsequent connection you can simply page (button press or power on button).
+   See guide for more specific instruction: [Pairing Guide](https://github.com/darthcloud/BlueRetro/wiki/Controller-pairing-guide)
