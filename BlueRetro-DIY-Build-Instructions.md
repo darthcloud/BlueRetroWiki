@@ -1,4 +1,10 @@
-# DIY build with ESP32-DevKitC V4 WROOM
+# Bill of materials
+* ESP32-DEVKITC-32D or ESP32-DEVKITC-32E with ESP-WROOM-32
+* DB-25 Female connector solder cup
+* Digilent Pmod MicroSD
+* Jumper wires (<= 2 inch)
+
+# Build instructions
 1. Linux:\
    Install [esp-idf prerequisites](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/linux-setup.html).\
    Windows:\
@@ -16,19 +22,21 @@ https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/periph
 4. Install DB25 connector & PmodMicroSD board.\
    It is important to keep the sd card jumper wire very short (<= 2 inch) and plug them directly to the ESP32 pin (not via breadboard).\
    It's critical for the 2 GND on the PMOD to be plug directly to the ESP32 GND pin via short wire!!\
-https://github.com/darthcloud/BlueRetroHW/blob/master/BlueRetro.pdf
+https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/BlueRetroDIY.pdf
 
 5. Build target system cable adapter.\
-https://github.com/darthcloud/BlueRetroHW/blob/master/BlueRetro.pdf \
-https://github.com/darthcloud/BlueRetroHW/blob/master/Saturn.pdf \
-https://github.com/darthcloud/BlueRetroHW/blob/master/NES.pdf
+https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Dreamcast.pdf
+https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/GameCube.pdf
+https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/N64.pdf
+https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/NES.pdf
+https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/SNES.pdf
+https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Saturn.pdf
 
 6. Insert blank SD card. BlueRetro will format the card itself.
 
 7. (Optional) Power on system and connect via Web Bluetooth to configure adapter.\
    The config mode is only available if no controller is connected. \
-https://darthcloud.github.io/BlueRetroWebCfg/blueretro.html \
-https://darthcloud.github.io/BlueRetroWebCfg/blueretro_presets.html
+https://blueretro.io
 
 8. BlueRetro is always in pairing mode if no controller connected (and stay in pairing mode for 1 minute after one device connected)\
    Pair via inquiry first (SYNC or pairing mode), on subsequent connection you can simply page (button press or power on button).
