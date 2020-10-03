@@ -25,12 +25,7 @@ https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/periph
 https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/BlueRetroDIY.pdf
 
 5. Build target system cable adapter.\
-https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Dreamcast.pdf
-https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/GameCube.pdf
-https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/N64.pdf
-https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/NES.pdf
-https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/SNES.pdf
-https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Saturn.pdf
+https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions
 
 6. Insert blank SD card. BlueRetro will format the card itself.
 
