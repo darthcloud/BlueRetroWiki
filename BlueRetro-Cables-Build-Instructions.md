@@ -12,7 +12,6 @@
  [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/NES.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/NES.pdf)
 ## Cable PCB build instruction
 ![](img/cables/nes.png)
-
 # SFC / SNES adapter cable
 ## Pinout reference
 ![](img/cables/snes_pinout.png)
