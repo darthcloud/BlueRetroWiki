@@ -12,6 +12,9 @@
  [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/NES.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/NES.pdf)
 ## Cable PCB build instruction
 ![](img/cables/nes.png)
+* Solder 74AHCT1G125 to footprint highlighted in red.
+* Connect cords according to schematic.
+* Bridge HI side of jumper I39.
 # SFC / SNES adapter cable
 ## Pinout reference
 ![](img/cables/snes_pinout.png)
@@ -25,7 +28,9 @@
  [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/SNES.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/SNES.pdf)
 ## Cable PCB build instruction
 ![](img/cables/snes.png)
-
+* Solder 74AHCT1G125 to footprint highlighted in red.
+* Connect cords according to schematic.
+* Bridge LO side of jumper I39.
 # Saturn adapter cable
 ## Pinout reference
 ![](img/cables/saturn_pinout.png)
@@ -39,7 +44,9 @@
  [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Saturn.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Saturn.pdf)
 ## Cable PCB build instruction
 ![](img/cables/saturn.png)
-
+* Solder 74AHCT1G125 to footprint highlighted in red.
+* Connect cords according to schematic.
+* Bridge LO side of jumper I39.
 # Nintendo 64 adapter cable
 ## Pinout reference
 ![](img/cables/n64_pinout.png)
@@ -52,7 +59,8 @@
  [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/N64.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/N64.pdf)
 ## Cable PCB build instruction
 ![](img/cables/n64.png)
-
+* Connect cords according to schematic.
+* Bridge HI side of jumper I39.
 # Dreamcast adapter cable
 ## Pinout reference
 ![](img/cables/dreamcast_pinout.png)
@@ -65,7 +73,8 @@
  [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Dreamcast.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Dreamcast.pdf)
 ## Cable PCB build instruction
 ![](img/cables/dc.png)
-
+* Connect cords according to schematic.
+* Bridge HI side of jumper I39.
 # GameCube adapter cable
 ## Pinout reference
 ![](img/cables/gamecube_pinout.png)
@@ -78,7 +87,8 @@
  [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/GameCube.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/GameCube.pdf)
 ## Cable PCB build instruction
 ![](img/cables/gc.png)
-
+* Connect cords according to schematic.
+* Bridge LO side of jumper I39.
 # JVS adapter cable
 ## Bill of materials
 * DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
@@ -97,3 +107,6 @@
 [https://github.com/darthcloud/BlueRetroHW/blob/master/Cables/jvs/jvs.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/Cables/jvs/jvs.pdf)
 ## Cable PCB build instruction
 ![](img/cables/jvs_f.png)
+* Connect cords according to schematic.
+* PCB jumper are already set nothing to do.
+* Do not install R4, R3 & D1.
