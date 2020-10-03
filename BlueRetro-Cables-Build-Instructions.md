@@ -8,6 +8,8 @@
 * Level shifter PCB (x1)
 * NES controller plug (x2)
 * Famicom controller plug (x1) (Optional)
+## Cable schematic
+ [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/NES.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/NES.pdf)
 ## Cable PCB build instruction
 ![](img/cables/nes.png)
 
@@ -20,6 +22,8 @@
 * DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
 * Level shifter PCB (x1)
 * SNES controller plug (x2)
+## Cable schematic
+ [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/SNES.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/SNES.pdf)
 ## Cable PCB build instruction
 ![](img/cables/snes.png)
 
@@ -32,6 +36,8 @@
 * DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
 * Level shifter PCB (x1)
 * Saturn controller plug (x2)
+## Cable schematic
+ [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Saturn.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Saturn.pdf)
 ## Cable PCB build instruction
 ![](img/cables/saturn.png)
 
@@ -43,6 +49,8 @@
 * DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
 * Passthrough PCB (x1)
 * N64 controller plug (x4)
+## Cable schematic
+ [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/N64.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/N64.pdf)
 ## Cable PCB build instruction
 ![](img/cables/n64.png)
 
@@ -54,6 +62,8 @@
 * DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
 * Passthrough PCB (x1)
 * Dreamcast controller plug (x4)
+## Cable schematic
+ [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Dreamcast.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Dreamcast.pdf)
 ## Cable PCB build instruction
 ![](img/cables/dc.png)
 
@@ -65,6 +75,8 @@
 * DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
 * Passthrough PCB (x1)
 * GameCube controller plug (x4)
+## Cable schematic
+ [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/GameCube.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/GameCube.pdf)
 ## Cable PCB build instruction
 ![](img/cables/gc.png)
 
@@ -82,5 +94,7 @@
 * Capacitor 4.7u (x1) (DKPN: 1276-1044-1-ND PN: CL10A475KP8NNNC)
 * JVS PCB (x1)
 * USB-A plug (x1)
+## Cable schematic
+[https://github.com/darthcloud/BlueRetroHW/blob/master/Cables/jvs/jvs.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/Cables/jvs/jvs.pdf)
 ## Cable PCB build instruction
 ![](img/cables/jvs_f.png)
