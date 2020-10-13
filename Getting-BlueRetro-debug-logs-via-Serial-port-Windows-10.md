@@ -4,7 +4,7 @@
 1. Download & install [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) or use your favorite terminal emulator.
 2. Select serial and set right COM port and set speed to 921600\
    (BlueRetro DevKit will show 2 COM, select 2nd one)\
-   ([See this guide](https://github.com/darthcloud/BlueRetro/wiki/Missing-2nd-COM-port-Win10-BlueRetro-DevKit-fix) if only one show up)
+   ([See this guide](https://github.com/darthcloud/BlueRetro/wiki/Missing-2nd-COM-port-Win10-BlueRetro-DevKit-fix) if only one show up)\
 ![](img/putty_lRphcbP80S.png)
 3. In "Terminal" check "Implicit CR in every LF"\
 ![](img/putty_rU4TrkHm7S.png)
