@@ -8,7 +8,8 @@
 ![](img/flash_download_tool_3.8.5_WXhPGbf8md.png)
 5. Select and check the 3 binary file in the first 3 field and match the option as in screenshot.\
 ![](img/flash_download_tool_3.8.5_lBiiCrN3Gd.png)
-6. Select proper COM port for your machine. (BlueRetro DevKit will show 2 COM, select 2nd one) ([See this guide](https://github.com/darthcloud/BlueRetro/wiki/Missing-2nd-COM-port-Win10-BlueRetro-DevKit-fix) if only one show up)
+6. Select proper COM port for your machine. (BlueRetro DevKit will show 2 COM, select 2nd one)\
+   ([See this guide](https://github.com/darthcloud/BlueRetro/wiki/Missing-2nd-COM-port-Win10-BlueRetro-DevKit-fix) if only one show up)
 7. Press START
 8. Wait for status to change to FINISH.\
 ![](img/flash_download_tool_3.8.5_BDyWW8n9Wb.png)
