@@ -1,3 +1,9 @@
+# Table of contents
+* [PS3](https://github.com/darthcloud/BlueRetro/wiki/Controller-pairing-guide#ps3)
+* [PS4 & PS5](https://github.com/darthcloud/BlueRetro/wiki/Controller-pairing-guide#ps4--ps5)
+* [Xbox One S & Adaptive controller](https://github.com/darthcloud/BlueRetro/wiki/Controller-pairing-guide#xbox-one-s--adaptive-controller)
+* [Wii & WiiU Pro](https://github.com/darthcloud/BlueRetro/wiki/Controller-pairing-guide#wii--wiiu-pro)
+* [Switch Pro & Joycon](https://github.com/darthcloud/BlueRetro/wiki/Controller-pairing-guide#switch-pro--joycon)
 # PS3
 * Note only official PS3 controller are currently supported.
 ## First pairing
@@ -16,7 +22,7 @@
 6. Boot up BlueRetro and press the PS button, the controller should connect to BlueRetro.
 ## Reconnect
 1. Simply press PS button to reconnect to BlueRetro.
-# PS4
+# PS4 & PS5
 ## First pairing
 1. Boot up BlueRetro
 2. Press & hold simultaneously Share & PS buttons until the LED blink white.
