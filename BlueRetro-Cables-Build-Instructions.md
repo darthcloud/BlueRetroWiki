@@ -1,3 +1,10 @@
+# Table of contents
+* [FC / NES adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#fc--nes-adapter-cable)
+* [SFC / SNES adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#sfc--snes-adapter-cable)
+* [Saturn adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#saturn-adapter-cable)
+* [Nintendo 64 adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#nintendo-64-adapter-cable)
+* [Dreamcast adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#dreamcast-adapter-cable)
+* [GameCube adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#gamecube-adapter-cable)
 # FC / NES adapter cable
 ## Pinout reference
 ![](img/cables/nes_pinout.png)
