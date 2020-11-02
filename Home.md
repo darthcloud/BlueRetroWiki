@@ -1,6 +1,11 @@
 Welcome to the BlueRetro wiki!
 
 # BlueRetro User Manual
+## Table of contents
+* [Updating firmware](https://github.com/darthcloud/BlueRetro/wiki#updating-firmware)
+* [SD card format](https://github.com/darthcloud/BlueRetro/wiki#sd-card-format)
+* [Web config](https://github.com/darthcloud/BlueRetro/wiki#web-config)
+* [Pairing Bluetooth controller](https://github.com/darthcloud/BlueRetro/wiki#pairing-bluetooth-controller)
 ## Updating firmware
 Download latest binary from [GitHub](https://github.com/darthcloud/BlueRetro/releases) and flash them on your BlueRetro.\
 Linux:\
