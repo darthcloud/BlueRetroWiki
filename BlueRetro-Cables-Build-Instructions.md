@@ -128,6 +128,19 @@ IO22 | SATURN P2 | 8 | P2_L | Player 2 D2 | No
 ![](img/cables/n64.png)
 * Bridge HI side of jumper I39.
 * Connect cords according to table below and pinout reference.
+
+VIN | N64 P1 | 1 | 3.3V | BlueRetro Power | Yes
+IO19 | N64 P1 | 2 | P1_D | Player 1 DATA | Yes
+GND | N64 P1 | 3 | GND | BlueRetro Power | Yes
+VIN | N64 P2 | 1 | 3.3V | BlueRetro Power | No
+IO5 | N64 P2 | 2 | P2_D | Player 2 DATA | No
+GND | N64 P2 | 3 | GND | BlueRetro Power | No
+VIN | N64 P3 | 1 | 3.3V | BlueRetro Power | No
+IO26 | N64 P3 | 2 | P3_D | Player 3 DATA | No
+GND | N64 P3 | 3 | GND | BlueRetro Power | No
+VIN | N64 P4 | 1 | 3.3V | BlueRetro Power | No
+IO27 | N64 P4 | 2 | P4_D | Player 4 DATA | No
+GND | N64 P4 | 3 | GND | BlueRetro Power | No
 # Dreamcast adapter cable
 ## Bill of materials
 * DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
@@ -142,6 +155,23 @@ IO22 | SATURN P2 | 8 | P2_L | Player 2 D2 | No
 ![](img/cables/dc.png)
 * Bridge HI side of jumper I39.
 * Connect cords according to table below and pinout reference.
+
+VIN | DC P1 | 2 | 5V | BlueRetro Power | Yes
+IO21 | DC P1 | 1 | P1_D0 | Player 1 DATA0 | Yes
+IO22 | DC P1 | 5 | P1_D1 | Player 1 DATA1 | Yes
+GND | DC P1 | 3, 4, SH | GND | BlueRetro Power | Yes
+VIN | DC P2 | 2 | 5V | BlueRetro Power | No
+IO3 | DC P2 | 1 | P2_D0 | Player 2 DATA0 | No
+IO5 | DC P2 | 5 | P2_D1 | Player 2 DATA1 | No
+GND | DC P2 | 3, 4, SH | GND | BlueRetro Power | No
+VIN | DC P3 | 2 | 5V | BlueRetro Power | No
+IO18 | DC P3 | 1 | P3_D0 | Player 3 DATA0 | No
+IO23 | DC P3 | 5 | P3_D1 | Player 3 DATA1 | No
+GND | DC P3 | 3, 4, SH | GND | BlueRetro Power | No
+VIN | DC P4 | 2 | 5V | BlueRetro Power | No
+IO26 | DC P4 | 1 | P4_D0 | Player 4 DATA0 | No
+IO27 | DC P4 | 5 | P4_D1 | Player 4 DATA1 | No
+GND | DC P4 | 3, 4, SH | GND | BlueRetro Power | No
 # GameCube adapter cable
 ## Bill of materials
 * DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
@@ -156,6 +186,19 @@ IO22 | SATURN P2 | 8 | P2_L | Player 2 D2 | No
 ![](img/cables/gc.png)
 * Bridge LO side of jumper I39.
 * Connect cords according to table below and pinout reference.
+
+VIN | GC P1 | 1 | 5V | BlueRetro Power | Yes
+IO19 | GC P1 | 2 | P1_D | Player 1 DATA | Yes
+GND | GC P1 | 3, 4, SH | GND | BlueRetro Power | Yes
+VIN | GC P2 | 1 | 5V | BlueRetro Power | No
+IO5 | GC P2 | 2 | P2_D | Player 2 DATA | No
+GND | GC P2 | 3, 4, SH | GND | BlueRetro Power | No
+VIN | GC P3 | 1 | 5V | BlueRetro Power | No
+IO26 | GC P3 | 2 | P3_D | Player 3 DATA | No
+GND | GC P3 | 3, 4, SH | GND | BlueRetro Power | No
+VIN | GC P4 | 1 | 5V | BlueRetro Power | No
+IO27 | GC P4 | 2 | P4_D | Player 4 DATA | No
+GND | GC P4 | 3, 4, SH | GND | BlueRetro Power | No
 # JVS adapter cable
 ## Bill of materials
 * DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
@@ -177,3 +220,8 @@ IO22 | SATURN P2 | 8 | P2_L | Player 2 D2 | No
 * PCB jumper are already set nothing to do.
 * Do not install R4, R3 & D1.
 * Connect cords according to table below and pinout reference.
+
+SENSE (1-VBUS) | USB | 1 | SENSE | JVS Sense | Yes
+B (2-D-) | USB | 2 | B | JVS RS485 Data- | Yes
+A (3-D+) | USB | 3 | A | JVS RS485 Data+ | Yes
+GND (4-GND) | USB | 4 | GND | BlueRetro Power ref | Yes
