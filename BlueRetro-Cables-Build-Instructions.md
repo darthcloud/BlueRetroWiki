@@ -6,22 +6,39 @@
 * [Dreamcast adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#dreamcast-adapter-cable)
 * [GameCube adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#gamecube-adapter-cable)
 # FC / NES adapter cable
-## Pinout reference
-![](img/cables/nes_pinout.png)
 ## Bill of materials
 * DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
 * 74AHCT1G125 SC70-5 (x7) (DKPN: 296-4709-1-ND PN: SN74AHCT1G125DCKR)
+* 3.6K resistors (x3) (DKPN: ‎S3.6KCACT-ND‎ PN: RNMF14FTC3K60‎) (Required for PAL system only)
 * DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
 * Level shifter PCB (x1)
 * NES controller plug (x2)
 * Famicom controller plug (x1) (Optional)
 ## Cable schematic
  [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/NES.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/NES.pdf)
+## Pinout reference
+![](img/cables/nes_pinout.png)
 ## Cable PCB build instruction
 ![](img/cables/nes.png)
 * Solder 74AHCT1G125 to footprint highlighted in red.
-* Connect cords according to schematic.
 * Bridge HI side of jumper I39.
+* Connect pad DIR3 & DIR1 to GND.
+* For using PAL system, add 3.6K pull-ups to NES 5V (pin 5) on pads IO18, IO5 & IO32.
+* Connect cords according to table below and pinout reference.
+
+PCB PAD | Cord | Pin | Name | Required?
+------- | ---- | --- | ---- | ---------
+VIN | NES P1 | 5 | 5V | Yes
+GND | NES P1 | 1 | GND | Yes
+IO32 | NES P1 | 3 | OUT0 | Yes
+IO19 | NES P1 | 4 | P1_D0 | Yes
+IO5 | NES P1 | 2 | P1_CUP | Yes
+VIN | NES P2 | 5 | 5V | No
+GND | NES P2 | 1 | GND | No
+IO22 | NES P2 | 4 | P2_D0 | No
+IO18 | NES P2 | 2 | P2_CUP | No
+IO21 | FC_DB15 | 13 | P1_D1 | No
+IO25 | FC_DB15 | 7 | P2_D1 | No
 # SFC / SNES adapter cable
 ## Pinout reference
 ![](img/cables/snes_pinout.png)
