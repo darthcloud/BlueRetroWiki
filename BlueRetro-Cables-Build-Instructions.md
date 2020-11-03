@@ -18,6 +18,7 @@
  [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/NES.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/NES.pdf)
 ## Pinout reference
 ![](img/cables/nes_pinout.png)
+![](img/cables/fc_pinout.png)
 ## Cable PCB build instruction
 ![](img/cables/nes.png)
 * Solder 74AHCT1G125 to footprint highlighted in red.
