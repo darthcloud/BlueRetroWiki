@@ -42,21 +42,40 @@ IO18 | NES P2 | 2 | P2_CUP | Player 2 / Four Score CLK | No
 IO21 | FC_DB15 | 13 | P1_D1 | FC 4P adapter P3 DATA | No
 IO25 | FC_DB15 | 7 | P2_D1 | FC 4P adapter P4 DATA | No
 # SFC / SNES adapter cable
-## Pinout reference
-![](img/cables/snes_pinout.png)
 ## Bill of materials
 * DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
 * 74AHCT1G125 SC70-5 (x9) (DKPN: 296-4709-1-ND PN: SN74AHCT1G125DCKR)
+* 3.6K resistors (x5) (DKPN: ‎S3.6KCACT-ND‎ PN: RNMF14FTC3K60‎) (Required for PAL system only)
 * DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
 * Level shifter PCB (x1)
 * SNES controller plug (x2)
 ## Cable schematic
  [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/SNES.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/SNES.pdf)
+## Pinout reference
+![](img/cables/snes_pinout.png)
 ## Cable PCB build instruction
 ![](img/cables/snes.png)
 * Solder 74AHCT1G125 to footprint highlighted in red.
-* Connect cords according to schematic.
 * Bridge LO side of jumper I39.
+* Connect pad DIR3 & DIR1 to GND.
+* For using PAL system, add 3.6K pull-ups to SNES 5V (pin 1) on pads IO23, IO18, IO5, IO32 & IO26.
+* Connect cords according to table below and pinout reference.
+
+PCB PAD | Cord | Pin | Name | Use | Required?
+------- | ---- | --- | ---- | --- | ---------
+VIN | SNES P1 | 1 | 5V | BlueRetro Power | Yes
+GND | SNES P1 | 7 | GND | BlueRetro Power | Yes
+IO32 | SNES P1 | 3 | LATCH | Latch for all accessories | Yes
+IO19 | SNES P1 | 4 | P1_D0 | Player 1 / Multitap DATA | Yes
+IO21 | SNES P1 | 5 | P1_D1 | Multitap DATA | No
+IO23 | SNES P1 | 6 | P1_SEL | Multitap CTRL | No
+IO5 | SNES P1 | 2 | P1_CLK | Player 1 / Multitap CLK | Yes
+VIN | SNES P2 | 1 | 5V | BlueRetro Power | No
+GND | SNES P2 | 7 | GND | BlueRetro Power | No
+IO22 | SNES P2 | 4 | P2_D0 | Player 2 / Multitap DATA | No
+IO25 | SNES P2 | 5 | P2_D1 | Multitap DATA | No
+IO26 | SNES P2 | 6 | P2_SEL | Multitap CTRL | No
+IO18 | SNES P2 | 2 | P2_CLK | Player 2 / Multitap CLK | No
 # Saturn adapter cable
 ## Pinout reference
 ![](img/cables/saturn_pinout.png)
