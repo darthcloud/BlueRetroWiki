@@ -129,6 +129,8 @@ IO22 | SATURN P2 | 8 | P2_L | Player 2 D2 | No
 * Bridge HI side of jumper I39.
 * Connect cords according to table below and pinout reference.
 
+PCB PAD | Cord | Pin | Name | Use | Required?
+------- | ---- | --- | ---- | --- | ---------
 VIN | N64 P1 | 1 | 3.3V | BlueRetro Power | Yes
 IO19 | N64 P1 | 2 | P1_D | Player 1 DATA | Yes
 GND | N64 P1 | 3 | GND | BlueRetro Power | Yes
@@ -156,6 +158,8 @@ GND | N64 P4 | 3 | GND | BlueRetro Power | No
 * Bridge HI side of jumper I39.
 * Connect cords according to table below and pinout reference.
 
+PCB PAD | Cord | Pin | Name | Use | Required?
+------- | ---- | --- | ---- | --- | ---------
 VIN | DC P1 | 2 | 5V | BlueRetro Power | Yes
 IO21 | DC P1 | 1 | P1_D0 | Player 1 DATA0 | Yes
 IO22 | DC P1 | 5 | P1_D1 | Player 1 DATA1 | Yes
@@ -187,6 +191,8 @@ GND | DC P4 | 3, 4, SH | GND | BlueRetro Power | No
 * Bridge LO side of jumper I39.
 * Connect cords according to table below and pinout reference.
 
+PCB PAD | Cord | Pin | Name | Use | Required?
+------- | ---- | --- | ---- | --- | ---------
 VIN | GC P1 | 1 | 5V | BlueRetro Power | Yes
 IO19 | GC P1 | 2 | P1_D | Player 1 DATA | Yes
 GND | GC P1 | 3, 4, SH | GND | BlueRetro Power | Yes
@@ -221,6 +227,8 @@ GND | GC P4 | 3, 4, SH | GND | BlueRetro Power | No
 * Do not install R4, R3 & D1.
 * Connect cords according to table below and pinout reference.
 
+PCB PAD | Cord | Pin | Name | Use | Required?
+------- | ---- | --- | ---- | --- | ---------
 SENSE (1-VBUS) | USB | 1 | SENSE | JVS Sense | Yes
 B (2-D-) | USB | 2 | B | JVS RS485 Data- | Yes
 A (3-D+) | USB | 3 | A | JVS RS485 Data+ | Yes
