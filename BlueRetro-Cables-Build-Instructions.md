@@ -65,17 +65,17 @@ PCB PAD | Cord | Pin | Name | Use | Required?
 ------- | ---- | --- | ---- | --- | ---------
 VIN | SNES P1 | 1 | 5V | BlueRetro Power | Yes
 GND | SNES P1 | 7 | GND | BlueRetro Power | Yes
+IO5 | SNES P1 | 2 | P1_CLK | Player 1 / Multitap CLK | Yes
 IO32 | SNES P1 | 3 | LATCH | Latch for all accessories | Yes
 IO19 | SNES P1 | 4 | P1_D0 | Player 1 / Multitap DATA | Yes
 IO21 | SNES P1 | 5 | P1_D1 | Multitap DATA | No
 IO23 | SNES P1 | 6 | P1_SEL | Multitap CTRL | No
-IO5 | SNES P1 | 2 | P1_CLK | Player 1 / Multitap CLK | Yes
 VIN | SNES P2 | 1 | 5V | BlueRetro Power | No
 GND | SNES P2 | 7 | GND | BlueRetro Power | No
+IO18 | SNES P2 | 2 | P2_CLK | Player 2 / Multitap CLK | No
 IO22 | SNES P2 | 4 | P2_D0 | Player 2 / Multitap DATA | No
 IO25 | SNES P2 | 5 | P2_D1 | Multitap DATA | No
 IO26 | SNES P2 | 6 | P2_SEL | Multitap CTRL | No
-IO18 | SNES P2 | 2 | P2_CLK | Player 2 / Multitap CLK | No
 # Saturn adapter cable
 ## Pinout reference
 ![](img/cables/saturn_pinout.png)
