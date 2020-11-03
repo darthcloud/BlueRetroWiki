@@ -77,8 +77,6 @@ IO22 | SNES P2 | 4 | P2_D0 | Player 2 / Multitap 2 DATA | No
 IO25 | SNES P2 | 5 | P2_D1 | Multitap 2 DATA | No
 IO26 | SNES P2 | 6 | P2_SEL | Multitap 2 CTRL | No
 # Saturn adapter cable
-## Pinout reference
-![](img/cables/saturn_pinout.png)
 ## Bill of materials
 * DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
 * 74AHCT1G125 SC70-5 (x14) (DKPN: 296-4709-1-ND PN: SN74AHCT1G125DCKR)
@@ -87,14 +85,14 @@ IO26 | SNES P2 | 6 | P2_SEL | Multitap 2 CTRL | No
 * Saturn controller plug (x2)
 ## Cable schematic
  [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Saturn.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Saturn.pdf)
+## Pinout reference
+![](img/cables/saturn_pinout.png)
 ## Cable PCB build instruction
 ![](img/cables/saturn.png)
 * Solder 74AHCT1G125 to footprint highlighted in red.
-* Connect cords according to schematic.
 * Bridge LO side of jumper I39.
+* Connect cords according to table below and pinout reference.
 # Nintendo 64 adapter cable
-## Pinout reference
-![](img/cables/n64_pinout.png)
 ## Bill of materials
 * DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
 * DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
@@ -102,13 +100,13 @@ IO26 | SNES P2 | 6 | P2_SEL | Multitap 2 CTRL | No
 * N64 controller plug (x4)
 ## Cable schematic
  [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/N64.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/N64.pdf)
+## Pinout reference
+![](img/cables/n64_pinout.png)
 ## Cable PCB build instruction
 ![](img/cables/n64.png)
-* Connect cords according to schematic.
 * Bridge HI side of jumper I39.
+* Connect cords according to table below and pinout reference.
 # Dreamcast adapter cable
-## Pinout reference
-![](img/cables/dreamcast_pinout.png)
 ## Bill of materials
 * DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
 * DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
@@ -116,13 +114,13 @@ IO26 | SNES P2 | 6 | P2_SEL | Multitap 2 CTRL | No
 * Dreamcast controller plug (x4)
 ## Cable schematic
  [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Dreamcast.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Dreamcast.pdf)
+## Pinout reference
+![](img/cables/dreamcast_pinout.png)
 ## Cable PCB build instruction
 ![](img/cables/dc.png)
-* Connect cords according to schematic.
 * Bridge HI side of jumper I39.
+* Connect cords according to table below and pinout reference.
 # GameCube adapter cable
-## Pinout reference
-![](img/cables/gamecube_pinout.png)
 ## Bill of materials
 * DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
 * DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
@@ -130,10 +128,12 @@ IO26 | SNES P2 | 6 | P2_SEL | Multitap 2 CTRL | No
 * GameCube controller plug (x4)
 ## Cable schematic
  [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/GameCube.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/GameCube.pdf)
+## Pinout reference
+![](img/cables/gamecube_pinout.png)
 ## Cable PCB build instruction
 ![](img/cables/gc.png)
-* Connect cords according to schematic.
 * Bridge LO side of jumper I39.
+* Connect cords according to table below and pinout reference.
 # JVS adapter cable
 ## Bill of materials
 * DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
@@ -152,6 +152,6 @@ IO26 | SNES P2 | 6 | P2_SEL | Multitap 2 CTRL | No
 [https://github.com/darthcloud/BlueRetroHW/blob/master/Cables/jvs/jvs.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/Cables/jvs/jvs.pdf)
 ## Cable PCB build instruction
 ![](img/cables/jvs_f.png)
-* Connect cords according to schematic.
 * PCB jumper are already set nothing to do.
 * Do not install R4, R3 & D1.
+* Connect cords according to table below and pinout reference.
