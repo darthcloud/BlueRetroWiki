@@ -27,19 +27,19 @@
 * For using PAL system, add 3.6K pull-ups to NES 5V (pin 5) on pads IO18, IO5 & IO32.
 * Connect cords according to table below and pinout reference.
 
-PCB PAD | Cord | Pin | Name | Required?
-------- | ---- | --- | ---- | ---------
-VIN | NES P1 | 5 | 5V | Yes
-GND | NES P1 | 1 | GND | Yes
-IO32 | NES P1 | 3 | OUT0 | Yes
-IO19 | NES P1 | 4 | P1_D0 | Yes
-IO5 | NES P1 | 2 | P1_CUP | Yes
-VIN | NES P2 | 5 | 5V | No
-GND | NES P2 | 1 | GND | No
-IO22 | NES P2 | 4 | P2_D0 | No
-IO18 | NES P2 | 2 | P2_CUP | No
-IO21 | FC_DB15 | 13 | P1_D1 | No
-IO25 | FC_DB15 | 7 | P2_D1 | No
+PCB PAD | Cord | Pin | Name | Use | Required?
+------- | ---- | --- | ---- | --- | ---------
+VIN | NES P1 | 5 | 5V | BlueRetro Power | Yes
+GND | NES P1 | 1 | GND | BlueRetro Power | Yes
+IO32 | NES P1 | 3 | OUT0 | Latch for all accessories | Yes
+IO19 | NES P1 | 4 | P1_D0 | Player 1 / Four Score DATA | Yes
+IO5 | NES P1 | 2 | P1_CUP | Player 1 / Four Score CLK | Yes
+VIN | NES P2 | 5 | 5V | BlueRetro Power | No
+GND | NES P2 | 1 | GND | BlueRetro Power | No
+IO22 | NES P2 | 4 | P2_D0 | Player 2 / Four Score DATA | No
+IO18 | NES P2 | 2 | P2_CUP | Player 2 / Four Score CLK | No
+IO21 | FC_DB15 | 13 | P1_D1 | FC 4P adapter P3 DATA | No
+IO25 | FC_DB15 | 7 | P2_D1 | FC 4P adapter P4 DATA | No
 # SFC / SNES adapter cable
 ## Pinout reference
 ![](img/cables/snes_pinout.png)
