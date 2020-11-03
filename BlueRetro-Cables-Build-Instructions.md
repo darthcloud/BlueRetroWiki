@@ -91,7 +91,29 @@ IO26 | SNES P2 | 6 | P2_SEL | Multitap 2 CTRL | No
 ![](img/cables/saturn.png)
 * Solder 74AHCT1G125 to footprint highlighted in red.
 * Bridge LO side of jumper I39.
+* Connect pad DIR0, DIR2, DIR1 & DIR4 to GND.
 * Connect cords according to table below and pinout reference.
+
+PCB PAD | Cord | Pin | Name | Use | Required?
+------- | ---- | --- | ---- | --- | ---------
+VIN | SATURN P1 | 1 | 5V | BlueRetro Power | Yes
+GND | SATURN P1 | 9 | GND | BlueRetro Power | Yes
+IO5 | SATURN P1 | 2 | P1_D | Player 1 D1 | Yes
+IO3 | SATURN P1 | 3 | P1_U | Player 1 D0 | Yes
+I35 | SATURN P1 | 4 | P1_TH | Player 1 CTRL | Yes
+IO27 | SATURN P1 | 5 | P1_TR | Player 1 CTRL | Yes
+IO26 | SATURN P1 | 6 | P1_TL | Player 1 CTRL | Yes
+IO23 | SATURN P1 | 7 | P1_R | Player 1 D3 | Yes
+IO18 | SATURN P1 | 8 | P1_L | Player 1 D2 | Yes
+VIN | SATURN P2 | 1 | 5V | BlueRetro Power | No
+GND | SATURN P2 | 9 | GND | BlueRetro Power | No
+IO21 | SATURN P2 | 2 | P2_D | Player 2 D1 | No
+IO19 | SATURN P2 | 3 | P2_U | Player 2 D0 | No
+I36 | SATURN P2 | 4 | P2_TH | Player 2 CTRL | No
+IO16 | SATURN P2 | 5 | P2_TR | Player 2 CTRL | No
+IO33 | SATURN P2 | 6 | P2_TL | Player 2 CTRL | No
+IO25 | SATURN P2 | 7 | P2_R | Player 2 D3 | No
+IO22 | SATURN P2 | 8 | P2_L | Player 2 D2 | No
 # Nintendo 64 adapter cable
 ## Bill of materials
 * DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
