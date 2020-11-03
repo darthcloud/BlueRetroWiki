@@ -48,7 +48,7 @@ IO25 | FC_DB15 | 7 | P2_D1 | FC 4P adapter P4 DATA | No
 * 3.6K resistors (x5) (DKPN: ‎S3.6KCACT-ND‎ PN: RNMF14FTC3K60‎) (Required for PAL system only)
 * DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
 * Level shifter PCB (x1)
-* SNES controller plug (x2)
+* SNES controller plug (x2) (For multitap support 7 conductor are required, get a 3rd SNES extension for pin donation and use cable from PSX/Genesis/Saturn for the extra wires)
 ## Cable schematic
  [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/SNES.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/SNES.pdf)
 ## Pinout reference
