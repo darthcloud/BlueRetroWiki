@@ -67,7 +67,7 @@ A regular Saturn Analog controller report it's Triggers both as analog and digit
 * Using the default mapping, BlueRetro will report triggers as analog only.
 * Use the "Saturn Merge analog & digital trigger" preset to match the real Saturn Analog controller behavior.
 
-See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & NES controller buttons label correspondence.
+See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & Saturn controller buttons label correspondence.
 # Nintendo 64
 ## Multitap Config
 * **None**: BlueRetro will emulate the device selected in output 1 config on NES port 1.\
@@ -85,7 +85,7 @@ See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX
 ### Accessories
 Accessories config has no effect.
 ## Mapping
-See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & NES controller buttons label correspondence.
+See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & N64 controller buttons label correspondence.
 # Dreamcast
 ## Multitap Config
 * **None**: BlueRetro will emulate the device selected in output 1 config on NES port 1.\
@@ -103,7 +103,7 @@ See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX
 ### Accessories
 Accessories config has no effect.
 ## Mapping
-See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & NES controller buttons label correspondence.
+See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & Dreamcast controller buttons label correspondence.
 # GameCube
 ## Multitap Config
 * **None**: BlueRetro will emulate the device selected in output 1 config on NES port 1.\
@@ -121,7 +121,7 @@ See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX
 ### Accessories
 Accessories config has no effect.
 ## Mapping
-See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & NES controller buttons label correspondence.
+See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & GameCube controller buttons label correspondence.
 # JVS
 ## Multitap Config
 * **None**: BlueRetro will emulate the device selected in output 1 config on NES port 1.\
@@ -139,4 +139,4 @@ See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX
 ### Accessories
 Accessories config has no effect.
 ## Mapping
-See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & NES controller buttons label correspondence.
+See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & JVS controller buttons label correspondence.
