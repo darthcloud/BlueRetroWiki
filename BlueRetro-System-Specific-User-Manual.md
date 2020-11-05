@@ -70,20 +70,26 @@ A regular Saturn Analog controller report it's Triggers both as analog and digit
 See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & Saturn controller buttons label correspondence.
 # Nintendo 64
 ## Multitap Config
-* **None**: BlueRetro will emulate the device selected in output 1 config on NES port 1.\
-        BlueRetro will emulate the device selected in output 2 config on NES port 2.
-* **Slot 1**: BlueRetro will emulate a Four Score multitap with 4 controllers (Use both NES ports).
-* **Slot 2**: BlueRetro will emulate a Four Score multitap with 4 controllers (Use both NES ports).
-* **Dual**: BlueRetro will emulate a Four Score multitap with 4 controllers (Use both NES ports).
-* **Alt**: BlueRetro will emulate a Japanese 4P adapter multitap with 4 controllers (Use both NES ports & FC DB15).
+* **None**: BlueRetro will emulate the device selected in output config #1 on N64 port 1.\
+  BlueRetro will emulate the device selected in output config #2 on N64 port 2. \
+  BlueRetro will emulate the device selected in output config #3 on N64 port 3. \
+  BlueRetro will emulate the device selected in output config #4 on N64 port 4.
+* **Slot 1**: NA
+* **Slot 2**: NA
+* **Dual**: NA
+* **Alt**: NA
 ## Output Config
 ### Mode
-* **GamePad**: BlueRetro will emulate a standard 8 buttons NES controller.
-* **GamePadAlt**: BlueRetro will emulate a standard 8 buttons NES controller.
-* **Keyboard**: **TBD** ~~BlueRetro will emulate a Famicom keyboard.~~
-* **Mouse**: **TBD** ~~BlueRetro will emulate a Famicom Hori Trackball.~~
+* **GamePad**: BlueRetro will emulate a standard N64 controller.
+* **GamePadAlt**: Same as GamePad.
+* **Keyboard**: **TBD** ~~BlueRetro will emulate a Randnet Keyboard.~~
+* **Mouse**: BlueRetro will emulate a N64 Mouse. **Experimental**
 ### Accessories
-Accessories config has no effect.
+**Only valid for "Gamepad" mode.**
+* **None**: BlueRetro will emulate a standard N64 controller with empty accessory slot.
+* **Memory**: **TBD** ~~BlueRetro will emulate a standard N64 controller with Controller Pak.~~
+* **Rumble**: BlueRetro will emulate a standard N64 controller with Rumble Pak.
+* **Both**: NA
 ## Mapping
 See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & N64 controller buttons label correspondence.
 # Dreamcast
