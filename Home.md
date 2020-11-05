@@ -25,7 +25,7 @@ Insert blank SD card. BlueRetro will format the card itself.
 Power on system and connect via Web Bluetooth at https://blueretro.io to configure adapter.\
 **The config mode is only available if no controller is connected.** \
 **SD card is required to be able to save the settings between power cycle** \
-**Supported only in Desktop or Android Chrome** \
+**Supported only in Desktop or Android Chrome**
 
 ## Pairing Bluetooth controller
 **SD card is required to be able to save the Bluetooth pairing keys required by some controllers for quick reconnect** \
