@@ -130,6 +130,11 @@ Multitap config has no effect.
 * **Rumble**: BlueRetro will emulate a standard GameCube controller with rumble enable.
 * **Both**: NA
 ## Mapping
+A regular Gamecube controller trigger is composed of two buttons: the analog section and a digital buttons at the end.
+Wii Original Classic controller and **TBD** ~~Steam controller~~ work this way. Those two controller will emulate the GameCube mapping properly using default config.
+* Using the default mapping, BlueRetro will map the two section separately. (Use this if playing with Wii Original Classic or **TBD** ~~Steam controller~~
+* Use the "GameCube Merge analog & digital trigger" preset to emulate the GameCube trigger using only the analog trigger. (Any other type of Bluetooth controller)
+
 See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & GameCube controller buttons label correspondence.
 # JVS
 BlueRetro will emulate a 12 players output with 16 buttons and 2 axis each.
