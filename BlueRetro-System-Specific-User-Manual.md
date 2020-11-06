@@ -10,8 +10,8 @@
 ## Multitap Config
 * **None**: BlueRetro will emulate the device selected in output config #1 on NES port 1.\
         BlueRetro will emulate the device selected in output config #2 on NES port 2.
-* **Slot 1**: BlueRetro will emulate a Four Score multitap with 4 controllers (Use both NES ports).
-* **Slot 2**: BlueRetro will emulate a Four Score multitap with 4 controllers (Use both NES ports).
+* **Slot 1**: Same as Dual.
+* **Slot 2**: Same as Dual.
 * **Dual**: BlueRetro will emulate a Four Score multitap with 4 controllers (Use both NES ports).
 * **Alt**: BlueRetro will emulate a Japanese 4P adapter multitap with 4 controllers (Use both NES ports & FC DB15).
 ## Output Config
