@@ -1,6 +1,6 @@
 # Table of contents
 * [Parallel 1P (12 buttons) adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#parallel-1p-12-buttons-adapter-cable)
-* [Parallel 2P (6 buttons each) adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#parallel-2p-6-buttons-adapter-cable)
+* [Parallel 2P (6 buttons each) adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#parallel-2p-6-buttons-each-adapter-cable)
 * [FC / NES adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#fc--nes-adapter-cable)
 * [Genesis adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#genesis-adapter-cable)
 * [SFC / SNES adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#sfc--snes-adapter-cable)
