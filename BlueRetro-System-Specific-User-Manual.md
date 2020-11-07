@@ -1,5 +1,5 @@
 # Table of contents
-* [Auto Parallel 1P](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#parallel-1p-6-buttons)
+* [Auto Parallel 1P](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#auto-parallel-1p-6-buttons)
 * [Parallel 1P](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#parallel-1p-12-buttons)
 * [Parallel 2P](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#parallel-2p-6-buttons-each)
 * [NES](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#nes)
