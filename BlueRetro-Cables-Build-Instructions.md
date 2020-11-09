@@ -34,8 +34,8 @@
 
 PCB PAD | Cord | Pin | Name | Use | Required?
 ------- | ---- | --- | ---- | --- | ---------
-VIN | NEOGEO P1 | 1 | 5V | BlueRetro Power | Yes
-GND | NEOGEO P1 | 8 | GND | BlueRetro Power | Yes
+VIN | NEOGEO P1 | 8 | 5V | BlueRetro Power | Yes
+GND | NEOGEO P1 | 1 | GND | BlueRetro Power | Yes
 IO5 | NEOGEO P1 | 7 | DOWN | Player 1 BTN | No
 IO3 | NEOGEO P1 | 15 | UP | Player 1 BTN | No
 IO27 | NEOGEO P1 | 5 | B | Player 1 BTN | No
