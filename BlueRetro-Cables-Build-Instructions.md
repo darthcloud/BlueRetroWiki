@@ -4,6 +4,7 @@
 * [FC / NES adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#fc--nes-adapter-cable)
 * [Genesis adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#genesis-adapter-cable)
 * [SFC / SNES adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#sfc--snes-adapter-cable)
+* [PSX / PS2 adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#psx--ps2-adapter-cable)
 * [Saturn adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#saturn-adapter-cable)
 * [JVS adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#jvs-adapter-cable)
 * [Nintendo 64 adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#nintendo-64-adapter-cable)
@@ -223,6 +224,47 @@ IO18 | SNES P2 | 2 | P2_CLK | Player 2 / Multitap 2 CLK | No
 IO22 | SNES P2 | 4 | P2_D0 | Player 2 / Multitap 2 DATA | No
 IO25 | SNES P2 | 5 | P2_D1 | Multitap 2 DATA | No
 IO26 | SNES P2 | 6 | P2_SEL | Multitap 2 CTRL | No
+
+# PSX / PS2 adapter cable
+
+## Bill of materials
+* AZ1117EH-5.0TRG1 LDO (x1) (DKPN: AZ1117EH-5.0TRG1DICT-ND PN: AZ1117EH-5.0TRG1)
+* 10uF Capacitor (x2) (DKPN: 490-5523-1-ND PN: GRM21BR61E106KA73L)
+* DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
+* DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
+* Passthrough PCB (x1)
+* PSX/PS2 controller plug (x2)
+
+## Cable schematic
+ [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/SNES.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/PS.pdf)
+ 
+## Pinout reference
+![](img/cables/ps_pinout.png)
+
+## Cable PCB build instruction
+![](img/cables/ps_front.png)
+![](img/cables/ps_back.png)
+* Bridge LO side of jumper I39.
+* Connect I35 pad to GND.
+* Solder LDO and capacitor to PCB back.
+* Connect cords according to table below and pinout reference.
+
+PCB PAD | Cord | Pin | Name | Use | Required?
+------- | ---- | --- | ---- | --- | ---------
+VALT | PSX/PS2 P1 | 3 | 8V | Cable LDO Power | Yes
+GND | PSX/PS2 P1 | 4 | GND | BlueRetro Power | Yes
+IO19 | PSX/PS2 P1 | 1 | P1_RXD | Player 1 DATA | Yes
+IO32 | PSX/PS2 P1 | 2 | P1_TXD | Player 1 CMD | Yes
+I34 | PSX/PS2 P1 | 6 | P1_DTR | Player 1 CS | Yes
+IO33 | PSX/PS2 P1 | 7 | P1_SCK | Player 1 CLK | No
+IO21 | PSX/PS2 P1 | 9 | P1_DSR | Player 1 ACK | No
+VALT | PSX/PS2 P2 | 3 | 8V | Cable LDO Power | No
+GND | PSX/PS2 P2 | 4 | GND | BlueRetro Power | No
+IO22 | PSX/PS2 P2 | 1 | P2_RXD | Player 2 DATA | No
+IO27 | PSX/PS2 P2 | 2 | P2_TXD | Player 2 CMD | No
+IO5 | PSX/PS2 P2 | 6 | P2_DTR | Player 2 CS  | No
+IO26 | PSX/PS2 P2 | 7 | P2_SCK | Player 2 CLK | No
+IO25 | PSX/PS2 P2 | 9 | P2_DSR | Player 2 ACK | No
 
 # Saturn adapter cable
 
