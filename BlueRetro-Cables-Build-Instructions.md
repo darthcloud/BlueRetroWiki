@@ -236,7 +236,7 @@ IO26 | SNES P2 | 6 | P2_SEL | Multitap 2 CTRL | No
 * PSX/PS2 controller plug (x2)
 
 ## Cable schematic
- [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/SNES.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/PS.pdf)
+ [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/PS.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/PS.pdf)
  
 ## Pinout reference
 ![](img/cables/ps_pinout.png)
@@ -256,8 +256,8 @@ GND | PSX/PS2 P1 | 4 | GND | BlueRetro Power | Yes
 IO19 | PSX/PS2 P1 | 1 | P1_RXD | Player 1 DATA | Yes
 IO32 | PSX/PS2 P1 | 2 | P1_TXD | Player 1 CMD | Yes
 I34 | PSX/PS2 P1 | 6 | P1_DTR | Player 1 CS | Yes
-IO33 | PSX/PS2 P1 | 7 | P1_SCK | Player 1 CLK | No
-IO21 | PSX/PS2 P1 | 9 | P1_DSR | Player 1 ACK | No
+IO33 | PSX/PS2 P1 | 7 | P1_SCK | Player 1 CLK | Yes
+IO21 | PSX/PS2 P1 | 9 | P1_DSR | Player 1 ACK | Yes
 VALT | PSX/PS2 P2 | 3 | 8V | Cable LDO Power | No
 GND | PSX/PS2 P2 | 4 | GND | BlueRetro Power | No
 IO22 | PSX/PS2 P2 | 1 | P2_RXD | Player 2 DATA | No
