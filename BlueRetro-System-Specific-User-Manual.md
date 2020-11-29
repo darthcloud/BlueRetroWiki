@@ -5,6 +5,7 @@
 * [NES](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#nes)
 * [Genesis](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#genesis)
 * [SNES](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#snes)
+* [PSX/PS2](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#psx-ps2)
 * [Saturn](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#saturn)
 * [JVS](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#jvs)
 * [Nintendo 64](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#nintendo-64)
@@ -145,6 +146,36 @@ Accessories config has no effect.
 ## Mapping
 See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & SNES controller buttons label correspondence.
 
+# PSX/PS2
+
+## Multitap Config
+* **None**: BlueRetro will emulate the device selected in output config #1 on PSX/PS2 port 1.\
+  BlueRetro will emulate the device selected in output config #2 on PSX/PS2 port 2.
+* **Slot 1**: BlueRetro will emulate a PSX/PS2 Multitap with 4 devices on port 1 as configured in output config #1-4.\
+  BlueRetro will emulate the device selected in output config #5 on PSX/PS2 port 2.
+* **Slot 2**: BlueRetro will emulate the device selected in output config #1 on PSX/PS2 port 1.\
+  BlueRetro will emulate a PSX/PS2 Multitap with 4 devices on port 2 as configured in output config #2-5.
+* **Dual**: BlueRetro will emulate a PSX/PS2 Multitap with 4 devices on port 1 & 2 (Total 8 devices) as configured in output config #1-8.
+* **Alt**: NA
+
+## Output Config
+
+### Mode
+* **GamePad**: BlueRetro will emulate a DualShock 2 controller.
+* **GamePadAlt**: **TBD** ~~BlueRetro will emulate a Flightstick.~~
+* **Keyboard**: **TBD** ~~BlueRetro will emulate a Lightspan Keyboard.~~
+* **Mouse**: BlueRetro will emulate a PSX Mouse. (Must use "Default Mouse" preset)
+
+### Accessories
+Accessories config has no effect.
+
+## Mapping
+A regular Saturn Analog controller report it's Triggers both as analog and digital.
+* Using the default mapping, BlueRetro will report triggers as analog only.
+* Use the "Saturn Merge analog & digital trigger" preset to match the real Saturn Analog controller behavior.
+
+See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & Saturn controller buttons label correspondence.
+
 # Saturn
 
 ## Multitap Config
@@ -206,8 +237,8 @@ Multitap config has no effect.
 ### Mode
 * **GamePad**: BlueRetro will emulate a standard N64 controller.
 * **GamePadAlt**: Same as GamePad.
-* **Keyboard**: **TBD** ~~BlueRetro will emulate a Randnet Keyboard.~~
-* **Mouse**: BlueRetro will emulate a N64 Mouse. **Experimental**
+* **Keyboard**: BlueRetro will emulate a Randnet Keyboard. (Must use "Default Gamepad/Keyboard" preset)
+* **Mouse**: BlueRetro will emulate a N64 Mouse. (Must use "Default Mouse" preset)
 
 ### Accessories
 **Only valid for "Gamepad" mode.**
@@ -233,8 +264,8 @@ Multitap config has no effect.
 ### Mode
 * **GamePad**: BlueRetro will emulate a standard Dreamcast controller.
 * **GamePadAlt**: BlueRetro will emulate a non-standard Dreamcast controller with 2nd Joystick, 2nd D-pad & C, D & Z buttons.
-* **Keyboard**: **TBD** ~~BlueRetro will emulate a Dreamcast Keyboard.~~
-* **Mouse**: **TBD** ~~BlueRetro will emulate a Dreamcast Mouse.~~
+* **Keyboard**: BlueRetro will emulate a Dreamcast Keyboard. (Must use "Default Gamepad/Keyboard" preset)
+* **Mouse**: BlueRetro will emulate a Dreamcast Mouse. (Must use "Default Mouse" preset)
 
 ### Accessories
 **Only valid for "Gamepad" & "GamePadAlt" mode.**
@@ -260,7 +291,7 @@ Multitap config has no effect.
 ### Mode
 * **GamePad**: BlueRetro will emulate a standard GameCube controller.
 * **GamePadAlt**: Same as GamePad.
-* **Keyboard**: **TBD** ~~BlueRetro will emulate a ASCII/Sammy Keyboard.~~
+* **Keyboard**: BlueRetro will emulate a ASCII/Sammy Keyboard. (Must use "Default Gamepad/Keyboard" preset)
 * **Mouse**: NA
 
 ### Accessories
