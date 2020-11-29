@@ -3,6 +3,7 @@ Welcome to the BlueRetro wiki!
 # BlueRetro User Manual
 ## Table of contents
 * [System Specific User Manual](https://github.com/darthcloud/BlueRetro/wiki#system-specific-user-manual)
+* [ESP32 buttons usage](https://github.com/darthcloud/BlueRetro/wiki#esp32-buttons-usage)
 * [Updating firmware](https://github.com/darthcloud/BlueRetro/wiki#updating-firmware)
 * [SD card format](https://github.com/darthcloud/BlueRetro/wiki#sd-card-format)
 * [Web config](https://github.com/darthcloud/BlueRetro/wiki#web-config)
@@ -11,6 +12,9 @@ Welcome to the BlueRetro wiki!
 * [Building adapter cables](https://github.com/darthcloud/BlueRetro/wiki#building-adapter-cables)
 ## System Specific User Manual
 [System Specific User Manual](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual)
+## ESP32 buttons usage
+* BOOT: Disconnect all Bluetooth devices from the adapter.
+* EN: Reboot BlueRetro.
 ## Updating firmware
 Download latest binary from [GitHub](https://github.com/darthcloud/BlueRetro/releases) and flash them on your BlueRetro.\
 Linux:\
