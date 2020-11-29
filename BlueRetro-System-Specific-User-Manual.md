@@ -5,7 +5,7 @@
 * [NES](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#nes)
 * [Genesis](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#genesis)
 * [SNES](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#snes)
-* [PSX/PS2](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#psx-ps2)
+* [PSX/PS2](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#psxps2)
 * [Saturn](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#saturn)
 * [JVS](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#jvs)
 * [Nintendo 64](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#nintendo-64)
@@ -149,13 +149,14 @@ See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX
 # PSX/PS2
 
 ## Multitap Config
+** PS2 Multitap is not supported **
 * **None**: BlueRetro will emulate the device selected in output config #1 on PSX/PS2 port 1.\
   BlueRetro will emulate the device selected in output config #2 on PSX/PS2 port 2.
-* **Slot 1**: BlueRetro will emulate a PSX/PS2 Multitap with 4 devices on port 1 as configured in output config #1-4.\
+* **Slot 1**: BlueRetro will emulate a PSX Multitap with 4 devices on port 1 as configured in output config #1-4.\
   BlueRetro will emulate the device selected in output config #5 on PSX/PS2 port 2.
 * **Slot 2**: BlueRetro will emulate the device selected in output config #1 on PSX/PS2 port 1.\
-  BlueRetro will emulate a PSX/PS2 Multitap with 4 devices on port 2 as configured in output config #2-5.
-* **Dual**: BlueRetro will emulate a PSX/PS2 Multitap with 4 devices on port 1 & 2 (Total 8 devices) as configured in output config #1-8.
+  BlueRetro will emulate a PSX Multitap with 4 devices on port 2 as configured in output config #2-5.
+* **Dual**: BlueRetro will emulate a PSX Multitap with 4 devices on port 1 & 2 (Total 8 devices) as configured in output config #1-8.
 * **Alt**: NA
 
 ## Output Config
@@ -167,14 +168,14 @@ See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX
 * **Mouse**: BlueRetro will emulate a PSX Mouse. (Must use "Default Mouse" preset)
 
 ### Accessories
-Accessories config has no effect.
+**Only valid for "Gamepad" mode.**
+* **None**: BlueRetro will emulate a DualShock 2 controller with rumble disabled.
+* **Memory**: NA
+* **Rumble**: BlueRetro will emulate a DualShock 2 controller with rumble enable.
+* **Both**: NA
 
 ## Mapping
-A regular Saturn Analog controller report it's Triggers both as analog and digital.
-* Using the default mapping, BlueRetro will report triggers as analog only.
-* Use the "Saturn Merge analog & digital trigger" preset to match the real Saturn Analog controller behavior.
-
-See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & Saturn controller buttons label correspondence.
+See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & PSX/PS2controller buttons label correspondence.
 
 # Saturn
 
