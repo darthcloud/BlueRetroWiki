@@ -163,8 +163,8 @@ See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX
 
 ### Mode
 * **GamePad**: BlueRetro will emulate a DualShock 2 controller.
-* **GamePadAlt**: **TBD** ~~BlueRetro will emulate a Flightstick.~~
-* **Keyboard**: **TBD** ~~BlueRetro will emulate a Lightspan Keyboard.~~
+* **GamePadAlt**: BlueRetro will emulate a Flightstick (SCPH-1110 & Green LED mode).
+* **Keyboard**: BlueRetro will emulate a Lightspan Keyboard.
 * **Mouse**: BlueRetro will emulate a PSX Mouse. (Must use "Default Mouse" preset)
 
 ### Accessories
