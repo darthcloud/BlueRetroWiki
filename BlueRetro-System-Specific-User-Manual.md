@@ -112,7 +112,7 @@ See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX
 * **GamePad**: BlueRetro will emulate a standard 3 buttons controller.
 * **GamePadAlt**: BlueRetro will emulate a 6 buttons controller.
 * **Keyboard**: **TBD** ~~BlueRetro will emulate a XBAND Keyboard. (Not supported for multitap)~~
-* **Mouse**: **TBD** ~~BlueRetro will emulate a Genesis Mouse.~~
+* **Mouse**: BlueRetro will emulate a Genesis Mouse.
 
 ### Accessories
 Accessories config has no effect.
@@ -194,8 +194,8 @@ See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX
 ### Mode
 * **GamePad**: BlueRetro will emulate an Analog controller in **Digital** mode.
 * **GamePadAlt**: BlueRetro will emulate an Analog controller in **Analog** mode.
-* **Keyboard**: **TBD** ~~BlueRetro will emulate a Saturn Keyboard.~~
-* **Mouse**: **TBD** ~~BlueRetro will emulate a Saturn Mouse.~~
+* **Keyboard**: BlueRetro will emulate a Saturn Keyboard.
+* **Mouse**: BlueRetro will emulate a Saturn Mouse.
 
 ### Accessories
 Accessories config has no effect.
