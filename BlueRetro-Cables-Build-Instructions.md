@@ -27,6 +27,9 @@
 ### Cable schematic
  [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/NeoGeo.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/NeoGeo.pdf)
 
+### Assembly instructions
+* If using an universal FW, make sure to connect I34, I35 & I39 to GND
+
 ## SMD Cable PCB
 
 ### Bill of materials
@@ -76,6 +79,9 @@ IO22 | NEOGEO P1 | 3 | SELECT | Player 1 BTN | No
 
 ### Cable schematic
  [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/SMS.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/SMS.pdf)
+
+### Assembly instructions
+* If using an universal FW, make sure to connect IO32, I34, I35 & I39 to GND
 
 ## SMD Cable PCB
 
@@ -133,6 +139,12 @@ IO22 | SMS P2 | 3 | P2_L | Player 2 D2 | No
 ### Cable schematic
  [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/NES.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/NES.pdf)
 
+### Assembly instructions
+* If using an universal FW, make sure to connect I39 to 3.3V and IO33, I34 & I35 to GND.
+* If using an universal FW AND not wiring 2nd port plug, make sure to connect IO22 to GND.
+* If using an universal FW AND not wiring Famicom 4P adapter, make sure to connect IO21 & IO25 to GND.
+* If not wiring 2nd port plug, make sure to connect IO18 (P2_CUP) to 3.3V
+
 ## SMD Cable PCB
 
 ### Bill of materials
@@ -184,6 +196,12 @@ IO25 | FC_DB15 | 7 | P2_D1 | FC 4P adapter P4 DATA | No
 
 ### Cable schematic
  [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Genesis.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Genesis.pdf)
+
+### Assembly instructions
+* If using an universal FW, make sure to connect I39 to 3.3V and I34 to GND.
+* If using an universal FW AND not wiring 2nd port plug, make sure to connect IO19, IO21, IO22, IO25 & IO33 to GND.
+* If using an universal FW AND not wiring Multitap support, make sure to connect IO32 to GND.
+* If not wiring 2nd port plug, make sure to connect I36 (P2_TH) to 3.3V
 
 ## SMD Cable PCB
 
@@ -246,6 +264,12 @@ IO22 | GENESIS P2 | 3 | P2_L | Player 2 D2 | No
 ### Cable schematic
  [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/SNES.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/SNES.pdf)
 
+### Assembly instructions
+* If using an universal FW, make sure to connect I39 to GND and IO33, I34 & I35 to GND.
+* If using an universal FW AND not wiring 2nd port plug, make sure to connect IO22 to GND.
+* If using an universal FW AND not wiring Multitap support, make sure to connect IO21 & IO25 to GND.
+* If not wiring 2nd port plug, make sure to connect IO18 (P2_CLK) to 3.3V
+
 ## SMD Cable PCB
 
 ### Bill of materials
@@ -297,6 +321,11 @@ IO26 | SNES P2 | 6 | P2_SEL | Multitap 2 CTRL | No
 ### Cable schematic
  [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/PS.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/PS.pdf)
 
+### Assembly instructions
+* If using an universal FW, make sure to connect I39 to 3.3V and I35 to GND.
+* If using an universal FW AND not wiring 2nd port plug, make sure to connect IO22 & IO25 to GND.
+* If not wiring 2nd port plug, make sure to connect IO5 (P2_DTR), IO26 (P2_SCK) & IO27 (P2_TXD) to 3.3V
+
 ## SMD Cable PCB
 
 ### Bill of materials
@@ -347,6 +376,11 @@ IO25 | PSX/PS2 P2 | 9 | P2_DSR | Player 2 ACK | No
 
 ### Cable schematic
  [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Saturn.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Saturn.pdf)
+
+### Assembly instructions
+* If using an universal FW, make sure to connect I39 to GND and IO32 & I34 to GND.
+* If using an universal FW AND not wiring 2nd port plug, make sure to connect IO19, IO21, IO22, IO25 & IO33 to GND.
+* If not wiring 2nd port plug, make sure to connect IO33 (P2_TL) & I36 (P2_TH) to 3.3V
 
 ## SMD Cable PCB
 
@@ -438,6 +472,12 @@ GND (4-GND) | USB | 4 | GND | BlueRetro Power ref | Yes
 ### Cable schematic
  [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/N64.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/N64.pdf)
 
+### Assembly instructions
+* If using an universal FW, make sure to connect I39 to 3.3V and IO21, IO22, IO25, IO32, IO33, I34 & I35 to GND.
+* If not wiring 2nd port plug, make sure to connect IO5 (P2_D) to 3.3V
+* If not wiring 3rd port plug, make sure to connect IO26 (P3_D) to 3.3V
+* If not wiring 4th port plug, make sure to connect IO27 (P4_D) to 3.3V
+
 ## SMD Cable PCB
 
 ### Bill of materials
@@ -468,6 +508,8 @@ GND | N64 P4 | 3 | GND | BlueRetro Power | No
 
 # Dreamcast adapter cable
 
+** If 2nd port is not working, remove jumper on UART connector for IO3 (RXD).**
+
 ## Pinout reference
 ![](img/cables/dreamcast_pinout.png)
 
@@ -480,6 +522,12 @@ GND | N64 P4 | 3 | GND | BlueRetro Power | No
 
 ### Cable schematic
  [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Dreamcast.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Dreamcast.pdf)
+
+### Assembly instructions
+* If using an universal FW, make sure to connect I39 to 3.3V and IO25, IO32, IO33, I34 & I35 to GND.
+* If not wiring 2nd port plug, make sure to connect IO3 (P2_D0) & IO5 (P2_D1) to 3.3V
+* If not wiring 3rd port plug, make sure to connect IO18 (P3_D0) & IO23 (P3_D1) to 3.3V
+* If not wiring 4th port plug, make sure to connect IO26 (P4_D0) & IO27 (P4_D1) to 3.3V
 
 ## SMD Cable PCB
 
@@ -527,6 +575,12 @@ GND | DC P4 | 3, 4, SH | GND | BlueRetro Power | No
 
 ### Cable schematic
  [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/GameCube.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/GameCube.pdf)
+
+### Assembly instructions
+* If using an universal FW, make sure to connect I39 to GND and IO21, IO22, IO25, IO32, IO33, I34 & I35 to GND.
+* If not wiring 2nd port plug, make sure to connect IO5 (P2_D) to 3.3V
+* If not wiring 3rd port plug, make sure to connect IO26 (P3_D) to 3.3V
+* If not wiring 4th port plug, make sure to connect IO27 (P4_D) to 3.3V
 
 ## SMD Cable PCB
 
