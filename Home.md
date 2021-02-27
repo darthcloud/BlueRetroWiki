@@ -17,13 +17,14 @@ Welcome to the BlueRetro wiki!
 * EN: Reboot BlueRetro.
 ## Updating firmware
 Download latest binary from [GitHub](https://github.com/darthcloud/BlueRetro/releases) and flash them on your BlueRetro.\
+Two types of build are now available: the SD card version as before (now named BlueRetro_universal_sd.bin) and also internal flash (SPIFFS). For each type I also provide the regular universal version with system auto detection. But in addition system hard-coded versions are available. A total of 24 variants are available.\
 Linux:\
 `~/BlueRetroRoot/python_env/idf4.2_py3.7_env/bin/python ~/BlueRetroRoot/esp-idf/components/esptool_py/esptool/esptool.py -p /dev/ttyUSB0 -b 460800 --before default_reset --after hard_reset --chip esp32  write_flash --flash_mode dio --flash_size detect --flash_freq 40m 0x1000 bootloader.bin 0x8000 partition-table.bin 0x10000 BlueRetro.bin`\
 Windows:\
 [Flashing firmware Windows 10](https://github.com/darthcloud/BlueRetro/wiki/Flashing-firmware-Windows-10)
 
 ## SD card format
-Insert blank SD card. BlueRetro will format the card itself.
+If you use a SD card type build, insert blank SD card. BlueRetro will format the card itself.
 
 ## Web config
 Power on system and connect via Web Bluetooth at https://blueretro.io to configure adapter.\
