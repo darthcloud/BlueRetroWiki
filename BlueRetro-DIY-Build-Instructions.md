@@ -1,6 +1,6 @@
 # Table of contents
-* [Internal SPIFFS memory](https://github.com/darthcloud/BlueRetro/wiki#system-specific-user-manual)
-* [External SD card](https://github.com/darthcloud/BlueRetro/wiki#esp32-buttons-usage)
+* [Internal SPIFFS memory](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-DIY-Build-Instructions#internal-spiffs-memory)
+* [External SD card](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-DIY-Build-Instructions#external-sd-card)
 
 # Internal SPIFFS memory
 
