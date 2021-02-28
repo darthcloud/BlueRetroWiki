@@ -13,20 +13,30 @@
 
 # Parallel 1P (12 buttons) adapter cable
 
-## Bill of materials
+## Pinout reference
+![](img/cables/neogeo_pinout.png)
+
+## DIY Through-hole
+
+### Bill of materials
+* DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
+* 74AHCT125N DIP14 (x3) (DKPN: 296-4655-5-ND PN: SN74AHCT125N)
+* DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
+* NeoGeo DB15 controller plug (x1) (or any other parallel interface)
+
+### Cable schematic
+ [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/NeoGeo.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/NeoGeo.pdf)
+
+## SMD Cable PCB
+
+### Bill of materials
 * DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
 * 74AHCT1G125 SC70-5 (x12) (DKPN: 296-4709-1-ND PN: SN74AHCT1G125DCKR)
 * DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
 * Level shifter PCB (x1)
 * NeoGeo DB15 controller plug (x1) (or any other parallel interface)
 
-## Cable schematic
- [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/NeoGeo.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/NeoGeo.pdf)
- 
-## Pinout reference
-![](img/cables/neogeo_pinout.png)
-
-## Cable PCB build instruction
+### Assembly instructions
 ![](img/cables/neogeo.png)
 * Solder 74AHCT1G125 to footprint highlighted in red.
 * Bridge HI side of jumper I39.
@@ -52,21 +62,31 @@ IO22 | NEOGEO P1 | 3 | SELECT | Player 1 BTN | No
 
 # Parallel 2P (6 buttons each) adapter cable
 
-## Bill of materials
+## Pinout reference
+![](img/cables/atari_pinout.png)\
+![](img/cables/sega_pinout.png)
+
+## DIY Through-hole
+
+### Bill of materials
+* DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
+* 74AHCT125N DIP14 (x3) (DKPN: 296-4655-5-ND PN: SN74AHCT125N)
+* DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
+* Genesis DB9 controller plug (x2)
+
+### Cable schematic
+ [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/SMS.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/SMS.pdf)
+
+## SMD Cable PCB
+
+### Bill of materials
 * DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
 * 74AHCT1G125 SC70-5 (x12) (DKPN: 296-4709-1-ND PN: SN74AHCT1G125DCKR)
 * DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
 * Level shifter PCB (x1)
 * Genesis DB9 controller plug (x2)
 
-## Cable schematic
- [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/SMS.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/SMS.pdf)
- 
-## Pinout reference
-![](img/cables/atari_pinout.png)\
-![](img/cables/sega_pinout.png)
-
-## Cable PCB build instruction
+### Assembly instructions
 ![](img/cables/sms.png)
 * Solder 74AHCT1G125 to footprint highlighted in red.
 * Bridge HI side of jumper I39.
@@ -96,23 +116,35 @@ IO22 | SMS P2 | 3 | P2_L | Player 2 D2 | No
 
 # FC / NES adapter cable
 
-## Bill of materials
+## Pinout reference
+![](img/cables/nes_pinout.png)
+![](img/cables/fc_pinout.png)
+
+## DIY Through-hole
+
+### Bill of materials
+* DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
+* 74AHCT125N DIP14 (x2) (DKPN: 296-4655-5-ND PN: SN74AHCT125N)
+* 3.6K resistors (x3) (DKPN: S3.6KCACT-ND PN: RNMF14FTC3K60) (Required for PAL system only)
+* DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
+* NES controller plug (x2)
+* Famicom controller plug (x1) (Optional)
+
+### Cable schematic
+ [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/NES.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/NES.pdf)
+
+## SMD Cable PCB
+
+### Bill of materials
 * DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
 * 74AHCT1G125 SC70-5 (x7) (DKPN: 296-4709-1-ND PN: SN74AHCT1G125DCKR)
-* 3.6K resistors (x3) (DKPN: ‎S3.6KCACT-ND‎ PN: RNMF14FTC3K60‎) (Required for PAL system only)
+* 3.6K resistors (x3) (DKPN: S3.6KCACT-ND PN: RNMF14FTC3K60) (Required for PAL system only)
 * DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
 * Level shifter PCB (x1)
 * NES controller plug (x2)
 * Famicom controller plug (x1) (Optional)
 
-## Cable schematic
- [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/NES.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/NES.pdf)
- 
-## Pinout reference
-![](img/cables/nes_pinout.png)
-![](img/cables/fc_pinout.png)
-
-## Cable PCB build instruction
+### Assembly instructions
 ![](img/cables/nes.png)
 * Solder 74AHCT1G125 to footprint highlighted in red.
 * Bridge HI side of jumper I39.
@@ -137,7 +169,25 @@ IO25 | FC_DB15 | 7 | P2_D1 | FC 4P adapter P4 DATA | No
 # Genesis adapter cable
 **Once in Genesis mode nothing will be output on the serial console as the TXD pin is used for multitap support.**
 
-## Bill of materials
+## Pinout reference
+![](img/cables/sega_pinout.png)
+
+## DIY Through-hole
+
+### Bill of materials
+* DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
+* 74AHCT125N DIP14 (x4) (DKPN: 296-4655-5-ND PN: SN74AHCT125N)
+* 74AHCT126N DIP14 (x1) (DKPN: 296-4659-5-ND PN: SN74AHCT126N) (Optional only for multitap support)
+* 74AHCT32N DIP14 (x1) (DKPN: 296-4732-5-ND PN: SN74AHCT32N) (Optional only for multitap support)
+* DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
+* Genesis DB9 controller plug (x2)
+
+### Cable schematic
+ [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Genesis.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Genesis.pdf)
+
+## SMD Cable PCB
+
+### Bill of materials
 * DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
 * 74AHCT1G125 SC70-5 (x14) (DKPN: 296-4709-1-ND PN: SN74AHCT1G125DCKR)
 * 74AHCT1G126 SC70-5 (x3) (DKPN: 296-4711-1-ND PN: SN74AHCT1G126DCKR) (Optional only for multitap support)
@@ -146,13 +196,7 @@ IO25 | FC_DB15 | 7 | P2_D1 | FC 4P adapter P4 DATA | No
 * Level shifter PCB (x1)
 * Genesis DB9 controller plug (x2)
 
-## Cable schematic
- [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Genesis.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Genesis.pdf)
- 
-## Pinout reference
-![](img/cables/sega_pinout.png)
-
-## Cable PCB build instruction
+### Assembly instructions
 ![](img/cables/genesis.png)
 * Solder 74AHCT1G125 to footprint highlighted in red.
 * Solder 74AHCT1G126 to footprint highlighted in blue. (Optional only for multitap support)
@@ -187,21 +231,32 @@ IO22 | GENESIS P2 | 3 | P2_L | Player 2 D2 | No
 
 # SFC / SNES adapter cable
 
-## Bill of materials
+## Pinout reference
+![](img/cables/snes_pinout.png)
+
+## DIY Through-hole
+
+### Bill of materials
+* DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
+* 74AHCT125N DIP14 (x3) (DKPN: 296-4655-5-ND PN: SN74AHCT125N)
+* 3.6K resistors (x5) (DKPN: S3.6KCACT-ND PN: RNMF14FTC3K60) (Required for PAL system only)
+* DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
+* SNES controller plug (x2) (For multitap support 7 conductor are required, get a 3rd SNES extension for pin donation and use cable from PSX/Genesis/Saturn for the extra wires)
+
+### Cable schematic
+ [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/SNES.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/SNES.pdf)
+
+## SMD Cable PCB
+
+### Bill of materials
 * DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
 * 74AHCT1G125 SC70-5 (x9) (DKPN: 296-4709-1-ND PN: SN74AHCT1G125DCKR)
-* 3.6K resistors (x5) (DKPN: ‎S3.6KCACT-ND‎ PN: RNMF14FTC3K60‎) (Required for PAL system only)
+* 3.6K resistors (x5) (DKPN: S3.6KCACT-ND PN: RNMF14FTC3K60) (Required for PAL system only)
 * DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
 * Level shifter PCB (x1)
 * SNES controller plug (x2) (For multitap support 7 conductor are required, get a 3rd SNES extension for pin donation and use cable from PSX/Genesis/Saturn for the extra wires)
 
-## Cable schematic
- [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/SNES.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/SNES.pdf)
- 
-## Pinout reference
-![](img/cables/snes_pinout.png)
-
-## Cable PCB build instruction
+### Assembly instructions
 ![](img/cables/snes.png)
 * Solder 74AHCT1G125 to footprint highlighted in red.
 * Bridge LO side of jumper I39.
@@ -227,7 +282,24 @@ IO26 | SNES P2 | 6 | P2_SEL | Multitap 2 CTRL | No
 
 # PSX / PS2 adapter cable
 
-## Bill of materials
+## Pinout reference
+![](img/cables/ps_pinout.png)
+
+## DIY Through-hole
+
+### Bill of materials
+* AZ1117EH-5.0TRG1 LDO (x1) (DKPN: AZ1117EH-5.0TRG1DICT-ND PN: AZ1117EH-5.0TRG1)
+* 10uF Capacitor (x2) (DKPN: 399-13968-ND PN: C322C106K3R5TA)
+* DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
+* DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
+* PSX/PS2 controller plug (x2)
+
+### Cable schematic
+ [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/PS.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/PS.pdf)
+
+## SMD Cable PCB
+
+### Bill of materials
 * AZ1117EH-5.0TRG1 LDO (x1) (DKPN: AZ1117EH-5.0TRG1DICT-ND PN: AZ1117EH-5.0TRG1)
 * 10uF Capacitor (x2) (DKPN: 490-5523-1-ND PN: GRM21BR61E106KA73L)
 * DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
@@ -235,13 +307,7 @@ IO26 | SNES P2 | 6 | P2_SEL | Multitap 2 CTRL | No
 * Passthrough PCB (x1)
 * PSX/PS2 controller plug (x2)
 
-## Cable schematic
- [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/PS.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/PS.pdf)
- 
-## Pinout reference
-![](img/cables/ps_pinout.png)
-
-## Cable PCB build instruction
+### Assembly instructions
 ![](img/cables/ps_front.png)
 ![](img/cables/ps_back.png)
 * Bridge LO side of jumper I39.
@@ -268,20 +334,30 @@ IO25 | PSX/PS2 P2 | 9 | P2_DSR | Player 2 ACK | No
 
 # Saturn adapter cable
 
-## Bill of materials
+## Pinout reference
+![](img/cables/saturn_pinout.png)
+
+## DIY Through-hole
+
+### Bill of materials
+* DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
+* 74AHCT125N DIP14 (x4) (DKPN: 296-4655-5-ND PN: SN74AHCT125N)
+* DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
+* Saturn controller plug (x2)
+
+### Cable schematic
+ [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Saturn.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Saturn.pdf)
+
+## SMD Cable PCB
+
+### Bill of materials
 * DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
 * 74AHCT1G125 SC70-5 (x14) (DKPN: 296-4709-1-ND PN: SN74AHCT1G125DCKR)
 * DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
 * Level shifter PCB (x1)
 * Saturn controller plug (x2)
 
-## Cable schematic
- [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Saturn.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Saturn.pdf)
- 
-## Pinout reference
-![](img/cables/saturn_pinout.png)
-
-## Cable PCB build instruction
+### Assembly instructions
 ![](img/cables/saturn.png)
 * Solder 74AHCT1G125 to footprint highlighted in red.
 * Bridge LO side of jumper I39.
@@ -311,7 +387,13 @@ IO22 | SATURN P2 | 8 | P2_L | Player 2 D2 | No
 
 # JVS adapter cable
 
-## Bill of materials
+## DIY Through-hole
+
+No instruction yet, inspire yourself from the SMD Cable PCB version.
+
+## SMD Cable PCB
+
+### Bill of materials
 * DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
 * DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
 * 74AHCT1G125 SC70-5 (x1) (DKPN: 296-4709-1-ND PN: SN74AHCT1G125DCKR)
@@ -325,10 +407,10 @@ IO22 | SATURN P2 | 8 | P2_L | Player 2 D2 | No
 * JVS PCB (x1)
 * USB-A plug (x1)
 
-## Cable schematic
+### Cable schematic
 [https://github.com/darthcloud/BlueRetroHW/blob/master/Cables/jvs/jvs.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/Cables/jvs/jvs.pdf)
 
-## Cable PCB build instruction
+### Assembly instructions
 ![](img/cables/jvs_f.png)
 * PCB jumper are already set nothing to do.
 * Do not install R4, R3 & D1.
@@ -343,19 +425,28 @@ GND (4-GND) | USB | 4 | GND | BlueRetro Power ref | Yes
 
 # Nintendo 64 adapter cable
 
-## Bill of materials
+## Pinout reference
+![](img/cables/n64_pinout.png)
+
+## DIY Through-hole
+
+### Bill of materials
+* DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
+* DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
+* N64 controller plug (x4)
+
+### Cable schematic
+ [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/N64.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/N64.pdf)
+
+## SMD Cable PCB
+
+### Bill of materials
 * DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
 * DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
 * Passthrough PCB (x1)
 * N64 controller plug (x4)
 
-## Cable schematic
- [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/N64.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/N64.pdf)
- 
-## Pinout reference
-![](img/cables/n64_pinout.png)
-
-## Cable PCB build instruction
+### Assembly instructions
 ![](img/cables/n64.png)
 * Bridge HI side of jumper I39.
 * Connect cords according to table below and pinout reference.
@@ -377,19 +468,28 @@ GND | N64 P4 | 3 | GND | BlueRetro Power | No
 
 # Dreamcast adapter cable
 
-## Bill of materials
+## Pinout reference
+![](img/cables/dreamcast_pinout.png)
+
+## DIY Through-hole
+
+### Bill of materials
+* DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
+* DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
+* Dreamcast controller plug (x4)
+
+### Cable schematic
+ [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Dreamcast.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Dreamcast.pdf)
+
+## SMD Cable PCB
+
+### Bill of materials
 * DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
 * DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
 * Passthrough PCB (x1)
 * Dreamcast controller plug (x4)
 
-## Cable schematic
- [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Dreamcast.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Dreamcast.pdf)
- 
-## Pinout reference
-![](img/cables/dreamcast_pinout.png)
-
-## Cable PCB build instruction
+### Assembly instructions
 ![](img/cables/dc.png)
 * Bridge HI side of jumper I39.
 * Connect cords according to table below and pinout reference.
@@ -414,19 +514,29 @@ IO27 | DC P4 | 5 | P4_D1 | Player 4 DATA1 | No
 GND | DC P4 | 3, 4, SH | GND | BlueRetro Power | No
 
 # GameCube adapter cable
-## Bill of materials
+
+## Pinout reference
+![](img/cables/gamecube_pinout.png)
+
+## DIY Through-hole
+
+### Bill of materials
+* DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
+* DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
+* GameCube controller plug (x4)
+
+### Cable schematic
+ [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/GameCube.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/GameCube.pdf)
+
+## SMD Cable PCB
+
+### Bill of materials
 * DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
 * DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
 * Passthrough PCB (x1)
 * GameCube controller plug (x4)
 
-## Cable schematic
- [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/GameCube.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/GameCube.pdf)
- 
-## Pinout reference
-![](img/cables/gamecube_pinout.png)
-
-## Cable PCB build instruction
+### Assembly instructions
 ![](img/cables/gc.png)
 * Bridge LO side of jumper I39.
 * Connect cords according to table below and pinout reference.
