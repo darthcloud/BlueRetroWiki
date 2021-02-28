@@ -1,10 +1,17 @@
-# Bill of materials
+# Table of contents
+* [Internal SPIFFS memory](https://github.com/darthcloud/BlueRetro/wiki#system-specific-user-manual)
+* [External SD card](https://github.com/darthcloud/BlueRetro/wiki#esp32-buttons-usage)
+
+# Internal SPIFFS memory
+
+# External SD card
+## Bill of materials
 * ESP32-DEVKITC-32D or ESP32-DEVKITC-32E with ESP-WROOM-32
 * DB-25 Female connector solder cup
 * Digilent Pmod MicroSD
 * Jumper wires (<= 2 inch)
 
-# Build instructions
+## Build instructions
 1. Linux:\
    Install [esp-idf prerequisites](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/linux-setup.html).\
    Windows:\
@@ -12,6 +19,9 @@
    
 2. Download latest binary from [GitHub](https://github.com/darthcloud/BlueRetro/releases) and flash them on your ESP32.\
   Linux:\
+\
+Use one of the SD card binaries.\
+\
   `~/BlueRetroRoot/python_env/idf4.2_py3.7_env/bin/python ~/BlueRetroRoot/esp-idf/components/esptool_py/esptool/esptool.py -p /dev/ttyUSB0 -b 460800 --before default_reset --after hard_reset --chip esp32  write_flash --flash_mode dio --flash_size detect --flash_freq 40m 0x1000 bootloader.bin 0x8000 partition-table.bin 0x10000 BlueRetro.bin`\
   Windows:\
   [Flashing firmware Windows 10](https://github.com/darthcloud/BlueRetro/wiki/Flashing-firmware-Windows-10)
