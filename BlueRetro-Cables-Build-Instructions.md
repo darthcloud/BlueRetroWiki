@@ -312,8 +312,8 @@ IO26 | SNES P2 | 6 | P2_SEL | Multitap 2 CTRL | No
 ## DIY Through-hole
 
 ### Bill of materials
-* AZ1117EH-5.0TRG1 LDO (x1) (DKPN: AZ1117EH-5.0TRG1DICT-ND PN: AZ1117EH-5.0TRG1)
-* 10uF Capacitor (x2) (DKPN: 399-13968-ND PN: C322C106K3R5TA)
+* AZ1117EH-5.0TRG1 LDO (x1) (DKPN: AZ1117EH-5.0TRG1DICT-ND PN: AZ1117EH-5.0TRG1) (Optional: Only if you plan using cable with BlueRetro DevKit PCB)
+* 10uF Capacitor (x2) (DKPN: 399-13968-ND PN: C322C106K3R5TA) (Optional: Only if you plan using cable with BlueRetro DevKit PCB)
 * DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
 * DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
 * PSX/PS2 controller plug (x2)
@@ -325,6 +325,8 @@ IO26 | SNES P2 | 6 | P2_SEL | Multitap 2 CTRL | No
 * If using an universal FW, make sure to connect I39 to 3.3V and I35 to GND.
 * If using an universal FW AND not wiring 2nd port plug, make sure to connect IO22 & IO25 to GND.
 * If not wiring 2nd port plug, make sure to connect IO5 (P2_DTR), IO26 (P2_SCK) & IO27 (P2_TXD) to 3.3V
+* You may connect 8V directly into the 5V input of an ESP32-DevKitC, the onboard LDO (AMS1117-3.3) is rated for 18V.
+* If planning to use a BlueRetro DevKit board wire cable the LDO is required (Onboard LDO max is 6V).
 
 ## SMD Cable PCB
 
