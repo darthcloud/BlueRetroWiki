@@ -322,7 +322,7 @@ IO26 | SNES P2 | 6 | P2_SEL | Multitap 2 CTRL | No
  [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/PS.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/PS.pdf)
 
 ### Assembly instructions
-* If using an universal FW, make sure to connect I39 to 3.3V and I35 to GND.
+* If using an universal FW, make sure to connect I39 to GND and I35 to GND.
 * If using an universal FW AND not wiring 2nd port plug, make sure to connect IO22 & IO25 to GND.
 * If not wiring 2nd port plug, make sure to connect IO5 (P2_DTR), IO26 (P2_SCK) & IO27 (P2_TXD) to 3.3V
 * You may connect 8V directly into the 5V input of an ESP32-DevKitC, the onboard LDO (AMS1117-3.3) is rated for 18V.
