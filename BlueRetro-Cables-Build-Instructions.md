@@ -1,6 +1,6 @@
 # Table of contents
-* [Parallel 1P (12 buttons) adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#parallel-1p-12-buttons-adapter-cable)
-* [Parallel 2P (6 buttons each) adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#parallel-2p-6-buttons-each-adapter-cable)
+* [Parallel 1P (12 buttons) adapter cable (NeoGeo, Supergun, JAMMA)](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#parallel-1p-12-buttons-adapter-cable)
+* [Parallel 2P (6 buttons each) adapter cable (Atari 2600/7800, Master System)](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#parallel-2p-6-buttons-each-adapter-cable)
 * [FC / NES adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#fc--nes-adapter-cable)
 * [Genesis adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#genesis-adapter-cable)
 * [SFC / SNES adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#sfc--snes-adapter-cable)
@@ -12,6 +12,7 @@
 * [GameCube adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#gamecube-adapter-cable)
 
 # Parallel 1P (12 buttons) adapter cable
+For NeoGeo, Supergun, JAMMA, etc.
 
 ## Pinout reference
 ![](img/cables/neogeo_pinout.png)
@@ -64,6 +65,7 @@ IO25 | NEOGEO P1 | 10 | 6 | Player 1 BTN | No
 IO22 | NEOGEO P1 | 3 | SELECT | Player 1 BTN | No
 
 # Parallel 2P (6 buttons each) adapter cable
+For Atari 2600/7800, Master System, etc.
 
 ## Pinout reference
 ![](img/cables/atari_pinout.png)\
@@ -74,6 +76,7 @@ IO22 | NEOGEO P1 | 3 | SELECT | Player 1 BTN | No
 ### Bill of materials
 * DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
 * 74AHCT125N DIP14 (x3) (DKPN: 296-4655-5-ND PN: SN74AHCT125N)
+* CD74HC4053E DIP16 (x1) (DKPN: 296-9219-5-ND PN: CD74HC4053E) (Only for 7800 2 btns cable adapter)
 * DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
 * Genesis DB9 controller plug (x2)
 
