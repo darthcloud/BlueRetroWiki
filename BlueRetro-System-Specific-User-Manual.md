@@ -1,7 +1,6 @@
 # Table of contents
-* [Auto Parallel 1P](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#auto-parallel-1p-6-buttons)
-* [Parallel 1P](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#parallel-1p-12-buttons)
-* [Parallel 2P](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#parallel-2p-6-buttons-each)
+* [Parallel 1P (NeoGeo, Supergun, JAMMA)](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#parallel-1p-12-buttons)
+* [Parallel 2P (Atari 2600/7800, Master System)](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#parallel-2p-6-buttons-each)
 * [NES](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#nes)
 * [Genesis](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#genesis)
 * [SNES](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#snes)
@@ -11,26 +10,6 @@
 * [Nintendo 64](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#nintendo-64)
 * [Dreamcast](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#dreamcast)
 * [GameCube](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#gamecube)
-
-# Auto Parallel 1P (6 buttons)
-
-## System Config
-While in Auto mode trying to detect another system, BlueRetro will output a limited 1 player 6 buttons parallel output matching the SEGA Master System cable pinout.
-This allow 1P game on Atari 2600, Master System, etc. without having to switch to Parallel 2P (6 buttons each) mode.
-
-## Multitap Config
-Multitap config has no effect.
-
-## Output Config
-
-### Mode
-Mode config has no effect.
-
-### Accessories
-Accessories config has no effect.
-
-## Mapping
-See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & Parallel 1P buttons label correspondence (Refer to the Master System column).
 
 # Parallel 1P (12 buttons)
 
@@ -86,7 +65,7 @@ See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX
 * **GamePad**: BlueRetro will emulate a standard 8 buttons NES controller.
 * **GamePadAlt**: Same as GamePad.
 * **Keyboard**: **TBD** ~~BlueRetro will emulate a Famicom keyboard.~~
-* **Mouse**: **TBD** ~~BlueRetro will emulate a Famicom Hori Trackball.~~
+* **Mouse**: BlueRetro will emulate a Famicom Hori Trackball. (Must use "Default Mouse" preset)
 
 ### Accessories
 Accessories config has no effect.
@@ -112,7 +91,7 @@ See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX
 * **GamePad**: BlueRetro will emulate a standard 3 buttons controller.
 * **GamePadAlt**: BlueRetro will emulate a 6 buttons controller.
 * **Keyboard**: **TBD** ~~BlueRetro will emulate a XBAND Keyboard. (Not supported for multitap)~~
-* **Mouse**: BlueRetro will emulate a Genesis Mouse.
+* **Mouse**: BlueRetro will emulate a Genesis Mouse. (Must use "Default Mouse" preset)
 
 ### Accessories
 Accessories config has no effect.
@@ -138,7 +117,7 @@ See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX
 * **GamePad**: BlueRetro will emulate a standard 12 buttons SNES controller.
 * **GamePadAlt**: Same as GamePad.
 * **Keyboard**: **TBD** ~~BlueRetro will emulate a XBAND keyboard.~~
-* **Mouse**: **TBD** ~~BlueRetro will emulate a SNES Mouse.~~
+* **Mouse**: BlueRetro will emulate a SNES Mouse. (Must use "Default Mouse" preset)
 
 ### Accessories
 Accessories config has no effect.
@@ -195,7 +174,7 @@ See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX
 * **GamePad**: BlueRetro will emulate an Analog controller in **Digital** mode.
 * **GamePadAlt**: BlueRetro will emulate an Analog controller in **Analog** mode.
 * **Keyboard**: BlueRetro will emulate a Saturn Keyboard.
-* **Mouse**: BlueRetro will emulate a Saturn Mouse.
+* **Mouse**: BlueRetro will emulate a Saturn Mouse. (Must use "Default Mouse" preset)
 
 ### Accessories
 Accessories config has no effect.
