@@ -7,6 +7,7 @@
 * [3DO adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#3do-adapter-cable)
 * [PSX / PS2 adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#psx--ps2-adapter-cable)
 * [Saturn adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#saturn-adapter-cable)
+* [PC-FX adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#pc-fx-adapter-cable)
 * [JVS adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#jvs-adapter-cable)
 * [Nintendo 64 adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#nintendo-64-adapter-cable)
 * [Dreamcast adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#dreamcast-adapter-cable)
@@ -326,7 +327,7 @@ IO26 | SNES P2 | 6 | P2_SEL | Multitap 2 CTRL | No
 
 ### Assembly instructions
 * Connect IO19 (DB25-16) & IO18 (DB25-4) together (CS signal generator)
-* If using an universal FW, make sure to connect I39 to GND and IO19, IO21, IO22, IO25, IO32, IO33, I34 & I35 to GND.
+* If using an universal FW, make sure to connect I39 to GND and IO25, IO32, IO33, I34 & I35 to GND.
 
 ## SMD Cable PCB
 
@@ -469,6 +470,55 @@ IO16 | SATURN P2 | 5 | P2_TR | Player 2 CTRL | No
 IO33 | SATURN P2 | 6 | P2_TL | Player 2 CTRL | No
 IO25 | SATURN P2 | 7 | P2_R | Player 2 D3 | No
 IO22 | SATURN P2 | 8 | P2_L | Player 2 D2 | No
+
+# PC-FX adapter cable
+
+## Pinout reference
+![](img/cables/pcfx_pinout.png)
+
+## DIY Through-hole
+
+### Bill of materials
+* DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
+* 74AHCT125N DIP14 (x2) (DKPN: 296-4655-5-ND PN: SN74AHCT125N)
+* DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
+* SNES controller plug (x2) (Take female pins out of SNES shell and make them hold together with hot glue)
+
+### Cable schematic
+ [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/PCFX.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/PCFX.pdf)
+
+### Assembly instructions
+* If using an universal FW, make sure to connect I39 to GND and IO21, IO25, IO32, I34 & I35 to GND.
+
+## SMD Cable PCB
+
+### Bill of materials
+* DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
+* 74AHCT1G125 SC70-5 (x6) (DKPN: 296-4709-1-ND PN: SN74AHCT1G125DCKR)
+* DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
+* Level shifter PCB (x1)
+* SNES controller plug (x2) (Take female pins out of SNES shell and make them hold together with hot glue)
+
+### Assembly instructions
+![](img/cables/pcfx.png)
+* Solder 74AHCT1G125 to footprint highlighted in red.
+* Bridge LO side of jumper I39.
+* Connect cords according to table below and pinout reference.
+
+PCB PAD | Cord | Pin | Name | Use | Required?
+------- | ---- | --- | ---- | --- | ---------
+VIN | PCFX P1 | 1 | 5V | BlueRetro Power | Yes
+GND | PCFX P1 | 5 | GND | BlueRetro Power | Yes
+GND | PCFX P1 | 7 | GND | BlueRetro Power | Yes
+IO33 | PCFX P1 | 4 | /LATCH | Data | Yes
+IO5 | PCFX P1 | 6 | CLK | Clock | Yes
+IO19 | PCFX P1 | 2 | DATA | Clock | Yes
+VIN | PCFX P2 | 1 | 5V | BlueRetro Power | No
+GND | PCFX P2 | 5 | GND | BlueRetro Power | No
+GND | PCFX P2 | 7 | GND | BlueRetro Power | No
+IO26 | PCFX P2 | 4 | /LATCH | Data | No
+IO18 | PCFX P2 | 6 | CLK | Clock | No
+IO22 | PCFX P2 | 2 | DATA | Clock | No
 
 # JVS adapter cable
 

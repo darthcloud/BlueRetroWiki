@@ -7,6 +7,7 @@
 * [3DO](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#3do)
 * [PSX/PS2](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#psxps2)
 * [Saturn](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#saturn)
+* [PC-FX](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#pc-fx)
 * [JVS](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#jvs)
 * [Nintendo 64](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#nintendo-64)
 * [Dreamcast](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#dreamcast)
@@ -205,6 +206,22 @@ A regular Saturn Analog controller report it's Triggers both as analog and digit
 * Use the "Saturn Merge analog & digital trigger" preset to match the real Saturn Analog controller behavior.
 
 See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & Saturn controller buttons label correspondence.
+
+# PC-FX
+
+## Multitap Config
+Multitap config has no effect.
+
+## Output Config
+
+### Mode
+* **GamePad**: BlueRetro will emulate a standard PC-FX controller.
+* **GamePadAlt**: NA
+* **Keyboard**: NA
+* **Mouse**: BlueRetro will emulate a PC-FX Mouse.
+
+### Accessories
+Accessories config has no effect.
 
 # JVS
 BlueRetro will emulate a 12 players output with 16 buttons and 2 axis each.
