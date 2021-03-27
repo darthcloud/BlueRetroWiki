@@ -4,6 +4,7 @@
 * [FC / NES adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#fc--nes-adapter-cable)
 * [Genesis adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#genesis-adapter-cable)
 * [SFC / SNES adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#sfc--snes-adapter-cable)
+* [3DO adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#3do-adapter-cable)
 * [PSX / PS2 adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#psx--ps2-adapter-cable)
 * [Saturn adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#saturn-adapter-cable)
 * [JVS adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#jvs-adapter-cable)
@@ -306,6 +307,51 @@ IO18 | SNES P2 | 2 | P2_CLK | Player 2 / Multitap 2 CLK | No
 IO22 | SNES P2 | 4 | P2_D0 | Player 2 / Multitap 2 DATA | No
 IO25 | SNES P2 | 5 | P2_D1 | Multitap 2 DATA | No
 IO26 | SNES P2 | 6 | P2_SEL | Multitap 2 CTRL | No
+
+# 3DO adapter cable
+
+## Pinout reference
+![](img/cables/3do_pinout.png)
+
+## DIY Through-hole
+
+### Bill of materials
+* DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
+* 74AHCT125N DIP14 (x2) (DKPN: 296-4655-5-ND PN: SN74AHCT125N)
+* DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
+* Genesis controller plug (x1)
+
+### Cable schematic
+ [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/3DO.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/3DO.pdf)
+
+### Assembly instructions
+* Connect IO19 (DB25-16) & IO18 (DB25-4) together (CS signal generator)
+* If using an universal FW, make sure to connect I39 to GND and IO19, IO21, IO22, IO25, IO32, IO33, I34 & I35 to GND.
+
+## SMD Cable PCB
+
+### Bill of materials
+* DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
+* 74AHCT1G125 SC70-5 (x2) (DKPN: 296-4709-1-ND PN: SN74AHCT1G125DCKR)
+* DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
+* Level shifter PCB (x1)
+* Genesis controller plug (x1)
+
+### Assembly instructions
+![](img/cables/3do.png)
+* Connect IO19 (DB25-16) & IO18 (DB25-4) together (CS signal generator)
+* Solder 74AHCT1G125 to footprint highlighted in red.
+* Bridge LO side of jumper I39.
+* Connect cords according to table below and pinout reference.
+
+PCB PAD | Cord | Pin | Name | Use | Required?
+------- | ---- | --- | ---- | --- | ---------
+VIN | 3DO P1 | 2 | 5V | BlueRetro Power | Yes
+VIN | 3DO P1 | 5 | 5V | BlueRetro Power | Yes
+GND | 3DO P1 | 1 | GND | BlueRetro Power | Yes
+GND | 3DO P1 | 8 | GND | BlueRetro Power | Yes
+IO21 | 3DO P1 | 9 | DIN | Data | Yes
+IO22 | 3DO P1 | 7 | CLK | Clock | Yes
 
 # PSX / PS2 adapter cable
 

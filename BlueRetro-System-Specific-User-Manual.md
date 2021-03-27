@@ -4,6 +4,7 @@
 * [NES](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#nes)
 * [Genesis](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#genesis)
 * [SNES](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#snes)
+* [3DO](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#3do)
 * [PSX/PS2](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#psxps2)
 * [Saturn](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#saturn)
 * [JVS](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#jvs)
@@ -124,6 +125,25 @@ Accessories config has no effect.
 
 ## Mapping
 See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & SNES controller buttons label correspondence.
+
+# 3DO
+
+## Multitap Config
+Multitap config has no effect.
+
+## Output Config
+
+### Mode
+* **GamePad**: BlueRetro will emulate a standard 3DO controller.
+* **GamePadAlt**: BlueRetro will emulate a 3DO Flightstick controller.
+* **Keyboard**: NA
+* **Mouse**: BlueRetro will emulate a 3DO Mouse.
+
+### Accessories
+Accessories config has no effect.
+
+## Mapping
+See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & 3DO controller buttons label correspondence.
 
 # PSX/PS2
 
