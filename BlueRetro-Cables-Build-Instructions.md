@@ -4,6 +4,7 @@
 * [FC / NES adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#fc--nes-adapter-cable)
 * [Genesis adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#genesis-adapter-cable)
 * [SFC / SNES adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#sfc--snes-adapter-cable)
+* [CD-i adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#cd-i-adapter-cable)
 * [3DO adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#3do-adapter-cable)
 * [PSX / PS2 adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#psx--ps2-adapter-cable)
 * [Saturn adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#saturn-adapter-cable)
@@ -309,6 +310,53 @@ IO22 | SNES P2 | 4 | P2_D0 | Player 2 / Multitap 2 DATA | No
 IO25 | SNES P2 | 5 | P2_D1 | Multitap 2 DATA | No
 IO26 | SNES P2 | 6 | P2_SEL | Multitap 2 CTRL | No
 
+# CD-i adapter cable
+
+## Pinout reference
+![](img/cables/cdi_pinout.png)
+
+## DIY Through-hole
+
+### Bill of materials
+* DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
+* 74AHCT125N DIP14 (x2) (DKPN: 296-4655-5-ND PN: SN74AHCT125N)
+* DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
+* Mini-DIN-8 plug (x1 or x2)
+
+### Cable schematic
+ [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/CDI.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/CDI.pdf)
+
+### Assembly instructions
+* If using an universal FW, make sure to connect I39 to GND and IO25, IO32, IO33, I34 & I35 to GND.
+* Do not use CD-i 5V.
+* External power (ESP-DevkitC USB) required as CD-i look for peripheral once before BlueRetro is fully done reading it's config. Power up BlueRetro externally first, then 1 sec later power on CD-i.
+* If not wiring 2nd port plug, make sure to connect IO21 (P2_RTS) to GND.
+
+## SMD Cable PCB
+
+### Bill of materials
+* DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
+* 74AHCT1G125 SC70-5 (x4) (DKPN: 296-4709-1-ND PN: SN74AHCT1G125DCKR)
+* DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
+* Level shifter PCB (x1)
+* Mini-DIN-8 plug (x1 or x2)
+
+### Assembly instructions
+![](img/cables/cdi.png)
+* External power (BlueRetro USB) required as CD-i look for peripheral once before BlueRetro is fully done reading it's config. Power up BlueRetro externally first, then 1 sec later power on CD-i.
+* Solder 74AHCT1G125 to footprint highlighted in red.
+* Bridge LO side of jumper I39.
+* Connect cords according to table below and pinout reference.
+
+PCB PAD | Cord | Pin | Name | Use | Required?
+------- | ---- | --- | ---- | --- | ---------
+GND | CDI P1 | 5 | GND | BlueRetro Power | Yes
+IO23 | CDI P1 | 7 | RTS | Enable | Yes
+IO22 | CDI P1 | 2 | RXD | Data | Yes
+GND | CDI P2 | 5 | GND | BlueRetro Power | No
+IO21 | CDI P2 | Front: 4 or Rear: 7 | RTS | Enable | No
+IO19 | CDI P2 | Front: 1 or Rear: 2 | RXD | Data | No
+
 # 3DO adapter cable
 
 ## Pinout reference
@@ -489,6 +537,7 @@ IO22 | SATURN P2 | 8 | P2_L | Player 2 D2 | No
 
 ### Assembly instructions
 * If using an universal FW, make sure to connect I39 to GND and IO21, IO25, IO32, I34 & I35 to GND.
+* If not wiring 2nd port plug, make sure to connect IO26 (P2_/LATCH) to GND.
 
 ## SMD Cable PCB
 

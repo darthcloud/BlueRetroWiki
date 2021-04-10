@@ -4,6 +4,7 @@
 * [NES](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#nes)
 * [Genesis](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#genesis)
 * [SNES](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#snes)
+* [CD-i](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#cd-i)
 * [3DO](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#3do)
 * [PSX/PS2](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#psxps2)
 * [Saturn](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#saturn)
@@ -126,6 +127,33 @@ Accessories config has no effect.
 
 ## Mapping
 See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & SNES controller buttons label correspondence.
+
+# CD-i
+**External power required as CD-i look for peripheral once before BlueRetro is fully done reading it's config. Power up BlueRetro externally first, then 1 sec later power on CD-i.**
+
+BlueRetro will emulate the device selected in output config #1 on cord 1 main device.\
+BlueRetro will emulate the device selected in output config #2 on cord 2 or cord 1 secondary device. \
+
+## Multitap Config
+Multitap config has no effect.
+
+## Output Config
+
+### Mode
+* **GamePad**: BlueRetro will emulate a standard CD-i gamepad. (Must use "CD-i gamepad" preset)
+* **GamePadAlt**: NA
+* **Keyboard**: BlueRetro will emulate a CD-i Keyboard. (Must use "Default Gamepad/Keyboard" preset, Accessories config select type)
+* **Mouse**: BlueRetro will emulate a CD-i Mouse. (Must use "Default Mouse" preset)
+
+### Accessories
+**Only valid for "Keyboard" mode.**
+* **None**: BlueRetro will emulate a "K" type keyboard.
+* **Memory**:BlueRetro will emulate a "X" type keyboard.
+* **Rumble**:BlueRetro will emulate a "T" type keyboard.
+* **Both**: NA
+
+## Mapping
+See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & CD-i controller buttons label correspondence.
 
 # 3DO
 
