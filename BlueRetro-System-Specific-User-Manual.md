@@ -2,6 +2,7 @@
 * [Parallel 1P (NeoGeo, Supergun, JAMMA)](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#parallel-1p-12-buttons)
 * [Parallel 2P (Atari 2600/7800, Master System)](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#parallel-2p-6-buttons-each)
 * [NES](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#nes)
+* [PCE / TG16](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#pce--tg16)
 * [Genesis](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#genesis)
 * [SNES](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#snes)
 * [CD-i](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#cd-i)
@@ -75,6 +76,29 @@ Accessories config has no effect.
 
 ## Mapping
 See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & NES controller buttons label correspondence.
+
+# PCE / TG16
+
+## Multitap Config
+* **None**: BlueRetro will emulate the device selected in output config #1.
+* **Slot 1**: BlueRetro will emulate a 5 port multitap with the device selected in output config #1 on all ports.
+* **Slot 2**: Same as None.
+* **Dual**: Same as None.
+* **Alt**: Same as None.
+
+## Output Config
+
+### Mode
+* **GamePad**: BlueRetro will emulate a standard 2/3 buttons PCE / TG16 controller.
+* **GamePadAlt**: BlueRetro will emulate a standard 6 buttons PCE / TG16 controller.
+* **Keyboard**: NA
+* **Mouse**: BlueRetro will emulate a PCE mouse. (Must use "Default Mouse" preset) (Not supported in multitap mode)
+
+### Accessories
+Accessories config has no effect.
+
+## Mapping
+See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & PCE/TG16 controller buttons label correspondence.
 
 # Genesis
 

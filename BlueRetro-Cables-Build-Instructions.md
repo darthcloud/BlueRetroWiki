@@ -2,6 +2,7 @@
 * [Parallel 1P (12 buttons) adapter cable (NeoGeo, Supergun, JAMMA)](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#parallel-1p-12-buttons-adapter-cable)
 * [Parallel 2P (6 buttons each) adapter cable (Atari 2600/7800, Master System)](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#parallel-2p-6-buttons-each-adapter-cable)
 * [FC / NES adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#fc--nes-adapter-cable)
+* [PCE / TG16 adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#pce--tg16-adapter-cable)
 * [Genesis adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#genesis-adapter-cable)
 * [SFC / SNES adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#sfc--snes-adapter-cable)
 * [CD-i adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#cd-i-adapter-cable)
@@ -183,6 +184,55 @@ IO22 | NES P2 | 4 | P2_D0 | Player 2 / Four Score DATA | No
 IO18 | NES P2 | 2 | P2_CUP | Player 2 / Four Score CLK | No
 IO21 | FC_DB15 | 13 | P1_D1 | FC 4P adapter P3 DATA | No
 IO25 | FC_DB15 | 7 | P2_D1 | FC 4P adapter P4 DATA | No
+
+# PCE / TG16 adapter cable
+
+## Pinout reference
+![](img/cables/pce_pinout.png)
+
+## DIY Through-hole
+
+### Bill of materials
+* DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
+* 74AHCT125N DIP14 (x2) (DKPN: 296-4655-5-ND PN: SN74AHCT125N)
+* 47K resistors (x2) (DKPN: S47KCACT-ND PN: RNMF14FTC47K0)
+* DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
+* Mini-DIN-8 plug and/or DIB-8 plug (x1)
+
+### Cable schematic
+ [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/PCE.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/PCE.pdf)
+
+### Assembly instructions
+* If using an universal FW, make sure to connect I39 to 3.3V and IO19, IO21, IO22, IO25, IO32, I34 & I35 to GND.
+
+## SMD Cable PCB
+
+### Bill of materials
+* DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
+* 74AHCT1G125 SC70-5 (x6) (DKPN: 296-4709-1-ND PN: SN74AHCT1G125DCKR)
+* 47K resistors (x2) (DKPN: 311-47.0KLRCT-ND PN: RC0402FR-0747KL)
+* DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
+* Level shifter PCB (x1)
+* Mini-DIN-8 plug and/or DIB-8 plug (x1)
+
+### Assembly instructions
+![](img/cables/pce.png)
+* Solder 74AHCT1G125 to footprint highlighted in red.
+* Solder resistors to footprint highlighted in red.
+* Bridge HI side of jumper I39.
+* Connect pad DIR2 to GND.
+* Connect cords according to table below and pinout reference.
+
+PCB PAD | Cord | Pin | Name | Use | Required?
+------- | ---- | --- | ---- | --- | ---------
+VIN | PCE/TG16 P1 | 1 | 5V | BlueRetro Power | Yes
+GND | PCE/TG16 P1 | 8 | GND | BlueRetro Power | Yes
+IO3 | PCE/TG16 P1 | 2 | P1_U | Player 1 D0 | Yes
+IO5 | PCE/TG16 P1 | 3 | P1_R | Player 1 D1 | Yes
+IO18 | PCE/TG16 P1 | 4 | P1_D | Player 1 D2 | Yes
+IO23 | PCE/TG16 P1 | 5 | P1_L | Player 1 D3 | Yes
+I33 | PCE/TG16 P1 | 6 | P1_SEL | Player 1 SEL | Yes
+IO26 | PCE/TG16 P1 | 7 | P1_OE | Player 1 /OE | Yes
 
 # Genesis adapter cable
 **Once in Genesis mode nothing will be output on the serial console as the TXD pin is used for multitap support.**
