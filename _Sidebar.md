@@ -6,7 +6,7 @@
   * SW Compiling
     * [Dev env setup](https://github.com/darthcloud/BlueRetroRoot)
   * Usage
-    * [General user manual](BlueRetro-User-Manual)
+    * [General user manual](Home)
     * [System specific user manual](BlueRetro-System-Specific-User-Manual)
     * [Bluetooth paring](Controller-pairing-guide)
     * [Web-config](https://hackaday.io/project/170365-blueretro/log/180020-web-bluetooth-ble-configuration-interface)
