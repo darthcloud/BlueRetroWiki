@@ -1,7 +1,4 @@
-Welcome to the BlueRetro wiki!
-
-# BlueRetro User Manual
-## Table of contents
+# Table of contents
 * [System Specific User Manual](https://github.com/darthcloud/BlueRetro/wiki#system-specific-user-manual)
 * [ESP32 buttons usage](https://github.com/darthcloud/BlueRetro/wiki#esp32-buttons-usage)
 * [Updating firmware](https://github.com/darthcloud/BlueRetro/wiki#updating-firmware)
@@ -10,7 +7,7 @@ Welcome to the BlueRetro wiki!
 * [Pairing Bluetooth controller](https://github.com/darthcloud/BlueRetro/wiki#pairing-bluetooth-controller)
 * [Getting BlueRetro debug logs](https://github.com/darthcloud/BlueRetro/wiki#getting-blueretro-debug-logs)
 * [Building adapter cables](https://github.com/darthcloud/BlueRetro/wiki#building-adapter-cables)
-## System Specific User Manual
+# System Specific User Manual
 [System Specific User Manual](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual)
 ## ESP32 buttons usage
 * BOOT: Disconnect all Bluetooth devices from the adapter.
@@ -25,23 +22,23 @@ Linux:\
 Windows:\
 [Flashing firmware Windows 10](https://github.com/darthcloud/BlueRetro/wiki/Flashing-firmware-Windows-10)
 
-## SD card format
+# SD card format
 If you use a SD card type build, insert blank SD card. BlueRetro will format the card itself.
 
-## Web config
+# Web config
 Power on system and connect via Web Bluetooth at https://blueretro.io to configure adapter.\
 **The config mode is only available if no controller is connected.** \
 **SD card is required to be able to save the settings between power cycle** \
 **Supported only in Desktop or Android Chrome**
 
-## Pairing Bluetooth controller
+# Pairing Bluetooth controller
 **SD card is required to be able to save the Bluetooth pairing keys required by some controllers for quick reconnect** \
 BlueRetro is always in pairing mode if no controller connected (and stay in pairing mode for 1 minute after one device connected)\
 Pair via inquiry first (SYNC or pairing mode), on subsequent connection you can simply page (button press or power on button).\
 See guide for more specific instruction: [Pairing Guide](https://github.com/darthcloud/BlueRetro/wiki/Controller-pairing-guide)
 
-## Getting BlueRetro debug logs
+# Getting BlueRetro debug logs
 See [Getting BlueRetro debug logs via Serial port Windows 10](https://github.com/darthcloud/BlueRetro/wiki/Getting-BlueRetro-debug-logs-via-Serial-port-Windows-10)
 
-## Building adapter cables
+# Building adapter cables
 See [BlueRetro Cables Build Instructions](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions)
