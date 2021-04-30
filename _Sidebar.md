@@ -1,19 +1,19 @@
   * HW Building
     * [ESP32 flashing Win10](Flashing-firmware-Windows-10)
-    * [DIY ESP32 wiring](BlueRetro-DIY-Build-Instructions.md)
-    * [DIY cable wiring](./BlueRetro-Cables-Build-Instructions.md)
+    * [DIY ESP32 wiring](BlueRetro-DIY-Build-Instructions)
+    * [DIY cable wiring](BlueRetro-Cables-Build-Instructions)
     * [HW files repo](https://github.com/darthcloud/BlueRetroHW)
   * SW Compiling
     * [Dev env setup](https://github.com/darthcloud/BlueRetroRoot)
   * Usage
-    * [General user manual](./BlueRetro-User-Manual)
-    * [System specific user manual](./BlueRetro-System-Specific-User-Manual.md)
-    * [Bluetooth paring](./Controller-pairing-guide.md)
+    * [General user manual](BlueRetro-User-Manual)
+    * [System specific user manual](BlueRetro-System-Specific-User-Manual)
+    * [Bluetooth paring](Controller-pairing-guide)
     * [Web-config](https://hackaday.io/project/170365-blueretro/log/180020-web-bluetooth-ble-configuration-interface)
     * [Web-config mapping label](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml)
   * Debug
-    * [Getting serial logs Win10](./Getting-BlueRetro-debug-logs-via-Serial-port-Windows-10.md)
-    * [Missing 2nd COM Win10](./Missing-2nd-COM-port-Win10-BlueRetro-DevKit-fix.md)
+    * [Getting serial logs Win10](Getting-BlueRetro-debug-logs-via-Serial-port-Windows-10)
+    * [Missing 2nd COM Win10](Missing-2nd-COM-port-Win10-BlueRetro-DevKit-fix)
   * RE notes
     * [ESP32 RTOS + Bare Metal: Best of Both Worlds?](https://hackaday.io/project/170365/log/189836-esp32-rtos-bare-metal-best-of-both-worlds)
     * [Learning Bluetooth Classic (BR/EDR) with HCI traces](https://hackaday.io/project/170365-blueretro/log/178249-learning-bluetooth-classic-bredr-with-hci-traces)
@@ -25,4 +25,4 @@
     * [3DO interface](https://hackaday.io/project/170365-blueretro/log/190948-3do-interface)
     * [PC-FX interface](https://hackaday.io/project/170365-blueretro/log/191237-pc-fx-interface)
     * [CD-i interface](https://hackaday.io/project/170365/log/191647-cd-i-interface)
-    * [PCE & TG16 interface](./PCE-&-TG16-interface)
+    * [PCE & TG16 interface](PCE-&-TG16-interface)
