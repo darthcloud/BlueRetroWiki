@@ -1,12 +1,12 @@
   * HW Building
-    * [ESP32 flashing Win10](./Flashing-firmware-Windows-10.md)
-    * [DIY ESP32 wiring](./BlueRetro-DIY-Build-Instructions.md)
+    * [ESP32 flashing Win10](Flashing-firmware-Windows-10)
+    * [DIY ESP32 wiring](BlueRetro-DIY-Build-Instructions.md)
     * [DIY cable wiring](./BlueRetro-Cables-Build-Instructions.md)
     * [HW files repo](https://github.com/darthcloud/BlueRetroHW)
   * SW Compiling
     * [Dev env setup](https://github.com/darthcloud/BlueRetroRoot)
   * Usage
-    * [General user manual](./Home.md)
+    * [General user manual](./BlueRetro-User-Manual)
     * [System specific user manual](./BlueRetro-System-Specific-User-Manual.md)
     * [Bluetooth paring](./Controller-pairing-guide.md)
     * [Web-config](https://hackaday.io/project/170365-blueretro/log/180020-web-bluetooth-ble-configuration-interface)
