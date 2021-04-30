@@ -2,7 +2,7 @@ The PCE interface is similar to how the Genesis work but a little bit simpler as
 Eight inputs are multiplexed on four data lines (URDL) with a select line (SEL). An output enable line (/OE) disable the peripheral output and is used
 as a latch or toggle to control special peripherals like the multitap or the 6 buttons controller. 
 
-![](img/cables/pce_pinout.png)\
+![](img/cables/pce_pinout.png)
 
 # Multitap
 After each SEL High/Low cycle, the multitap will output data from a different controller port.
