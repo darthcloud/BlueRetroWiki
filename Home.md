@@ -1,3 +1,5 @@
+# BlueRetro User Manual
+
 # Table of contents
 * [System Specific User Manual](https://github.com/darthcloud/BlueRetro/wiki#system-specific-user-manual)
 * [ESP32 buttons usage](https://github.com/darthcloud/BlueRetro/wiki#esp32-buttons-usage)
