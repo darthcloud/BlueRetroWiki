@@ -26,3 +26,4 @@
     * [PC-FX interface](https://hackaday.io/project/170365-blueretro/log/191237-pc-fx-interface)
     * [CD-i interface](https://hackaday.io/project/170365/log/191647-cd-i-interface)
     * [PCE & TG16 interface](PCE-&-TG16-interface)
+    * [Jaguar Interface](Jaguar-interface)

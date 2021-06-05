@@ -1,19 +1,20 @@
 # Table of contents
-* [Parallel 1P (NeoGeo, Supergun, JAMMA)](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#parallel-1p-12-buttons)
-* [Parallel 2P (Atari 2600/7800, Master System)](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#parallel-2p-6-buttons-each)
-* [NES](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#nes)
-* [PCE / TG16](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#pce--tg16)
-* [Genesis](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#genesis)
-* [SNES](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#snes)
-* [CD-i](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#cd-i)
-* [3DO](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#3do)
-* [PSX/PS2](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#psxps2)
-* [Saturn](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#saturn)
-* [PC-FX](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#pc-fx)
-* [JVS](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#jvs)
-* [Nintendo 64](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#nintendo-64)
-* [Dreamcast](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#dreamcast)
-* [GameCube](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual#gamecube)
+* [Parallel 1P (NeoGeo, Supergun, JAMMA)](#parallel-1p-12-buttons)
+* [Parallel 2P (Atari 2600/7800, Master System)](#parallel-2p-6-buttons-each)
+* [NES](#nes)
+* [PCE / TG16](#pce--tg16)
+* [Genesis](#genesis)
+* [SNES](#snes)
+* [CD-i](#cd-i)
+* [3DO](#3do)
+* [Jaguar](#jaguar)
+* [PSX/PS2](#psxps2)
+* [Saturn](#saturn)
+* [PC-FX](#pc-fx)
+* [JVS](#jvs)
+* [Nintendo 64](#nintendo-64)
+* [Dreamcast](#dreamcast)
+* [GameCube](#gamecube)
 
 # Parallel 1P (12 buttons)
 
@@ -197,6 +198,29 @@ Accessories config has no effect.
 
 ## Mapping
 See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & 3DO controller buttons label correspondence.
+
+# Jaguar
+
+## Multitap Config
+* **None**: BlueRetro will emulate the device selected in output config #1.
+* **Slot 1**: BlueRetro will emulate a 4 port TeamTap with the device selected in output config #1 on all ports.
+* **Slot 2**: Same as None.
+* **Dual**: Same as None.
+* **Alt**: Same as None.
+
+## Output Config
+
+### Mode
+* **GamePad**: BlueRetro will emulate a standard Jaguar controller.
+* **GamePadAlt**: BlueRetro will emulate a 6D controller.
+* **Keyboard**: NA
+* **Mouse**: NA
+
+### Accessories
+Accessories config has no effect.
+
+## Mapping
+See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & Jaguar controller buttons label correspondence.
 
 # PSX/PS2
 

@@ -1,19 +1,20 @@
 # Table of contents
-* [Parallel 1P (12 buttons) adapter cable (NeoGeo, Supergun, JAMMA)](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#parallel-1p-12-buttons-adapter-cable)
-* [Parallel 2P (6 buttons each) adapter cable (Atari 2600/7800, Master System)](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#parallel-2p-6-buttons-each-adapter-cable)
-* [FC / NES adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#fc--nes-adapter-cable)
-* [PCE / TG16 adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#pce--tg16-adapter-cable)
-* [Genesis adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#genesis-adapter-cable)
-* [SFC / SNES adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#sfc--snes-adapter-cable)
-* [CD-i adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#cd-i-adapter-cable)
-* [3DO adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#3do-adapter-cable)
-* [PSX / PS2 adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#psx--ps2-adapter-cable)
-* [Saturn adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#saturn-adapter-cable)
-* [PC-FX adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#pc-fx-adapter-cable)
-* [JVS adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#jvs-adapter-cable)
-* [Nintendo 64 adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#nintendo-64-adapter-cable)
-* [Dreamcast adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#dreamcast-adapter-cable)
-* [GameCube adapter cable](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions#gamecube-adapter-cable)
+* [Parallel 1P (12 buttons) adapter cable (NeoGeo, Supergun, JAMMA)](#parallel-1p-12-buttons-adapter-cable)
+* [Parallel 2P (6 buttons each) adapter cable (Atari 2600/7800, Master System)](#parallel-2p-6-buttons-each-adapter-cable)
+* [FC / NES adapter cable](#fc--nes-adapter-cable)
+* [PCE / TG16 adapter cable](#pce--tg16-adapter-cable)
+* [Genesis adapter cable](#genesis-adapter-cable)
+* [SFC / SNES adapter cable](#sfc--snes-adapter-cable)
+* [CD-i adapter cable](#cd-i-adapter-cable)
+* [3DO adapter cable](#3do-adapter-cable)
+* [Jaguar adapter cable](#jaguar-adapter-cable)
+* [PSX / PS2 adapter cable](#psx--ps2-adapter-cable)
+* [Saturn adapter cable](#saturn-adapter-cable)
+* [PC-FX adapter cable](#pc-fx-adapter-cable)
+* [JVS adapter cable](#jvs-adapter-cable)
+* [Nintendo 64 adapter cable](#nintendo-64-adapter-cable)
+* [Dreamcast adapter cable](#dreamcast-adapter-cable)
+* [GameCube adapter cable](#gamecube-adapter-cable)
 
 # Parallel 1P (12 buttons) adapter cable
 For NeoGeo, Supergun, JAMMA, etc.
@@ -451,6 +452,55 @@ GND | 3DO P1 | 1 | GND | BlueRetro Power | Yes
 GND | 3DO P1 | 8 | GND | BlueRetro Power | Yes
 IO21 | 3DO P1 | 9 | DIN | Data | Yes
 IO22 | 3DO P1 | 7 | CLK | Clock | Yes
+
+# Jaguar adapter cable
+
+## Pinout reference
+![](img/cables/jag_pinout.png)
+
+## DIY Through-hole
+
+### Bill of materials
+* DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
+* DB15-HD Male solder cup (x1) (DKPN: 609-4042-ND PN: 10090769-P154ALF)
+* 74AHCT125N DIP14 (x3) (DKPN: 296-4655-5-ND PN: SN74AHCT125N)
+* DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
+* NeoGeo DB15 controller cable (x1) (or any other 15 conductors cable)
+
+### Cable schematic
+ [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/JAG.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/JAG.pdf)
+
+## SMD Cable PCB
+
+### Bill of materials
+* DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
+* DB15-HD Male solder cup (x1) (DKPN: 609-4042-ND PN: 10090769-P154ALF)
+* 74AHCT1G125 SC70-5 (x10) (DKPN: 296-4709-1-ND PN: SN74AHCT1G125DCKR)
+* DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
+* Level shifter PCB (x1)
+* NeoGeo DB15 controller cable (x1) (or any other 15 conductors cable)
+
+### Assembly instructions
+![](img/cables/jag.png)
+* Solder 74AHCT1G125 to footprint highlighted in red.
+* Bridge HI side of jumper I39.
+* Connect pad DIR1, DIR2 & DIR3 to GND.
+* Connect cords according to table below and pinout reference.
+
+PCB PAD | Cord | Pin | Name | Use | Required?
+------- | ---- | --- | ---- | --- | ---------
+VIN | JAGUAR P1 | 7 | 5V | BlueRetro Power | Yes
+GND | JAGUAR P1 | 9 | GND | BlueRetro Power | Yes
+IO18 | JAGUAR P1 | 14 | J8 | Player 1 ROW OUT | Yes
+IO19 | JAGUAR P1 | 13 | J9 | Player 1 ROW OUT | Yes
+IO21 | JAGUAR P1 | 12 | J10 | Player 1 ROW OUT | Yes
+IO22 | JAGUAR P1 | 11 | J11 | Player 1 ROW OUT | Yes
+IO23 | JAGUAR P1 | 10 | B1 | Player 1 ROW OUT | Yes
+IO25 | JAGUAR P1 | 6 | B0 | Player 1 ROW OUT | Yes
+IO32 | JAGUAR P1 | 4 | J0 | Player 1 COL IN | Yes
+IO33 | JAGUAR P1 | 3 | J1 | Player 1 COL IN | Yes
+I35 | JAGUAR P1 | 2 | J2 | Player 1 COL IN | Yes
+I36 | JAGUAR P1 | 1 | J3 | Player 1 COL IN | Yes
 
 # PSX / PS2 adapter cable
 
