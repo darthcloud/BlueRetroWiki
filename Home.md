@@ -34,7 +34,6 @@ Power on system and connect via Web Bluetooth at https://blueretro.io to configu
 **Supported only in Desktop or Android Chrome**
 
 # Pairing Bluetooth controller
-**SD card is required to be able to save the Bluetooth pairing keys required by some controllers for quick reconnect** \
 BlueRetro is always in pairing mode if no controller connected (and stay in pairing mode for 1 minute after one device connected)\
 Pair via inquiry first (SYNC or pairing mode), on subsequent connection you can simply page (button press or power on button).\
 See guide for more specific instruction: [Pairing Guide](https://github.com/darthcloud/BlueRetro/wiki/Controller-pairing-guide)
