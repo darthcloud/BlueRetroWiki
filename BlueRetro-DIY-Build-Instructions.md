@@ -1,8 +1,10 @@
 # Table of contents
-* [Internal SPIFFS memory](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-DIY-Build-Instructions#internal-spiffs-memory)
-* [External SD card](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-DIY-Build-Instructions#external-sd-card)
+* [Internal SPIFFS memory](#internal-spiffs-memory)
+* [External SD card](#external-sd-card)
+* [LED](#led)
 
 # Internal SPIFFS memory
+
 ## Bill of materials
 * ESP32-DEVKITC-32D or ESP32-DEVKITC-32E with ESP-WROOM-32
 * DB-25 Female connector solder cup (or console plug directly if hardwired)
@@ -35,6 +37,7 @@ https://blueretro.io
    See guide for more specific instruction: [Pairing Guide](https://github.com/darthcloud/BlueRetro/wiki/Controller-pairing-guide)
 
 # External SD card
+
 ## Bill of materials
 * ESP32-DEVKITC-32D or ESP32-DEVKITC-32E with ESP-WROOM-32
 * DB-25 Female connector solder cup
@@ -76,3 +79,9 @@ https://blueretro.io
 8. BlueRetro is always in pairing mode if no controller connected (and stay in pairing mode for 1 minute after one device connected)\
    Pair via inquiry first (SYNC or pairing mode), on subsequent connection you can simply page (button press or power on button).
    See guide for more specific instruction: [Pairing Guide](https://github.com/darthcloud/BlueRetro/wiki/Controller-pairing-guide)
+
+# LED
+
+Wire IO17 as follow to get Bluetooth inquiry mode status and error notification:
+
+![](img/led_io17.png)
