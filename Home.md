@@ -31,15 +31,27 @@
 * Off: No error and Bluetooth inquiry mode disabled.
 
 # Updating firmware
+**Once flashed via OTA Web interface, FW flashed via USB won't be loaded anymore until the adapter is factory reset. (See [ESP32 buttons usage](#esp32-buttons-usage))**
 
 Download latest binary from [GitHub](https://github.com/darthcloud/BlueRetro/releases) and flash them on your BlueRetro.\
 \
-Two types of build are now available: the SD card version as before (now named BlueRetro_universal_sd.bin) and also internal flash (SPIFFS). For each type I also provide the regular universal version with system auto detection. But in addition system hard-coded versions are available. A total of 24 variants are available.\
-\
-Linux:\
+Two types of build are now available: the SD card version as before (now named BlueRetro_universal_sd.bin) and also internal flash (SPIFFS). For each type I also provide the regular universal version with system auto detection. But in addition system hard-coded versions are available.\
+
+## Via USB serial
+
+* Linux:\
 `~/BlueRetroRoot/python_env/idf4.2_py3.7_env/bin/python ~/BlueRetroRoot/esp-idf/components/esptool_py/esptool/esptool.py -p /dev/ttyUSB0 -b 460800 --before default_reset --after hard_reset --chip esp32  write_flash --flash_mode dio --flash_size detect --flash_freq 40m 0x1000 bootloader.bin 0x8000 partition-table.bin 0x10000 BlueRetro.bin`\
-Windows:\
+
+* Windows:\
 [Flashing firmware Windows 10](https://github.com/darthcloud/BlueRetro/wiki/Flashing-firmware-Windows-10)
+
+## Via Web-Bluetooth interface (OTA FW update)
+
+**Required FW v0.19 minimum to be already programmed via USB serial**
+
+1. Go to https://blueretro.io/ota.html and connect to your BlueRetro adapter (make sure it's powered on and no controller connected).
+2. Select the BlueRetro\*.bin you want then click Update Firmware button.
+3. Via PC Chrome update should take around 5 minutes, with Android Chrome it will take around 45 minutes (!!!).
 
 # SD card format
 
