@@ -5,6 +5,8 @@
 
 # Internal SPIFFS memory
 
+**This is the preferred build type for DIY.**
+
 ## Bill of materials
 * ESP32-DEVKITC-32D or ESP32-DEVKITC-32E with ESP-WROOM-32
 * DB-25 Female connector solder cup (or console plug directly if hardwired)
@@ -37,6 +39,8 @@ https://blueretro.io
    See guide for more specific instruction: [Pairing Guide](https://github.com/darthcloud/BlueRetro/wiki/Controller-pairing-guide)
 
 # External SD card
+
+**Do not use this build type and the instruction below for DIY build, unless you really really want trouble.**
 
 ## Bill of materials
 * ESP32-DEVKITC-32D or ESP32-DEVKITC-32E with ESP-WROOM-32
