@@ -35,7 +35,7 @@
 
 ## First pairing
 
-1. Boot up BlueRetro
+1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing)
 2. Press & hold simultaneously Share & PS buttons until the LED blink white.
 3. Color on controller will change once pairing is complete.
 
@@ -47,7 +47,7 @@
 
 ## First pairing
 
-1. Boot up BlueRetro
+1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing)
 2. Power on controller via Xbox button and then hold the black sync button until the logo blink.
 3. Logo will stop blinking on controller once pairing is complete.
 
@@ -60,7 +60,7 @@
 
 ## First pairing
 
-1. Boot up BlueRetro
+1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing)
 2. Press red Sync button
 3. LEDs will stop blinking on controller once pairing is complete.
 
@@ -72,7 +72,7 @@
 
 ## First pairing
 
-1. Boot up BlueRetro
+1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing)
 2. Press and hold sync button until LEDs move in a left/right pattern.
 3. LEDs will stop pattern on controller once pairing is complete.
 
@@ -83,7 +83,7 @@
 
 ## First pairing
 
-1. Boot up BlueRetro
+1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing)
 2. Power up 8bitdo controller in Xinput mode (Start + X)
 2. Press and hold sync button until LEDs flash.
 3. LEDs will stop pattern on controller once pairing is complete.
