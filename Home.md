@@ -71,6 +71,8 @@ You may change this behavior by switching inquiry mode in the web config to manu
 Pressing BOOT buttons for 3 sec will activate inquiry mode.
 See guide for more specific instruction: [Pairing Guide](https://github.com/darthcloud/BlueRetro/wiki/Controller-pairing-guide)
 
+Up to 16 connection keys for classic BT and also up to 16 keys for BLE devices can be stored for persistent pairing.
+
 # Getting BlueRetro debug logs
 
 See [Getting BlueRetro debug logs via Serial port Windows 10](https://github.com/darthcloud/BlueRetro/wiki/Getting-BlueRetro-debug-logs-via-Serial-port-Windows-10)
