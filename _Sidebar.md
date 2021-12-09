@@ -13,7 +13,6 @@
     * [Web-config mapping label](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml)
   * Debug
     * [Getting serial logs Win10](Getting-BlueRetro-debug-logs-via-Serial-port-Windows-10)
-    * [Missing 2nd COM Win10](Missing-2nd-COM-port-Win10-BlueRetro-DevKit-fix)
   * RE notes
     * [ESP32 RTOS + Bare Metal: Best of Both Worlds?](https://hackaday.io/project/170365/log/189836-esp32-rtos-bare-metal-best-of-both-worlds)
     * [Learning Bluetooth Classic (BR/EDR) with HCI traces](https://hackaday.io/project/170365-blueretro/log/178249-learning-bluetooth-classic-bredr-with-hci-traces)
@@ -29,3 +28,4 @@
     * [Jaguar Interface](Jaguar-interface)
   * Deprecated content
     * [SD card DIY HW Wiring](SD-card-DIY-HW-Wiring)
+    * [Missing 2nd COM Win10](Missing-2nd-COM-port-Win10-BlueRetro-DevKit-fix)
