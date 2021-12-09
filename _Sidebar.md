@@ -26,6 +26,6 @@
     * [CD-i interface](https://hackaday.io/project/170365/log/191647-cd-i-interface)
     * [PCE & TG16 interface](PCE-&-TG16-interface)
     * [Jaguar Interface](Jaguar-interface)
-  * Deprecated content
-    * [SD card DIY HW Wiring](SD-card-DIY-HW-Wiring)
-    * [Missing 2nd COM Win10](Missing-2nd-COM-port-Win10-BlueRetro-DevKit-fix)
+  * ~~Deprecated content~~
+    * ~~[SD card DIY HW Wiring](SD-card-DIY-HW-Wiring)~~
+    * ~~[Missing 2nd COM Win10](Missing-2nd-COM-port-Win10-BlueRetro-DevKit-fix)~~
