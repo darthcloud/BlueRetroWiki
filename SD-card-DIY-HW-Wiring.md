@@ -29,7 +29,7 @@ https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/periph
 4. Install DB25 connector & PmodMicroSD board.\
    It is important to keep the sd card jumper wire very short (<= 2 inch) and plug them directly to the ESP32 pin (not via breadboard).\
    It's critical for the 2 GND on the PMOD to be plug directly to the ESP32 GND pin via short wire!!\
-https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/BlueRetroDIY.pdf
+https://github.com/darthcloud/BlueRetroHW/blob/5c2e3174d8557c76e88b8b396bc18b7568700bcd/DIY/BlueRetroDIY.pdf
 
 5. Build target system cable adapter.\
 https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions
