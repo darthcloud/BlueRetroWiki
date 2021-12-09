@@ -2,7 +2,7 @@
 
 ## Getting BlueRetro debug logs via Serial port Windows 10
 1. Download & install [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) or use your favorite terminal emulator.
-2. Select serial and set right COM port and set speed to 921600\
+2. Select serial and set right COM port and set speed to 921600 (You can see COM list in Device manager)\
 ![](img/putty_lRphcbP80S.png)
 3. In "Terminal" check "Implicit CR in every LF"\
 ![](img/putty_rU4TrkHm7S.png)
