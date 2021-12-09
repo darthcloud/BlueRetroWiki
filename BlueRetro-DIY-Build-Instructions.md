@@ -15,19 +15,19 @@ Use one of the SPIFFS binaries.\
   Windows:\
   [Flashing firmware Windows 10](https://github.com/darthcloud/BlueRetro/wiki/Flashing-firmware-Windows-10)
 
-4. Install DB25 connector (or direct console plug).\
+3. Install DB25 connector (or direct console plug).\
 https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/BlueRetroDIY.pdf
 
-5. Build target system cable adapter (or use as reference for direct console plug).\
+4. Build target system cable adapter (or use as reference for direct console plug).\
 https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions
 
-6. (Optional) Power on system and connect via Web Bluetooth to configure adapter.\
+5. (Optional) Power on system and connect via Web Bluetooth to configure adapter.\
    The config mode is only available if no controller is connected. \
 https://blueretro.io
 
-8. BlueRetro is always in pairing mode if no controller connected (and stay in pairing mode for 1 minute after one device connected)\
+6. BlueRetro is always in pairing mode if no controller connected (and stay in pairing mode for 1 minute after one device connected)\
    Pair via inquiry first (SYNC or pairing mode), on subsequent connection you can simply page (button press or power on button).
    See guide for more specific instruction: [Pairing Guide](https://github.com/darthcloud/BlueRetro/wiki/Controller-pairing-guide)
 
-9. (Optional) Wire IO17 as follow to get Bluetooth pairing mode status and error notification:
+7. (Optional) Wire IO17 as follow to get Bluetooth pairing mode status and error notification:
    ![](img/led_io17.png)
