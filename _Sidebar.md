@@ -27,3 +27,5 @@
     * [CD-i interface](https://hackaday.io/project/170365/log/191647-cd-i-interface)
     * [PCE & TG16 interface](PCE-&-TG16-interface)
     * [Jaguar Interface](Jaguar-interface)
+  * Deprecated content
+    * [SD card DIY HW Wiring](SD-card-DIY-HW-Wiring)
