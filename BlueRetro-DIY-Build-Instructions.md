@@ -1,5 +1,3 @@
-# BlueRetro DIY Build Instructions
-
 ## Bill of materials
 * ESP32-DEVKITC-32D or ESP32-DEVKITC-32E with ESP-WROOM-32
 * DB-25 Female connector solder cup (or console plug if hardwired)
