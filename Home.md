@@ -5,7 +5,6 @@
 * [ESP32 buttons usage](#esp32-buttons-usage)
 * [LED usage](#led-usage-io17)
 * [Updating firmware](#updating-firmware)
-* [SD card format](#sd-card-format)
 * [Web config](#web-config)
 * [Pairing Bluetooth controller](#pairing-bluetooth-controller)
 * [Getting BlueRetro debug logs](#getting-blueretro-debug-logs)
@@ -35,7 +34,7 @@
 
 Download latest binary from [GitHub](https://github.com/darthcloud/BlueRetro/releases) and flash them on your BlueRetro.\
 \
-Two types of build are now available: the SD card version as before (now named BlueRetro_universal_sd.bin) and also internal flash (SPIFFS). For each type I also provide the regular universal version with system auto detection. But in addition system hard-coded versions are available.\
+Only internal flash (SPIFFS) firmware are now supported. An universal version with system auto detection is provided in addition to system hard-coded versions.\
 
 ## Via USB serial
 
@@ -52,10 +51,6 @@ Two types of build are now available: the SD card version as before (now named B
 1. Go to https://blueretro.io/ota.html and connect to your BlueRetro adapter (make sure it's powered on and no controller connected).
 2. Select the BlueRetro\*.bin you want then click Update Firmware button.
 3. Via PC Chrome update should take around 5 minutes, with Android Chrome it will take around 45 minutes (!!!).
-
-# SD card format
-
-If you use a SD card type build, insert blank SD card. BlueRetro will format the card itself.
 
 # Web config
 
