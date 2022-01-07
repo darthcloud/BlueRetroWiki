@@ -34,7 +34,7 @@
 
 Download latest binary from [GitHub](https://github.com/darthcloud/BlueRetro/releases) and flash them on your BlueRetro.\
 \
-Only internal flash (SPIFFS) firmware are now supported. An universal version with system auto detection is provided in addition to system hard-coded versions.\
+Only internal flash (SPIFFS) firmware are now supported. An universal version with system auto detection is provided in addition to system hard-coded versions.
 
 ## Via USB serial
 
@@ -60,7 +60,7 @@ Power on system and connect via Web Bluetooth at https://blueretro.io to configu
 
 # Pairing Bluetooth controller
 
-In default configuration BlueRetro is always in inquiry mode (LED pulsing) if no controller is connected (and stay in inquiry mode for 1 minute after one device connected)\
+In default configuration BlueRetro is always in inquiry mode (LED pulsing) if no controller is connected\
 Pair via inquiry first (SYNC or pairing mode), on subsequent connection you can simply page (button press or power on button).\
 You may change this behavior by switching inquiry mode in the web config to manual.
 Pressing BOOT buttons for 3 sec will activate inquiry mode.
