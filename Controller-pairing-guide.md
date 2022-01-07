@@ -2,7 +2,7 @@
 
 * [PS3](#ps3)
 * [PS4 & PS5](#ps4--ps5)
-* [Xbox One S & Adaptive controller](#xbox-one-s--adaptive-controller)
+* [Xbox One S, Series X|S & Adaptive controller](#xbox-one-s--adaptive-controller)
 * [Wii & WiiU Pro](#wii--wiiu-pro)
 * [Switch Pro & Joycon](#switch-pro--joycon)
 * [8bitdo](#8bitdo)
@@ -43,7 +43,13 @@
 
 1. Simply press PS button to reconnect to BlueRetro.
 
-# Xbox One S & Adaptive controller
+# Xbox One S, Series X|S & Adaptive controller
+As of v1.2.1 the minimum required Xbox FW for controller are:\
+Xbox One S: 4.8.1923.0\
+Adaptive: 4.5.1680.0\
+Series X|S: 5.9.2709.0
+
+Update via the [Xbox accessories Win10 app](https://www.microsoft.com/en-us/p/xbox-accessories/9nblggh30xj3).
 
 ## First pairing
 
@@ -80,11 +86,16 @@
 1. Simply press any button twice on controller and it will reconnect to BlueRetro.
 
 # 8bitdo
+As of v1.2.1 the minimum required 8bitdo FW for controller are:\
+SF30: v1.37\
+Gbros adapter: v2.25
+
+Update via the [8bitdo Win10 app](https://www.microsoft.com/en-us/p/xbox-accessories/9nblggh30xj3).
 
 ## First pairing
 
 1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing)
-2. Power up 8bitdo controller in Xinput mode (Start + X)
+2. Power up 8bitdo controller in Xinput mode (Start + X or set switch to X) (Only Xinput mode supported!!)
 2. Press and hold sync button until LEDs flash.
 3. LEDs will stop pattern on controller once pairing is complete.
 
