@@ -158,7 +158,7 @@ IO22 | SMS P2 | 3 | P2_L | Player 2 D2 | No
 ### Bill of materials
 * DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
 * 74AHCT1G125 SC70-5 (x7) (DKPN: 296-4709-1-ND PN: SN74AHCT1G125DCKR)
-* 3.6K resistors (x3) (DKPN: S3.6KCACT-ND PN: RNMF14FTC3K60) (Required for PAL system only)
+* 3.6K resistors (x3) (DKPN: 311-47.0KLRCT-ND PN: RC0402FR-0747KL) (Required for PAL system only)
 * DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
 * Level shifter PCB (x1)
 * NES controller plug (x2)
@@ -332,7 +332,7 @@ IO22 | GENESIS P2 | 3 | P2_L | Player 2 D2 | No
 ### Bill of materials
 * DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
 * 74AHCT1G125 SC70-5 (x9) (DKPN: 296-4709-1-ND PN: SN74AHCT1G125DCKR)
-* 3.6K resistors (x5) (DKPN: S3.6KCACT-ND PN: RNMF14FTC3K60) (Required for PAL system only)
+* 3.6K resistors (x5) (DKPN: 311-47.0KLRCT-ND PN: RC0402FR-0747KL) (Required for PAL system only)
 * DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
 * Level shifter PCB (x1)
 * SNES controller plug (x2) (For multitap support 7 conductor are required, get a 3rd SNES extension for pin donation and use cable from PSX/Genesis/Saturn for the extra wires)
