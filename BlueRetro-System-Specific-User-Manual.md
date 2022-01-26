@@ -336,7 +336,7 @@ Multitap config has no effect.
 ### Accessories
 **Only valid for "Gamepad" mode.**
 * **None**: BlueRetro will emulate a standard N64 controller with empty accessory slot.
-* **Memory**: **TBD** ~~BlueRetro will emulate a standard N64 controller with Controller Pak.~~
+* **Memory**: BlueRetro will emulate a standard N64 controller with Controller Pak.
 * **Rumble**: BlueRetro will emulate a standard N64 controller with Rumble Pak.
 * **Both**: NA
 
