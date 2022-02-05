@@ -1,7 +1,8 @@
 # Table of contents
-* [Parallel 1P (12 buttons) adapter cable (NeoGeo, Supergun, JAMMA)](#parallel-1p-12-buttons-adapter-cable)
-* [Parallel 2P (6 buttons each) adapter cable (Atari 2600/7800, Master System)](#parallel-2p-6-buttons-each-adapter-cable)
+* [Parallel 1P (12 buttons) adapter cable (NeoGeo, Supergun, JAMMA)](#parallel-1p-5v-12-buttons-adapter-cable)
+* [Parallel 2P (6 buttons each) adapter cable (Atari 2600, Master System)](#parallel-2p-5v-6-buttons-each-adapter-cable)
 * [FC / NES adapter cable](#fc--nes-adapter-cable)
+* [7800 adapter cable](#7800-adapter-cable)
 * [PCE / TG16 adapter cable](#pce--tg16-adapter-cable)
 * [Genesis adapter cable](#genesis-adapter-cable)
 * [SFC / SNES adapter cable](#sfc--snes-adapter-cable)
@@ -16,8 +17,10 @@
 * [Dreamcast adapter cable](#dreamcast-adapter-cable)
 * [GameCube adapter cable](#gamecube-adapter-cable)
 
-# Parallel 1P (12 buttons) adapter cable
-For NeoGeo, Supergun, JAMMA, etc.
+# Parallel 1P 5V (12 buttons) adapter cable
+For NeoGeo, Supergun, JAMMA or any other 5V parallel input system.
+
+No auto detection in universal FW, configure Parallel_1P_PP system in web or use dedicated FW.
 
 ## Pinout reference
 ![](img/cables/neogeo_pinout.png)
@@ -31,7 +34,17 @@ For NeoGeo, Supergun, JAMMA, etc.
 * NeoGeo DB15 controller plug (x1) (or any other parallel interface)
 
 ### Cable schematic
- [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/NeoGeo.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/NeoGeo.pdf)
+Typical parallel input system simply use a switch between input line and GND which pull it low on button press.
+The input line idle high via a pull-up resistor in the console. To best emulate this behavior use the open drain
+schematic.
+
+ [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Para1P_OD.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Para1P_OD.pdf)
+
+If for a specific application you need the line to be actively be driven high you can follow the Push-Pull variant.
+
+ [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Para1P_PP.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Para1P_PP.pdf)
+
+For both schema variant configure/flash the Parallel_1P_PP BlueRetro Push-Pull mode/FW. For 5V system the OD is handled by the 74AHCT125N.
 
 ### Assembly instructions
 * If using an universal FW, make sure to connect I34, I35 & I39 to GND
@@ -42,14 +55,13 @@ For NeoGeo, Supergun, JAMMA, etc.
 * DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
 * 74AHCT1G125 SC70-5 (x12) (DKPN: 296-4709-1-ND PN: SN74AHCT1G125DCKR)
 * DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
-* Level shifter PCB (x1)
+* Open drain PCB (x1)
 * NeoGeo DB15 controller plug (x1) (or any other parallel interface)
 
 ### Assembly instructions
 ![](img/cables/neogeo.png)
 * Solder 74AHCT1G125 to footprint highlighted in red.
 * Bridge HI side of jumper I39.
-* Connect pad DIR1, DIR2, DIR3 & DIR4 to GND.
 * Connect cords according to table below and pinout reference.
 
 PCB PAD | Cord | Pin | Name | Use | Required?
@@ -69,8 +81,10 @@ IO33 | NEOGEO P1 | 2 | CREDIT | Player 1 BTN | No
 IO25 | NEOGEO P1 | 10 | 6 | Player 1 BTN | No
 IO22 | NEOGEO P1 | 3 | SELECT | Player 1 BTN | No
 
-# Parallel 2P (6 buttons each) adapter cable
-For Atari 2600/7800, Master System, etc.
+# Parallel 2P 5V (6 buttons each) adapter cable
+For Atari 2600, Master System or any other 5V parallel input system.
+
+No auto detection in universal FW, configure Parallel_2P_PP system in web or use dedicated FW.
 
 ## Pinout reference
 ![](img/cables/atari_pinout.png)\
@@ -81,12 +95,21 @@ For Atari 2600/7800, Master System, etc.
 ### Bill of materials
 * DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
 * 74AHCT125N DIP14 (x3) (DKPN: 296-4655-5-ND PN: SN74AHCT125N)
-* CD74HC4053E DIP16 (x1) (DKPN: 296-9219-5-ND PN: CD74HC4053E) (Only for 7800 2 btns cable adapter)
 * DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
 * Genesis DB9 controller plug (x2)
 
 ### Cable schematic
- [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/SMS.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/SMS.pdf)
+Typical parallel input system simply use a switch between input line and GND which pull it low on button press.
+The input line idle high via a pull-up resistor in the console. To best emulate this behavior use the open drain
+schematic.
+
+ [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Para2P_OD.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Para2P_OD.pdf)
+
+If for a specific application you need the line to be actively be driven high you can follow the Push-Pull variant.
+
+ [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Para2P_PP.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Para2P_PP.pdf)
+
+For both schema variant configure/flash the Parallel_2P_PP BlueRetro Push-Pull mode/FW. For 5V system the OD is handled by the 74AHCT125N.
 
 ### Assembly instructions
 * If using an universal FW, make sure to connect IO32, I34, I35 & I39 to GND
@@ -97,14 +120,13 @@ For Atari 2600/7800, Master System, etc.
 * DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
 * 74AHCT1G125 SC70-5 (x12) (DKPN: 296-4709-1-ND PN: SN74AHCT1G125DCKR)
 * DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
-* Level shifter PCB (x1)
+* Open drain PCB (x1)
 * Genesis DB9 controller plug (x2)
 
 ### Assembly instructions
 ![](img/cables/sms.png)
 * Solder 74AHCT1G125 to footprint highlighted in red.
 * Bridge HI side of jumper I39.
-* Connect pad DIR0, DIR1, DIR2 & DIR4 to GND.
 * Connect cords according to table below and pinout reference.
 
 PCB PAD | Cord | Pin | Name | Use | Required?
@@ -185,6 +207,28 @@ IO22 | NES P2 | 4 | P2_D0 | Player 2 / Four Score DATA | No
 IO18 | NES P2 | 2 | P2_CUP | Player 2 / Four Score CLK | No
 IO21 | FC_DB15 | 13 | P1_D1 | FC 4P adapter P3 DATA | No
 IO25 | FC_DB15 | 7 | P2_D1 | FC 4P adapter P4 DATA | No
+
+# 7800 adapter cable
+No auto detection in universal FW, configure Parallel_2P_PP system in web or use dedicated FW.
+
+## Pinout reference
+![](img/cables/atari_pinout.png)\
+
+## DIY Through-hole
+
+### Bill of materials
+* DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
+* 74AHCT125N DIP14 (x3) (DKPN: 296-4655-5-ND PN: SN74AHCT125N)
+* CD74HC4053E DIP16 (x2) (DKPN: 296-9219-5-ND PN: CD74HC4053E)
+* 620 Ohm resistors (x4) (DKPN: CF14JT620RCT-ND PN: CF14JT620R)
+* DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
+* Genesis DB9 controller plug (x2)
+
+### Cable schematic
+ [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/7800.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/7800.pdf)
+
+### Assembly instructions
+* If using an universal FW, make sure to connect IO32, I34, I35 & I39 to GND
 
 # PCE / TG16 adapter cable
 
