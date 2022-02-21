@@ -9,7 +9,7 @@
 
 # PS3
 
-* Note only official PS3 controller are currently supported.
+* Note only official PS3 controller are supported.
 
 ## First pairing
 
