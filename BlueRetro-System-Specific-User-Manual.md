@@ -12,6 +12,7 @@
 * [Saturn](#saturn)
 * [PC-FX](#pc-fx)
 * [JVS](#jvs)
+* [Virtual Boy](#virtual-boy)
 * [Nintendo 64](#nintendo-64)
 * [Dreamcast](#dreamcast)
 * [GameCube](#gamecube)
@@ -315,6 +316,23 @@ Accessories config has no effect.
 
 ## Mapping
 See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & JVS controller buttons label correspondence.
+
+# Virtual Boy
+BlueRetro will emulate a standard Virtual Boy controller
+
+## Multitap Config
+Multitap config has no effect.
+
+## Output Config
+
+### Mode
+Mode config has no effect.
+
+### Accessories
+Accessories config has no effect.
+
+## Mapping
+See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & Virtual Boy controller buttons label correspondence.
 
 # Nintendo 64
 BlueRetro will emulate the device selected in output config #1 on N64 port 1.\
