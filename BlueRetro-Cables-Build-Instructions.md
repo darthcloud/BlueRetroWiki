@@ -13,6 +13,7 @@
 * [Saturn adapter cable](#saturn-adapter-cable)
 * [PC-FX adapter cable](#pc-fx-adapter-cable)
 * [JVS adapter cable](#jvs-adapter-cable)
+* [Virtual Boy adapter cable](#virtual-boy-adapter-cable)
 * [Nintendo 64 adapter cable](#nintendo-64-adapter-cable)
 * [Dreamcast adapter cable](#dreamcast-adapter-cable)
 * [GameCube adapter cable](#gamecube-adapter-cable)
@@ -750,6 +751,56 @@ SENSE (1-VBUS) | USB | 1 | SENSE | JVS Sense | Yes
 B (2-D-) | USB | 2 | B | JVS RS485 Data- | Yes
 A (3-D+) | USB | 3 | A | JVS RS485 Data+ | Yes
 GND (4-GND) | USB | 4 | GND | BlueRetro Power ref | Yes
+
+# Virtual Boy adapter cable
+
+No auto detection in universal FW, configure Virtual Boy system in web or use dedicated FW.
+
+## Pinout reference
+![](img/cables/vb_pinout.png)
+
+## DIY Through-hole
+
+### Bill of materials
+* DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
+* 74AHCT125N DIP14 (x2) (DKPN: 296-4655-5-ND PN: SN74AHCT125N)
+* DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
+* VB controller plug
+* Barrel jack 5.5mm/2.1mm (DKPN: 839-1291-ND PN: 54-00063)
+* SPST switch
+* 1N5400 diode (DKPN: 1N5400RLGOSCT-ND PN: 1N5400RLG)
+* 9V PSU 5.5mm/2.1mm center positive (DKPN: 993-1344-ND PN: PSAC30U-090L6)
+
+### Cable schematic
+ [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/VB.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/VB.pdf)
+
+## SMD Cable PCB
+
+### Bill of materials
+* DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
+* 74AHCT1G125 SC70-5 (x3) (DKPN: 296-4709-1-ND PN: SN74AHCT1G125DCKR)
+* DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
+* Level shifter PCB (x1)
+* VB controller plug
+* Barrel jack 5.5mm/2.1mm (DKPN: 839-1291-ND PN: 54-00063)
+* SPST switch
+* 1N5400 diode (DKPN: 1N5400RLGOSCT-ND PN: 1N5400RLG)
+* 9V PSU 5.5mm/2.1mm center positive (DKPN: 993-1344-ND PN: PSAC30U-090L6)
+
+### Assembly instructions
+![](img/cables/vb.png)
+* Solder 74AHCT1G125 to footprint highlighted in red.
+* Bridge LO side of jumper I39.
+* Connect pad DIR3 & DIR1 to GND.
+* Connect cords according to table below and pinout reference.
+
+PCB PAD | Cord | Pin | Name | Use | Required?
+------- | ---- | --- | ---- | --- | ---------
+VIN | VB P1 | 2 | 5V | BlueRetro Power | Yes
+GND | VB P1 | 5 | GND | BlueRetro Power | Yes
+IO5 | VB P1 | 4 | CLK | Clock | Yes
+IO32 | VB P1 | 3 | LATCH | Latch | Yes
+IO19 | VB P1 | 1 | DATA | Data | Yes
 
 # Nintendo 64 adapter cable
 
