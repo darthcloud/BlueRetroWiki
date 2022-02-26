@@ -334,6 +334,10 @@ Accessories config has no effect.
 ## Mapping
 See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & Virtual Boy controller buttons label correspondence.
 
+### Special buttons functions
+* **LJ (Stick left click)**: Toggle VirtualTap video mode.
+* **RJ (Stick right click)**: Change VirtualTap pallette.
+
 # Nintendo 64
 BlueRetro will emulate the device selected in output config #1 on N64 port 1.\
 BlueRetro will emulate the device selected in output config #2 on N64 port 2. \
@@ -360,6 +364,10 @@ Multitap config has no effect.
 
 ## Mapping
 See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & N64 controller buttons label correspondence.
+
+### Special buttons functions
+* **MT (Home)**: Toggle accessory between Controller Pak and Rumble Pak.
+* **MQ (Capture/TouchPad)**: Cycle active controller pak bank.
 
 # Dreamcast
 BlueRetro will emulate the device selected in output config #1 on Dreamcast port 1.\
