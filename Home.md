@@ -1,6 +1,7 @@
 # BlueRetro User Manual
 
 # Table of contents
+* [Building hardware](#building-hardware)
 * [System Specific User Manual](#system-specific-user-manual)
 * [ESP32 buttons usage](#esp32-buttons-usage)
 * [LED usage](#led-usage-io17)
@@ -8,7 +9,12 @@
 * [Web config](#web-config)
 * [Pairing Bluetooth controller](#pairing-bluetooth-controller)
 * [Getting BlueRetro debug logs](#getting-blueretro-debug-logs)
-* [Building adapter cables](#building-adapter-cables)
+
+# Building hardware
+
+* [DIY ESP32 module flashing & wiring instructions](BlueRetro-DIY-Build-Instructions)
+* [BlueRetro Cables Build Instructions](BlueRetro-Cables-Build-Instructions)
+* [BlueRetro Consolize system](BlueRetro-Consolize-Build-Instructions)
 
 # System Specific User Manual
 
@@ -71,7 +77,3 @@ Up to 16 connection keys for classic BT and also up to 16 keys for BLE devices c
 # Getting BlueRetro debug logs
 
 See [Getting BlueRetro debug logs via Serial port Windows 10](https://github.com/darthcloud/BlueRetro/wiki/Getting-BlueRetro-debug-logs-via-Serial-port-Windows-10)
-
-# Building adapter cables
-
-See [BlueRetro Cables Build Instructions](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-Cables-Build-Instructions)

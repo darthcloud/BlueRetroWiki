@@ -2,6 +2,7 @@
     * [ESP32 flashing Win10](Flashing-firmware-Windows-10)
     * [DIY ESP32 wiring](BlueRetro-DIY-Build-Instructions)
     * [DIY cable wiring](BlueRetro-Cables-Build-Instructions)
+    * [Consolise w/ BlueRetro](BlueRetro-Consolize-Build-Instructions)
     * [HW files repo](https://github.com/darthcloud/BlueRetroHW)
   * SW Compiling
     * [Dev env setup](https://github.com/darthcloud/BlueRetroRoot)
