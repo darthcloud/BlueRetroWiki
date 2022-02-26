@@ -335,8 +335,8 @@ Accessories config has no effect.
 See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & Virtual Boy controller buttons label correspondence.
 
 ### Special buttons functions
-* **LJ (Stick left click)**: Toggle VirtualTap video mode.
-* **RJ (Stick right click)**: Change VirtualTap pallette.
+* **LJ (Stick left click)**: Toggle VirtualTap video mode. (ESP IO27)
+* **RJ (Stick right click)**: Change VirtualTap pallette. (ESP IO16)
 
 # Nintendo 64
 BlueRetro will emulate the device selected in output config #1 on N64 port 1.\
