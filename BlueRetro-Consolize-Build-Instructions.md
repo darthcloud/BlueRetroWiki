@@ -4,10 +4,13 @@
 
 # Game Boy Advance
 
-I'm replacing the SEA board arduino firmnware with BlueRetro! FPGA bitstream is now
+I'm replacing the SEA board arduino firmware with BlueRetro! FPGA bitstream is now
 included within BlueRetro SPIFFS partition (no more SD required!!) and at boot
 BlueRetro will program the FPGA with the GBAHD bitstream. Pass that point GBAHD & BlueRetro
 operate independently. GBAHD handle audio & video while BlueRetro handle the inputs.
+
+Check demo & box overview on YouTube:
+https://www.youtube.com/watch?v=rHwp4AsUtfE
 
 ![](img/gbahd/thumbnail_text.png)
 
