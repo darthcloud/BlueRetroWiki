@@ -555,7 +555,7 @@ I36 | JAGUAR P1 | 1 | J3 | Player 1 COL IN | Yes
 ## DIY Through-hole
 
 ### Bill of materials
-* AZ1117EH-5.0TRG1 LDO (x1) (DKPN: AZ1117EH-5.0TRG1DICT-ND PN: AZ1117EH-5.0TRG1) (Optional: Only if you plan using cable with BlueRetro DevKit PCB)
+* LT1117IST-5#TRPBF LDO (x1) (DKPN: LT1117IST-5#TRPBFCT-ND PN: LT1117IST-5#TRPBF) (Optional: Only if you plan using cable with BlueRetro DevKit PCB)
 * 10uF Capacitor (x2) (DKPN: 399-13968-ND PN: C322C106K3R5TA) (Optional: Only if you plan using cable with BlueRetro DevKit PCB)
 * DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
 * DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
@@ -574,7 +574,7 @@ I36 | JAGUAR P1 | 1 | J3 | Player 1 COL IN | Yes
 ## SMD Cable PCB
 
 ### Bill of materials
-* AZ1117EH-5.0TRG1 LDO (x1) (DKPN: AZ1117EH-5.0TRG1DICT-ND PN: AZ1117EH-5.0TRG1)
+* LT1117IST-5#TRPBF LDO (x1) (DKPN: LT1117IST-5#TRPBFCT-ND PN: LT1117IST-5#TRPBF)
 * 10uF Capacitor (x2) (DKPN: 490-5523-1-ND PN: GRM21BR61E106KA73L)
 * DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
 * DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
