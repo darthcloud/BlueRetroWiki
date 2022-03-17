@@ -2,7 +2,7 @@
 
 * [PS3](#ps3)
 * [PS4 & PS5](#ps4--ps5)
-* [Xbox One S, Series X|S & Adaptive controller](#xbox-one-s--adaptive-controller)
+* [Xbox One S, Series X|S & Adaptive controller](#xbox-one-s-series-xs--adaptive-controller)
 * [Wii & WiiU Pro](#wii--wiiu-pro)
 * [Switch Pro & Joycon](#switch-pro--joycon)
 * [8bitdo](#8bitdo)
