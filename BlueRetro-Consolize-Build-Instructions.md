@@ -55,7 +55,7 @@ either use a hot air rework station or use chip quick to desolder with iron the 
    Download the [ESP32 Flash Download Tools](https://www.espressif.com/en/support/download/other-tools) and unzip.
 2. Connect SEA board with USB and execute flash_download_tool_x.y.z.exe
 3. Set chipType: ESP32, workMode: develop and click OK\
-![](img/flash_download_tool_launch.png)
+![](img/flash_mode.png)
 4. Select and checkbox the 3 BlueRetro binary files in the first 3 field, the GBAHD one in the 4th and match the option as in screenshot.\
    In order each bin offset are: 0x1000, 0x8000, 0x10000 & 0x310000.\
 ![](img/flash_download_tool_config.png)
