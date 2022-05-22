@@ -15,6 +15,7 @@
 * [DIY ESP32 module flashing & wiring instructions](BlueRetro-DIY-Build-Instructions)
 * [BlueRetro Cables Build Instructions](BlueRetro-Cables-Build-Instructions)
 * [BlueRetro Consolize system](BlueRetro-Consolize-Build-Instructions)
+* [SNES Mini internal install](BlueRetro-SNES-Mini-Internal-Install)
 
 # System Specific User Manual
 

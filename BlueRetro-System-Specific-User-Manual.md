@@ -16,6 +16,7 @@
 * [Nintendo 64](#nintendo-64)
 * [Dreamcast](#dreamcast)
 * [GameCube](#gamecube)
+* [Wii-Ext](#wii-ext)
 
 # Parallel 1P (12 buttons)
 
@@ -34,7 +35,7 @@ Mode config has no effect.
 Accessories config has no effect.
 
 ## Mapping
-See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & Parallel 1P buttons label correspondence (Refer to the NeoGeo column).
+See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml) for Bluetooth controller & Parallel 1P buttons label correspondence (Refer to the NeoGeo column).
 
 # Parallel 2P (6 buttons each)
 
@@ -53,7 +54,7 @@ Mode config has no effect.
 Accessories config has no effect.
 
 ## Mapping
-See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & Parallel 2P buttons label correspondence (Refer to the Master System column).
+See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml) for Bluetooth controller & Parallel 2P buttons label correspondence (Refer to the Master System column).
 
 # NES
 
@@ -77,7 +78,7 @@ See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX
 Accessories config has no effect.
 
 ## Mapping
-See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & NES controller buttons label correspondence.
+See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml) for Bluetooth controller & NES controller buttons label correspondence.
 
 # PCE / TG16
 
@@ -100,7 +101,7 @@ See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX
 Accessories config has no effect.
 
 ## Mapping
-See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & PCE/TG16 controller buttons label correspondence.
+See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml) for Bluetooth controller & PCE/TG16 controller buttons label correspondence.
 
 # Genesis
 
@@ -126,7 +127,7 @@ See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX
 Accessories config has no effect.
 
 ## Mapping
-See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & Genesis controller buttons label correspondence.
+See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml) for Bluetooth controller & Genesis controller buttons label correspondence.
 
 # SNES
 
@@ -152,7 +153,7 @@ See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX
 Accessories config has no effect.
 
 ## Mapping
-See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & SNES controller buttons label correspondence.
+See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml) for Bluetooth controller & SNES controller buttons label correspondence.
 
 # CD-i
 **External power required as CD-i look for peripheral once before BlueRetro is fully done reading it's config. Power up BlueRetro externally first, then 1 sec later power on CD-i.**
@@ -179,7 +180,7 @@ Multitap config has no effect.
 * **Both**: NA
 
 ## Mapping
-See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & CD-i controller buttons label correspondence.
+See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml) for Bluetooth controller & CD-i controller buttons label correspondence.
 
 # 3DO
 
@@ -198,7 +199,7 @@ Multitap config has no effect.
 Accessories config has no effect.
 
 ## Mapping
-See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & 3DO controller buttons label correspondence.
+See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml) for Bluetooth controller & 3DO controller buttons label correspondence.
 
 # Jaguar
 
@@ -221,7 +222,7 @@ See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX
 Accessories config has no effect.
 
 ## Mapping
-See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & Jaguar controller buttons label correspondence.
+See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml) for Bluetooth controller & Jaguar controller buttons label correspondence.
 
 # PSX/PS2
 
@@ -252,7 +253,7 @@ See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX
 * **Both**: NA
 
 ## Mapping
-See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & PSX/PS2controller buttons label correspondence.
+See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml) for Bluetooth controller & PSX/PS2controller buttons label correspondence.
 
 # Saturn
 
@@ -282,7 +283,7 @@ A regular Saturn Analog controller report it's Triggers both as analog and digit
 * Using the default mapping, BlueRetro will report triggers as analog only.
 * Use the "Saturn Merge analog & digital trigger" preset to match the real Saturn Analog controller behavior.
 
-See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & Saturn controller buttons label correspondence.
+See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml) for Bluetooth controller & Saturn controller buttons label correspondence.
 
 # PC-FX
 
@@ -315,7 +316,7 @@ Mode config has no effect.
 Accessories config has no effect.
 
 ## Mapping
-See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & JVS controller buttons label correspondence.
+See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml) for Bluetooth controller & JVS controller buttons label correspondence.
 
 # Virtual Boy
 BlueRetro will emulate a standard Virtual Boy controller
@@ -332,7 +333,7 @@ Mode config has no effect.
 Accessories config has no effect.
 
 ## Mapping
-See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & Virtual Boy controller buttons label correspondence.
+See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml) for Bluetooth controller & Virtual Boy controller buttons label correspondence.
 
 ### Special buttons functions
 * **LJ (Stick left click)**: Toggle VirtualTap video mode. (ESP IO27)
@@ -363,7 +364,7 @@ Multitap config has no effect.
 * **Both**: NA
 
 ## Mapping
-See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & N64 controller buttons label correspondence.
+See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml) for Bluetooth controller & N64 controller buttons label correspondence.
 
 ### Special buttons functions
 * **MT (Home)**: Toggle accessory between Controller Pak and Rumble Pak.
@@ -394,7 +395,7 @@ Multitap config has no effect.
 * **Both**: **TBD** ~~BlueRetro will emulate a Dreamcast controller with VMU & Jump Pack.~~
 
 ## Mapping
-See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & Dreamcast controller buttons label correspondence.
+See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml) for Bluetooth controller & Dreamcast controller buttons label correspondence.
 
 # GameCube
 BlueRetro will emulate the device selected in output config #1 on GameCube port 1.\
@@ -426,4 +427,25 @@ Wii Original Classic controller and **TBD** ~~Steam controller~~ work this way. 
 * Using the default mapping, BlueRetro will map the two section separately. (Use this if playing with Wii Original Classic or **TBD** ~~Steam controller~~
 * Use the "GameCube Merge analog & digital trigger" preset to emulate the GameCube trigger using only the analog trigger. (Any other type of Bluetooth controller)
 
-See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml) for Bluetooth controller & GameCube controller buttons label correspondence.
+See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml) for Bluetooth controller & GameCube controller buttons label correspondence.
+
+# Wii-Ext
+BlueRetro will emulate the device selected in output config #1 on Wii port 1.\
+BlueRetro will emulate the device selected in output config #2 on Wii port 2.
+
+## Multitap Config
+Multitap config has no effect.
+
+## Output Config
+
+### Mode
+* **GamePad**: BlueRetro will emulate a Wii Classic Pro (Digital trigger).
+* **GamePadAlt**: BlueRetro will emulate the original Wii Classic controller (Analog trigger).
+* **Keyboard**: NA
+* **Mouse**: NA
+
+### Accessories
+Accessories config has no effect.
+
+## Mapping
+See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml) for Bluetooth controller & Wii controller buttons label correspondence.

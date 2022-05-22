@@ -17,6 +17,7 @@
 * [Nintendo 64 adapter cable](#nintendo-64-adapter-cable)
 * [Dreamcast adapter cable](#dreamcast-adapter-cable)
 * [GameCube adapter cable](#gamecube-adapter-cable)
+* [Wii-Ext adapter cable](#wii-ext-adapter-cable)
 
 # Parallel 1P 5V (12 buttons) adapter cable
 For NeoGeo, Supergun, JAMMA or any other 5V parallel input system.
@@ -954,3 +955,26 @@ GND | GC P3 | 3, 4, SH | GND | BlueRetro Power | No
 VIN | GC P4 | 1 | 5V | BlueRetro Power | No
 IO27 | GC P4 | 2 | P4_D | Player 4 DATA | No
 GND | GC P4 | 3, 4, SH | GND | BlueRetro Power | No
+
+# Wii-Ext adapter cable
+
+## Pinout reference
+![](img/cables/wii_pinout.png)
+
+## DIY Through-hole
+Wiimote / NES/SNES mini do not provided enough power for the ESP32, so using an 
+external power source such as USB cable is required.
+If you want to do an internal install see [here](BlueRetro-SNES-Mini-Internal-Install).
+
+### Bill of materials
+* DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
+* DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
+* 1K resistor (x4) (DKPN: CF14JT1K00CT-ND PN: CF14JT1K00)
+* Wii extension controller plug (x2)
+
+### Cable schematic
+ [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Wii.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/Wii.pdf)
+
+### Assembly instructions
+* If using an universal FW, make sure to connect I39 to GND and IO19, IO21, IO22, IO32, IO33, I34 & I35 to GND.
+* If not wiring 2nd port plug, make sure to install the 2 1K pull-up on pin IO5 and IO27 anyway.

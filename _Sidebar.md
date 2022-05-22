@@ -3,6 +3,7 @@
     * [DIY ESP32 wiring](BlueRetro-DIY-Build-Instructions)
     * [DIY cable wiring](BlueRetro-Cables-Build-Instructions)
     * [Consolise w/ BlueRetro](BlueRetro-Consolize-Build-Instructions)
+    * [SNES Mini internal install](BlueRetro-SNES-Mini-Internal-Install)
     * [HW files repo](https://github.com/darthcloud/BlueRetroHW)
   * SW Compiling
     * [Dev env setup](https://github.com/darthcloud/BlueRetroRoot)
