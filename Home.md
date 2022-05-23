@@ -30,6 +30,16 @@
   * 10 sec hold: Factory reset BlueRetro to default configuration and clear BT pairing keys.
 * EN: Reboot BlueRetro.
 
+# System macro
+I'm using generic label to descripbe the macro here. Refer to [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml) for specific buttons.\
+The macro button refer to the destination button and follow the mapping configuration.
+
+* Disconnect controller (+ power off internal mod): Main Left Trigger + Main Right Trigger + Middle Left (Start) + Face Down
+* System reset internal mod: Main Left Trigger + Main Right Trigger + Middle Left (Start) + Face Left
+* Toogle Pairing mode on/off : Main Left Trigger + Main Right Trigger + Middle Left (Start) + Face Right
+* Factory Reset: Main Left Trigger + Main Right Trigger + Middle Left (Start) + Face Up + D-pad Up
+* Deep Sleep: Main Left Trigger + Main Right Trigger + Middle Left (Start) + Face Up + D-pad Down
+
 # LED usage (IO17)
 
 * Solid: An error occured, try power cycle, check serial logs for detail.
