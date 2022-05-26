@@ -4,6 +4,7 @@
 * [Building hardware](#building-hardware)
 * [System Specific User Manual](#system-specific-user-manual)
 * [ESP32 buttons usage](#esp32-buttons-usage)
+* [System macro](#system-macro)
 * [LED usage](#led-usage-io17)
 * [Updating firmware](#updating-firmware)
 * [Web config](#web-config)
