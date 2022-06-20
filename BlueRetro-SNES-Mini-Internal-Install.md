@@ -11,7 +11,7 @@ Special perk in doing so are the ability to power on/off & reset the console fro
 the Bluetooth controllers. Ability to use the wired controller is retained and is detected
 at any time.
 
-Famicom & NES mini should be supported as well, the technical aspect is the same exept the
+Famicom & NES mini should be supported as well, the technical aspect is the same except the
 point on PCB are likely different. I do not own either so I can't provided pictures myself.
 
 Unfortunately this doesn't work with the Hakchi CE kernel. For some reason random buttons
@@ -26,6 +26,7 @@ press glitch appear when using that kernel. I debugged this for a week and could
 * Green LED (x1) (DKPN: 160-1130-ND PN: LTL-4233)
 * 2K resistor (x4) (DKPN: CF14JT2K00CT-ND PN: CF14JT2K00)
 * 47K resistor (x2) (DKPN: CF14JT47K0CT-ND PN: CF14JT47K0)
+* (Optional) DPDT toggle switch (x1) (DKPN: 450-2097-ND PN: TMD1T3B1M1QE) (Needed if you need to get into Recovery mode for Hakchi)
 
 # Install instructions
 
@@ -73,6 +74,9 @@ the PMIC threshold.
 
 2. Wire up the ESP32 to PCB point.\
    **Note that the PCB point # are not marked on the SNES mini PCB.**
+
+   **IO13 & IO14 will interfere with getting the SNES mini in recovery mode which Hakchi install require.**
+   **Use the optional DPDT toggle switch to allow easily disconnecting both pad from the ESP32 when needed**
 
    [![](img/mini/pcb_point.png)](img/mini/pcb_point.png)
 
