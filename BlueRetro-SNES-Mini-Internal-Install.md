@@ -1,5 +1,3 @@
-# **Original Kernel is supported ONLY. A glitch create random button press when using Hakchi2 CE kernel. No idea why!**
-
 # Table of contents
 * [Intro](#intro)
 * [Bill of materials](#bill-of-materials)
@@ -14,8 +12,7 @@ at any time.
 Famicom & NES mini should be supported as well, the technical aspect is the same except the
 point on PCB are likely different. I do not own either so I can't provided pictures myself.
 
-Unfortunately this doesn't work with the Hakchi CE kernel. For some reason random buttons
-press glitch appear when using that kernel. I debugged this for a week and couldn't figure it out...
+Work with both original Nintendo FW and Hakchi CE FW.
 
 # Bill of materials
 * ESP32-DEVKITC-32E with ESP-WROOM-32 (Get it on [Digikey](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-DEVKITC-32E/12091810?s=N4IgTCBcDaIKYGcAOBmMBaAJnAbgawEsAXAY3TThAF0BfIA) or [Mouser](https://www.mouser.com/ProductDetail/Espressif-Systems/ESP32-DevKitC-32E?qs=sGAEpiMZZMv0NwlthflBi3XYxq%252BTapwyHnR2%2FrAf4bY%3D))
