@@ -16,17 +16,64 @@
 ### Windows
 
 1. Download and install [Sixaxis Pair Tool](https://sixaxispairtool.en.lo4d.com/windows#:~:text=The%20Sixaxis%20Pair%20Tool%20is,games%20with%20your%20PS3%20controller.)
-2. Get your BlueRetro/ESP32 BDADDR (MAC) from the serial log (See this [guide](https://github.com/darthcloud/BlueRetro/wiki/Getting-BlueRetro-debug-logs-via-Serial-port-Windows-10) to setup serial log)
-```
-# bt_hci_cmd_read_bd_addr
-# BT_HCI_EVT_CMD_COMPLETE
-# local_bdaddr: 84:0D:8E:E6:5A:56
-```
+2. Determine BlueRetro MAC address
+
+- Open https://blueretro.io/ in a chrome web browser (desktop/android)
+- Navigate to "BlueRetro System Manager"
+- Click on "Connect BlueRetro"
+- Pair your device
+
+    On connection the MAC address of the device will be shown. Write it down.
+
+    ```
+    Connected to:BlueRetro_XX_XXXX
+    (XX:XX:XX:XX:XX:XX)[v.x.x.x]
+    ```
 3. Connect your PS3 controller to PC using USB cable.
 4. Launch Sixaxis pair tool and type in the address found in step #2.\
 ![](img/SixaxisPairTool_v0FDiegEiq.png)
 5. Click update, once done disconnect the controller from PC.
 6. Boot up BlueRetro and press the PS button, the controller should connect to BlueRetro.
+
+### OSX
+
+1. Install Prerequisites (macOS)
+
+- Install Homebrew https://brew.sh
+- Install required libs & packages
+
+    ```brew install wget libusb libusb-compat```
+
+2. Compile sixpair binary
+
+    ```
+    mkdir ~/Documents/sixpair
+    cd ~/Documents/sixpair
+    wget -O sixpair.c https://gist.github.com/wouterds/4ab5715966812009d634e3d034abc7fc/raw
+    gcc -o sixpair sixpair.c -lusb
+    ```
+
+    If everything went well you should now have a sixpair executable at `~/Documents/sixpair`.
+
+3. Determine BlueRetro MAC address
+
+- Open https://blueretro.io/ in a chrome web browser (desktop/android)
+- Navigate to "BlueRetro System Manager"
+- Click on "Connect BlueRetro"
+- Pair your device
+
+    On connection the MAC address of the device will be shown. Write it down.
+
+    ```
+    Connected to:BlueRetro_XX_XXXX
+    (XX:XX:XX:XX:XX:XX)[v.x.x.x]
+    ```
+
+- Open a shell terminal and set the master PS3 address to BlueRetro MAC address
+
+    ```
+    .~/Documents/sixpair/sixpair XX:XX:XX:XX:XX:XX
+    ```
 
 ## Reconnect
 
