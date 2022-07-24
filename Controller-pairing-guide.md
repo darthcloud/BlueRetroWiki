@@ -6,6 +6,7 @@
 * [Wii & WiiU Pro](#wii--wiiu-pro)
 * [Switch Pro & Joycon](#switch-pro--joycon)
 * [8bitdo](#8bitdo)
+* [Retro-Bit](#retro-bit)
 
 # PS3
 
@@ -148,3 +149,15 @@ Update via the [8bitdo Win10 app](https://www.microsoft.com/en-us/p/xbox-accesso
 
 ## Reconnect
 1. Simply press Start on controller and it will reconnect to BlueRetro.
+
+# Retro-Bit
+
+## First pairing
+
+1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing)
+2. Power up Retro-Bitcontroller in Xinput mode (Home + X) (Only Xinput mode supported!!)
+2. If done properly 2 LEDs will flash.
+3. LEDs will stop flashing on controller once pairing is complete and rumble will trigger.
+
+## Reconnect
+1. Simply press Homeon controller and it will reconnect to BlueRetro.
