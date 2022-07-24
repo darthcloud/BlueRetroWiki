@@ -155,7 +155,7 @@ Update via the [8bitdo Win10 app](https://www.microsoft.com/en-us/p/xbox-accesso
 ## First pairing
 
 1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing)
-2. Power up Retro-Bitcontroller in Xinput mode (Home + X) (Only Xinput mode supported!!)
+2. Power up Retro-Bit controller in Xinput mode (Home + X) (Only Xinput mode supported!!)
 2. If done properly 2 LEDs will flash.
 3. LEDs will stop flashing on controller once pairing is complete and rumble will trigger.
 
