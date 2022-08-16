@@ -1,12 +1,12 @@
 # 0 Table of contents
-* [1 ESP32 power source](#building-hardware)
-* [2 Power switch & relay](#system-specific-user-manual)
-* [3 Reset button](#esp32-buttons-usage)
-* [4 Console power detection](#system-macro)
-* [5 Controller port detection](#led-usage-io17)
-* [6 Port status LED](#updating-firmware)
-* [7 Global status LED](#web-config)
-* [8 System specific specification](#pairing-bluetooth-controller)
+* [1 ESP32 power source](#1-esp32-power-source)
+* [2 Power switch & relay](#2-power-switch--relay)
+* [3 Reset button](#3-reset-button)
+* [4 Console power detection](#4-console-power-detection)
+* [5 Controller port detection](#5-controller-port-detection)
+* [6 Port status LED](#6-port-status-led)
+* [7 Global status LED](#7-global-status-led)
+* [8 System specific specification](#8-system-specific-specification)
 
 # 1 ESP32 power source
 The ESP32 needs to be always ON to be able to power up the system on Bluetooth connection.
@@ -140,7 +140,6 @@ TODO SCHEM PIC
 * All port LED are used to indicate current switch function (See 3)
 
 # 7 Global status LED
-# 6 Port status LED
 ESP32 IO | Direction | Function | Note
 ---------- | ---------- | --------- | ------
 17 | Output | BlueRetro status LED | 3.3v level
