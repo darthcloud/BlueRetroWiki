@@ -40,7 +40,9 @@ Con:
 ### Option 2: Relay wired in parallel
 The relay is wired in parallel with the system power switch.
 
-### Option 3: Logic
+### Option 3: Logic signal to PMIC
+Only possible for system where power on is controlled by a logic digital signal. Only IO13 is used in this case.
+
 TODO SCHEM PIC
 
 Pro:
@@ -159,6 +161,16 @@ TODO SCHEM PIC
 System specific specification take precedence over the preceding global specification
 
 ### GameCube
+ESP32 IO | Direction | Function | Note
+---------- | ---------- | --------- | ------
+19 | Both | Player 1 DATA | 
+5 | Both | Player 2 DATA | 
+26 | Both | Player 3 DATA | 
+27 | Both | Player 4 DATA | 
+
+* 1 ESP32 power source: Use option 1
+* 2 Power switch & relay: Use option 1 or 2
+* 5 Controller port detection: Use option 2
 
 ### (S)NES Mini Classic
 
