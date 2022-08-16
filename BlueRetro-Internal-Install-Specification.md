@@ -40,16 +40,16 @@ Con:
 ### Option 2: Relay wired in parallel
 The relay is wired in parallel with the system power switch.
 
-### Option 3: Logic signal to PMIC
-Only possible for system where power on is controlled by a logic digital signal. Only IO13 is used in this case.
-
-TODO SCHEM PIC
-
 Pro:
 * Power switch can be used as usual in addition to powering via the relay (BT connect or reset switch)
 
 Con:
 * Turning off the ESP32 require pulling the power cord.
+
+### Option 3: Logic signal to PMIC
+Only possible for system where power on is controlled by a logic digital signal. Only IO13 is used in this case.
+
+TODO SCHEM PIC
 
 # 3 Reset button
 ESP32 IO | Direction | Function | Note
