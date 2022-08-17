@@ -26,6 +26,7 @@ ESP32 IO | Direction | Function | Note
 13 | Output | Relay Set / Power set | Idle low, set high 20ms
 16 | Output | Relay Unset | Idle low, set high 20ms
 
+Use a dual coil latching relay.
 Multiple relays or a relay with multi pole might be required for system with more than one supply voltage.
 
 ### Option 1: Relay wired in series
@@ -116,7 +117,7 @@ This require isolating each port shield from the system GND and connecting each 
 ### Option 3: Add switch inside port
 Mainly for system with big plastic connector: N64
 
-Drill small hole in each connector outer edge receptacle and attach a SPST switch to it in a way that the controller plug close it once fully inserted. Connect one of the switch connect to GND and the other to the corresponding detection pin. Each pin need a 10K pull-up resistor as well.
+Drill small hole in each connector outer edge receptacle and attach a SPST switch to it in a way that the controller plug close it once fully inserted. Connect one of the switch pin to GND and the other to the corresponding detection pin. Each pin need a 10K pull-up resistor as well.
 
 ### Option 4: Use a current mirror
 The current mirror circuit allow to detect connected wired controller by measuring current draw from the port.
@@ -145,7 +146,7 @@ All those pin are ESP32 strapping pin. Interface via MOSFET to avoid problem at 
 * Port which got an active BT connection will have it's corresponding LED solid.
 
 ### Behavior while system reset is pressed (Boot button)
-* All port LED are used to indicate current switch function (See 3)
+* All port LED are used to indicate current switch function (See [3](#system-reset-behavior-while-esp32-on-and-system-on))
 
 # 7 Global status LED
 ESP32 IO | Direction | Function | Note
@@ -158,7 +159,7 @@ ESP32 IO | Direction | Function | Note
 * LED will be pulsing.
 
 ### Behavior while system reset is pressed (Boot button)
-* LED indicate current switch function (See 3)
+* LED indicate current switch function (See [3](#system-reset-behavior-while-esp32-on-and-system-on))
 
 ### Behavior when an unrecoverable error occur
 * LED will be solid.
