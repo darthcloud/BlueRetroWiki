@@ -1,3 +1,5 @@
+# This is not a modding guide. While all the information is listed, you need to be experienced in electronic to make use of this information.
+
 # 0 Table of contents
 * [1 ESP32 power source](#1-esp32-power-source)
 * [2 Power switch & relay](#2-power-switch--relay)
@@ -29,13 +31,13 @@ Multiple relays or a relay with multi pole might be required for system with mor
 ### Option 1: Relay wired in series
 The relay is wired in series after the system power switch.
 
-TODO SCHEM PIC
-
 Pro:
-* It's is possible for the user to completely turn of console, including the ESP32.
+* It's is possible for the user to completely turn off console, including the ESP32.
 
 Con:
 * The power switch now become a "hard" power switch. The reset button is now used as a "soft" power switch.
+
+![](img/relay_series.png)
 
 ### Option 2: Relay wired in parallel
 The relay is wired in parallel with the system power switch.
@@ -46,10 +48,11 @@ Pro:
 Con:
 * Turning off the ESP32 require pulling the power cord.
 
-### Option 3: Logic signal to PMIC
+![](img/relay_para.png)
+
+### Option 3: Logic signal
 Only possible for system where power on is controlled by a logic digital signal. Only IO13 is used in this case.
 
-TODO SCHEM PIC
 
 # 3 Reset button
 ESP32 IO | Direction | Function | Note
@@ -59,6 +62,8 @@ ESP32 IO | Direction | Function | Note
 
 In an internal install, the ESP32 boot button take over the system physical reset switch.
 The original system reset signal is managed by the ESP32.
+
+![](img/reset_sw.png)
 
 ### System reset behavior while ESP32 off & system off
 * Holding system reset and then powering system put the ESP32 in boot (download) mode. Effectively disabling it for the current power session.
@@ -87,7 +92,8 @@ ESP32 IO | Direction | Function | Note
 Connected directly to system 3.3v power rail.
 
 For 5V system use a voltage divider:
-TODO SCHEM PIC
+
+![](img/voltage_divider.png)
 
 # 5 Controller port detection
 ESP32 IO | Direction | Function | Note
@@ -118,7 +124,7 @@ Good for any system which controller draw at least 1mA.
 
 This require isolating the power pin of the connector and placing the current mirror circuit between the port and system power rail.
 
-TODO SCHEM PIC
+![](img/current_mirror_3v3.png) ![](img/current_mirror_5v.png)
 
 # 6 Port status LED
 ESP32 IO | Direction | Function | Note
@@ -130,7 +136,7 @@ ESP32 IO | Direction | Function | Note
 
 All those pin are ESP32 strapping pin. Interface via MOSFET to avoid problem at boot.
 
-TODO SCHEM PIC
+![](img/port_led.png)
 
 ### Behavior while in pairing mode
 * The first available port LED will be pulsing.
@@ -146,7 +152,7 @@ ESP32 IO | Direction | Function | Note
 ---------- | ---------- | --------- | ------
 17 | Output | BlueRetro status LED | 3.3v level
 
-TODO SCHEM PIC
+![](img/sts_led.png)
 
 ### Behavior while in pairing mode
 * LED will be pulsing.
@@ -167,6 +173,8 @@ ESP32 IO | Direction | Function | Note
 5 | Both | Player 2 DATA | 
 26 | Both | Player 3 DATA | 
 27 | Both | Player 4 DATA | 
+
+![](img/cables/gamecube_pinout.png)
 
 * 1 ESP32 power source: Use option 1
 * 2 Power switch & relay: Use option 1 or 2
