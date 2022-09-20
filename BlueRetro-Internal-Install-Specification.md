@@ -6,9 +6,10 @@
 * [3 Reset button](#3-reset-button)
 * [4 Console power detection](#4-console-power-detection)
 * [5 Controller port detection](#5-controller-port-detection)
-* [6 Port status LED](#6-port-status-led)
-* [7 Global status LED](#7-global-status-led)
-* [8 System specific specification](#8-system-specific-specification)
+* [6 Bus conflict mitigation](#6-bus-conflict-mitigation)
+* [7 Port status LED](#7-port-status-led)
+* [8 Global status LED](#8-global-status-led)
+* [9 System specific specification](#9-system-specific-specification)
 
 # 1 ESP32 power source
 The ESP32 needs to be always ON to be able to power up the system on Bluetooth connection.
@@ -127,7 +128,25 @@ This require isolating the power pin of the connector and placing the current mi
 
 ![](img/current_mirror_3v3.png) ![](img/current_mirror_5v.png)
 
-# 6 Port status LED
+# 6 Bus conflict mitigation
+
+### 3V3 level bus
+(PS1, PS2, N64, GC, DC)
+BlueRetro firmware will make sure to prevent bus conflict by setting it's output pin as input (High impedance) when wired connection is detected.
+
+### 5V level bus (Push-Pull)
+Those systems require the usage of level shifter, as such their OE pin is then used to prevent bus conflict for the output pins.
+BlueRetro FW will not take any action to avoid bus conflicts on those systems.
+
+Simply connect the port detection logic output for one port to each of the OE line that control an output for that port.
+
+Since the port detection logic is HIGH for using BlueRetro data, 74AHCT126N (or single gate 74AHCT1G126 variant) need to be used as their OE line is not inverted.
+
+### 5V level bus (Open-drain)
+(Parallel 1P & 2P)
+No action required, since the idle state high is driven by the console own internal pull-up, no conflict will occur if BT and wired controller are not actively used simultaneously.
+
+# 7 Port status LED
 ESP32 IO | Direction | Function | Note
 ---------- | ---------- | --------- | ------
 2 | Output | Controller port 1 LED | 3.3v level
@@ -148,7 +167,7 @@ All those pin are ESP32 strapping pin. Interface via MOSFET to avoid problem at 
 ### Behavior while system reset is pressed (Boot button)
 * All port LED are used to indicate current switch function (See [3](#system-reset-behavior-while-esp32-on-and-system-on))
 
-# 7 Global status LED
+# 8 Global status LED
 ESP32 IO | Direction | Function | Note
 ---------- | ---------- | --------- | ------
 17 | Output | BlueRetro status LED | 3.3v level
@@ -164,7 +183,7 @@ ESP32 IO | Direction | Function | Note
 ### Behavior when an unrecoverable error occur
 * LED will be solid.
 
-# 8 System specific specification
+# 9 System specific specification
 System specific specification take precedence over the preceding global specification
 
 ### GameCube
