@@ -9,7 +9,7 @@
 * [6 Bus conflict mitigation](#6-bus-conflict-mitigation)
 * [7 Port status LED](#7-port-status-led)
 * [8 Global status LED](#8-global-status-led)
-* [9 System specific specification](#9-system-specific-specification)
+* [9 Wired interface pinout](#9-wired-interface-pinout)
 
 # 1 ESP32 power source
 The ESP32 needs to be always ON to be able to power up the system on Bluetooth connection.
@@ -25,7 +25,11 @@ The ESP32 needs to be always ON to be able to power up the system on Bluetooth c
 ESP32 IO | Direction | Function | Note
 ---------- | ---------- | --------- | ------
 13 | Output | Relay Set / Power set | Idle low, set high 20ms
-16 | Output | Relay Unset | Idle low, set high 20ms
+16* | Output | Relay Unset | Idle low, set high 20ms
+
+```
+* Relay Unset pin # for Mega Drive / Genesis / Saturn is IO12 due to conficts
+```
 
 Use a dual coil latching relay.
 Multiple relays or a relay with multi pole might be required for system with more than one supply voltage.
@@ -65,6 +69,10 @@ ESP32 IO | Direction | Function | Note
 In an internal install, the ESP32 boot button take over the system physical reset switch.
 The original system reset signal is managed by the ESP32.
 
+If the system logic is 3V3, the ESP32 output pin is set to open drain.
+
+If the system logic is 5V, a 3 state buffer need to be used. It's wired so the ESP32 control it's /OE line to toggle between LO and High-Z state.
+
 ![](img/reset_sw.png)
 
 ### System reset behavior while ESP32 off & system off
@@ -100,12 +108,17 @@ For 5V system use a voltage divider:
 # 5 Controller port detection
 ESP32 IO | Direction | Function | Note
 ---------- | ---------- | --------- | ------
-35 | Input | Controller port 1 detect | 3.3v level, low: port used, high: port free
-36 | Input | Controller port 2 detect | 3.3v level, low: port used, high: port free
+35* | Input | Controller port 1 detect | 3.3v level, low: port used, high: port free
+36** | Input | Controller port 2 detect | 3.3v level, low: port used, high: port free
 32 | Input | Controller port 3 detect | 3.3v level, low: port used, high: port free
 33 | Input | Controller port 4 detect | 3.3v level, low: port used, high: port free
 
-To avoid original wired controller and BlueRetro from interfering each other on the controller bus some sort of mechanism need to be used to drive the corresponding port detection pin.
+```
+* P1 pin # for Mega Drive / Genesis / Saturn / Jaguar is IO15 due to conficts
+** P2 pin # for Mega Drive / Genesis / Saturn / Jaguar is I34 due to conficts
+```
+
+To avoid original wired controller and BlueRetro from interfering each other on the controller bus, some sort of mechanism need to be used to drive the corresponding port detection pin.
 
 ### Option 1: Use existing system controller detection pin
 Only for Wii extension based system like NES & SNES classic
@@ -122,9 +135,11 @@ Drill small hole in each connector outer edge receptacle and attach a SPST switc
 
 ### Option 4: Use a current mirror
 The current mirror circuit allow to detect connected wired controller by measuring current draw from the port.
-Good for any system which controller draw at least 1mA.
+Good for any system which controller draw at least 500 uA.
 
 This require isolating the power pin of the connector and placing the current mirror circuit between the port and system power rail.
+
+See ManCloud's repo for more info: https://github.com/ManCloud/CurrentTrigger
 
 ![](img/current_mirror_3v3.png) ![](img/current_mirror_5v.png)
 
@@ -183,24 +198,5 @@ ESP32 IO | Direction | Function | Note
 ### Behavior when an unrecoverable error occur
 * LED will be solid.
 
-# 9 System specific specification
-System specific specification take precedence over the preceding global specification
-
-### GameCube
-ESP32 IO | Direction | Function | Note
----------- | ---------- | --------- | ------
-19 | Both | Player 1 DATA | 
-5 | Both | Player 2 DATA | 
-26 | Both | Player 3 DATA | 
-27 | Both | Player 4 DATA | 
-
-![](img/cables/gamecube_pinout.png)
-
-* 1 ESP32 power source: Use option 1
-* 2 Power switch & relay: Use option 1 or 2
-* 5 Controller port detection: Use option 2
-
-### (S)NES Mini Classic
-
-### Others
-No other system is supported for internal install at this time.
+# 9 Wired interface pinout
+See [BlueRetro Core Pinout Specification](BlueRetro-Core-Pinout-Specification)
