@@ -1,48 +1,113 @@
 # BlueRetro User Manual
 
 # Table of contents
-* [Building hardware](#building-hardware)
-* [System Specific User Manual](#system-specific-user-manual)
-* [ESP32 buttons usage](#esp32-buttons-usage)
-* [System macro](#system-macro)
-* [LED usage](#led-usage-io17)
+* [Building hardware HW1](#building-hardware-hw1)
+* [Building hardware HW2](#building-hardware-hw2)
+* [System Specific User Manual](#system-specific-web-config-user-manual)
+* [Physical buttons usage](#physical-buttons-usage)
+* [Button combinations functions](#button-combinations-functions)
+* [LED usage IO17](#led-usage-io17)
 * [Updating firmware](#updating-firmware)
 * [Web config](#web-config)
 * [Pairing Bluetooth controller](#pairing-bluetooth-controller)
 * [Getting BlueRetro debug logs](#getting-blueretro-debug-logs)
 
-# Building hardware
+# Building hardware HW1
+HW1 is the original BlueRetro specification and the easiest one to build yourself.
+Port usage can't be detected and as such any installed controller plug on the BlueRetro
+is required to be plug in the console. Unused port pin need to be wired in a stable state
+as described in the cable building guide.
 
 * [DIY ESP32 module flashing & wiring instructions](BlueRetro-DIY-Build-Instructions)
 * [BlueRetro Cables Build Instructions](BlueRetro-Cables-Build-Instructions)
 * [BlueRetro Consolize system](BlueRetro-Consolize-Build-Instructions)
-* [SNES Mini internal install](BlueRetro-SNES-Mini-Internal-Install)
 
-# System Specific User Manual
+[pmgducati](https://github.com/pmgducati) created very nice pcbs that make it very easy
+to make DIY BlueRetro universal with detachable cable adapters: https://github.com/pmgducati/Blue-Retro-AIO-Units
 
-[System Specific User Manual](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-System-Specific-User-Manual)
+# Building hardware HW2
+HW2 specification require a lot more connection and as such is not recommended
+for novice in electronic at all. HW2 main feature is active port connection detection.
+This allow making internal install without intefering with wired controllers (Wired
+controllers take precedance on the bus). This also allow external adapter with multiple
+cable plugs to not require every plugs to be connected.
 
-# ESP32 buttons usage
+Power & Reset management are optional feature supported by HW2 aswell.
 
-* BOOT:
-  * Short press (outside BT inquiry mode): Disconnect all Bluetooth devices from the adapter.
-  * Short press (BT inquiry mode): Cancel Bluetooth inquiry mode (new pairing).
-  * 3 sec hold: Enable Bluetooth inquiry mode (new pairing).
-  * 10 sec hold: Factory reset BlueRetro to default configuration and clear BT pairing keys.
-* EN: Reboot BlueRetro.
+I'm not providing guide for HW2, only a specification so if you go that route I'm
+expecting you known what your are doing.
 
-# System macro
-I'm using generic label to descripbe the macro here. Refer to [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml) for specific buttons.\
-The macro button refer to the destination button and follow the mapping configuration.
+If you are not sure if you should build HW1 or HW2: the answer is build HW1!
 
-* Disconnect controller (+ power off internal mod): Main Left Trigger + Main Right Trigger + Middle Right (Start) + Face Down
-* System reset internal mod: Main Left Trigger + Main Right Trigger + Middle Right (Start) + Face Left
-* Toogle Pairing mode on/off : Main Left Trigger + Main Right Trigger + Middle Right (Start) + Face Right
-* Factory Reset: Main Left Trigger + Main Right Trigger + Middle Right (Start) + Face Up + D-pad Up
-* Deep Sleep: Main Left Trigger + Main Right Trigger + Middle Right (Start) + Face Up + D-pad Down
+* [Internal install HW2 spec](BlueRetro-HW2-Internal-Install-Specification)
+* [External adapter Hw2 spec](BlueRetro-HW2-External-Specification)
+
+[Nostalgic Indulgences](https://twitter.com/nosIndulgences) created multiple guides base on HW2 for internal install. Checkout his GitHub repo: https://github.com/nostalgic-indulgences/BlueRetro_Internal_Installation
+
+# System Specific Web Config User Manual
+This page describe how the generic options of the Web Config apply to each systems supported by BlueRetro.
+
+[System Specific Web Config User Manual](BlueRetro-System-Specific-User-Manual)
+
+# Physical buttons usage
+
+## EN (Reset)
+
+* Reboot BlueRetro
+
+## BOOT (IO0) External adapter
+
+* Button press under < 3 sec (All LEDs solid):\
+  If in pairing mode: Stop pairing mode otherwise all BT devices are disconnect.
+* Button press between > 3 sec and < 6 sec (All LEDs blink slowly):\
+  Start pairing mode.
+* Button press between > 6 sec and < 10 sec (All LEDs blink fast):\
+  Factory reset ESP32 to original BlueRetro firmware the device shipped with & reset configuration.
+
+## BOOT (IO0) Internal install
+
+### System reset behavior while ESP32 on and system on
+* Button press under < 3 sec (All LEDs solid):\
+  Usual system reset.
+* Button press between > 3 sec and < 6 sec (All LEDs blink slowly):\
+  If in pairing mode: Stop pairing mode otherwise all BT devices are disconnect.
+* Button press between > 6 sec and < 10 sec (All LEDs blink fast):\
+  Start pairing mode.
+* Button press over > 10 sec (All LEDs blink very fast):\
+  Factory reset ESP32 to original BlueRetro firmware the device shipped with & reset configuration.
+
+### System reset behavior while ESP32 off & system off
+* Holding system reset and then powering system put the ESP32 in boot (download) mode. Effectively disabling it for the current power session.
+
+### System reset behavior while ESP32 on & system off
+* System is powered on via power relay / power pin
+
+### System reset behavior while ESP32 off and system on
+* While the ESP32 is in boot mode or in deep sleep the system reset function is lost.
+
+# Button combinations functions
+I'm using generic label to descripbe the button combinations here. Refer to [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml) for specific buttons.
+Also added PlayStation buttons name in () to help a bit.
+
+* Disconnect controller (+ power off internal mod):\
+  Main Left Trigger (L2) + Main Right Trigger (R2) + Middle Right (Start)\
+  \+ Face Down (X)
+* System reset internal mod:\
+  Main Left Trigger (L2) + Main Right Trigger (R2) + Middle Right (Start)\
+  \+ Face Left (Square)
+* Toogle Pairing mode on/off:\
+  Main Left Trigger (L2) + Main Right Trigger (R2) + Middle Right (Start)\
+  \+ Face Right (Circle)
+* Factory Reset:\
+  Main Left Trigger (L2) + Main Right Trigger (R2) + Middle Right (Start)\
+  \+ Face Up (Triangle) + D-pad Up
+* Deep Sleep:\
+  Main Left Trigger (L2) + Main Right Trigger (R2) + Middle Right (Start)\
+  \+ Face Up (Triangle) + D-pad Down
 
 # LED usage (IO17)
 
+* See [Physical buttons usage](#physical-buttons-usage) for LED meaning while button BOOT (IO0) is pressed
 * Solid: An error occured, try power cycle, check serial logs for detail.
 * Pulsing: Bluetooth inquiry mode enable (new pairing).
 * Off: No error and Bluetooth inquiry mode disabled.
