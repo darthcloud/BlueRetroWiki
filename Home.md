@@ -3,7 +3,7 @@
 # Table of contents
 * [Building hardware HW1](#building-hardware-hw1)
 * [Building hardware HW2](#building-hardware-hw2)
-* [System Specific User Manual](#system-specific-web-config-user-manual)
+* [System Specific Web Config User Manual](#system-specific-web-config-user-manual)
 * [Physical buttons usage](#physical-buttons-usage)
 * [Button combinations functions](#button-combinations-functions)
 * [LED usage IO17](#led-usage-io17)
