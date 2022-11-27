@@ -1,12 +1,25 @@
 # Table of contents
 
-* [Introduction](#1---introduction)
-* [Advance config page](#2---advance-config-page)
-* [Presets page](#3---presets-page)
-* [System manager page](#4---system-manager-page)
-* [OTA FW update page](#5---ota-fw-update-page)
-* [Files Manager page](#6---files-manager-page)
-* [N64 controller pak manager page](#7---n64-controller-pak-manager-page)
+* [1 - Introduction](#1---introduction)
+* [2 - Advance config page](#2---advance-config-page)
+  * [2.1 - Config Selection](#21---config-selection)
+    * [2.1.1 - Limitation](#211---limitation)
+    * [2.1.2 - How to switch a Game to it's own config](#212---how-to-switch-a-game-to-its-own-config)
+    * [2.1.3 - Per console type config](#213---per-console-type-config)
+  * [2.2 - Global config](#22---global-config)
+  * [2.3 - Output config](#23---output-config)
+  * [2.4 - Mapping config](#24---mapping-config)
+    * [2.4.1 - Turbo / Autofire](#241---turbo--autofire)
+  * [2.5 - Example buttons mapping](#25---example-buttons-mapping)
+  * [2.6 - Example enable rumble](#26---example-enable-rumble)
+* [3 - Presets page](#3---presets-page)
+  * [3.1 - Config Selection](#31---config-selection)
+  * [3.2 - Mapping Config](#32---mapping-config)
+  * [3.3 - Example preset load](#33---example-preset-load)
+* [4 - System manager page](#4---system-manager-page)
+* [5 - OTA FW update page](#5---ota-fw-update-page)
+* [6 - Files Manager page](#6---files-manager-page)
+* [7 - N64 controller pak manager page](#7---n64-controller-pak-manager-page)
 
 # 1 - Introduction
 
@@ -166,24 +179,80 @@ In this example the player 1 rumble is enabled.
 
 # 3 - Presets page
 
-Presets are predefined button mapping for a specific game or game type. They are JSON files located on the server that the client list via GitHub API. A user could simply fork the page on GitHub and upload its own presets.
+Presets are predefined button mapping for a specific game or game type.
+
+# 3.1 - Config Selection
+
+See [2.1 - Config Selection](#21---config-selection) for detail on how to use GameID base config
+feature.
+
+# 3.2 - Mapping Config
+
+![](img/web/presets.png)
+
+The first dropbox let you select which Bluetooth device the preset is going to be applied to.\
+The third dropbox let you select a preset.
+
+The second dropbox is optinal and let you filter the preset list by system.
+
+Once you selected you preset click save to update the mapping on BlueRetro.
+You need to repeat the processor for each additional device you want to configure and
+save each separately.
+
+# 3.3 - Example preset load
+
+![](img/web/load_preset.gif)
 
 # 4 - System manager page
 
+![](img/web/system.png)
+
+* **Put in Deep Sleep**: This will put the BlueRetro device in deep sleep, essentialy disabling it
+  until power is cycled.
+* **Reset**: Reboot BlueRetro device.
+* **Factory Reset**: Factory reset device to original BlueRetro firmware the device shipped with
+  & reset configuration.
+
 # 5 - OTA FW update page
+
+![](img/web/ota.png)
+
+This page let you update the firmware on your BlueRetro device wirelessly. The process is quite
+long and take around 10 minutes with a laptop and much more with a phone.
+
+You simply need to choose the BlueRetro_*.bin file found at the root of the BlueRetro firmware
+zip archive (you need to unzip it first to get the files!) Take the file that match the type
+of BlueRetro device you got.
+
+Finaly simply click **Update Firmware** to start the process. Once the update reach 100% wait
+for the BlueRetro device to disconnect from the page itself. This indicate the update is complete.
+
+![](img/web/ota_update.gif)
 
 # 6 - Files Manager page
 
-I added a new page to allow removing the configs once you reach the limit:
-https://darthcloud.github.io/BlueRetroWebCfg_Beta/files.html
+By default their is only 4 default files. Those files are re-created automatically at
+boot if missing. The file named **config.bin** is the default config.
 
-By default their is only 4 default files. Those files are re-created automatically at boot if missing.
-config.bin is the default config.
-![chrome_06QO6uZOlm](https://user-images.githubusercontent.com/3744056/201498019-762ec777-ad7d-4df7-af4d-9579e05535c0.png)
+![](img/web/files_default.png)
 
-Once you got a few config it will look like this:
-![ApplicationFrameHost_bCuuwf0RMM](https://user-images.githubusercontent.com/3744056/201498088-0338a785-27b1-4416-ae4e-7dea13f2a867.png)
+Once you got a few GameID config saved it will look like this:
 
-The file name will be base on the RAW GameId value, place the cursor over the file name to make an info box appear with the actual Game name.
+![](img/web/files_gameid.png)
+
+The file name will be base on the RAW GameId value, place the cursor over the filename to make an info box appear with the actual Game name.
 
 # 7 - N64 controller pak manager page
+
+BlueRetro do not initialise controller pak by itself. You need to first format them using this
+interface or by using a game that support doing so.
+
+![](img/web/n64_ctrlpak.png)
+
+Select one of the 4 controller pak bank via the dropbox. By default Bank 1 is selected.
+
+* **Read**: This let you download a dump of the currently selected controller pak bank.
+* **Format**: This let you initialize the currently selected controller pak bank.
+* **Write**: This will write the selected MPK file into the currently selected controller pak bank.
+
+To manage the notes contained inside the MPK file I suggest using bryc's [mempak tool](https://bryc.github.io/mempak/).
