@@ -3,7 +3,8 @@
 # Table of contents
 * [1 - Building hardware HW1](#1---building-hardware-hw1)
 * [2 - Building hardware HW2](#2---building-hardware-hw2)
-* [3 - System Specific Web Config User Manual](#3---system-specific-web-config-user-manual)
+* [3 - Web config](#3---web-config)
+  * [3.1 - System Specific Web Config User Manual](#31---system-specific-web-config-user-manual)
 * [4 - Physical buttons usage](#4---physical-buttons-usage)
   * [4.1 - EN (Reset)](#41---en-reset)
   * [4.2 - BOOT (IO0) External adapter](#42---boot-io0-external-adapter)
@@ -17,9 +18,8 @@
 * [7 - Updating firmware](#7---updating-firmware)
   * [7.1 - Via USB serial](#71---via-usb-serial)
   * [7.2 - Via Web-Bluetooth interface (OTA FW update)](#72---via-web-bluetooth-interface-ota-fw-update)
-* [8 - Web config](#8---web-config)
-* [9 - Pairing Bluetooth controller](#9---pairing-bluetooth-controller)
-* [10 - Getting BlueRetro debug logs](#10---getting-blueretro-debug-logs)
+* [8 - Pairing Bluetooth controller](#9---pairing-bluetooth-controller)
+* [9 - Getting BlueRetro debug logs](#10---getting-blueretro-debug-logs)
 
 # 1 - Building hardware HW1
 HW1 is the original BlueRetro specification and the easiest one to build yourself.
@@ -53,7 +53,15 @@ If you are not sure if you should build HW1 or HW2: the answer is build HW1!
 
 [Nostalgic Indulgences](https://twitter.com/nosIndulgences) created multiple guides base on HW2 for internal install. Checkout his GitHub repo: https://github.com/nostalgic-indulgences/BlueRetro_Internal_Installation
 
-# 3 - System Specific Web Config User Manual
+# 3 - Web config
+
+Power on system and connect via Web Bluetooth at https://blueretro.io to configure adapter.\
+**The config mode is only available if no controller is connected.** \
+**Supported only in Desktop or Android Chrome**
+
+See [BlueRetro BLE Web Config User Manual](BlueRetro-BLE-Web-Config-User-Manual) for more detail.
+
+## 3.1 - System Specific Web Config User Manual
 This page describe how the generic options of the Web Config apply to each systems supported by BlueRetro.
 
 [System Specific Web Config User Manual](BlueRetro-System-Specific-User-Manual)
@@ -116,7 +124,7 @@ Also added PlayStation buttons name in () to help a bit.
 
 # 6 - LED usage (IO17)
 
-* See [Physical buttons usage](#physical-buttons-usage) for LED meaning while button BOOT (IO0) is pressed
+* See [4 - Physical buttons usage](#4---physical-buttons-usage) for LED meaning while button BOOT (IO0) is pressed
 * Solid: An error occured, try power cycle, check serial logs for detail.
 * Pulsing: Bluetooth inquiry mode enable (new pairing).
 * Off: No error and Bluetooth inquiry mode disabled.
@@ -144,15 +152,7 @@ Only internal flash (SPIFFS) firmware are now supported. An universal version wi
 2. Select the BlueRetro\*.bin you want then click Update Firmware button.
 3. Via PC Chrome update should take around 5 minutes, with Android Chrome it will take around 45 minutes (!!!).
 
-# 8 - Web config
-
-Power on system and connect via Web Bluetooth at https://blueretro.io to configure adapter.\
-**The config mode is only available if no controller is connected.** \
-**Supported only in Desktop or Android Chrome**
-
-See [BlueRetro BLE Web Config User Manual](BlueRetro-BLE-Web-Config-User-Manual) for more detail.
-
-# 9 - Pairing Bluetooth controller
+# 8 - Pairing Bluetooth controller
 
 In default configuration BlueRetro is always in inquiry mode (LED pulsing) if no controller is connected\
 Pair via inquiry first (SYNC or pairing mode), on subsequent connection you can simply page (button press or power on button).\
@@ -162,6 +162,6 @@ See guide for more specific instruction: [Pairing Guide](Controller-pairing-guid
 
 Up to 16 connection keys for classic BT and also up to 16 keys for BLE devices can be stored for persistent pairing.
 
-# 10 - Getting BlueRetro debug logs
+# 9 - Getting BlueRetro debug logs
 
 See [Getting BlueRetro debug logs via Serial port Windows 10](Getting-BlueRetro-debug-logs-via-Serial-port-Windows-10)
