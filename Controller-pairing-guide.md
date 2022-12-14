@@ -97,7 +97,7 @@ Xbox One S: 4.8.1923.0\
 Adaptive: 4.5.1680.0\
 Series X|S: 5.9.2709.0
 
-Update via the [Xbox accessories Win10 app](https://www.microsoft.com/en-us/p/xbox-accessories/9nblggh30xj3).
+Update via the [Xbox accessories Win10 app](https://apps.microsoft.com/store/detail/xbox-accessories/9NBLGGH30XJ3).
 
 ## First pairing
 
@@ -138,7 +138,7 @@ As of v1.2.1 the minimum required 8bitdo FW for controller are:\
 SF30: v1.37\
 Gbros adapter: v2.25
 
-Update via the [8bitdo Win10 app](https://www.microsoft.com/en-us/p/xbox-accessories/9nblggh30xj3).
+Update via the [8bitdo Win10 app](https://apps.microsoft.com/store/detail/8bitdo-ultimate-software/9PMC9MN3ZZ85).
 
 ## First pairing
 
