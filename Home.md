@@ -18,8 +18,8 @@
 * [7 - Updating firmware](#7---updating-firmware)
   * [7.1 - Via USB serial](#71---via-usb-serial)
   * [7.2 - Via Web-Bluetooth interface (OTA FW update)](#72---via-web-bluetooth-interface-ota-fw-update)
-* [8 - Pairing Bluetooth controller](#9---pairing-bluetooth-controller)
-* [9 - Getting BlueRetro debug logs](#10---getting-blueretro-debug-logs)
+* [8 - Pairing Bluetooth controller](#8---pairing-bluetooth-controller)
+* [9 - Getting BlueRetro debug logs](#9---getting-blueretro-debug-logs)
 
 # 1 - Building hardware HW1
 HW1 is the original BlueRetro specification and the easiest one to build yourself.
