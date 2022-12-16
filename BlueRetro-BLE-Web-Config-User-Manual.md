@@ -20,6 +20,9 @@
 * [5 - OTA FW update page](#5---ota-fw-update-page)
 * [6 - Files Manager page](#6---files-manager-page)
 * [7 - N64 controller pak manager page](#7---n64-controller-pak-manager-page)
+* [8 - Misc examples](#8---misc-examples)
+  * [8.1 - Mouse config example](#81---mouse-config-example)
+  * [8.2 - Keyboard config example](#82---keyboard-config-example)
 
 # 1 - Introduction
 
@@ -256,3 +259,17 @@ Select one of the 4 controller pak bank via the dropbox. By default Bank 1 is se
 * **Write**: This will write the selected MPK file into the currently selected controller pak bank.
 
 To manage the notes contained inside the MPK file I suggest using bryc's [mempak tool](https://bryc.github.io/mempak/).
+
+# 8 - Misc examples
+
+## 8.1 - Mouse config example
+
+This example show how to configure a mouse output on port 1.
+
+![](img/web/mouse_cfg.gif)
+
+## 8.2 - Keyboard config example
+
+This example show how to configure a keyboard output on port 2.
+
+![](img/web/keyboard_cfg.gif)
