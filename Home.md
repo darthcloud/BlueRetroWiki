@@ -130,7 +130,7 @@ Also added PlayStation buttons name in () to help a bit.
 * Off: No error and Bluetooth inquiry mode disabled.
 
 # 7 - Updating firmware
-**Once flashed via OTA Web interface, FW flashed via USB won't be loaded anymore until the adapter is factory reset. (See [ESP32 buttons usage](#esp32-buttons-usage))**
+**Once flashed via OTA Web interface, FW flashed via USB won't be loaded anymore until the adapter is factory reset. (See [4 - Physical buttons usage](https://github.com/darthcloud/BlueRetro/wiki#4---physical-buttons-usage))**
 
 Download latest binary from [GitHub](https://github.com/darthcloud/BlueRetro/releases) and flash them on your BlueRetro.\
 \
