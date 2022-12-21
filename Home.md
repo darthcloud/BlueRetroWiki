@@ -49,7 +49,7 @@ expecting you known what your are doing.
 If you are not sure if you should build HW1 or HW2: the answer is build HW1!
 
 * [Internal install HW2 spec](BlueRetro-HW2-Internal-Install-Specification)
-* [External adapter Hw2 spec](BlueRetro-HW2-External-Specification)
+* [External adapter HW2 spec](BlueRetro-HW2-External-Specification)
 
 [Nostalgic Indulgences](https://twitter.com/nosIndulgences) created multiple guides base on HW2 for internal install. Checkout his GitHub repo: https://github.com/nostalgic-indulgences/BlueRetro_Internal_Installation
 
