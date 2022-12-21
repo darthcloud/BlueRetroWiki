@@ -1,4 +1,5 @@
-# Flashing firmware Windows 10
+If the COM port of the ESP32 doesn't show up, refer to this guide from espressif (try installing the drivers they suggest).
+https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/establish-serial-connection.html
 
 1. Download the [Flash Download Tools](https://www.espressif.com/en/support/download/other-tools) and unzip.
 2. Execute flash_download_tool_x.y.z.exe\
