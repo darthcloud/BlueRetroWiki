@@ -152,6 +152,9 @@ Only internal flash (SPIFFS) firmware are now supported. An universal version wi
 2. Select the BlueRetro\*.bin you want then click Update Firmware button.
 3. Via PC Chrome update should take around 5 minutes, with Android Chrome it will take around 45 minutes (!!!).
 
+See [OTA FW Update section](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-BLE-Web-Config-User-Manual#5---ota-fw-update-page)
+of the Web config manual for a video example.
+
 # 8 - Pairing Bluetooth controller
 
 In default configuration BlueRetro is always in inquiry mode (LED pulsing) if no controller is connected\
