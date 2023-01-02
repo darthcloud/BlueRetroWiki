@@ -19,7 +19,7 @@
   * [7.1 - Via USB serial](#71---via-usb-serial)
   * [7.2 - Via Web-Bluetooth interface (OTA FW update)](#72---via-web-bluetooth-interface-ota-fw-update)
 * [8 - Pairing Bluetooth controller](#8---pairing-bluetooth-controller)
-* [9 - Getting BlueRetro debug logs](#9---getting-blueretro-debug-logs)
+* [9 - BlueRetro debugging](#9---blueretro-debugging)
 
 # 1 - Building hardware HW1
 HW1 is the original BlueRetro specification and the easiest one to build yourself.
@@ -165,6 +165,7 @@ See guide for more specific instruction: [Pairing Guide](Controller-pairing-guid
 
 Up to 16 connection keys for classic BT and also up to 16 keys for BLE devices can be stored for persistent pairing.
 
-# 9 - Getting BlueRetro debug logs
+# 9 - BlueRetro debugging
 
-See [Getting BlueRetro debug logs via Serial port Windows 10](Getting-BlueRetro-debug-logs-via-Serial-port-Windows-10)
+* See [Getting BlueRetro debug logs via Serial port Windows 10](Getting-BlueRetro-debug-logs-via-Serial-port-Windows-10)
+* See [Getting Bluetooth HCI trace with Windows 10](Bluetooth-HCI-trace-with-Win10)
