@@ -8,9 +8,9 @@ parser code.
 To help me improve support sent me a Bluetooth HCI trace done on Windows 10!
 
 # Software to install
-* Download and install latest version of Wireshark:
+* Download and install latest version of Wireshark:\
   https://www.wireshark.org/#download
-* Download and install latest version of Microsoft Bluetooth Test Platform:
+* Download and install latest version of Microsoft Bluetooth Test Platform:\
   https://learn.microsoft.com/en-us/windows-hardware/drivers/bluetooth/testing-btp-setup-package
 
 # Trace examples
