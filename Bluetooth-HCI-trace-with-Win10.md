@@ -9,6 +9,7 @@ To help me improve support sent me a Bluetooth HCI trace done on Windows 10!
 
 # Software to install
 * Download and install latest version of Wireshark:\
+  You don't need to install any of the optional drivers when prompted\
   https://www.wireshark.org/#download
 * Download and install latest version of Microsoft Bluetooth Test Platform:\
   https://learn.microsoft.com/en-us/windows-hardware/drivers/bluetooth/testing-btp-setup-package
