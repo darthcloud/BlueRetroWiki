@@ -138,7 +138,7 @@ As of v1.2.1 the minimum required 8bitdo FW for controller are:\
 SF30: v1.37\
 Gbros adapter: v2.25
 
-Update via the [8bitdo Win10 app](https://apps.microsoft.com/store/detail/8bitdo-ultimate-software/9PMC9MN3ZZ85).
+Update via the [8bitdo Upgrade tool Win10 app](https://support.8bitdo.com/firmware-updater.html).
 
 ## First pairing
 
