@@ -19,7 +19,7 @@ To help me improve support sent me a Bluetooth HCI trace done on Windows 10!
   1.1. Remove the device from Windows if it had been paired previously:\
        ![](img/remove_paired.png)\
   1.2. Close all existing Wireshark opened window if any.\
-  1.3. Close all existing Virtual Sniffer window if any.\
+  1.3. Close all existing Virtual Sniffer window if any.
 2. Open a windows cmd prompt and execute:
   ```
   C:\BTP\v1.14.0\x86\btvs.exe -Mode Wireshark
