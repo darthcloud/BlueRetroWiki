@@ -9,7 +9,7 @@
 * [7 - 8bitdo Pairing Guide](#7---8bitdo-pairing-guide)
 * [8 - Retro-Bit Pairing Guide](#8---retro-bit-pairing-guide)
 
-# List of tested Bluetooth devices
+# 1 - List of tested Bluetooth devices
 
 | Name | Product Number | Firmware | Mode | Mapping Src Label | Mapping preset | Pairing Guide | Known issues | Unconfirm issues |
 | ---- | -------------- | -------- | ---- | ----------------- | -------------- | ------------- | ------------ | ---------------- |
