@@ -203,12 +203,12 @@ Update firmware via the [8bitdo Upgrade tool Win10 app](https://support.8bitdo.c
 
 # 8 - Retro-Bit Pairing Guide
 
-## 8.2 - First pairing
+## 8.1 - First pairing
 
 1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing)
 2. Power up Retro-Bit controller in Xinput mode (Home + X) (Only Xinput mode supported!!)
 2. If done properly 2 LEDs will flash.
 3. LEDs will stop flashing on controller once pairing is complete and rumble will trigger.
 
-## 8.3 - Reconnect
+## 8.2 - Reconnect
 1. Simply press Homeon controller and it will reconnect to BlueRetro.
