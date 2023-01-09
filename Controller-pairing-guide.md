@@ -15,9 +15,10 @@
 * [5 - Wii & WiiU Pro Pairing Guide](#5---wii--wiiu-pro-pairing-guide)
   * [5.1 - First pairing](#51---first-pairing)
   * [5.2 - Reconnect](#52---reconnect)
-* [6 - Switch Pro & Joycon Pairing Guide](#6---switch-pro--joycon-pairing-guide)
+* [6 - Switch Pairing Guide](#6---switch-pairing-guide)
   * [6.1 - First pairing](#61---first-pairing)
   * [6.2 - Reconnect](#62---reconnect)
+  * [6.3 - Dual Joycon Pairing Guide](#63---dual-joycon-pairing-guide)
 * [7 - 8bitdo Pairing Guide](#7---8bitdo-pairing-guide)
   * [7.1 - First pairing](#71---first-pairing)
   * [7.2 - Reconnect](#72---reconnect)
@@ -47,7 +48,7 @@
 | Microsoft Xbox One S | 1708 | 5.15.3168.0 | Bluetooth | Xbox One S / X\|S | Default Gamepad | [4](#4---xbox-pairing-guide) |   | [#441](https://github.com/darthcloud/BlueRetro/issues/441) |
 | Microsoft Xbox Series X\|S | 1954 | 5.15.3168.0 | Bluetooth | Xbox One S / X\|S | Default Gamepad | [4](#4---xbox-pairing-guide) |   | [#441](https://github.com/darthcloud/BlueRetro/issues/441) |
 | Nintendo Switch Famicom & NES | HAC-033, 034, 035, 036 |   | Switch | Switch NES | Default Gamepad | [6](#6---switch-pro--joycon-pairing-guide) | [#146](https://github.com/darthcloud/BlueRetro/issues/146) | [#468](https://github.com/darthcloud/BlueRetro/issues/468) [#473](https://github.com/darthcloud/BlueRetro/issues/473) |
-| Nintendo Switch Joycon (Dual) | HAC-015, 016 |   | Switch | Switch Joycon | Switch Left/Right Joycon Upright | [6](#6---switch-pro--joycon-pairing-guide) | [#146](https://github.com/darthcloud/BlueRetro/issues/146) | [#468](https://github.com/darthcloud/BlueRetro/issues/468) [#473](https://github.com/darthcloud/BlueRetro/issues/473) |
+| Nintendo Switch Joycon (Dual) | HAC-015, 016 |   | Switch | Switch Joycon | Switch Left/Right Joycon Upright | [6.3](#63---dual-joycon-pairing-guide) | [#146](https://github.com/darthcloud/BlueRetro/issues/146) | [#468](https://github.com/darthcloud/BlueRetro/issues/468) [#473](https://github.com/darthcloud/BlueRetro/issues/473) |
 | Nintendo Switch Joycon (Single) | HAC-015, 016 |   | Switch | Switch Joycon | Default Gamepad | [6](#6---switch-pro--joycon-pairing-guide) | [#146](https://github.com/darthcloud/BlueRetro/issues/146) | [#468](https://github.com/darthcloud/BlueRetro/issues/468) [#473](https://github.com/darthcloud/BlueRetro/issues/473) |
 | Nintendo Switch MD & Genesis 3btns | HAC-045 |   | Switch | Switch MD / Genesis | Default Gamepad | [6](#6---switch-pro--joycon-pairing-guide) | [#146](https://github.com/darthcloud/BlueRetro/issues/146) | [#468](https://github.com/darthcloud/BlueRetro/issues/468) [#473](https://github.com/darthcloud/BlueRetro/issues/473) |
 | Nintendo Switch MegaDrive 6btns | HAC-046 |   | Switch | Switch MD / Genesis | Default Gamepad | [6](#6---switch-pro--joycon-pairing-guide) | [#146](https://github.com/darthcloud/BlueRetro/issues/146) | [#468](https://github.com/darthcloud/BlueRetro/issues/468) [#473](https://github.com/darthcloud/BlueRetro/issues/473) |
@@ -184,7 +185,7 @@ Update via the [Xbox accessories Win10 app](https://apps.microsoft.com/store/det
 
 1. Simply press any button on controller and it will reconnect to BlueRetro.
 
-# 6 - Switch Pro & Joycon Pairing Guide
+# 6 - Switch Pairing Guide
 
 ## 6.1 - First pairing
 
@@ -194,6 +195,17 @@ Update via the [Xbox accessories Win10 app](https://apps.microsoft.com/store/det
 
 ## 6.2 - Reconnect
 1. Simply press any button twice on controller and it will reconnect to BlueRetro.
+
+## 6.3 - Dual Joycon Pairing Guide
+
+1. Go to https://blueretro.io/blueretro_presets.html and connect to your BlueRetro.
+2. First select output 1 and select "Switch Left Joycon Upright" click save, wait for green text to appear.\
+   <img width="281" alt="chrome_CosPbgOsVu" src="https://user-images.githubusercontent.com/3744056/180513746-d27d6cda-9b59-4c58-8875-885ec6b73f68.png">
+3. Then select output 2 and select "Switch Right Joycon Upright" click save, wait for green text to appear.\
+   <img width="295" alt="chrome_lYNgsZs9ih" src="https://user-images.githubusercontent.com/3744056/180513770-75222de2-fb66-4cef-8e2a-9237ab5b020d.png">
+4. Then pair the joycon with blueretro separately using the sync button hidden on the sliding side.\
+   It's important to connect the left joycon first, then connect the right joycon
+5. After that you can clip them on the middle support and they should function as one controller.
 
 # 7 - 8bitdo Pairing Guide
 Update firmware via the [8bitdo Upgrade tool Win10 app](https://support.8bitdo.com/firmware-updater.html).
