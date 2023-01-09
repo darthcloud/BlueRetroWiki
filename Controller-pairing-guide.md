@@ -2,12 +2,28 @@
 
 * [1 - List of tested Bluetooth devices](#1---list-of-tested-bluetooth-devices)
 * [2 - PS3 Pairing Guide](#2---ps3-pairing-guide)
+  * [2.1 - First pairing](#21---first-pairing)
+    * [2.1.1 - Windows](#211---windows)
+    * [2.1.2 - OSX](#212---osx)
+  * [2.2 - Reconnect](#22---reconnect)
 * [3 - PS4 & PS5 Pairing Guide](#3---ps4--ps5-pairing-guide)
+  * [3.1 - First pairing](#31---first-pairing)
+  * [3.2 - Reconnect](#32---reconnect)
 * [4 - Xbox Pairing Guide](#4---xbox-pairing-guide)
+  * [4.1 - First pairing](#41---first-pairing)
+  * [4.2 - Reconnect](#42---reconnect)
 * [5 - Wii & WiiU Pro Pairing Guide](#5---wii--wiiu-pro-pairing-guide)
+  * [5.1 - First pairing](#51---first-pairing)
+  * [5.2 - Reconnect](#52---reconnect)
 * [6 - Switch Pro & Joycon Pairing Guide](#6---switch-pro--joycon-pairing-guide)
+  * [6.1 - First pairing](#61---first-pairing)
+  * [6.2 - Reconnect](#62---reconnect)
 * [7 - 8bitdo Pairing Guide](#7---8bitdo-pairing-guide)
+  * [7.1 - First pairing](#71---first-pairing)
+  * [7.2 - Reconnect](#72---reconnect)
 * [8 - Retro-Bit Pairing Guide](#8---retro-bit-pairing-guide)
+  * [8.1 - First pairing](#81---first-pairing)
+  * [8.2 - Reconnect](#82---reconnect)
 
 # 1 - List of tested Bluetooth devices
 
