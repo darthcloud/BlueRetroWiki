@@ -30,7 +30,7 @@
 * Controller may have multiple hardware revision, only the ones listed under **Product Number** were tested.
 * Controller behavior may change between their various firmware version, only the firmware listed under **Firmware** is supported.
 * Controller may have various mode of operation, only the ones listed under **Mode** is supported.
-* Controller often spoof the name of another ones and may not be detectable, for those a mapping preset other than default may be required and is liste under ** Mapping preset**.
+* Controller often spoof the name of another ones and may not be detectable, for those a mapping preset other than default may be required and is listed under ** Mapping preset**.
 * Issues reproduced by developer are listed under **Known issues**.
 * Issues reported by user but not reproduced are listed under **Unconfirm issues**.
 
@@ -43,9 +43,9 @@
 | 8bitdo SF30 Pro | 80DB | v2.00 | Xinput | 8bitdo SN30/SF30 | Default Gamepad | [7](#7---8bitdo-pairing-guide) |   |   |
 | Exlene GameCube |   | 2021-11 | Xinput (but they call it IOS) | Exlene GameCube | Exlene GameCube |   |   |   |
 | Hyperkin Admiral N64 | MO7389-AP | v1.5.010722 | Switch | N64 | Default Gamepad |   |   |   |
-| Microsoft Xbox Adaptive | 1836 | 5.15.3168.0 | Bluetooth | Xbox One S / X\|S | Default Gamepad | [4](#4---xbox-pairing-guide) |   |   |
-| Microsoft Xbox One S | 1708 | 5.15.3168.0 | Bluetooth | Xbox One S / X\|S | Default Gamepad | [4](#4---xbox-pairing-guide) |   |   |
-| Microsoft Xbox Series X\|S | 1954 | 5.15.3168.0 | Bluetooth | Xbox One S / X\|S | Default Gamepad | [4](#4---xbox-pairing-guide) |   |   |
+| Microsoft Xbox Adaptive | 1836 | 5.15.3168.0 | Bluetooth | Xbox One S / X\|S | Default Gamepad | [4](#4---xbox-pairing-guide) |   | [#441](https://github.com/darthcloud/BlueRetro/issues/441) |
+| Microsoft Xbox One S | 1708 | 5.15.3168.0 | Bluetooth | Xbox One S / X\|S | Default Gamepad | [4](#4---xbox-pairing-guide) |   | [#441](https://github.com/darthcloud/BlueRetro/issues/441) |
+| Microsoft Xbox Series X\|S | 1954 | 5.15.3168.0 | Bluetooth | Xbox One S / X\|S | Default Gamepad | [4](#4---xbox-pairing-guide) |   | [#441](https://github.com/darthcloud/BlueRetro/issues/441) |
 | Nintendo Switch Famicom & NES | HAC-033, 034, 035, 036 |   | Switch | Switch NES | Default Gamepad | [6](#6---switch-pro--joycon-pairing-guide) | [#146](https://github.com/darthcloud/BlueRetro/issues/146) | [#468](https://github.com/darthcloud/BlueRetro/issues/468) [#473](https://github.com/darthcloud/BlueRetro/issues/473) |
 | Nintendo Switch Joycon (Dual) | HAC-015, 016 |   | Switch | Switch Joycon | Switch Left/Right Joycon Upright | [6](#6---switch-pro--joycon-pairing-guide) | [#146](https://github.com/darthcloud/BlueRetro/issues/146) | [#468](https://github.com/darthcloud/BlueRetro/issues/468) [#473](https://github.com/darthcloud/BlueRetro/issues/473) |
 | Nintendo Switch Joycon (Single) | HAC-015, 016 |   | Switch | Switch Joycon | Default Gamepad | [6](#6---switch-pro--joycon-pairing-guide) | [#146](https://github.com/darthcloud/BlueRetro/issues/146) | [#468](https://github.com/darthcloud/BlueRetro/issues/468) [#473](https://github.com/darthcloud/BlueRetro/issues/473) |
@@ -58,7 +58,7 @@
 | Nintendo Wiimote + Classic | RVL-005 |   | Wii | Wiimote + Classic | Default Gamepad | [5](#5---wii--wiiu-pro-pairing-guide) |   |   |
 | Nintendo Wiimote + Classic Pro | RVL-005 (-02) |   | Wii | Wiimote + Classic Pro | Default Gamepad | [5](#5---wii--wiiu-pro-pairing-guide) |   |   |
 | Nintendo Wiimote + Nunchuck | RVL-004 |   | Wii | Wiimote + Nunchuck | Default Gamepad | [5](#5---wii--wiiu-pro-pairing-guide) |   |   |
-| Nintendo WiiU Pro | WUP-005 |   | Wii | WiiU / Switch Pro | Default Gamepad | [5](#5---wii--wiiu-pro-pairing-guide) |   |   |
+| Nintendo WiiU Pro | WUP-005 |   | Wii | WiiU / Switch Pro | Default Gamepad | [5](#5---wii--wiiu-pro-pairing-guide) | [#3](https://github.com/darthcloud/BlueRetro/issues/3) |   |
 | PowerA GameCube | 1511638-01 |   | Switch | GameCube | Default Gamepad | [6](#6---switch-pro--joycon-pairing-guide) |   |   |
 | Retro-Bit SEGA Saturn Bluetooth |   |   | Xinput | Saturn | Default Gamepad | [8](#8---retro-bit-pairing-guide) |   |   |
 | RetroFighter Brawler64 Bluetooth |   |   | Xinput | N64 | Default Gamepad |   |   |   |
