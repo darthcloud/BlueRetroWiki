@@ -17,7 +17,7 @@
 | 8bitdo M30 Bluetooth | 80HA | v1.15 | Xinput | Saturn | Default Gamepad |   |   |
 | 8bitdo N30 Arcade Stick | NS30 | v5.10 | Xinput | Xbox One S / X\|S | Default Gamepad |   |   |
 | 8bitdo N64 | RB8-N64 | v2.00 | HID Generic | N64 | Default Gamepad |   |   |
-| 8bitdo SF30 Pro | 80DB | v2.00 | Xinput | 8bitdo SNES | Default Gamepad |   |   |
+| 8bitdo SF30 Pro | 80DB | v2.00 | Xinput | 8bitdo SN30/SF30 | Default Gamepad |   |   |
 | Exlene GameCube |   | 2021-11 | Xinput (but they call it IOS) | Exlene GameCube | Exlene GameCube |   |   |
 | Hyperkin Admiral N64 | MO7389-AP | v1.5.010722 | Switch | N64 | Default Gamepad |   |   |
 | Microsoft Xbox Adaptive | 1836 | 5.15.3168.0 | Bluetooth | Xbox One S / X\|S | Default Gamepad |   |   |
