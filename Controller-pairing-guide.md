@@ -27,9 +27,16 @@
 
 # 1 - List of tested Bluetooth devices
 
+* Controller may have multiple hardware revision, only the ones listed under **Product Number** were tested.
+* Controller behavior may change between their various firmware version, only the firmware listed under **Firmware** is supported.
+* Controller may have various mode of operation, only the ones listed under **Mode** is supported.
+* Controller often spoof the name of another ones and may not be detectable, for those a mapping preset other than default may be required and is liste under ** Mapping preset**.
+* Issues reproduced by developer are listed under **Known issues**.
+* Issues reported by user but not reproduced are listed under **Unconfirm issues**.
+
 | Name | Product Number | Firmware | Mode | Mapping Src Label | Mapping preset | Pairing Guide | Known issues | Unconfirm issues |
 | ---- | -------------- | -------- | ---- | ----------------- | -------------- | ------------- | ------------ | ---------------- |
-| 8bitdo GBros. Adapter | 83GA | v2.26 | Xinput | GameCube | Default Gamepad | [7](#7---8bitdo-pairing-guide) |   |   |
+| 8bitdo GBros. Adapter | 83GA | v2.26 | Xinput | GameCube | Default Gamepad | [7](#7---8bitdo-pairing-guide) |   | [#523](https://github.com/darthcloud/BlueRetro/issues/523) |
 | 8bitdo M30 Bluetooth | 80HA | v1.15 | Xinput | Saturn | Default Gamepad | [7](#7---8bitdo-pairing-guide) |   |   |
 | 8bitdo N30 Arcade Stick | NS30 | v5.10 | Xinput | Xbox One S / X\|S | Default Gamepad | [7](#7---8bitdo-pairing-guide) |   |   |
 | 8bitdo N64 | RB8-N64 | v2.00 | HID Generic | N64 | Default Gamepad |   |   |   |
