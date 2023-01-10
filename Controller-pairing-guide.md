@@ -61,7 +61,7 @@
 | Nintendo Wiimote + Nunchuck | RVL-004 |   | Wii | Wiimote + Nunchuck | Default Gamepad | [5](#5---wii--wiiu-pro-pairing-guide) |   |   |
 | Nintendo WiiU Pro | WUP-005 |   | Wii | WiiU / Switch Pro | Default Gamepad | [5](#5---wii--wiiu-pro-pairing-guide) | [#3](https://github.com/darthcloud/BlueRetro/issues/3) |   |
 | PowerA GameCube | 1511638-01 |   | Switch | GameCube | Default Gamepad | [6](#6---switch-pro--joycon-pairing-guide) |   |   |
-| Retro-Bit SEGA Saturn Bluetooth |   |   | Xinput | Saturn | Default Gamepad | [8](#8---retro-bit-pairing-guide) |   |   |
+| Retro-Bit SEGA Saturn Bluetooth |   | v1.02 | Xinput | Saturn | Default Gamepad | [8](#8---retro-bit-pairing-guide) |   |   |
 | RetroFighter Brawler64 Bluetooth |   |   | Xinput | N64 | Default Gamepad |   |   |   |
 | RetroFighter Warrior Adapter |   |   | Switch | GameCube | Default Gamepad |   |   |   |
 | Sony PS3 DualShock 3 |   |   | PS3 | PS3 | Default Gamepad | [2](#2---ps3-pairing-guide) |   |   |
