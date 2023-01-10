@@ -67,7 +67,7 @@
 | Sony PS3 DualShock 3 |   |   | PS3 | PS3 | Default Gamepad | [2](#2---ps3-pairing-guide) |   |   |
 | Sony PS3 Sixaxis |   |   | PS3 | PS3 | Default Gamepad | [2](#2---ps3-pairing-guide) |   |   |
 | Sony PS4 DualShock 4 |   |   | PS4 | PS4 / PS5 | Default Gamepad | [3](#3---ps4--ps5-pairing-guide) |   |   |
-| Sony PS5 DualSense | CFI-ZCT1W |   | PS5 | PS4 / PS5 | Default Gamepad | [3](#3---ps4--ps5-pairing-guide) |   |   |
+| Sony PS5 DualSense | CFI-ZCT1W | 0307 | PS5 | PS4 / PS5 | Default Gamepad | [3](#3---ps4--ps5-pairing-guide) |   |   |
 | Valve Steam Controller |   |   | Lizard | KB & Mouse | DC FPS for Steam ctrl lizard |   |   |   |
 
 # 2 - PS3 Pairing Guide
