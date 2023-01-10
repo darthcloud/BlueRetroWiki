@@ -30,7 +30,7 @@
 * Controller may have multiple hardware revision, only the ones listed under **Product Number** were tested.
 * Controller behavior may change between their various firmware version, only the firmware listed under **Firmware** is supported.
 * Controller may have various mode of operation, only the ones listed under **Mode** is supported.
-* Controller often spoof the name of another ones and may not be detectable, for those a mapping preset other than default may be required and is listed under ** Mapping preset**.
+* Controller often spoof the name of another ones and may not be detectable, for those a mapping preset other than default may be required and is listed under **Mapping preset**.
 * Issues reproduced by developer are listed under **Known issues**.
 * Issues reported by user but not reproduced are listed under **Unconfirm issues**.
 
