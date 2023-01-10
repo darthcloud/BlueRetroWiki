@@ -7,24 +7,16 @@
     * [2.1.2 - OSX](#212---osx)
   * [2.2 - Reconnect](#22---reconnect)
 * [3 - PS4 & PS5 Pairing Guide](#3---ps4--ps5-pairing-guide)
-  * [3.1 - First pairing](#31---first-pairing)
-  * [3.2 - Reconnect](#32---reconnect)
 * [4 - Xbox Pairing Guide](#4---xbox-pairing-guide)
-  * [4.1 - First pairing](#41---first-pairing)
-  * [4.2 - Reconnect](#42---reconnect)
 * [5 - Wii & WiiU Pro Pairing Guide](#5---wii--wiiu-pro-pairing-guide)
-  * [5.1 - First pairing](#51---first-pairing)
-  * [5.2 - Reconnect](#52---reconnect)
 * [6 - Switch Pairing Guide](#6---switch-pairing-guide)
   * [6.1 - First pairing](#61---first-pairing)
   * [6.2 - Reconnect](#62---reconnect)
   * [6.3 - Dual Joycon Pairing Guide](#63---dual-joycon-pairing-guide)
 * [7 - 8bitdo Pairing Guide](#7---8bitdo-pairing-guide)
-  * [7.1 - First pairing](#71---first-pairing)
-  * [7.2 - Reconnect](#72---reconnect)
 * [8 - Retro-Bit Pairing Guide](#8---retro-bit-pairing-guide)
-  * [8.1 - First pairing](#81---first-pairing)
-  * [8.2 - Reconnect](#82---reconnect)
+* [9 - Steam Controller Pairing Guide](#9---steam-controller-pairing-guide)
+* [10 - RetroFighter Warrior Adapter Pairing Guide](#10---retrofighter-warrior-adapter-pairing-guide)
 
 # 1 - List of tested Bluetooth devices
 
@@ -155,12 +147,8 @@
 1. Simply press PS button to reconnect to BlueRetro.
 
 # 4 - Xbox Pairing Guide
-As of v1.2.1 the minimum required Xbox FW for controller are:\
-Xbox One S: 4.8.1923.0\
-Adaptive: 4.5.1680.0\
-Series X|S: 5.9.2709.0
 
-Update via the [Xbox accessories Win10 app](https://apps.microsoft.com/store/detail/xbox-accessories/9NBLGGH30XJ3).
+Update firmware via the [Xbox accessories Win10 app](https://apps.microsoft.com/store/detail/xbox-accessories/9NBLGGH30XJ3).
 
 ## 4.1 - First pairing
 
@@ -231,3 +219,27 @@ Update firmware via the [8bitdo Upgrade tool Win10 app](https://support.8bitdo.c
 
 ## 8.2 - Reconnect
 1. Simply press Homeon controller and it will reconnect to BlueRetro.
+
+# 9 - Steam controller Pairing Guide
+
+## 9.1 - First pairing
+
+1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing)
+2. Power on controller by holding B and then pressing the Steam button.
+3. Logo will stop blinking on controller once pairing is complete.
+
+## 9.2 - Reconnect
+
+1. Simply press Steam button to power on controller and it will reconnect to BlueRetro.
+
+# 10 - RetroFighter Warrior Adapter Paring Guide
+
+## 9.1 - First pairing
+
+1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing)
+2. Power on adapter by holding Home + Minus simultaneously until LED start blinking fast.
+3. LED will stop blinking once pairing is complete.
+
+## 9.2 - Reconnect
+
+1. Simply press Home button to power on adapter and it will reconnect to BlueRetro.
