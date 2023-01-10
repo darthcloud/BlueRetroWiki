@@ -16,7 +16,14 @@
 * [7 - 8bitdo Pairing Guide](#7---8bitdo-pairing-guide)
 * [8 - Retro-Bit Pairing Guide](#8---retro-bit-pairing-guide)
 * [9 - Steam Controller Pairing Guide](#9---steam-controller-pairing-guide)
-* [10 - RetroFighter Warrior Adapter Paring Guide](#10---retrofighter-warrior-adapter-paring-guide)
+* [10 - RetroFighters Warrior Adapter Paring Guide](#10---retrofighters-warrior-adapter-paring-guide)
+* [11 - RetroFighters Brawler64 Bluetooth Paring Guide](#11---retrofighters-brawler64-bluetooth-paring-guide)
+  * [11.1 - First pairing](#111---first-pairing)
+    * [11.1.1 - Switch Mode](#1111---switch-mode)
+    * [11.1.2 - Xinput Mode](#1112---xinput-mode)
+  * [11.2 - Reconnect](#112---reconnect)
+* [12 - Exlene GameCube Paring Guide](#12---exlene-gamecube-paring-guide)
+* [13 - Hyperkin Admiral Paring Guide](#13---hyperkin-admiral-paring-guide)
 
 # 1 - List of tested Bluetooth devices
 
@@ -34,8 +41,8 @@
 | 8bitdo N30 Arcade Stick | NS30 | v5.10 | Xinput | Xbox One S / X\|S | Default Gamepad | [7](#7---8bitdo-pairing-guide) |   |   |
 | 8bitdo N64 | RB8-N64 | v2.00 | HID Generic | N64 | Default Gamepad |   |   |   |
 | 8bitdo SF30 Pro | 80DB | v2.00 | Xinput | 8bitdo SN30/SF30 | Default Gamepad | [7](#7---8bitdo-pairing-guide) |   |   |
-| Exlene GameCube |   | 2021-11 | Xinput (but they call it IOS) | Exlene GameCube | Exlene GameCube |   |   |   |
-| Hyperkin Admiral N64 | MO7389-AP | v1.5.010722 | Switch | N64 | Default Gamepad |   |   |   |
+| Exlene GameCube |   | 2021-11 | Xinput (but they call it IOS) | Exlene GameCube | Exlene GameCube | [12](#12---exlene-gamecube-paring-guide) |   |   |
+| Hyperkin Admiral N64 | MO7389-AP | v1.5.010722 | Switch | N64 | Default Gamepad | [13](#13---hyperkin-admiral-paring-guide) |   |   |
 | Microsoft Xbox Adaptive | 1836 | 5.15.3168.0 | Bluetooth | Xbox One S / X\|S | Default Gamepad | [4](#4---xbox-pairing-guide) |   | [#441](https://github.com/darthcloud/BlueRetro/issues/441) |
 | Microsoft Xbox One S | 1708 | 5.15.3168.0 | Bluetooth | Xbox One S / X\|S | Default Gamepad | [4](#4---xbox-pairing-guide) |   | [#441](https://github.com/darthcloud/BlueRetro/issues/441) |
 | Microsoft Xbox Series X\|S | 1954 | 5.15.3168.0 | Bluetooth | Xbox One S / X\|S | Default Gamepad | [4](#4---xbox-pairing-guide) |   | [#441](https://github.com/darthcloud/BlueRetro/issues/441) |
@@ -54,8 +61,9 @@
 | Nintendo WiiU Pro | WUP-005 |   | Wii | WiiU / Switch Pro | Default Gamepad | [5](#5---wii--wiiu-pro-pairing-guide) | [#3](https://github.com/darthcloud/BlueRetro/issues/3) |   |
 | PowerA GameCube | 1511638-01 |   | Switch | GameCube | Default Gamepad | [6](#6---switch-pro--joycon-pairing-guide) |   |   |
 | Retro-Bit SEGA Saturn Bluetooth |   | v1.02 | Xinput | Saturn | Default Gamepad | [8](#8---retro-bit-pairing-guide) |   |   |
-| RetroFighters Brawler64 Bluetooth |   |   | Xinput | N64 | Default Gamepad |   |   |   |
-| RetroFighters Warrior Adapter |   |   | Xinput | GameCube | Default Gamepad | [10](#10---retrofighter-warrior-adapter-paring-guide) |   |   |
+| RetroFighters Brawler64 Bluetooth |   |   | Switch | N64 | Default Gamepad | [11.1.1](#1111---switch-mode) |   |   |
+| RetroFighters Brawler64 Bluetooth |   |   | Xinput | N64 | RetroFighters Brawlers64 Xinput | [11.1.2](#1112---xinput-mode) |   |   |
+| RetroFighters Warrior Adapter |   |   | Xinput | GameCube | Default Gamepad | [10](#10---retrofighters-warrior-adapter-paring-guide) |   |   |
 | Sony PS3 DualShock 3 |   |   | PS3 | PS3 | Default Gamepad | [2](#2---ps3-pairing-guide) |   |   |
 | Sony PS3 Sixaxis |   |   | PS3 | PS3 | Default Gamepad | [2](#2---ps3-pairing-guide) |   |   |
 | Sony PS4 DualShock 4 |   |   | PS4 | PS4 / PS5 | Default Gamepad | [3](#3---ps4--ps5-pairing-guide) |   |   |
@@ -232,7 +240,7 @@ Update firmware via the [8bitdo Upgrade tool Win10 app](https://support.8bitdo.c
 
 1. Simply press Steam button to power on controller and it will reconnect to BlueRetro.
 
-# 10 - RetroFighter Warrior Adapter Paring Guide
+# 10 - RetroFighters Warrior Adapter Paring Guide
 
 ## 10.1 - First pairing
 
@@ -243,3 +251,53 @@ Update firmware via the [8bitdo Upgrade tool Win10 app](https://support.8bitdo.c
 ## 10.2 - Reconnect
 
 1. Simply press Home button to power on adapter and it will reconnect to BlueRetro.
+
+# 11 - RetroFighters Brawler64 Bluetooth Paring Guide
+
+## 11.1 - First pairing
+
+### 11.1.1 - Switch Mode
+1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing)
+2. Power up Brawler64 by holding sync button until LEDs move in a up/down pattern.
+3. LED will stop blinking once pairing is complete.
+
+### 11.1.2 - Xinput Mode
+
+In this mode the controller will mock an Xbox controller and can't be uniquely identified.
+As such you need to load the **RetroFighters Brawlers64 Xinput** preset.
+
+1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing)
+2. Power up Brawler64 by holding both B & sync buttons until LEDs 1 & 4 start blinking.
+3. LED will stop blinking once pairing is complete and LEDs 1 & 4 will be on to indicate Xinput mode.
+
+## 11.2 - Reconnect
+
+1. Simply press any button a few time to power it on and it will reconnect to BlueRetro.
+
+# 12 - Exlene GameCube Paring Guide
+
+The controller will mock an Xbox controller and can't be uniquely identified.
+As such you need to load the **Exlene GameCube** preset.
+
+## 12.1 - First pairing
+
+1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing)
+2. Power up the Exlene controller by holding Y + Home simultaneously until LED start blinking fast.
+3. LED will stop blinking once pairing is complete.
+
+## 12.2 - Reconnect
+
+1. Simply press Home button to power on Exlene controller and it will reconnect to BlueRetro.
+
+# 13 - Hyperkin Admiral Paring Guide
+
+## 13.1 - First pairing
+
+1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing)
+2. Power up the Exlene controller by holding Y + Home simultaneously until LED start blinking fast.
+3. LED will stop blinking once pairing is complete.
+
+## 13.2 - Reconnect
+
+1. It's important to press the A button to power on the Admiral controller as it's select the default internal mapping of the controller.\
+   It will reconnect to BlueRetro after doing so.
