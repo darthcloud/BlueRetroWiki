@@ -16,7 +16,7 @@
 * [7 - 8bitdo Pairing Guide](#7---8bitdo-pairing-guide)
 * [8 - Retro-Bit Pairing Guide](#8---retro-bit-pairing-guide)
 * [9 - Steam Controller Pairing Guide](#9---steam-controller-pairing-guide)
-* [10 - RetroFighter Warrior Adapter Pairing Guide](#10---retrofighter-warrior-adapter-pairing-guide)
+* [10 - RetroFighter Warrior Adapter Paring Guide](#10---retrofighter-warrior-adapter-paring-guide)
 
 # 1 - List of tested Bluetooth devices
 
@@ -54,13 +54,13 @@
 | Nintendo WiiU Pro | WUP-005 |   | Wii | WiiU / Switch Pro | Default Gamepad | [5](#5---wii--wiiu-pro-pairing-guide) | [#3](https://github.com/darthcloud/BlueRetro/issues/3) |   |
 | PowerA GameCube | 1511638-01 |   | Switch | GameCube | Default Gamepad | [6](#6---switch-pro--joycon-pairing-guide) |   |   |
 | Retro-Bit SEGA Saturn Bluetooth |   | v1.02 | Xinput | Saturn | Default Gamepad | [8](#8---retro-bit-pairing-guide) |   |   |
-| RetroFighter Brawler64 Bluetooth |   |   | Xinput | N64 | Default Gamepad |   |   |   |
-| RetroFighter Warrior Adapter |   |   | Switch | GameCube | Default Gamepad |   |   |   |
+| RetroFighters Brawler64 Bluetooth |   |   | Xinput | N64 | Default Gamepad |   |   |   |
+| RetroFighters Warrior Adapter |   |   | Switch | GameCube | Default Gamepad | [10](#10---retrofighter-warrior-adapter-paring-guide) |   |   |
 | Sony PS3 DualShock 3 |   |   | PS3 | PS3 | Default Gamepad | [2](#2---ps3-pairing-guide) |   |   |
 | Sony PS3 Sixaxis |   |   | PS3 | PS3 | Default Gamepad | [2](#2---ps3-pairing-guide) |   |   |
 | Sony PS4 DualShock 4 |   |   | PS4 | PS4 / PS5 | Default Gamepad | [3](#3---ps4--ps5-pairing-guide) |   |   |
 | Sony PS5 DualSense | CFI-ZCT1W | 0307 | PS5 | PS4 / PS5 | Default Gamepad | [3](#3---ps4--ps5-pairing-guide) |   |   |
-| Valve Steam Controller | 1001 | 0x5B0F21BD (2018-05-30) | Lizard (BLE) | KB & Mouse | DC FPS for Steam ctrl lizard |   |   |   |
+| Valve Steam Controller | 1001 | 0x5B0F21BD (2018-05-30) | Lizard (BLE) | KB & Mouse | DC FPS for Steam ctrl lizard | [9](#9---steam-controller-pairing-guide) |   |   |
 
 # 2 - PS3 Pairing Guide
 
@@ -234,12 +234,12 @@ Update firmware via the [8bitdo Upgrade tool Win10 app](https://support.8bitdo.c
 
 # 10 - RetroFighter Warrior Adapter Paring Guide
 
-## 9.1 - First pairing
+## 10.1 - First pairing
 
 1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing)
 2. Power on adapter by holding Home + Minus simultaneously until LED start blinking fast.
 3. LED will stop blinking once pairing is complete.
 
-## 9.2 - Reconnect
+## 10.2 - Reconnect
 
 1. Simply press Home button to power on adapter and it will reconnect to BlueRetro.
