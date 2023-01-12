@@ -28,6 +28,7 @@ To help me improve support sent me a Bluetooth HCI trace done on Windows 10!
 4. Pair the device to Windows using the Bluetooth devices manager.
 5. Press all the buttons on the controller one at a time taking note of the order you pressed them.
 6. Stop the trace in Wireshark and save the trace.
-7. Send me the .pcapng trace and your notes.
+7. Send me the .pcapng trace and your notes by attaching the files to a new bug in the issues tracker:\
+   https://github.com/darthcloud/BlueRetro/issues
 
 ![](img/win10_bt_hci_trace.gif)
