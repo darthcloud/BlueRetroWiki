@@ -14,6 +14,9 @@
   * [6.2 - Reconnect](#62---reconnect)
   * [6.3 - Dual Joycon Pairing Guide](#63---dual-joycon-pairing-guide)
 * [7 - 8bitdo Pairing Guide](#7---8bitdo-pairing-guide)
+  * [7.1 - First pairing](#71---first-pairing)
+  * [7.2 - Reconnect](#72---reconnect)
+  * [ 7.3 - D-pad as Joystick or D-pad configuration](#73---d-pad-as-joystick-or-d-pad-configuration)
 * [8 - Retro-Bit Pairing Guide](#8---retro-bit-pairing-guide)
 * [9 - Steam Controller Pairing Guide](#9---steam-controller-pairing-guide)
 * [10 - RetroFighters Warrior Adapter Paring Guide](#10---retrofighters-warrior-adapter-paring-guide)
@@ -217,6 +220,16 @@ Update firmware via the [8bitdo Upgrade tool Win10 app](https://support.8bitdo.c
 
 ## 7.2 - Reconnect
 1. Simply press Start on controller and it will reconnect to BlueRetro.
+
+## 7.3 - D-pad as Joystick or D-pad configuration
+Most 8bitdo controller are configured to have the D-pad emulate a joystick by default.
+In most case for BlueRetro you will want to configure it as a d-pad.
+
+See [8bitdo support page FAQs for each controller](https://support.8bitdo.com/) for more info.
+
+* 8bitdo S30 Modkit: Hold Up + L + R for 5 seconds
+* 8bitdo N30 Modkit: Hold Up + Select for 5 seconds
+* 8bitdo M30 Bluetooth: Hold Up + Select for 5 seconds
 
 # 8 - Retro-Bit Pairing Guide
 
