@@ -31,7 +31,7 @@
 
 # 0 - Your controller not in the list?
 
-I can add support for if it uniquely identifiable in one of it's mode of operation.\
+I can add support for it if it's uniquely identifiable in one of it's mode of operation.\
 Follow this guide to get me a Bluetooth trace of it:\
 [Getting Bluetooth HCI trace with Windows 10](Bluetooth-HCI-trace-with-Win10)
 
