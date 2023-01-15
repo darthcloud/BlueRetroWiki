@@ -53,8 +53,8 @@ Follow this guide to get me a Bluetooth trace of it:\
 | 8bitdo SF30 Pro | 80DB | v2.00 | Xinput | 8bitdo SN30 / SF30 | Default Gamepad | [7](#7---8bitdo-pairing-guide) |   |   |
 | 8bitdo S30 Modkit |  |  | Xinput | Saturn | Default Gamepad | [7](#7---8bitdo-pairing-guide), [7.3](#73---d-pad-as-joystick-or-d-pad-configuration) |   |   |
 | 8bitdo N30 Modkit |  |  | Xinput | NES | Default Gamepad | [7](#7---8bitdo-pairing-guide), [7.3](#73---d-pad-as-joystick-or-d-pad-configuration) |   |   |
-| Exlene GameCube |   | 2021-11 | Xinput (but they call it IOS) | Exlene Game Cube | **Exlene GameCube** | [12](#12---exlene-gamecube-paring-guide) |   |   |
-| Hyperkin Admiral N64 | MO7389-AP | v1.5.010722 | Switch | N64 | Default Gamepad | [13](#13---hyperkin-admiral-paring-guide) |   |   |
+| Exlene GameCube |   | 2021-11 | Xinput (but they call it IOS) | Exlene Game Cube | **Exlene GameCube** | [12](#12---exlene-gamecube-paring-guide) | [#547](https://github.com/darthcloud/BlueRetro/issues/547) |   |
+| Hyperkin Admiral N64 | MO7389-AP | v1.5.010722 | Switch | N64 | Default Gamepad | [13](#13---hyperkin-admiral-paring-guide) | [#146](https://github.com/darthcloud/BlueRetro/issues/146) |   |
 | Microsoft Xbox Adaptive | 1836 | 5.15.3168.0 | BT | Xbox One S / X\|S | Default Gamepad | [4](#4---xbox-pairing-guide) |   | [#441](https://github.com/darthcloud/BlueRetro/issues/441) |
 | Microsoft Xbox One S | 1708 | 5.15.3168.0 | BT | Xbox One S / X\|S | Default Gamepad | [4](#4---xbox-pairing-guide) |   | [#441](https://github.com/darthcloud/BlueRetro/issues/441) |
 | Microsoft Xbox Series X\|S | 1954 | 5.15.3168.0 | BT | Xbox One S / X\|S | Default Gamepad | [4](#4---xbox-pairing-guide) |   | [#441](https://github.com/darthcloud/BlueRetro/issues/441) |
@@ -71,10 +71,10 @@ Follow this guide to get me a Bluetooth trace of it:\
 | Nintendo Wiimote + Classic Pro | RVL-005 (-02) |   | Wii | Wiimote + Classic Pro | Default Gamepad | [5](#5---wii--wiiu-pro-pairing-guide) |   |   |
 | Nintendo Wiimote + Nunchuck | RVL-004 |   | Wii | Wiimote + Nunchuck | Default Gamepad | [5](#5---wii--wiiu-pro-pairing-guide) |   |   |
 | Nintendo WiiU Pro | WUP-005 |   | Wii | WiiU / Switch Pro | Default Gamepad | [5](#5---wii--wiiu-pro-pairing-guide) | [#3](https://github.com/darthcloud/BlueRetro/issues/3) |   |
-| PowerA GameCube | 1511638-01 |   | Switch | Game Cube | Default Gamepad | [6](#6---switch-pro--joycon-pairing-guide) |   |   |
+| PowerA GameCube | 1511638-01 |   | Switch | Game Cube | Default Gamepad | [6](#6---switch-pro--joycon-pairing-guide) | [#146](https://github.com/darthcloud/BlueRetro/issues/146) |   |
 | Retro-Bit SEGA Saturn Bluetooth |   | v1.02 | Xinput | Saturn | Default Gamepad | [8](#8---retro-bit-pairing-guide) |   |   |
-| Retro Fighters Brawler64 Bluetooth |   |   | Switch | N64 | Default Gamepad | [11.1.1](#1111---switch-mode) |   |   |
-| Retro Fighters Brawler64 Bluetooth |   |   | Xinput | N64 | **Retro Fighters Brawlers64 Xinput** | [11.1.2](#1112---xinput-mode) |   |   |
+| Retro Fighters Brawler64 Bluetooth |   |   | Switch | N64 | Default Gamepad | [11.1.1](#1111---switch-mode) | [#146](https://github.com/darthcloud/BlueRetro/issues/146) |   |
+| Retro Fighters Brawler64 Bluetooth |   |   | Xinput | N64 | **Retro Fighters Brawlers64 Xinput** | [11.1.2](#1112---xinput-mode) | [#546](https://github.com/darthcloud/BlueRetro/issues/546) |   |
 | Retro Fighters Warrior Adapter |   |   | Xinput | Game Cube | Default Gamepad | [10](#10---retrofighters-warrior-adapter-paring-guide) |   |   |
 | Sony PS3 DualShock 3 |   |   | PS3 | PS3 | Default Gamepad | [2](#2---ps3-pairing-guide) |   |   |
 | Sony PS3 Sixaxis |   |   | PS3 | PS3 | Default Gamepad | [2](#2---ps3-pairing-guide) |   |   |
