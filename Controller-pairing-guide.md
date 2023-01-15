@@ -71,7 +71,7 @@ Follow this guide to get me a Bluetooth trace of it:\
 | Nintendo Wiimote + Classic Pro | RVL-005 (-02) |   | Wii | Wiimote + Classic Pro | Default Gamepad | [5](#5---wii--wiiu-pro-pairing-guide) |   |   |
 | Nintendo Wiimote + Nunchuck | RVL-004 |   | Wii | Wiimote + Nunchuck | Default Gamepad | [5](#5---wii--wiiu-pro-pairing-guide) |   |   |
 | Nintendo WiiU Pro | WUP-005 |   | Wii | WiiU / Switch Pro | Default Gamepad | [5](#5---wii--wiiu-pro-pairing-guide) | [#3](https://github.com/darthcloud/BlueRetro/issues/3) |   |
-| PowerA GameCube | 1511638-01 |   | Switch | GameCube | Default Gamepad | [6](#6---switch-pro--joycon-pairing-guide) |   |   |
+| PowerA GameCube | 1511638-01 |   | Switch | Game Cube | Default Gamepad | [6](#6---switch-pro--joycon-pairing-guide) |   |   |
 | Retro-Bit SEGA Saturn Bluetooth |   | v1.02 | Xinput | Saturn | Default Gamepad | [8](#8---retro-bit-pairing-guide) |   |   |
 | Retro Fighters Brawler64 Bluetooth |   |   | Switch | N64 | Default Gamepad | [11.1.1](#1111---switch-mode) |   |   |
 | Retro Fighters Brawler64 Bluetooth |   |   | Xinput | N64 | **Retro Fighters Brawlers64 Xinput** | [11.1.2](#1112---xinput-mode) |   |   |
