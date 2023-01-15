@@ -1,5 +1,6 @@
 # Table of contents
 
+* [0 - Your controller not in the list?](#0---your-controller-not-in-the-list)
 * [1 - List of tested Bluetooth devices](#1---list-of-tested-bluetooth-devices)
 * [2 - PS3 Pairing Guide](#2---ps3-pairing-guide)
   * [2.1 - First pairing](#21---first-pairing)
@@ -27,6 +28,12 @@
   * [11.2 - Reconnect](#112---reconnect)
 * [12 - Exlene GameCube Paring Guide](#12---exlene-gamecube-paring-guide)
 * [13 - Hyperkin Admiral Paring Guide](#13---hyperkin-admiral-paring-guide)
+
+# 0 - Your controller not in the list?
+
+I can add support for if it uniquely identifiable in one of it's mode of operation.
+Follow this guide to get me a Bluetooth trace of it:
+[Getting Bluetooth HCI trace with Windows 10](Bluetooth-HCI-trace-with-Win10)
 
 # 1 - List of tested Bluetooth devices
 
