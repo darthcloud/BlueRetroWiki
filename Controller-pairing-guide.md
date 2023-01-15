@@ -73,9 +73,9 @@ Follow this guide to get me a Bluetooth trace of it:\
 | Nintendo WiiU Pro | WUP-005 |   | Wii | WiiU / Switch Pro | Default Gamepad | [5](#5---wii--wiiu-pro-pairing-guide) | [#3](https://github.com/darthcloud/BlueRetro/issues/3) |   |
 | PowerA GameCube | 1511638-01 |   | Switch | GameCube | Default Gamepad | [6](#6---switch-pro--joycon-pairing-guide) |   |   |
 | Retro-Bit SEGA Saturn Bluetooth |   | v1.02 | Xinput | Saturn | Default Gamepad | [8](#8---retro-bit-pairing-guide) |   |   |
-| RetroFighters Brawler64 Bluetooth |   |   | Switch | N64 | Default Gamepad | [11.1.1](#1111---switch-mode) |   |   |
-| RetroFighters Brawler64 Bluetooth |   |   | Xinput | N64 | **RetroFighters Brawlers64 Xinput** | [11.1.2](#1112---xinput-mode) |   |   |
-| RetroFighters Warrior Adapter |   |   | Xinput | GameCube | Default Gamepad | [10](#10---retrofighters-warrior-adapter-paring-guide) |   |   |
+| Retro Fighters Brawler64 Bluetooth |   |   | Switch | N64 | Default Gamepad | [11.1.1](#1111---switch-mode) |   |   |
+| Retro Fighters Brawler64 Bluetooth |   |   | Xinput | N64 | **Retro Fighters Brawlers64 Xinput** | [11.1.2](#1112---xinput-mode) |   |   |
+| Retro Fighters Warrior Adapter |   |   | Xinput | GameCube | Default Gamepad | [10](#10---retrofighters-warrior-adapter-paring-guide) |   |   |
 | Sony PS3 DualShock 3 |   |   | PS3 | PS3 | Default Gamepad | [2](#2---ps3-pairing-guide) |   |   |
 | Sony PS3 Sixaxis |   |   | PS3 | PS3 | Default Gamepad | [2](#2---ps3-pairing-guide) |   |   |
 | Sony PS4 DualShock 4 |   |   | PS4 | PS4 / PS5 | Default Gamepad | [3](#3---ps4--ps5-pairing-guide) |   |   |
