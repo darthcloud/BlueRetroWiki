@@ -3,22 +3,22 @@
 # Table of contents
 * [1 - Building hardware HW1](#1---building-hardware-hw1)
 * [2 - Building hardware HW2](#2---building-hardware-hw2)
-* [3 - Web config](#3---web-config)
-  * [3.1 - System Specific Web Config User Manual](#31---system-specific-web-config-user-manual)
-* [4 - Physical buttons usage](#4---physical-buttons-usage)
-  * [4.1 - EN (Reset)](#41---en-reset)
-  * [4.2 - BOOT (IO0) External adapter](#42---boot-io0-external-adapter)
-  * [4.3 - BOOT (IO0) Internal install](#43---boot-io0-internal-install)
-    * [4.3.1 - System reset behavior while ESP32 on and system on](#431---system-reset-behavior-while-esp32-on-and-system-on)
-    * [4.3.2 - System reset behavior while ESP32 off & system off](#432---system-reset-behavior-while-esp32-off--system-off)
-    * [4.3.3 - System reset behavior while ESP32 on & system off](#433---system-reset-behavior-while-esp32-on--system-off)
-    * [4.3.4 - System reset behavior while ESP32 off and system on](#434---system-reset-behavior-while-esp32-off-and-system-on)
-* [5 - Button combinations functions](#5---button-combinations-functions)
-* [6 - LED usage IO17](#6---led-usage-io17)
-* [7 - Updating firmware](#7---updating-firmware)
-  * [7.1 - Via USB serial](#71---via-usb-serial)
-  * [7.2 - Via Web-Bluetooth interface (OTA FW update)](#72---via-web-bluetooth-interface-ota-fw-update)
-* [8 - Pairing Bluetooth controller](#8---pairing-bluetooth-controller)
+* [3 - Pairing Bluetooth controller](#3---pairing-bluetooth-controller)
+* [4 - Web config](#4---web-config)
+  * [4.1 - System Specific Web Config User Manual](#41---system-specific-web-config-user-manual)
+* [5 - Physical buttons usage](#5---physical-buttons-usage)
+  * [5.1 - EN (Reset)](#51---en-reset)
+  * [5.2 - BOOT (IO0) External adapter](#52---boot-io0-external-adapter)
+  * [5.3 - BOOT (IO0) Internal install](#53---boot-io0-internal-install)
+    * [5.3.1 - System reset behavior while ESP32 on and system on](#531---system-reset-behavior-while-esp32-on-and-system-on)
+    * [5.3.2 - System reset behavior while ESP32 off & system off](#532---system-reset-behavior-while-esp32-off--system-off)
+    * [5.3.3 - System reset behavior while ESP32 on & system off](#533---system-reset-behavior-while-esp32-on--system-off)
+    * [5.3.4 - System reset behavior while ESP32 off and system on](#534---system-reset-behavior-while-esp32-off-and-system-on)
+* [6 - Button combinations functions](#6---button-combinations-functions)
+* [7 - LED usage IO17](#7---led-usage-io17)
+* [8 - Updating firmware](#8---updating-firmware)
+  * [8.1 - Via USB serial](#81---via-usb-serial)
+  * [8.2 - Via Web-Bluetooth interface (OTA FW update)](#82---via-web-bluetooth-interface-ota-fw-update)
 * [9 - BlueRetro debugging](#9---blueretro-debugging)
 
 # 1 - Building hardware HW1
@@ -53,7 +53,18 @@ If you are not sure if you should build HW1 or HW2: the answer is build HW1!
 
 [Nostalgic Indulgences](https://twitter.com/nosIndulgences) created multiple guides base on HW2 for internal install. Checkout his GitHub repo: https://github.com/nostalgic-indulgences/BlueRetro_Internal_Installation
 
-# 3 - Web config
+# 3 - Pairing Bluetooth controller
+
+In default configuration BlueRetro is always in inquiry mode (LED pulsing) if no controller is connected\
+Pair via inquiry first (SYNC or pairing mode), on subsequent connection you can simply page (button press or power on button).\
+You may change this behavior by switching inquiry mode in the web config to manual.\
+Pressing BOOT buttons for 3 sec will activate inquiry mode.\
+Up to 16 connection keys for classic BT and also up to 16 keys for BLE devices can be stored for persistent pairing.
+
+See this list & guide for more specific instruction for each controller type:
+[Controller List & Pairing Guide](Controller-pairing-guide)
+
+# 4 - Web config
 
 Power on system and connect via Web Bluetooth at https://blueretro.io to configure adapter.\
 **The config mode is only available if no controller is connected.** \
@@ -61,18 +72,18 @@ Power on system and connect via Web Bluetooth at https://blueretro.io to configu
 
 See [BlueRetro BLE Web Config User Manual](BlueRetro-BLE-Web-Config-User-Manual) for more detail.
 
-## 3.1 - System Specific Web Config User Manual
+## 4.1 - System Specific Web Config User Manual
 This page describe how the generic options of the Web Config apply to each systems supported by BlueRetro.
 
 [System Specific Web Config User Manual](BlueRetro-System-Specific-User-Manual)
 
-# 4 - Physical buttons usage
+# 5 - Physical buttons usage
 
-## 4.1 - EN (Reset)
+## 5.1 - EN (Reset)
 
 * Reboot BlueRetro
 
-## 4.2 - BOOT (IO0) External adapter
+## 5.2 - BOOT (IO0) External adapter
 
 * Button press under < 3 sec (All LEDs solid):\
   If in pairing mode: Stop pairing mode otherwise all BT devices are disconnect.
@@ -81,9 +92,9 @@ This page describe how the generic options of the Web Config apply to each syste
 * Button press between > 6 sec and < 10 sec (All LEDs blink fast):\
   Factory reset ESP32 to original BlueRetro firmware the device shipped with & reset configuration.
 
-## 4.3 - BOOT (IO0) Internal install
+## 5.3 - BOOT (IO0) Internal install
 
-### 4.3.1 - System reset behavior while ESP32 on and system on
+### 5.3.1 - System reset behavior while ESP32 on and system on
 * Button press under < 3 sec (All LEDs solid):\
   Usual system reset.
 * Button press between > 3 sec and < 6 sec (All LEDs blink slowly):\
@@ -93,16 +104,16 @@ This page describe how the generic options of the Web Config apply to each syste
 * Button press over > 10 sec (All LEDs blink very fast):\
   Factory reset ESP32 to original BlueRetro firmware the device shipped with & reset configuration.
 
-### 4.3.2 - System reset behavior while ESP32 off & system off
+### 5.3.2 - System reset behavior while ESP32 off & system off
 * Holding system reset and then powering system put the ESP32 in boot (download) mode. Effectively disabling it for the current power session.
 
-### 4.3.3 - System reset behavior while ESP32 on & system off
+### 5.3.3 - System reset behavior while ESP32 on & system off
 * System is powered on via power relay / power pin
 
-### 4.3.4 - System reset behavior while ESP32 off and system on
+### 5.3.4 - System reset behavior while ESP32 off and system on
 * While the ESP32 is in boot mode or in deep sleep the system reset function is lost.
 
-# 5 - Button combinations functions
+# 6 - Button combinations functions
 I'm using generic label to describe the button combinations here. Refer to [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml) for specific buttons.
 Also added PlayStation buttons name in () to help a bit.
 
@@ -122,21 +133,21 @@ Also added PlayStation buttons name in () to help a bit.
   Main Left Trigger (L2) + Main Right Trigger (R2) + Middle Right (Start)\
   \+ Face Up (Triangle) + D-pad Down
 
-# 6 - LED usage (IO17)
+# 7 - LED usage (IO17)
 
-* See [4 - Physical buttons usage](#4---physical-buttons-usage) for LED meaning while button BOOT (IO0) is pressed
+* See [5 - Physical buttons usage](#5---physical-buttons-usage) for LED meaning while button BOOT (IO0) is pressed
 * Solid: An error occured, try power cycle, check serial logs for detail.
 * Pulsing: Bluetooth inquiry mode enable (new pairing).
 * Off: No error and Bluetooth inquiry mode disabled.
 
-# 7 - Updating firmware
-**Once flashed via OTA Web interface, FW flashed via USB won't be loaded anymore until the adapter is factory reset. (See [4 - Physical buttons usage](https://github.com/darthcloud/BlueRetro/wiki#4---physical-buttons-usage))**
+# 8 - Updating firmware
+**Once flashed via OTA Web interface, FW flashed via USB won't be loaded anymore until the adapter is factory reset. (See [5 - Physical buttons usage](https://github.com/darthcloud/BlueRetro/wiki#5---physical-buttons-usage))**
 
 Download latest binary from [GitHub](https://github.com/darthcloud/BlueRetro/releases) and flash them on your BlueRetro.\
 \
 Only internal flash (SPIFFS) firmware are now supported. An universal version with system auto detection is provided in addition to system hard-coded versions.
 
-## 7.1 - Via USB serial
+## 8.1 - Via USB serial
 
 * Linux:\
 `~/BlueRetroRoot/python_env/idf4.2_py3.7_env/bin/python ~/BlueRetroRoot/esp-idf/components/esptool_py/esptool/esptool.py -p /dev/ttyUSB0 -b 460800 --before default_reset --after hard_reset --chip esp32  write_flash --flash_mode dio --flash_size detect --flash_freq 40m 0x1000 bootloader.bin 0x8000 partition-table.bin 0x10000 BlueRetro.bin`\
@@ -144,7 +155,7 @@ Only internal flash (SPIFFS) firmware are now supported. An universal version wi
 * Windows:\
 [Flashing firmware Windows 10](https://github.com/darthcloud/BlueRetro/wiki/Flashing-firmware-Windows-10)
 
-## 7.2 - Via Web-Bluetooth interface (OTA FW update)
+## 8.2 - Via Web-Bluetooth interface (OTA FW update)
 
 **Required FW v0.19 minimum to be already programmed via USB serial**
 
@@ -154,17 +165,6 @@ Only internal flash (SPIFFS) firmware are now supported. An universal version wi
 
 See [OTA FW Update section](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-BLE-Web-Config-User-Manual#5---ota-fw-update-page)
 of the Web config manual for a video example.
-
-# 8 - Pairing Bluetooth controller
-
-In default configuration BlueRetro is always in inquiry mode (LED pulsing) if no controller is connected\
-Pair via inquiry first (SYNC or pairing mode), on subsequent connection you can simply page (button press or power on button).\
-You may change this behavior by switching inquiry mode in the web config to manual.\
-Pressing BOOT buttons for 3 sec will activate inquiry mode.\
-Up to 16 connection keys for classic BT and also up to 16 keys for BLE devices can be stored for persistent pairing.
-
-See this list & guide for more specific instruction for each controller type:
-[Controller List & Pairing Guide](Controller-pairing-guide)
 
 # 9 - BlueRetro debugging
 
