@@ -1,4 +1,4 @@
-# BlueRetro User Manual
+# BlueRetro's documentation
 
 # Table of contents
 * [1 - Building hardware HW1](#1---building-hardware-hw1)
