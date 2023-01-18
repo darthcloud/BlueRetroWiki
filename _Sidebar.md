@@ -1,12 +1,10 @@
-  * HW Building
+  * [1 - Building hardware HW1](Home#1---building-hardware-hw1)
     * [ESP32 flashing Win10](Flashing-firmware-Windows-10)
     * [DIY ESP32 wiring](BlueRetro-DIY-Build-Instructions)
     * [DIY cable wiring](BlueRetro-Cables-Build-Instructions)
     * [Consolise w/ BlueRetro](BlueRetro-Consolize-Build-Instructions)
     * [SNES Mini internal install](BlueRetro-SNES-Mini-Internal-Install)
     * [HW files repo](https://github.com/darthcloud/BlueRetroHW)
-  * SW Compiling
-    * [Dev env setup](https://github.com/darthcloud/BlueRetroRoot)
   * Usage
     * [General user manual](Home)
     * [System specific user manual](BlueRetro-System-Specific-User-Manual)
@@ -15,6 +13,9 @@
     * [Web-config mapping label](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml)
   * Debug
     * [Getting serial logs Win10](Getting-BlueRetro-debug-logs-via-Serial-port-Windows-10)
+
+  * BlueRetro development
+    * [Dev env setup](https://github.com/darthcloud/BlueRetroRoot)
   * RE notes
     * [ESP32 RTOS + Bare Metal: Best of Both Worlds?](https://hackaday.io/project/170365/log/189836-esp32-rtos-bare-metal-best-of-both-worlds)
     * [Learning Bluetooth Classic (BR/EDR) with HCI traces](https://hackaday.io/project/170365-blueretro/log/178249-learning-bluetooth-classic-bredr-with-hci-traces)
