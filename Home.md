@@ -103,7 +103,7 @@ This page describe how the generic options of the Web Config apply to each syste
 * While the ESP32 is in boot mode or in deep sleep the system reset function is lost.
 
 # 5 - Button combinations functions
-I'm using generic label to descripbe the button combinations here. Refer to [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml) for specific buttons.
+I'm using generic label to describe the button combinations here. Refer to [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml) for specific buttons.
 Also added PlayStation buttons name in () to help a bit.
 
 * Disconnect controller (+ power off internal mod):\
