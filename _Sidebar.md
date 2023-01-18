@@ -1,4 +1,4 @@
-  * [1 - Building hardware HW1](Home#1---building-hardware-hw1)
+  * [1 - Building hardware HW1](https://github.com/darthcloud/BlueRetro/wiki#1---building-hardware-hw1)
     * [ESP32 flashing Win10](Flashing-firmware-Windows-10)
     * [DIY ESP32 wiring](BlueRetro-DIY-Build-Instructions)
     * [DIY cable wiring](BlueRetro-Cables-Build-Instructions)
