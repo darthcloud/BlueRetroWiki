@@ -1,7 +1,7 @@
-* [1 - Building hardware HW1](https://github.com/darthcloud/BlueRetro/wiki#1---building-hardware-hw1)\
+* [1 - Building hardware HW1](https://github.com/darthcloud/BlueRetro/wiki#1---building-hardware-hw1)
 * [2 - Building hardware HW2](https://github.com/darthcloud/BlueRetro/wiki#2---building-hardware-hw2)
 * [3 - Web config](https://github.com/darthcloud/BlueRetro/wiki#3---web-config)
-  * [3.1 - System Specific Web Config User Manual](https://github.com/darthcloud/BlueRetro/wiki#31---system-specific-web-config-user-manual)
+    * [3.1 - System Specific Web Config User Manual](https://github.com/darthcloud/BlueRetro/wiki#31---system-specific-web-config-user-manual)
 * [4 - Physical buttons usage](https://github.com/darthcloud/BlueRetro/wiki#4---physical-buttons-usage)
   * [4.1 - EN (Reset)](https://github.com/darthcloud/BlueRetro/wiki#41---en-reset)
   * [4.2 - BOOT (IO0) External adapter](https://github.com/darthcloud/BlueRetro/wiki#42---boot-io0-external-adapter)
