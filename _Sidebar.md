@@ -1,18 +1,4 @@
-  * [1 - Building hardware HW1](https://github.com/darthcloud/BlueRetro/wiki#1---building-hardware-hw1)
-    * [ESP32 flashing Win10](Flashing-firmware-Windows-10)
-    * [DIY ESP32 wiring](BlueRetro-DIY-Build-Instructions)
-    * [DIY cable wiring](BlueRetro-Cables-Build-Instructions)
-    * [Consolise w/ BlueRetro](BlueRetro-Consolize-Build-Instructions)
-    * [SNES Mini internal install](BlueRetro-SNES-Mini-Internal-Install)
-    * [HW files repo](https://github.com/darthcloud/BlueRetroHW)
-  * Usage
-    * [General user manual](Home)
-    * [System specific user manual](BlueRetro-System-Specific-User-Manual)
-    * [Bluetooth paring](Controller-pairing-guide)
-    * [Web-config](https://hackaday.io/project/170365-blueretro/log/180020-web-bluetooth-ble-configuration-interface)
-    * [Web-config mapping label](https://docs.google.com/spreadsheets/d/e/2PACX-1vRln_dhkahEIhq4FQY_p461r5qvLn-Hkl89ZtfyIOGAqdnPtQZ5Ihfsjvd94fRbaHX8wU3F-r2ODYbM/pubhtml)
-  * Debug
-    * [Getting serial logs Win10](Getting-BlueRetro-debug-logs-via-Serial-port-Windows-10)
+* [1 - Building hardware HW1](https://github.com/darthcloud/BlueRetro/wiki#1---building-hardware-hw1)
 
   * BlueRetro development
     * [Dev env setup](https://github.com/darthcloud/BlueRetroRoot)
