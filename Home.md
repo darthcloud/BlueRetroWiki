@@ -57,7 +57,7 @@ You may change this behavior by switching inquiry mode in the web config to manu
 Pressing BOOT buttons for 3 sec will activate inquiry mode.\
 Up to 16 connection keys for classic BT and also up to 16 keys for BLE devices can be stored for persistent pairing.
 
-See this list & guide for more specific instruction for each controller type:
+See this list & guide for more specific instruction for each controller type:\
 [Controller List & Pairing Guide](Controller-pairing-guide)
 
 # 4 - Web config
