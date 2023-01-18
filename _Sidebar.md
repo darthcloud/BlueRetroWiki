@@ -1,20 +1,38 @@
-* [1 - Building hardware HW1](https://github.com/darthcloud/BlueRetro/wiki#1---building-hardware-hw1)
+* [1 - Building hardware HW1](#1---building-hardware-hw1)
+* [2 - Building hardware HW2](#2---building-hardware-hw2)
+* [3 - Web config](#3---web-config)
+  * [3.1 - System Specific Web Config User Manual](#31---system-specific-web-config-user-manual)
+* [4 - Physical buttons usage](#4---physical-buttons-usage)
+  * [4.1 - EN (Reset)](#41---en-reset)
+  * [4.2 - BOOT (IO0) External adapter](#42---boot-io0-external-adapter)
+  * [4.3 - BOOT (IO0) Internal install](#43---boot-io0-internal-install)
+    * [4.3.1 - System reset behavior while ESP32 on and system on](#431---system-reset-behavior-while-esp32-on-and-system-on)
+    * [4.3.2 - System reset behavior while ESP32 off & system off](#432---system-reset-behavior-while-esp32-off--system-off)
+    * [4.3.3 - System reset behavior while ESP32 on & system off](#433---system-reset-behavior-while-esp32-on--system-off)
+    * [4.3.4 - System reset behavior while ESP32 off and system on](#434---system-reset-behavior-while-esp32-off-and-system-on)
+* [5 - Button combinations functions](#5---button-combinations-functions)
+* [6 - LED usage IO17](#6---led-usage-io17)
+* [7 - Updating firmware](#7---updating-firmware)
+  * [7.1 - Via USB serial](#71---via-usb-serial)
+  * [7.2 - Via Web-Bluetooth interface (OTA FW update)](#72---via-web-bluetooth-interface-ota-fw-update)
+* [8 - Pairing Bluetooth controller](#8---pairing-bluetooth-controller)
+* [9 - BlueRetro debugging](#9---blueretro-debugging)
 
-  * BlueRetro development
-    * [Dev env setup](https://github.com/darthcloud/BlueRetroRoot)
-  * RE notes
-    * [ESP32 RTOS + Bare Metal: Best of Both Worlds?](https://hackaday.io/project/170365/log/189836-esp32-rtos-bare-metal-best-of-both-worlds)
-    * [Learning Bluetooth Classic (BR/EDR) with HCI traces](https://hackaday.io/project/170365-blueretro/log/178249-learning-bluetooth-classic-bredr-with-hci-traces)
-    * [Xbox One Adaptive controller](https://hackaday.io/project/170365-blueretro/log/179869-xbox-one-adaptive-controller)
-    * [Evolution of SEGA's IO Interface from SG-1000 to Saturn](https://hackaday.io/project/170365-blueretro/log/180790-evolution-of-segas-io-interface-from-sg-1000-to-saturn)
-    * [Famicom & NES controller shift register: Parallel-in, Serial-out](https://hackaday.io/project/170365-blueretro/log/181368-famicom-nes-controller-shift-register-parallel-in-serial-out)
-    * [SNES 2P & Super Multitap](https://hackaday.io/project/170365-blueretro/log/181686-2020-08-04-progress-update-sfcsnes-support)
-    * [PlayStation & PlayStation 2 SPI interface](https://hackaday.io/project/170365-blueretro/log/186471-playstation-playstation-2-spi-interface)
-    * [3DO interface](https://hackaday.io/project/170365-blueretro/log/190948-3do-interface)
-    * [PC-FX interface](https://hackaday.io/project/170365-blueretro/log/191237-pc-fx-interface)
-    * [CD-i interface](https://hackaday.io/project/170365/log/191647-cd-i-interface)
-    * [PCE & TG16 interface](PCE-&-TG16-interface)
-    * [Jaguar Interface](Jaguar-interface)
-  * ~~Deprecated content~~
-    * ~~[SD card DIY HW Wiring](SD-card-DIY-HW-Wiring)~~
-    * ~~[Missing 2nd COM Win10](Missing-2nd-COM-port-Win10-BlueRetro-DevKit-fix)~~
+* BlueRetro development
+  * [Dev env setup](https://github.com/darthcloud/BlueRetroRoot)
+* RE notes
+  * [ESP32 RTOS + Bare Metal: Best of Both Worlds?](https://hackaday.io/project/170365/log/189836-esp32-rtos-bare-metal-best-of-both-worlds)
+  * [Learning Bluetooth Classic (BR/EDR) with HCI traces](https://hackaday.io/project/170365-blueretro/log/178249-learning-bluetooth-classic-bredr-with-hci-traces)
+  * [Xbox One Adaptive controller](https://hackaday.io/project/170365-blueretro/log/179869-xbox-one-adaptive-controller)
+  * [Evolution of SEGA's IO Interface from SG-1000 to Saturn](https://hackaday.io/project/170365-blueretro/log/180790-evolution-of-segas-io-interface-from-sg-1000-to-saturn)
+  * [Famicom & NES controller shift register: Parallel-in, Serial-out](https://hackaday.io/project/170365-blueretro/log/181368-famicom-nes-controller-shift-register-parallel-in-serial-out)
+  * [SNES 2P & Super Multitap](https://hackaday.io/project/170365-blueretro/log/181686-2020-08-04-progress-update-sfcsnes-support)
+  * [PlayStation & PlayStation 2 SPI interface](https://hackaday.io/project/170365-blueretro/log/186471-playstation-playstation-2-spi-interface)
+  * [3DO interface](https://hackaday.io/project/170365-blueretro/log/190948-3do-interface)
+  * [PC-FX interface](https://hackaday.io/project/170365-blueretro/log/191237-pc-fx-interface)
+  * [CD-i interface](https://hackaday.io/project/170365/log/191647-cd-i-interface)
+  * [PCE & TG16 interface](PCE-&-TG16-interface)
+  * [Jaguar Interface](Jaguar-interface)
+* ~~Deprecated content~~
+  * ~~[SD card DIY HW Wiring](SD-card-DIY-HW-Wiring)~~
+  * ~~[Missing 2nd COM Win10](Missing-2nd-COM-port-Win10-BlueRetro-DevKit-fix)~~
