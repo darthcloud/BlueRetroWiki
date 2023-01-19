@@ -23,9 +23,9 @@
 * [9 - BlueRetro debugging](https://github.com/darthcloud/BlueRetro/wiki#9---blueretro-debugging)
   * [Getting BlueRetro debug logs via Serial port Windows 10](Getting-BlueRetro-debug-logs-via-Serial-port-Windows-10)
   * [Getting Bluetooth HCI trace with Windows 10](Bluetooth-HCI-trace-with-Win10)
+* [10 - BlueRetro development](https://github.com/darthcloud/BlueRetro/wiki#10---blueretro-development)
+  * [Root repo](https://github.com/darthcloud/BlueRetroRoot)
 
-* BlueRetro development
-  * [Dev env setup](https://github.com/darthcloud/BlueRetroRoot)
 * RE notes
   * [ESP32 RTOS + Bare Metal: Best of Both Worlds?](https://hackaday.io/project/170365/log/189836-esp32-rtos-bare-metal-best-of-both-worlds)
   * [Learning Bluetooth Classic (BR/EDR) with HCI traces](https://hackaday.io/project/170365-blueretro/log/178249-learning-bluetooth-classic-bredr-with-hci-traces)
