@@ -16,6 +16,7 @@
   * [8.1 - Via USB serial](#81---via-usb-serial)
   * [8.2 - Via Web-Bluetooth interface (OTA FW update)](#82---via-web-bluetooth-interface-ota-fw-update)
 * [9 - BlueRetro debugging](#9---blueretro-debugging)
+* [10 - BlueRetro development](#10---blueretro-development)
 
 # 1 - Building hardware HW1
 HW1 is the original BlueRetro specification and the easiest one to build yourself.
@@ -166,3 +167,9 @@ of the Web config manual for a video example.
 
 * See [Getting BlueRetro debug logs via Serial port Windows 10](Getting-BlueRetro-debug-logs-via-Serial-port-Windows-10)
 * See [Getting Bluetooth HCI trace with Windows 10](Bluetooth-HCI-trace-with-Win10)
+
+# 10 - BlueRetro development
+
+All information regarding setting up a development environment and building for BlueRetro is located in the root repo:\
+https://github.com/darthcloud/BlueRetroRoot
+
