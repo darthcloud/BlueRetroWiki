@@ -1,6 +1,6 @@
 # This is not a modding guide. While all the information is listed, you need to be experienced in electronic to make use of this information.
 
-# 0 - Table of contents
+# Table of contents
 * [1 - ESP32 power source](#1---esp32-power-source)
 * [2 - Power switch & relay](#2---power-switch--relay)
 * [3 - Reset button](#3---reset-button)
