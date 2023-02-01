@@ -49,3 +49,24 @@ https://blueretro.io
 
 7. (Optional) Wire IO17 as follow to get Bluetooth pairing mode status and error notification:
    ![](img/led_io17.png)
+
+8. (Optional) Port status LED
+   ESP32 IO | Direction | Function | Note
+   ---------- | ---------- | --------- | ------
+   2 | Output | Controller port 1 LED | 3.3v level
+   4 | Output | Controller port 2 LED | 3.3v level
+   12 | Output | Controller port 3 LED | 3.3v level
+   15 | Output | Controller port 4 LED | 3.3v level
+
+   All those pin are ESP32 strapping pin. Interface via MOSFET to avoid problem at boot.
+
+   ![](img/port_led.png)
+
+   8.1. Behavior while in pairing mode\
+        The first available port LED will be pulsing.
+
+   8.2. Behavior when BT controller connected\
+        Port which got an active BT connection will have it's corresponding LED solid.
+
+   8.3. Behavior while system reset is pressed (Boot button)\
+        All port LED are used to indicate current switch function.
