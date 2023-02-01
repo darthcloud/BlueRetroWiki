@@ -110,7 +110,7 @@ All those pin are ESP32 strapping pin. Interface via MOSFET to avoid problem at 
 * Port which got an active BT connection will have it's corresponding LED solid.
 
 ### Behavior while system reset is pressed (Boot button)
-* All port LED are used to indicate current switch function (See [3](#system-reset-behavior-while-esp32-on-and-system-on))
+* All port LED are used to indicate current switch function (See [6](#6---reset-button))
 
 # 5 - Global status LED
 ESP32 IO | Direction | Function | Note
@@ -123,7 +123,7 @@ ESP32 IO | Direction | Function | Note
 * LED will be pulsing.
 
 ### Behavior while system reset is pressed (Boot button)
-* LED indicate current switch function (See [3](#system-reset-behavior-while-esp32-on-and-system-on))
+* LED indicate current switch function (See [6](#6---reset-button))
 
 ### Behavior when an unrecoverable error occur
 * LED will be solid.
