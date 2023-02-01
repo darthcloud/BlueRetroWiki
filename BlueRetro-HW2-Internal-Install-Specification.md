@@ -204,3 +204,6 @@ See [BlueRetro Core Pinout Specification](BlueRetro-Core-Pinout-Specification)
 
 # 10 - Example schematic base on spec
 * GameCube: [gamecube_hw2_internal.pdf](pdf/gamecube_hw2_internal.pdf)
+
+[Nostalgic Indulgences](https://twitter.com/nosIndulgences) created multiple guides base on HW2 for internal install. Checkout his GitHub repo: https://github.com/nostalgic-indulgences/BlueRetro_Internal_Installation
+
