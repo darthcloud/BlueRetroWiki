@@ -1,16 +1,17 @@
 # This is not a modding guide. While all the information is listed, you need to be experienced in electronic to make use of this information.
 
-# 0 Table of contents
-* [1 External mode detection](#1-external-mode-detection)
-* [2 I39 pin usage](#2-i39-pin-usage)
-* [3 Controller plug-in detection](#3-controller-plug-in-detection)
-* [4 Port status LED](#4-port-status-led)
-* [5 Global status LED](#5-global-status-led)
-* [6 Reset button](#6-reset-button)
-* [7 Universal interface pinout](#7-universal-interface-pinout)
-* [8 Wired interface pinout](#8-wired-interface-pinout)
+# Table of contents
+* [1 - External mode detection](#1---external-mode-detection)
+* [2 - I39 pin usage](#2---i39-pin-usage)
+* [3 - Controller plug-in detection](#3---controller-plug-in-detection)
+* [4 - Port status LED](#4---port-status-led)
+* [5 - Global status LED](#5---global-status-led)
+* [6 - Reset button](#6---reset-button)
+* [7 - Universal interface pinout](#7---universal-interface-pinout)
+* [8 - Wired interface pinout](#8---wired-interface-pinout)
+* [9 - Example schematic base on spec](#9---example-schematic-base-on-spec)
 
-# 1 External mode detection
+# 1 - External mode detection
 
 HW2 base design allow to use the same firmware for internal and external BlueRetro device.
 
@@ -25,7 +26,7 @@ GameCube | HI | HI
 (S)NES Mini (Wii ext.) | LO | HI
 TODO | Others | System
 
-# 2 I39 pin usage
+# 2 - I39 pin usage
 
 ### System specific firmware
 
@@ -52,7 +53,7 @@ Dreamcast | LO
 GameCube | HI
 (S)NES Mini (Wii ext.) | LO
 
-# 3 Controller plug-in detection
+# 3 - Controller plug-in detection
 ESP32 IO | Direction | Function | Note
 ---------- | ---------- | --------- | ------
 35* | Input | Controller port 1 detect | 3.3v level, low: plug disconnect, high: pluged in
@@ -90,7 +91,7 @@ Use the first port plug 5V to power the adapter and wire the first detection pin
 
 Put a 20K pull-down resitor on P2 (and P3 & P4 for Dreamcast) detection pins to GND. Wire the 5V of cable P2 (and P3 & P4 for Dreamcast) to the detection pin through a series 10K resistor.
 
-# 4 Port status LED
+# 4 - Port status LED
 ESP32 IO | Direction | Function | Note
 ---------- | ---------- | --------- | ------
 2 | Output | Controller port 1 LED | 3.3v level
@@ -111,7 +112,7 @@ All those pin are ESP32 strapping pin. Interface via MOSFET to avoid problem at 
 ### Behavior while system reset is pressed (Boot button)
 * All port LED are used to indicate current switch function (See [3](#system-reset-behavior-while-esp32-on-and-system-on))
 
-# 5 Global status LED
+# 5 - Global status LED
 ESP32 IO | Direction | Function | Note
 ---------- | ---------- | --------- | ------
 17 | Output | BlueRetro status LED | 3.3v level
@@ -127,7 +128,7 @@ ESP32 IO | Direction | Function | Note
 ### Behavior when an unrecoverable error occur
 * LED will be solid.
 
-# 6 Reset button
+# 6 - Reset button
 ESP32 IO | Direction | Function | Note
 ---------- | ---------- | --------- | ------
 0 | Input | ESP32 boot button | Idle high
@@ -139,7 +140,7 @@ ESP32 IO | Direction | Function | Note
 * Button press between > 6 sec and < 10 sec (All LEDs blink fast):
   Factory reset ESP32 to original BlueRetro firmware the device shipped with & reset configuration.
 
-# 7 Universal interface pinout
+# 7 - Universal interface pinout
 ``` In HW2 pin 20 of the DB25 was change from IO0 to IO15 ```
 
 The universal firmware is design to use a DB25 interface wired as follow.
@@ -172,5 +173,8 @@ DB25 pin | ESP32 IO
 25 | IO26
 13 | IO27
 
-# 8 Wired interface pinout
+# 8 - Wired interface pinout
 See [BlueRetro Core Pinout Specification](BlueRetro-Core-Pinout-Specification)
+
+# 9 - Example schematic base on spec
+* GameCube: [gamecube_hw2_external.pdf](pdf/gamecube_hw2_external.pdf)
