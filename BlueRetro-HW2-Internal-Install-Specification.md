@@ -1,17 +1,18 @@
 # This is not a modding guide. While all the information is listed, you need to be experienced in electronic to make use of this information.
 
-# 0 Table of contents
-* [1 ESP32 power source](#1-esp32-power-source)
-* [2 Power switch & relay](#2-power-switch--relay)
-* [3 Reset button](#3-reset-button)
-* [4 Console power detection](#4-console-power-detection)
-* [5 Controller port detection](#5-controller-port-detection)
-* [6 Bus conflict mitigation](#6-bus-conflict-mitigation)
-* [7 Port status LED](#7-port-status-led)
-* [8 Global status LED](#8-global-status-led)
-* [9 Wired interface pinout](#9-wired-interface-pinout)
+# 0 - Table of contents
+* [1 - ESP32 power source](#1---esp32-power-source)
+* [2 - Power switch & relay](#2---power-switch--relay)
+* [3 - Reset button](#3---reset-button)
+* [4 - Console power detection](#4---console-power-detection)
+* [5 - Controller port detection](#5---controller-port-detection)
+* [6 - Bus conflict mitigation](#6---bus-conflict-mitigation)
+* [7 - Port status LED](#7---port-status-led)
+* [8 - Global status LED](#8---global-status-led)
+* [9 - Wired interface pinout](#9---wired-interface-pinout)
+* [10 - Example schematic base on spec](#10---example-schematic-base-on-spec)
 
-# 1 ESP32 power source
+# 1 - ESP32 power source
 The ESP32 needs to be always ON to be able to power up the system on Bluetooth connection.
 
 ### Option 1: System with DC input
@@ -21,7 +22,7 @@ The ESP32 needs to be always ON to be able to power up the system on Bluetooth c
 * Use a circuit similar to a USB wall adapter to get a 5V source.
 * Replacing system PSU with one who use a DC input.
 
-# 2 Power switch & relay
+# 2 - Power switch & relay
 ESP32 IO | Direction | Function | Note
 ---------- | ---------- | --------- | ------
 13 | Output | Relay Set / Power set | Idle low, set high 20ms
@@ -60,7 +61,7 @@ Con:
 Only possible for system where power on is controlled by a logic digital signal. Only IO13 is used in this case.
 
 
-# 3 Reset button
+# 3 - Reset button
 ESP32 IO | Direction | Function | Note
 ---------- | ---------- | --------- | ------
 0 | Input | ESP32 boot button | Idle high
@@ -94,7 +95,7 @@ If the system logic is 5V, a 3 state buffer need to be used. It's wired so the E
 ### System reset behavior while ESP32 off and system on
 * While the ESP32 is in boot mode or in deep sleep the system reset function is lost.
 
-# 4 Console power detection
+# 4 - Console power detection
 ESP32 IO | Direction | Function | Note
 ---------- | ---------- | --------- | ------
 39 (VN) | Input | System power detection | 3.3v level
@@ -105,7 +106,7 @@ For 5V system use a voltage divider:
 
 ![](img/voltage_divider.png)
 
-# 5 Controller port detection
+# 5 - Controller port detection
 ESP32 IO | Direction | Function | Note
 ---------- | ---------- | --------- | ------
 35* | Input | Controller port 1 detect | 3.3v level, low: port used, high: port free
@@ -143,7 +144,7 @@ See ManCloud's repo for more info: https://github.com/ManCloud/CurrentTrigger
 
 ![](img/current_mirror_3v3.png) ![](img/current_mirror_5v.png)
 
-# 6 Bus conflict mitigation
+# 6 - Bus conflict mitigation
 
 ### 3V3 level bus
 (PS1, PS2, N64, GC, DC)
@@ -161,7 +162,7 @@ Since the port detection logic is HIGH for using BlueRetro data, 74AHCT126N (or 
 (Parallel 1P & 2P)
 No action required, since the idle state high is driven by the console own internal pull-up, no conflict will occur if BT and wired controller are not actively used simultaneously.
 
-# 7 Port status LED
+# 7 - Port status LED
 ESP32 IO | Direction | Function | Note
 ---------- | ---------- | --------- | ------
 2 | Output | Controller port 1 LED | 3.3v level
@@ -182,7 +183,7 @@ All those pin are ESP32 strapping pin. Interface via MOSFET to avoid problem at 
 ### Behavior while system reset is pressed (Boot button)
 * All port LED are used to indicate current switch function (See [3](#system-reset-behavior-while-esp32-on-and-system-on))
 
-# 8 Global status LED
+# 8 - Global status LED
 ESP32 IO | Direction | Function | Note
 ---------- | ---------- | --------- | ------
 17 | Output | BlueRetro status LED | 3.3v level
@@ -198,5 +199,8 @@ ESP32 IO | Direction | Function | Note
 ### Behavior when an unrecoverable error occur
 * LED will be solid.
 
-# 9 Wired interface pinout
+# 9 - Wired interface pinout
 See [BlueRetro Core Pinout Specification](BlueRetro-Core-Pinout-Specification)
+
+# 10 - Example schematic base on spec
+* GameCube: [gamecube_hw2_internal.pdf](pdf/gamecube_hw2_internal.pdf)
