@@ -426,6 +426,8 @@ Wii Original Classic controller and **TBD** ~~Steam controller~~ work this way. 
 See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml) for Bluetooth controller & GameCube controller buttons label correspondence.
 
 # Wii-Ext
+*refers to the connector found on the downside of Wii Remotes and on the front of NES Mini and SNES Mini consoles.*
+
 BlueRetro will emulate the device selected in output config #1 on Wii port 1.\
 BlueRetro will emulate the device selected in output config #2 on Wii port 2.
 
