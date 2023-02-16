@@ -31,20 +31,20 @@
 
 # 0 - Your controller not in the list?
 
-I can add support for it if it's uniquely identifiable in one of it's mode of operation.\
+I can add support for it if it's uniquely identifiable in one of its modes of operation.\
 Follow this guide to get me a Bluetooth trace of it:\
 [Getting Bluetooth HCI trace with Windows 10](Bluetooth-HCI-trace-with-Win10)
 
 # 1 - List of tested Bluetooth devices
 
-* Controller may have multiple hardware revision, only the ones listed under **Product Number** were tested.
-* Controller behavior may change between their various firmware version, only the firmware listed under **Firmware** is supported.
-* Controller may have various mode of operation, only the ones listed under **Mode** is supported.
-* Controller often spoof the name of another ones and may not be detectable, for those a mapping preset other than default may be required and is listed under **Mapping preset**.
+* Controller may have multiple hardware revision; only the ones listed under **Product Number** were tested.
+* Controller behavior may change between their various firmware version; only the firmware listed under **Firmware** is supported.
+* Controller may have various mode of operation; only the ones listed under **Mode** is supported.
+* Controller often spoof the name of another ones and may not be detectable; for thoses a mapping preset other than default may be required and is listed under **Mapping preset**.
 * Issues reproduced by developer are listed under **Known issues**.
-* Issues reported by user but not reproduced are listed under **Unconfirm issues**.
+* Issues reported by user but not reproduced are listed under **Unconfirmed issues**.
 
-| Name | Product Number | Firmware | Mode | Mapping Src Label | Mapping preset | Pairing Guide | Known issues | Un-confirm issues |
+| Name | Product Number | Firmware | Mode | Mapping Src Label | Mapping preset | Pairing Guide | Known issues | Unconfirmed issues |
 | ---- | -------------- | -------- | ---- | ----------------- | -------------- | ------------- | ------------ | ---------------- |
 | 8bitdo GBros. Adapter | 83GA | v2.26 | Xinput | Game Cube | Default Gamepad | [7](#7---8bitdo-pairing-guide) |   | [#523](https://github.com/darthcloud/BlueRetro/issues/523) |
 | 8bitdo M30 Bluetooth | 80HA | v1.15 | Xinput | Saturn | Default Gamepad | [7](#7---8bitdo-pairing-guide), [7.3](#73---d-pad-as-joystick-or-d-pad-configuration) |   |   |
@@ -62,7 +62,7 @@ Follow this guide to get me a Bluetooth trace of it:\
 | Nintendo Switch Joycon (Dual) | HAC-015, 016 |   | Switch | Switch Joycon | **Switch Left/Right Joycon Upright** | [6.3](#63---dual-joycon-pairing-guide) | [#146](https://github.com/darthcloud/BlueRetro/issues/146) | [#468](https://github.com/darthcloud/BlueRetro/issues/468) [#473](https://github.com/darthcloud/BlueRetro/issues/473) |
 | Nintendo Switch Joycon (Single) | HAC-015, 016 |   | Switch | Switch Joycon | Default Gamepad | [6](#6---switch-pro--joycon-pairing-guide) | [#146](https://github.com/darthcloud/BlueRetro/issues/146) | [#468](https://github.com/darthcloud/BlueRetro/issues/468) [#473](https://github.com/darthcloud/BlueRetro/issues/473) |
 | Nintendo Switch MD & Genesis 3btns | HAC-045 |   | Switch | Switch MD / Genesis | Default Gamepad | [6](#6---switch-pro--joycon-pairing-guide) | [#146](https://github.com/darthcloud/BlueRetro/issues/146) | [#468](https://github.com/darthcloud/BlueRetro/issues/468) [#473](https://github.com/darthcloud/BlueRetro/issues/473) |
-| Nintendo Switch MegaDrive 6btns | HAC-046 |   | Switch | Switch MD / Genesis | Default Gamepad | [6](#6---switch-pro--joycon-pairing-guide) | [#146](https://github.com/darthcloud/BlueRetro/issues/146) | [#468](https://github.com/darthcloud/BlueRetro/issues/468) [#473](https://github.com/darthcloud/BlueRetro/issues/473) |
+| Nintendo Switch Mega Drive 6btns | HAC-046 |   | Switch | Switch MD / Genesis | Default Gamepad | [6](#6---switch-pro--joycon-pairing-guide) | [#146](https://github.com/darthcloud/BlueRetro/issues/146) | [#468](https://github.com/darthcloud/BlueRetro/issues/468) [#473](https://github.com/darthcloud/BlueRetro/issues/473) |
 | Nintendo Switch N64 | HAC-043 |   | Switch | Switch N64 | Default Gamepad | [6](#6---switch-pro--joycon-pairing-guide) | [#146](https://github.com/darthcloud/BlueRetro/issues/146) | [#468](https://github.com/darthcloud/BlueRetro/issues/468) [#473](https://github.com/darthcloud/BlueRetro/issues/473) |
 | Nintendo Switch Pro | HAC-013 |   | Switch | WiiU / Switch Pro | Default Gamepad | [6](#6---switch-pro--joycon-pairing-guide) | [#146](https://github.com/darthcloud/BlueRetro/issues/146) | [#468](https://github.com/darthcloud/BlueRetro/issues/468) [#473](https://github.com/darthcloud/BlueRetro/issues/473) |
 | Nintendo Switch SFC & SNES | HAC-042 |   | Switch | Switch SNES | Default Gamepad | [6](#6---switch-pro--joycon-pairing-guide) | [#146](https://github.com/darthcloud/BlueRetro/issues/146) | [#468](https://github.com/darthcloud/BlueRetro/issues/468) [#473](https://github.com/darthcloud/BlueRetro/issues/473) |
@@ -84,7 +84,7 @@ Follow this guide to get me a Bluetooth trace of it:\
 
 # 2 - PS3 Pairing Guide
 
-* Note only official PS3 controller are supported.
+* Note: only official PS3 controllers are supported.
 
 ## 2.1 - First pairing
 
@@ -93,12 +93,12 @@ Follow this guide to get me a Bluetooth trace of it:\
 1. Download and install [Sixaxis Pair Tool](https://sixaxispairtool.en.lo4d.com/windows#:~:text=The%20Sixaxis%20Pair%20Tool%20is,games%20with%20your%20PS3%20controller.)
 2. Determine BlueRetro MAC address
 
-- Open https://blueretro.io/ in a chrome web browser (desktop/android)
-- Navigate to "BlueRetro System Manager"
-- Click on "Connect BlueRetro"
-- Pair your device
+- Open https://blueretro.io/ in a chrome web browser (desktop/android).
+- Navigate to "BlueRetro System Manager".
+- Click on "Connect BlueRetro".
+- Pair your device.
 
-    On connection the MAC address of the device will be shown. Write it down.
+    On connection the MAC address of the device will be shown: write it down.
 
     ```
     Connected to:BlueRetro_XX_XXXX
@@ -158,7 +158,7 @@ Follow this guide to get me a Bluetooth trace of it:\
 
 ## 3.1 - First pairing
 
-1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing)
+1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing).
 2. Press & hold simultaneously Share & PS buttons until the LED blink white.
 3. Color on controller will change once pairing is complete.
 
@@ -172,7 +172,7 @@ Update firmware via the [Xbox accessories Win10 app](https://apps.microsoft.com/
 
 ## 4.1 - First pairing
 
-1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing)
+1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing).
 2. Power on controller via Xbox button and then hold the black sync button until the logo blink.
 3. Logo will stop blinking on controller once pairing is complete.
 
@@ -185,8 +185,8 @@ Update firmware via the [Xbox accessories Win10 app](https://apps.microsoft.com/
 
 ## 5.1 - First pairing
 
-1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing)
-2. Press red Sync button
+1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing).
+2. Press red Sync button.
 3. LEDs will stop blinking on controller once pairing is complete.
 
 ## 5.2 - Reconnect
@@ -197,7 +197,7 @@ Update firmware via the [Xbox accessories Win10 app](https://apps.microsoft.com/
 
 ## 6.1 - First pairing
 
-1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing)
+1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing).
 2. Press and hold sync button until LEDs move in a left/right pattern.
 3. LEDs will stop pattern on controller once pairing is complete.
 
@@ -212,7 +212,7 @@ Update firmware via the [Xbox accessories Win10 app](https://apps.microsoft.com/
 3. Then select output 2 and select "Switch Right Joycon Upright" click save, wait for green text to appear.\
    <img width="295" alt="chrome_lYNgsZs9ih" src="https://user-images.githubusercontent.com/3744056/180513770-75222de2-fb66-4cef-8e2a-9237ab5b020d.png">
 4. Then pair the joycon with blueretro separately using the sync button hidden on the sliding side.\
-   It's important to connect the left joycon first, then connect the right joycon
+   It's important to connect the left joycon first, then connect the right joycon.
 5. After that you can clip them on the middle support and they should function as one controller.
 
 # 7 - 8bitdo Pairing Guide
@@ -220,8 +220,8 @@ Update firmware via the [8bitdo Upgrade tool Win10 app](https://support.8bitdo.c
 
 ## 7.1 - First pairing
 
-1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing)
-2. Power up 8bitdo controller in Xinput mode (Start + X or set switch to X) (Only Xinput mode supported!!)
+1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing).
+2. Power up 8bitdo controller in Xinput mode (Start + X or set switch to X) (Only Xinput mode supported!!).
 2. Press and hold sync button until LEDs flash.
 3. LEDs will stop pattern on controller once pairing is complete.
 
@@ -229,7 +229,7 @@ Update firmware via the [8bitdo Upgrade tool Win10 app](https://support.8bitdo.c
 1. Simply press Start on controller and it will reconnect to BlueRetro.
 
 ## 7.3 - D-pad as Joystick or D-pad configuration
-Most 8bitdo controller are configured to have the D-pad emulate a joystick by default.
+Most 8bitdo controllers are configured to have the D-pad emulate a joystick by default.
 In most case for BlueRetro you will want to configure it as a d-pad.
 
 See [8bitdo support page FAQs for each controller](https://support.8bitdo.com/) for more info.
@@ -242,8 +242,8 @@ See [8bitdo support page FAQs for each controller](https://support.8bitdo.com/) 
 
 ## 8.1 - First pairing
 
-1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing)
-2. Power up Retro-Bit controller in Xinput mode (Home + X) (Only Xinput mode supported!!)
+1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing).
+2. Power up Retro-Bit controller in Xinput mode (Home + X) (Only Xinput mode supported!!).
 2. If done properly 2 LEDs will flash.
 3. LEDs will stop flashing on controller once pairing is complete and rumble will trigger.
 
@@ -254,7 +254,7 @@ See [8bitdo support page FAQs for each controller](https://support.8bitdo.com/) 
 
 ## 9.1 - First pairing
 
-1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing)
+1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing).
 2. Power on controller by holding B and then pressing the Steam button.
 3. Logo will stop blinking on controller once pairing is complete.
 
@@ -266,7 +266,7 @@ See [8bitdo support page FAQs for each controller](https://support.8bitdo.com/) 
 
 ## 10.1 - First pairing
 
-1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing)
+1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing).
 2. Power on adapter by holding Home + Minus simultaneously until LED start blinking fast.
 3. LED will stop blinking once pairing is complete.
 
@@ -279,7 +279,7 @@ See [8bitdo support page FAQs for each controller](https://support.8bitdo.com/) 
 ## 11.1 - First pairing
 
 ### 11.1.1 - Switch Mode
-1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing)
+1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing).
 2. Power up Brawler64 by holding sync button until LEDs move in a up/down pattern.
 3. LED will stop blinking once pairing is complete.
 
@@ -288,7 +288,7 @@ See [8bitdo support page FAQs for each controller](https://support.8bitdo.com/) 
 In this mode the controller will mock an Xbox controller and can't be uniquely identified.
 As such you need to load the **RetroFighters Brawlers64 Xinput** preset.
 
-1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing)
+1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing).
 2. Power up Brawler64 by holding both B & sync buttons until LEDs 1 & 4 start blinking.
 3. LED will stop blinking once pairing is complete and LEDs 1 & 4 will be on to indicate Xinput mode.
 
@@ -303,7 +303,7 @@ As such you need to load the **Exlene GameCube** preset.
 
 ## 12.1 - First pairing
 
-1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing)
+1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing).
 2. Power up the Exlene controller by holding Y + Home simultaneously until LED start blinking fast.
 3. LED will stop blinking once pairing is complete.
 
@@ -315,7 +315,7 @@ As such you need to load the **Exlene GameCube** preset.
 
 ## 13.1 - First pairing
 
-1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing)
+1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing).
 2. Power up the Exlene controller by holding Y + Home simultaneously until LED start blinking fast.
 3. LED will stop blinking once pairing is complete.
 
