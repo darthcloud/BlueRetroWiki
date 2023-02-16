@@ -21,7 +21,7 @@
 # Parallel 1P (12 buttons)
 
 ## System Config
-It is required to set System to Parallel_1P in the global config and power cycle BlueRetro. Parallel 1P (12 buttons) mode can't be auto-detected.
+It is required to set System to Parallel 1P in the global config and power cycle BlueRetro. Parallel 1P (12 buttons) mode can't be auto-detected.
 
 ## Multitap Config
 Multitap config has no effect.
@@ -272,6 +272,9 @@ See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX
 ### Mode
 * **GamePad**: BlueRetro will emulate an Analog controller in **Digital** mode.
 * **GamePadAlt**: BlueRetro will emulate an Analog controller in **Analog** mode.
+** Many ODE frontends (such as Pseudo Saturn Kai) are not compatible with Analog mode, making game selection impossible. 
+*** Workaround 1 : Select and launch the game with **GamePad** mode, then switch to **Analog** for play. 
+*** Workaround 2 : Use a standard Saturn controller for ODE navigation and game launch, then plug BlueRetro for play. 
 * **Keyboard**: BlueRetro will emulate a Saturn Keyboard.
 * **Mouse**: BlueRetro will emulate a Saturn Mouse. (Must use "Default Mouse" preset)
 
@@ -315,7 +318,7 @@ Accessories config has no effect.
 See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml) for Bluetooth controller & JVS controller buttons label correspondence.
 
 # Virtual Boy
-BlueRetro will emulate a standard Virtual Boy controller
+BlueRetro will emulate a standard Virtual Boy controller.
 
 ## Multitap Config
 Multitap config has no effect.
@@ -337,8 +340,8 @@ See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX
 
 # Nintendo 64
 BlueRetro will emulate the device selected in output config #1 on N64 port 1.\
-BlueRetro will emulate the device selected in output config #2 on N64 port 2. \
-BlueRetro will emulate the device selected in output config #3 on N64 port 3. \
+BlueRetro will emulate the device selected in output config #2 on N64 port 2.\
+BlueRetro will emulate the device selected in output config #3 on N64 port 3.\
 BlueRetro will emulate the device selected in output config #4 on N64 port 4.
 
 ## Multitap Config
@@ -364,12 +367,12 @@ See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX
 
 ### Special buttons functions
 * **MT (Home)**: Toggle accessory between Controller Pak and Rumble Pak.
-* **MQ (Capture/TouchPad)**: Cycle active controller pak bank.
+* **MQ (Capture/TouchPad)**: Cycle active Controller Pak bank.
 
 # Dreamcast
 BlueRetro will emulate the device selected in output config #1 on Dreamcast port 1.\
-BlueRetro will emulate the device selected in output config #2 on Dreamcast port 2. \
-BlueRetro will emulate the device selected in output config #3 on Dreamcast port 3. \
+BlueRetro will emulate the device selected in output config #2 on Dreamcast port 2.\
+BlueRetro will emulate the device selected in output config #3 on Dreamcast port 3.\
 BlueRetro will emulate the device selected in output config #4 on Dreamcast port 4.
 
 ## Multitap Config
@@ -395,8 +398,8 @@ See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX
 
 # GameCube
 BlueRetro will emulate the device selected in output config #1 on GameCube port 1.\
-BlueRetro will emulate the device selected in output config #2 on GameCube port 2. \
-BlueRetro will emulate the device selected in output config #3 on GameCube port 3. \
+BlueRetro will emulate the device selected in output config #2 on GameCube port 2.\
+BlueRetro will emulate the device selected in output config #3 on GameCube port 3.\
 BlueRetro will emulate the device selected in output config #4 on GameCube port 4.
 
 ## Multitap Config
