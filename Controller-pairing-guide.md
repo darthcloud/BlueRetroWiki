@@ -193,6 +193,10 @@ Update firmware via the [Xbox accessories Win10 app](https://apps.microsoft.com/
 
 1. Simply press any button on controller and it will reconnect to BlueRetro.
 
+## 5.3 - Troubleshooting 
+
+The Wii MotionPlus expansion device conflicts with add-ons. When using devices connected to the Wii-Ext port (such as Nunchuck or Classic Controller), remove any Wii MotionPlus attached to the Wii Remote. 
+
 # 6 - Switch Pairing Guide
 
 ## 6.1 - First pairing
