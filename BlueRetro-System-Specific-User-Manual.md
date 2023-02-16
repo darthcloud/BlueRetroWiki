@@ -279,10 +279,6 @@ See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX
 Accessories config has no effect.
 
 ## Mapping
-A regular Saturn Analog controller report it's Triggers both as analog and digital.
-* Using the default mapping, BlueRetro will report triggers as analog only.
-* Use the "Saturn Merge analog & digital trigger" preset to match the real Saturn Analog controller behavior.
-
 See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml) for Bluetooth controller & Saturn controller buttons label correspondence.
 
 # PC-FX
