@@ -21,7 +21,7 @@
 # Parallel 1P (12 buttons)
 
 ## System Config
-It is required to set System to Parallel 1P in the global config and power cycle BlueRetro. Parallel 1P (12 buttons) mode can't be auto-detected.
+If using universal firmware, it is required to set System to Parallel_1P_PP or Parallel_1P_OD in the global config and power cycle BlueRetro. Parallel 1P (12 buttons) mode can't be auto-detected.
 
 ## Multitap Config
 Multitap config has no effect.
@@ -40,7 +40,8 @@ See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX
 # Parallel 2P (6 buttons each)
 
 ## System Config
-It is required to set System to Parallel_2P in the global config and power cycle BlueRetro. Parallel 2P (6 buttons each) mode can't be auto-detected.
+If using universal firmware, it is required to set System to Parallel_2P_PP or Parallel_2P_OD in the global config and power cycle BlueRetro. Parallel 2P (6 buttons each) mode can't be auto-detected.
+
 
 ## Multitap Config
 Multitap config has no effect.
@@ -272,9 +273,6 @@ See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX
 ### Mode
 * **GamePad**: BlueRetro will emulate an Analog controller in **Digital** mode.
 * **GamePadAlt**: BlueRetro will emulate an Analog controller in **Analog** mode.
-** Many ODE frontends (such as Pseudo Saturn Kai) are not compatible with Analog mode, making game selection impossible. 
-*** Workaround 1 : Select and launch the game with **GamePad** mode, then switch to **Analog** for play. 
-*** Workaround 2 : Use a standard Saturn controller for ODE navigation and game launch, then plug BlueRetro for play. 
 * **Keyboard**: BlueRetro will emulate a Saturn Keyboard.
 * **Mouse**: BlueRetro will emulate a Saturn Mouse. (Must use "Default Mouse" preset)
 
@@ -283,6 +281,12 @@ Accessories config has no effect.
 
 ## Mapping
 See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml) for Bluetooth controller & Saturn controller buttons label correspondence.
+
+## Notes
+
+Many ODE frontends (such as Pseudo Saturn Kai) are not compatible with Analog mode, making game selection impossible.
+* Workaround 1 : Select and launch the game with **GamePad** mode, then switch to **Analog** for play.
+* Workaround 2 : Use a standard Saturn controller for ODE navigation and game launch, then plug BlueRetro for play.
 
 # PC-FX
 
