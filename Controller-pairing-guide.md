@@ -42,9 +42,9 @@ Follow this guide to get me a Bluetooth trace of it:\
 * Controller may have various mode of operation; only the ones listed under **Mode** is supported.
 * Controller often spoof the name of another ones and may not be detectable; for thoses a mapping preset other than default may be required and is listed under **Mapping preset**.
 * Issues reproduced by developer are listed under **Known issues**.
-* Issues reported by user but not reproduced are listed under **Unconfirmed issues**.
+* Issues reported by user but not reproduced are listed under **Unconfirm issues**.
 
-| Name | Product Number | Firmware | Mode | Mapping Src Label | Mapping preset | Pairing Guide | Known issues | Unconfirmed issues |
+| Name | Product Number | Firmware | Mode | Mapping Src Label | Mapping preset | Pairing Guide | Known issues | Un-confirm issues |
 | ---- | -------------- | -------- | ---- | ----------------- | -------------- | ------------- | ------------ | ---------------- |
 | 8bitdo GBros. Adapter | 83GA | v2.26 | Xinput | Game Cube | Default Gamepad | [7](#7---8bitdo-pairing-guide) |   | [#523](https://github.com/darthcloud/BlueRetro/issues/523) |
 | 8bitdo M30 Bluetooth | 80HA | v1.15 | Xinput | Saturn | Default Gamepad | [7](#7---8bitdo-pairing-guide), [7.3](#73---d-pad-as-joystick-or-d-pad-configuration) |   |   |
