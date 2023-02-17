@@ -67,9 +67,9 @@ Follow this guide to get me a Bluetooth trace of it:\
 | Nintendo Switch Pro | HAC-013 |   | Switch | WiiU / Switch Pro | Default Gamepad | [6](#6---switch-pro--joycon-pairing-guide) | [#146](https://github.com/darthcloud/BlueRetro/issues/146) | [#468](https://github.com/darthcloud/BlueRetro/issues/468) [#473](https://github.com/darthcloud/BlueRetro/issues/473) |
 | Nintendo Switch SFC & SNES | HAC-042 |   | Switch | Switch SNES | Default Gamepad | [6](#6---switch-pro--joycon-pairing-guide) | [#146](https://github.com/darthcloud/BlueRetro/issues/146) | [#468](https://github.com/darthcloud/BlueRetro/issues/468) [#473](https://github.com/darthcloud/BlueRetro/issues/473) |
 | Nintendo Wiimote | RVL-036 |   | Wii | Wiimote | Default Gamepad | [5](#5---wii--wiiu-pro-pairing-guide) |   |   |
-| Nintendo Wiimote + Classic | RVL-005 |   | Wii | Wiimote + Classic | Default Gamepad | [5](#5---wii--wiiu-pro-pairing-guide) |   |   |
-| Nintendo Wiimote + Classic Pro | RVL-005 (-02) |   | Wii | Wiimote + Classic Pro | Default Gamepad | [5](#5---wii--wiiu-pro-pairing-guide) |   |   |
-| Nintendo Wiimote + Nunchuck | RVL-004 |   | Wii | Wiimote + Nunchuck | Default Gamepad | [5](#5---wii--wiiu-pro-pairing-guide) |   |   |
+| Nintendo Wiimote + Classic | RVL-005 |   | Wii | Wiimote + Classic | Default Gamepad | [5](#5---wii--wiiu-pro-pairing-guide) | [#612](https://github.com/darthcloud/BlueRetro/issues/612) |   |
+| Nintendo Wiimote + Classic Pro | RVL-005 (-02) |   | Wii | Wiimote + Classic Pro | Default Gamepad | [5](#5---wii--wiiu-pro-pairing-guide) | [#612](https://github.com/darthcloud/BlueRetro/issues/612) |   |
+| Nintendo Wiimote + Nunchuck | RVL-004 |   | Wii | Wiimote + Nunchuck | Default Gamepad | [5](#5---wii--wiiu-pro-pairing-guide) | [#612](https://github.com/darthcloud/BlueRetro/issues/612) |   |
 | Nintendo WiiU Pro | WUP-005 |   | Wii | WiiU / Switch Pro | Default Gamepad | [5](#5---wii--wiiu-pro-pairing-guide) | [#3](https://github.com/darthcloud/BlueRetro/issues/3) |   |
 | PowerA GameCube | 1511638-01 |   | Switch | Game Cube | Default Gamepad | [6](#6---switch-pro--joycon-pairing-guide) | [#146](https://github.com/darthcloud/BlueRetro/issues/146) |   |
 | Retro-Bit SEGA Saturn Bluetooth |   | v1.02 | Xinput | Saturn | Default Gamepad | [8](#8---retro-bit-pairing-guide) |   |   |
@@ -192,10 +192,6 @@ Update firmware via the [Xbox accessories Win10 app](https://apps.microsoft.com/
 ## 5.2 - Reconnect
 
 1. Simply press any button on controller and it will reconnect to BlueRetro.
-
-## 5.3 - Troubleshooting 
-
-The Wii MotionPlus expansion device conflicts with add-ons. When using devices connected to the Wii-Ext port (such as Nunchuck or Classic Controller), remove any Wii MotionPlus attached to the Wii Remote. 
 
 # 6 - Switch Pairing Guide
 
