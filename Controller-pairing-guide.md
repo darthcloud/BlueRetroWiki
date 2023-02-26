@@ -28,6 +28,7 @@
   * [11.2 - Reconnect](#112---reconnect)
 * [12 - Exlene GameCube Paring Guide](#12---exlene-gamecube-paring-guide)
 * [13 - Hyperkin Admiral Paring Guide](#13---hyperkin-admiral-paring-guide)
+* [14 - Google Stadia Paring Guide](#14---google-stadia-paring-guide)
 
 # 0 - Your controller not in the list?
 
@@ -53,6 +54,7 @@ Follow this guide to get me a Bluetooth trace of it:\
 | 8bitdo SF30 Pro | 80DB | v2.00 | Xinput | 8bitdo SN30 / SF30 | Default Gamepad | [7](#7---8bitdo-pairing-guide) |   |   |
 | 8bitdo S30 Modkit |  |  | Xinput | Saturn | Default Gamepad | [7](#7---8bitdo-pairing-guide), [7.3](#73---d-pad-as-joystick-or-d-pad-configuration) |   |   |
 | 8bitdo N30 Modkit |  |  | Xinput | NES | Default Gamepad | [7](#7---8bitdo-pairing-guide), [7.3](#73---d-pad-as-joystick-or-d-pad-configuration) |   |   |
+| Google Stadia | H2B | [Bluetooth mode](https://stadia.google.com/controller) | HID Generic | Default | Default Gamepad | [14](#14---google-stadia-paring-guide) |   |   |
 | Exlene GameCube |   | 2021-11 | Xinput (but they call it IOS) | Exlene Game Cube | **Exlene GameCube** | [12](#12---exlene-gamecube-paring-guide) | [#547](https://github.com/darthcloud/BlueRetro/issues/547) |   |
 | Hyperkin Admiral N64 | MO7389-AP | v1.5.010722 | Switch | N64 | Default Gamepad | [13](#13---hyperkin-admiral-paring-guide) | [#146](https://github.com/darthcloud/BlueRetro/issues/146) |   |
 | Microsoft Xbox Adaptive | 1836 | 5.15.3168.0 | BT | Xbox One S / X\|S | Default Gamepad | [4](#4---xbox-pairing-guide) |   | [#441](https://github.com/darthcloud/BlueRetro/issues/441) |
@@ -323,3 +325,17 @@ As such you need to load the **Exlene GameCube** preset.
 
 1. It's important to press the A button to power on the Admiral controller as it's select the default internal mapping of the controller.\
    It will reconnect to BlueRetro after doing so.
+
+# 14 - Google Stadia Paring Guide
+
+## 14.1 - First pairing
+
+1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing).
+2. Power up the Stadia controller by holding Stadia button + the Y button simultaneously until LED start blinking orange.
+3. LED will blink white once pairing is complete.
+
+## 14.1 - Troubleshooting
+
+To reset the controller hold the Stadia button for 10 seconds.
+
+If you still have troubles with Stadia Controller, check the official [FAQ](https://support.google.com/stadia/answer/13067284) and [troubleshooting tips](https://support.google.com/stadia/answer/9584135) for more instructions.
