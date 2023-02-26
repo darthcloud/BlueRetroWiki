@@ -334,7 +334,11 @@ As such you need to load the **Exlene GameCube** preset.
 2. Power up the Stadia controller by holding Stadia button + the Y button simultaneously until LED start blinking orange.
 3. LED will blink white once pairing is complete.
 
-## 14.1 - Troubleshooting
+## 14.2 - Reconnect
+
+1. Simply press Stadia button to power on Stadia controller and it will reconnect to BlueRetro.
+
+## 14.3 - Troubleshooting
 
 To reset the controller hold the Stadia button for 10 seconds.
 
