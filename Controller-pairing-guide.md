@@ -54,7 +54,7 @@ Follow this guide to get me a Bluetooth trace of it:\
 | 8bitdo SF30 Pro | 80DB | v2.00 | Xinput | 8bitdo SN30 / SF30 | Default Gamepad | [7](#7---8bitdo-pairing-guide) |   |   |
 | 8bitdo S30 Modkit |  |  | Xinput | Saturn | Default Gamepad | [7](#7---8bitdo-pairing-guide), [7.3](#73---d-pad-as-joystick-or-d-pad-configuration) |   |   |
 | 8bitdo N30 Modkit |  |  | Xinput | NES | Default Gamepad | [7](#7---8bitdo-pairing-guide), [7.3](#73---d-pad-as-joystick-or-d-pad-configuration) |   |   |
-| Google Stadia | H2B | [Bluetooth mode](https://stadia.google.com/controller) | HID Generic | Default | Default Gamepad | [14](#14---google-stadia-paring-guide) |   |   |
+| Google Stadia | H2B | [Bluetooth mode](https://stadia.google.com/controller) | HID Generic | Default | Default Gamepad | [14](#14---google-stadia-paring-guide) |   | [#578](https://github.com/darthcloud/BlueRetro/issues/578) [#622](https://github.com/darthcloud/BlueRetro/issues/622) |
 | Exlene GameCube |   | 2021-11 | Xinput (but they call it IOS) | Exlene Game Cube | **Exlene GameCube** | [12](#12---exlene-gamecube-paring-guide) | [#547](https://github.com/darthcloud/BlueRetro/issues/547) |   |
 | Hyperkin Admiral N64 | MO7389-AP | v1.5.010722 | Switch | N64 | Default Gamepad | [13](#13---hyperkin-admiral-paring-guide) | [#146](https://github.com/darthcloud/BlueRetro/issues/146) |   |
 | Microsoft Xbox Adaptive | 1836 | 5.15.3168.0 | BT | Xbox One S / X\|S | Default Gamepad | [4](#4---xbox-pairing-guide) |   | [#441](https://github.com/darthcloud/BlueRetro/issues/441) |
