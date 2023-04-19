@@ -1,6 +1,7 @@
 # Table of contents
 
-* [0 - Your controller not in the list?](#0---your-controller-not-in-the-list)
+* [i - Your controller not in the list?](#i---your-controller-not-in-the-list)
+* [ii - BlueRetro Joystick calibration](#ii---blueretro-joystick-calibration)
 * [1 - List of tested Bluetooth devices](#1---list-of-tested-bluetooth-devices)
 * [2 - PS3 Pairing Guide](#2---ps3-pairing-guide)
   * [2.1 - First pairing](#21---first-pairing)
@@ -30,11 +31,21 @@
 * [13 - Hyperkin Admiral Paring Guide](#13---hyperkin-admiral-paring-guide)
 * [14 - Google Stadia Paring Guide](#14---google-stadia-paring-guide)
 
-# 0 - Your controller not in the list?
+# i - Your controller not in the list?
 
 I can add support for it if it's uniquely identifiable in one of its modes of operation.\
 Follow this guide to get me a Bluetooth trace of it:\
 [Getting Bluetooth HCI trace with Windows 10](Bluetooth-HCI-trace-with-Win10)
+
+# ii - BlueRetro Joystick calibration
+
+Each time a controller is connected to BlueRetro every axis (Joysticks & Triggers) neutral value is calibrated.
+This calibration assume the joysticks and triggers are left to their neutral position during the connection process.
+
+Some controller like Xbox, Stadia or any device in XInput mode do not send report update if no buttons/axes are pressed.
+
+So for Xbox, Stadia or any device in XInput mode it's important to press a button (like A) a couple time after connection
+while the joysticks and triggers are left to their neutral position so that BlueRetro is able to calibrate the neutral values properly.
 
 # 1 - List of tested Bluetooth devices
 
@@ -340,6 +351,8 @@ As such you need to load the **Exlene GameCube** preset.
 
 ## 14.3 - Troubleshooting
 
-To reset the controller hold the Stadia button for 10 seconds.
+* If reconnect takes a long time you may need to re-pair the controller (See [14.1](#141---first-pairing))
+* To reset the controller hold the Stadia button for 10 seconds.
 
 If you still have troubles with Stadia Controller, check the official [FAQ](https://support.google.com/stadia/answer/13067284) and [troubleshooting tips](https://support.google.com/stadia/answer/9584135) for more instructions.
+
