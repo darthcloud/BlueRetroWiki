@@ -19,7 +19,9 @@
 * [4 - System manager page](#4---system-manager-page)
 * [5 - OTA FW update page](#5---ota-fw-update-page)
 * [6 - Files Manager page](#6---files-manager-page)
-* [7 - N64 controller pak manager page](#7---n64-controller-pak-manager-page)
+* [7 - Memory card manager pages](#7---memory-card-manager-pages)
+  * [7.1 - N64 controller pak manager page](#71---n64-controller-pak-manager-page)
+  * [7.2 - DC VMU manager page](#72---dc-vmu-manager-page)
 * [8 - Misc examples](#8---misc-examples)
   * [8.1 - Mouse config example](#81---mouse-config-example)
   * [8.2 - Keyboard config example](#82---keyboard-config-example)
@@ -245,10 +247,26 @@ Once you got a few GameID config saved it will look like this:
 
 The file name will be base on the RAW GameId value, place the cursor over the filename to make an info box appear with the actual Game name.
 
-# 7 - N64 controller pak manager page
+# 7 - Memory card manager pages
+
+BlueRetro provide a way to emulate memory card through a generic interface internaly.
+This means all console share the same 128KB of flash memory and that the adapter itself
+do not provide any facility to format specific format.
+
+The memory card format need to be done either through the web interface or via the target
+system.
+
+** FOR UNIVERSAL BLUERETRO USER **
+Since all systems share the same memory on the adapter for memory card emulation, if you format this area for system X,
+and then use your BlueRetro on system Y and format the memory card again, you have lost your data for system X.
+Backup the data with this interface before switching systems.
+
+# 7.1 - N64 controller pak manager page
 
 BlueRetro do not initialise controller pak by itself. You need to first format them using this
 interface or by using a game that support doing so.
+Since the BlueRetro memory card module support up to 128KB it's possible to emulated a total
+of 4 controller pak banks simultaneously.
 
 ![](img/web/n64_ctrlpak.png)
 
@@ -259,6 +277,20 @@ Select one of the 4 controller pak bank via the dropbox. By default Bank 1 is se
 * **Write**: This will write the selected MPK file into the currently selected controller pak bank.
 
 To manage the notes contained inside the MPK file I suggest using bryc's [mempak tool](https://bryc.github.io/mempak/).
+
+# 7.2 - DC VMU manager page
+
+BlueRetro do not initialise the VMU by itself.
+Use the Dreamcast BIOS VMU manager to format the emulated VMU memory.
+
+Only one VMU can me emulated on a BlueRetro adapter. You may assign it to
+any controller via the advance config output config section [2.3](#23---output-config).
+
+It's possible to assign that single VMU to all controllers but that is likely
+to create data corruption. DO SO AT YOUR OWN RISK.
+
+* **Read**: This let you download a dump of the adapter VMU.
+* **Write**: This will write the selected BIN file into the adapter VMU.
 
 # 8 - Misc examples
 
