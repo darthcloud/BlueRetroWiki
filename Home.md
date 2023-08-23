@@ -111,24 +111,30 @@ This page describe how the generic options of the Web Config apply to each syste
 * While the ESP32 is in boot mode or in deep sleep the system reset function is lost.
 
 # 6 - Button combinations functions
-I'm using generic label to describe the button combinations here. Refer to [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml) for specific buttons.
-Also added PlayStation buttons name in () to help a bit.
+Their is two forms of button combo to activate macro functions:
+* Base1 + Base2 + Base3 + CommonFunction
+* Base1 + Base2 + Base3 + Base4 + RestrictedFunction
 
-* Disconnect controller (+ power off internal mod):\
-  Main Left Trigger (L2) + Main Right Trigger (R2) + Middle Right (Start)\
-  \+ Face Down (X)
-* System reset internal mod:\
-  Main Left Trigger (L2) + Main Right Trigger (R2) + Middle Right (Start)\
-  \+ Face Left (Square)
-* Toogle Pairing mode on/off:\
-  Main Left Trigger (L2) + Main Right Trigger (R2) + Middle Right (Start)\
-  \+ Face Right (Circle)
-* Factory Reset:\
-  Main Left Trigger (L2) + Main Right Trigger (R2) + Middle Right (Start)\
-  \+ Face Up (Triangle) + D-pad Up
-* Deep Sleep:\
-  Main Left Trigger (L2) + Main Right Trigger (R2) + Middle Right (Start)\
-  \+ Face Up (Triangle) + D-pad Down
+The default mapping for the base buttons is as follow:
+* LM (SNES L, PS L2) -> Base1
+* RM (SNES R, PS R2) -> Base2
+* MM (Start) -> Base3
+* RB Up (SNES X, PS Triangle) -> Base4
+
+The default mapping for the common function last button:
+* RB Left (SNES Y, PS Square) -> System Reset
+* RB Down (SNES B, PS X) -> System Shutdown/Controller disconnect
+* RB Right (SNES A, PS Circle) -> Toggle BT pairing mode on/off
+
+The default mapping for the restricted function last button
+* D-pad Up -> Facotry Reset
+* D-pad Down -> Disable BlueRetro (Deep sleep)
+
+These default can be modified via the [advance config mapping section](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-BLE-Web-Config-User-Manual#24---mapping-config).\
+Those mapping are generaly located at the end of the mapping list.\
+Simply change the source button to alter the mapping of a base, common function or restricted function button.
+
+Refer to [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml) to translate BlueRetro label to specific system button names.
 
 # 7 - LED usage (IO17)
 
