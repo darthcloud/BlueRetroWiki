@@ -96,8 +96,10 @@ ESP32 IO | Direction | Function | Note
 ---------- | ---------- | --------- | ------
 2 | Output | Controller port 1 LED | 3.3v level
 4 | Output | Controller port 2 LED | 3.3v level
-12 | Output | Controller port 3 LED | 3.3v level
-15 | Output | Controller port 4 LED | 3.3v level
+12* | Output | Controller port 3 LED | 3.3v level
+15* | Output | Controller port 4 LED | 3.3v level
+
+*In PlayStation mode pin 12 & 15 are used as the P1 & P2 Analog LED respectively.
 
 All those pin are ESP32 strapping pin. Interface via MOSFET to avoid problem at boot.
 
