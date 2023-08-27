@@ -104,6 +104,9 @@ Accessories config has no effect.
 ## Mapping
 See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml) for Bluetooth controller & PCE/TG16 controller buttons label correspondence.
 
+### Special buttons functions
+* **MT (Home)**: Toogle wired output mode between GamePad & GamePadAlt.
+
 # Genesis
 
 ## Multitap Config
@@ -129,6 +132,9 @@ Accessories config has no effect.
 
 ## Mapping
 See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml) for Bluetooth controller & Genesis controller buttons label correspondence.
+
+### Special buttons functions
+* **MT (Home)**: Toogle wired output mode between GamePad & GamePadAlt.
 
 # SNES
 
@@ -201,6 +207,9 @@ Accessories config has no effect.
 
 ## Mapping
 See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml) for Bluetooth controller & 3DO controller buttons label correspondence.
+
+### Special buttons functions
+* **MT (Home)**: Toogle wired output mode between GamePad & GamePadAlt.
 
 # Jaguar
 
@@ -281,6 +290,9 @@ Accessories config has no effect.
 
 ## Mapping
 See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml) for Bluetooth controller & Saturn controller buttons label correspondence.
+
+### Special buttons functions
+* **MT (Home)**: Toogle wired output mode between GamePad & GamePadAlt.
 
 ## Notes
 
@@ -399,6 +411,9 @@ Multitap config has no effect.
 
 ## Mapping
 See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml) for Bluetooth controller & Dreamcast controller buttons label correspondence.
+
+### Special buttons functions
+* **MT (Home)**: Toogle wired output mode between GamePad & GamePadAlt.
 
 # GameCube
 BlueRetro will emulate the device selected in output config #1 on GameCube port 1.\
