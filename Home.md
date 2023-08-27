@@ -125,6 +125,7 @@ The default mapping for the common function last button:
 * RB Left (SNES Y, PS Square) -> System Reset
 * RB Down (SNES B, PS X) -> System Shutdown/Controller disconnect
 * RB Right (SNES A, PS Circle) -> Toggle BT pairing mode on/off
+* MS (Select) -> Toogle wired output mode between GamePad & GamePadAlt
 
 The default mapping for the restricted function last button
 * D-pad Up -> Facotry Reset
