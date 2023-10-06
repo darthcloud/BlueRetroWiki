@@ -64,6 +64,7 @@ while the joysticks and triggers are left to their neutral position so that Blue
 | 8bitdo N30 Arcade Stick | NS30 | v5.10 | Xinput | Xbox One S / X\|S | Default Gamepad | [7](#7---8bitdo-pairing-guide) |   |   |
 | 8bitdo N64 | RB8-N64 | v2.00 | HID Generic | N64 | Default Gamepad |   |   |   |
 | 8bitdo N64 Modkit |  | | D | Switch N64 | Default Gamepad | [15](#15---8bitdo-n64-modkit-paring-guide) |   |   |
+| 8bitdo NeoGeo Gamepad |  |  | BT | NeoGeo | Default Gamepad |  |   |   |
 | 8bitdo SF30 Pro | 80DB | v2.00 | Xinput | 8bitdo SN30 / SF30 | Default Gamepad | [7](#7---8bitdo-pairing-guide) |   |   |
 | 8bitdo S30 Modkit |  |  | Xinput | Saturn | Default Gamepad | [7](#7---8bitdo-pairing-guide), [7.3](#73---d-pad-as-joystick-or-d-pad-configuration) |   |   |
 | 8bitdo N30 Modkit |  |  | Xinput | NES | Default Gamepad | [7](#7---8bitdo-pairing-guide), [7.3](#73---d-pad-as-joystick-or-d-pad-configuration) |   |   |
