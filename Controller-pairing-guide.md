@@ -30,6 +30,7 @@
 * [12 - Exlene GameCube Paring Guide](#12---exlene-gamecube-paring-guide)
 * [13 - Hyperkin Admiral Paring Guide](#13---hyperkin-admiral-paring-guide)
 * [14 - Google Stadia Paring Guide](#14---google-stadia-paring-guide)
+* [15 - 8BitDo N64 Modkit Pairing Guide](#15---8bitdo-n64-modkit-paring-guide)
 
 # i - Your controller not in the list?
 
@@ -62,6 +63,7 @@ while the joysticks and triggers are left to their neutral position so that Blue
 | 8bitdo M30 Bluetooth | 80HA | v1.15 | Xinput | Saturn | Default Gamepad | [7](#7---8bitdo-pairing-guide), [7.3](#73---d-pad-as-joystick-or-d-pad-configuration) |   |   |
 | 8bitdo N30 Arcade Stick | NS30 | v5.10 | Xinput | Xbox One S / X\|S | Default Gamepad | [7](#7---8bitdo-pairing-guide) |   |   |
 | 8bitdo N64 | RB8-N64 | v2.00 | HID Generic | N64 | Default Gamepad |   |   |   |
+| 8bitdo N64 Modkit |  | | D | Switch N64 | Default Gamepad | [15](#15---8bitdo-n64-modkit-paring-guide) |   |   |
 | 8bitdo SF30 Pro | 80DB | v2.00 | Xinput | 8bitdo SN30 / SF30 | Default Gamepad | [7](#7---8bitdo-pairing-guide) |   |   |
 | 8bitdo S30 Modkit |  |  | Xinput | Saturn | Default Gamepad | [7](#7---8bitdo-pairing-guide), [7.3](#73---d-pad-as-joystick-or-d-pad-configuration) |   |   |
 | 8bitdo N30 Modkit |  |  | Xinput | NES | Default Gamepad | [7](#7---8bitdo-pairing-guide), [7.3](#73---d-pad-as-joystick-or-d-pad-configuration) |   |   |
@@ -355,4 +357,26 @@ As such you need to load the **Exlene GameCube** preset.
 * To reset the controller hold the Stadia button for 10 seconds.
 
 If you still have troubles with Stadia Controller, check the official [FAQ](https://support.google.com/stadia/answer/13067284) and [troubleshooting tips](https://support.google.com/stadia/answer/9584135) for more instructions.
+
+# 15 - 8BitDo N64 Modkit Paring Guide
+8bitdo Switch mode will not work properly with BlueRetro.
+D-input mode do not expose the Rumble feature.
+
+As such, it's not possible to use the Rumble feature of this controller.
+
+## 15.1 - First pairing
+
+1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing).
+2. Set switch at bottom of 8BitDo rumble to **D**.
+3. Power up the 8BitDo N64 Modkit controller by holding start.
+4. Hold sync button until LED start blinking fast.
+5. LED will stop blinking once pairing is complete.
+6. Press A buttons a few times to make sure joystick center value is properly init.
+
+## 15.2 - Reconnect
+
+1. Set switch at bottom of 8BitDo rumble to **D**.
+2. Power up the 8BitDo N64 Modkit controller by holding start.
+3. LED will stop blinking once pairing is complete.
+4. Press A buttons a few times to make sure joystick center value is properly init.
 
