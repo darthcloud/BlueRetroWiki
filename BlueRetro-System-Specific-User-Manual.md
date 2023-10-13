@@ -404,10 +404,11 @@ Multitap config has no effect.
 
 ### Accessories
 **Only valid for "Gamepad" & "GamePadAlt" mode.**
+**Only one VMU can be emulated. Set Memory/Both on only one output.**
 * **None**: BlueRetro will emulate a Dreamcast controller with 2 empty accessory slots
-* **Memory**: **TBD** ~~BlueRetro will emulate a Dreamcast controller with VMU.~~
+* **Memory**: BlueRetro will emulate a Dreamcast controller with VMU.
 * **Rumble**: BlueRetro will emulate a Dreamcast controller with Jump Pack. **Experimental**
-* **Both**: **TBD** ~~BlueRetro will emulate a Dreamcast controller with VMU & Jump Pack.~~
+* **Both**: BlueRetro will emulate a Dreamcast controller with VMU & Jump Pack.
 
 ## Mapping
 See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml) for Bluetooth controller & Dreamcast controller buttons label correspondence.
