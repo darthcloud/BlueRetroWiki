@@ -403,7 +403,7 @@ Multitap config has no effect.
 * **Mouse**: BlueRetro will emulate a Dreamcast Mouse. (Must use "Default Mouse" preset)
 
 ### Accessories
-**Only valid for "Gamepad" & "GamePadAlt" mode.**
+**Only valid for "Gamepad" & "GamePadAlt" mode.**\
 **Only one VMU can be emulated. Set Memory/Both on only one output.**
 * **None**: BlueRetro will emulate a Dreamcast controller with 2 empty accessory slots
 * **Memory**: BlueRetro will emulate a Dreamcast controller with VMU.
