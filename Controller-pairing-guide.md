@@ -191,10 +191,12 @@ Update firmware via the [Xbox accessories Win10 app](https://apps.microsoft.com/
 1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing).
 2. Power on controller via Xbox button and then hold the black sync button until the logo blink.
 3. Logo will stop blinking on controller once pairing is complete.
+4. Press A buttons a few times to make sure joystick center value is properly init.
 
 ## 4.2 - Reconnect
 
 1. Simply hold Xbox button for a small moment to power on controller and it will reconnect to BlueRetro.
+2. Press A buttons a few times to make sure joystick center value is properly init.
 
 # 5 - Wii & WiiU Pro Pairing Guide
 * 1+2 pairing is not supported.
@@ -240,9 +242,11 @@ Update firmware via the [8bitdo Upgrade tool Win10 app](https://support.8bitdo.c
 2. Power up 8bitdo controller in Xinput mode (Start + X or set switch to X) (Only Xinput mode supported!!).
 2. Press and hold sync button until LEDs flash.
 3. LEDs will stop pattern on controller once pairing is complete.
+4. Press A buttons a few times to make sure joystick center value is properly init.
 
 ## 7.2 - Reconnect
 1. Simply press Start on controller and it will reconnect to BlueRetro.
+2. Press A buttons a few times to make sure joystick center value is properly init.
 
 ## 7.3 - D-pad as Joystick or D-pad configuration
 Most 8bitdo controllers are configured to have the D-pad emulate a joystick by default.
