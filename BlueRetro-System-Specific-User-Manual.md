@@ -294,12 +294,6 @@ See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX
 ### Special buttons functions
 * **MT (Home)**: Toogle wired output mode between GamePad & GamePadAlt.
 
-## Notes
-
-Many ODE frontends (such as Pseudo Saturn Kai) are not compatible with Analog mode, making game selection impossible.
-* Workaround 1 : Select and launch the game with **GamePad** mode, then switch to **Analog** for play.
-* Workaround 2 : Use a standard Saturn controller for ODE navigation and game launch, then plug BlueRetro for play.
-
 # PC-FX
 
 ## Multitap Config
