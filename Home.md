@@ -128,7 +128,7 @@ The default mapping for the common function last button:
 * MS (Select) -> Toogle wired output mode between GamePad & GamePadAlt
 
 The default mapping for the restricted function last button
-* D-pad Up -> Facotry Reset
+* D-pad Up -> Factory Reset
 * D-pad Down -> Disable BlueRetro (Deep sleep)
 
 These default can be modified via the [advance config mapping section](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-BLE-Web-Config-User-Manual#24---mapping-config).\
