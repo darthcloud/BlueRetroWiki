@@ -81,6 +81,10 @@ Accessories config has no effect.
 ## Mapping
 See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml) for Bluetooth controller & NES controller buttons label correspondence.
 
+### Special buttons functions
+** For FC Keyboard mode only. **
+* **F9 + F10**: FC Keyboard output is disabled while holding both F9+F10. (Help to navigate everdrive menu)
+
 # PCE / TG16
 
 ## Multitap Config
