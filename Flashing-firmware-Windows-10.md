@@ -7,9 +7,9 @@ https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/establis
 3. Select develop Mode\
    Select ESP32 DownloadTool\
    ![](img/flash_mode.png)
-4. Select and check the 3 binary file in the first 3 field and match the option as in screenshot.\
-   An universal version with system auto detection is provided in addition to system hard-coded versions.\
-   In order each bin offset are: 0x1000, 0x8000, & 0x10000.\
+4. Select and check the first 3 binary files in the first 3 fields and match the option as in the screenshot.\
+   For the 4th field, check it too and use the firmware that match your adapter type.\
+   In order each bin offset value are: 0x1000, 0x8000, 0xD000 & 0x10000.\
    ![](img/flash_config.png)
 5. Select proper COM port for your machine.
 6. Press START
