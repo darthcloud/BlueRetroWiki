@@ -561,6 +561,8 @@ I36 | JAGUAR P1 | 1 | J3 | Player 1 COL IN | Yes
 * DB25 Male solder cup (x1) (DKPN: AE10984-ND PN: A-DS 25 LL/Z)
 * DB25 Backshell (x1) (DKPN: 970-25BPE-ND PN: 970-025-010R011)
 * PSX/PS2 controller plug (x2)
+* TVS DIODE 5VWM 9.2VC DO214AA (x10) (DKPN: 732-9729-1-ND PN: 824521500)
+* 33 ohm resistors (x10) (DKPN: S33CACT-ND PN: RNMF14FTC33R0)
 
 ### Cable schematic
  [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/PS.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/PS.pdf)
@@ -570,7 +572,8 @@ I36 | JAGUAR P1 | 1 | J3 | Player 1 COL IN | Yes
 * If using an universal FW AND not wiring 2nd port plug, make sure to connect IO22 & IO25 to GND.
 * If not wiring 2nd port plug, make sure to connect IO5 (P2_DTR), IO26 (P2_SCK) & IO27 (P2_TXD) to 3.3V
 * You may connect 8V directly into the 5V input of an ESP32-DevKitC, the onboard LDO (AMS1117-3.3) is rated for 18V.
-* If planning to use a BlueRetro DevKit board wire cable the LDO is required (Onboard LDO max is 6V).
+* For BlueRetro DevKit board, the LDO in the cable end is required (DevKit onboard LDO max is 6V).
+* To avoid random button press on some PS1 it is required to put the inline 33 ohm resistor and the TVS Diode to GND. See updated schematic.
 
 ## SMD Cable PCB
 
