@@ -169,13 +169,16 @@ IO22 | SMS P2 | 3 | P2_L | Player 2 D2 | No
 * Famicom controller plug (x1) (Optional)
 
 ### Cable schematic
- [https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/NES.pdf](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/NES.pdf)
+ [NES Schematic (2x NES ports)](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/NES.pdf)\
+ [AV Famicom Schematic (2x NES ports + 1x Famicom Exp port)](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/AVFC.pdf)\
+ [Famicom Schematic (1x Famicom Exp port)](https://github.com/darthcloud/BlueRetroHW/blob/master/DIY/FC.pdf)
 
 ### Assembly instructions
 * If using an universal FW, make sure to connect I39 to 3.3V and IO33, I34 & I35 to GND.
 * If using an universal FW AND not wiring 2nd port plug, make sure to connect IO22 to GND.
 * If using an universal FW AND not wiring Famicom 4P adapter, make sure to connect IO21 & IO25 to GND.
 * If not wiring 2nd port plug, make sure to connect IO18 (P2_CUP) to 3.3V
+* A Famicom exp port only adapter needs to have IO33 connected to 3V3.
 
 ## SMD Cable PCB
 
