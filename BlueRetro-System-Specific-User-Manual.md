@@ -75,6 +75,9 @@ See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX
 * **Keyboard**: BlueRetro will emulate a Famicom keyboard.
 * **Mouse**: BlueRetro will emulate a Famicom Hori Trackball. (Must use "Default Mouse" preset)
 
+Keyboard & Mouse are only supported through the Famicom expansion port.\
+They both need to be configure on output #1.
+
 ### Accessories
 Accessories config has no effect.
 
