@@ -48,7 +48,8 @@ If you are not sure if you should build HW1 or HW2: the answer is build HW1!
 * [Internal install HW2 spec](BlueRetro-HW2-Internal-Install-Specification)
 * [External adapter HW2 spec](BlueRetro-HW2-External-Specification)
 
-[Nostalgic Indulgences](https://twitter.com/nosIndulgences) created multiple guides base on HW2 for internal install. Checkout his GitHub repo: https://github.com/nostalgic-indulgences/BlueRetro_Internal_Installation
+[Nostalgic Indulgences](https://twitter.com/nosIndulgences) created multiple guides base on HW2 for internal install:: https://github.com/nostalgic-indulgences/BlueRetro_Internal_Installation\
+[TharathielCB](https://github.com/TharathielCB) created BR4N64, an internal BlueRetro Flex-PCB for the Nintendo 64: https://github.com/TharathielCB/BR4N64
 
 # 3 - Pairing Bluetooth controller
 
