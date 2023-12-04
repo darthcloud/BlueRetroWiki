@@ -27,6 +27,7 @@
       write_flash --flash_mode dio --flash_size detect --flash_freq 40m \
       0x1000 bootloader/bootloader.bin \
       0x8000 partition_table/partition-table.bin \
+      0xd000 ota/ota_data_initial.bin \
       0x10000 BlueRetro_universal_spiffs.bin
     ```
     
