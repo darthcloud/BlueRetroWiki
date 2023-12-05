@@ -3,6 +3,9 @@
 * [i - Your controller not in the list?](#i---your-controller-not-in-the-list)
 * [ii - BlueRetro Joystick calibration](#ii---blueretro-joystick-calibration)
 * [1 - List of tested Bluetooth devices](#1---list-of-tested-bluetooth-devices)
+  * [1.1 - List of tested Bluetooth Gamepads](#11---list-of-tested-bluetooth-gamepads)
+  * [1.2 - List of tested Bluetooth Keyboards](#12---list-of-tested-bluetooth-keyboards)
+  * [1.3 - List of tested Bluetooth Mouses](#13---list-of-tested-bluetooth-mouses)
 * [2 - PS3 Pairing Guide](#2---ps3-pairing-guide)
   * [2.1 - First pairing](#21---first-pairing)
     * [2.1.1 - Windows](#211---windows)
@@ -49,6 +52,8 @@ So for Xbox, Stadia or any device in XInput mode it's important to press a butto
 while the joysticks and triggers are left to their neutral position so that BlueRetro is able to calibrate the neutral values properly.
 
 # 1 - List of tested Bluetooth devices
+
+## 1.1 - List of tested Bluetooth Gamepads
 
 * Controller may have multiple hardware revision; only the ones listed under **Product Number** were tested.
 * Controller behavior may change between their various firmware version; only the firmware listed under **Firmware** is supported.
@@ -97,6 +102,20 @@ while the joysticks and triggers are left to their neutral position so that Blue
 | Sony PS4 DualShock 4 |   |   | PS4 | PS4 / PS5 | Default Gamepad | [3](#3---ps4--ps5-pairing-guide) |   |   |
 | Sony PS5 DualSense | CFI-ZCT1W | 0307 | PS5 | PS4 / PS5 | Default Gamepad | [3](#3---ps4--ps5-pairing-guide) |   |   |
 | Valve Steam Controller | 1001 | 0x5B0F21BD (2018-05-30) | Lizard (BLE) | KB & Mouse | **DC FPS for Steam ctrl lizard** | [9](#9---steam-controller-pairing-guide) |   |   |
+
+## 1.2 - List of tested Bluetooth Keyboards
+If your keyboard prompt for a pin on Windows you may have to do the same with BlueRetro.
+Simply put 0000 and press Enter (BlueRetro have no way to ask you to do so).
+This is only needed for older BT keyboard, BT 4.0+ (LE) will not ask for a pin.
+
+* Logitech MX5000 (Enter pin 0000 when prompted by KB screen)
+* Logitech K600
+* 8BitDo Retro Mechanical Keyboard
+
+## 1.3 - List of tested Bluetooth Mouses
+* Logitech MX Master 2S
+* Rapoo MT550
+* Rapoo 7200M
 
 # 2 - PS3 Pairing Guide
 
