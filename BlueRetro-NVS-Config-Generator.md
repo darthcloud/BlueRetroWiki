@@ -5,7 +5,7 @@ The changes are uploaded via an additional binary file using the Flash Download 
 # 1 - Generating the CSV config with the Google sheet
 
 1. Make a copy of the Google sheet to your Google Drive:\
-   https://docs.google.com/spreadsheets/d/1qam4NyRg7Pec7PtPjEmYr2pjvLkCnkXyByLVaz7dG30/copy\
+   https://docs.google.com/spreadsheets/d/1qam4NyRg7Pec7PtPjEmYr2pjvLkCnkXyByLVaz7dG30/copy \
    ![](img/nvs/copy.png)
 2. Make changes to the default config in the **Configuration** sheet.
    ```
