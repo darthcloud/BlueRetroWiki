@@ -17,6 +17,7 @@
   * [8.2 - Via Web-Bluetooth interface (OTA FW update)](#82---via-web-bluetooth-interface-ota-fw-update)
 * [9 - BlueRetro debugging](#9---blueretro-debugging)
 * [10 - BlueRetro development](#10---blueretro-development)
+* [11 - BlueRetro Manufactoring Tools](#11---blueretro-manufactoring-tools)
 
 # 1 - Building hardware HW1
 HW1 is the original BlueRetro specification and the easiest one to build yourself.
@@ -182,4 +183,8 @@ of the Web config manual for a video example.
 
 All information regarding setting up a development environment and building for BlueRetro is located in the root repo:\
 https://github.com/darthcloud/BlueRetroRoot
+
+# 11 - BlueRetro Manufactoring Tools
+
+* See [BlueRetro NVS Config Generator](BlueRetro-NVS-Config-Generator) for customizing the default config at manufactoring time.
 
