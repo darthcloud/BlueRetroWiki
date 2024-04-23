@@ -81,6 +81,7 @@ If the system logic is 5V, a 3 state buffer need to be used. It's wired so the E
 
 ### System reset behavior while ESP32 on & system off
 * System is powered on via power relay / power pin
+* Long press & release: System reset is hold while powering on the sys via power relay / power pin.
 
 ### System reset behavior while ESP32 on and system on
 * Button press under < 3 sec (All LEDs solid):
@@ -91,6 +92,8 @@ If the system logic is 5V, a 3 state buffer need to be used. It's wired so the E
   Start pairing mode.
 * Button press over > 10 sec (All LEDs blink very fast):
   Factory reset ESP32 to original BlueRetro firmware the device shipped with & reset configuration.
+* Quick double press:\
+  System is powered down via power relay / power pin.
 
 ### System reset behavior while ESP32 off and system on
 * While the ESP32 is in boot mode or in deep sleep the system reset function is lost.

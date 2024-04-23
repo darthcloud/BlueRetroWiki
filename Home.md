@@ -102,12 +102,15 @@ This page describe how the generic options of the Web Config apply to each syste
   Start pairing mode.
 * Button press over > 10 sec (All LEDs blink very fast):\
   Factory reset ESP32 to original BlueRetro firmware the device shipped with & reset configuration.
+* Quick double press:\
+  System is powered down via power relay / power pin.
 
 ### 5.3.2 - System reset behavior while ESP32 off & system off
 * Holding system reset and then powering system put the ESP32 in boot (download) mode. Effectively disabling it for the current power session.
 
 ### 5.3.3 - System reset behavior while ESP32 on & system off
-* System is powered on via power relay / power pin
+* Short press: System is powered on via power relay / power pin
+* Long press & release: System reset is hold while powering on the sys via power relay / power pin.
 
 ### 5.3.4 - System reset behavior while ESP32 off and system on
 * While the ESP32 is in boot mode or in deep sleep the system reset function is lost.

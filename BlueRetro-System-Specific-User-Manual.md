@@ -72,7 +72,7 @@ See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX
 ### Mode
 * **GamePad**: BlueRetro will emulate a standard 8 buttons NES controller.
 * **GamePadAlt**: Same as GamePad.
-* **Keyboard**: BlueRetro will emulate a Famicom keyboard.
+* **Keyboard**: BlueRetro will emulate a Famicom keyboard. (Must use "Default Gamepad/Keyboard" preset)
 * **Mouse**: BlueRetro will emulate a Famicom Hori Trackball. (Must use "Default Mouse" preset)
 
 Keyboard & Mouse are only supported through the Famicom expansion port.\
@@ -102,7 +102,7 @@ See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX
 ### Mode
 * **GamePad**: BlueRetro will emulate a standard 2/3 buttons PCE / TG16 controller.
 * **GamePadAlt**: BlueRetro will emulate a standard 6 buttons PCE / TG16 controller.
-* **Keyboard**: NA
+* **Keyboard**: BlueRetro will emulate a PCE Keyboard. (Must use "Default Gamepad/Keyboard" preset)
 * **Mouse**: BlueRetro will emulate a PCE mouse. (Must use "Default Mouse" preset) (Not supported in multitap mode)
 
 ### Accessories
