@@ -34,6 +34,7 @@
 * [13 - Hyperkin Admiral Paring Guide](#13---hyperkin-admiral-paring-guide)
 * [14 - Google Stadia Paring Guide](#14---google-stadia-paring-guide)
 * [15 - 8BitDo N64 Modkit Pairing Guide](#15---8bitdo-n64-modkit-paring-guide)
+* [16 - 8BitDo NGC Modkit Pairing Guide](#16---8bitdo-ngc-modkit-paring-guide)
 
 # i - Your controller not in the list?
 
@@ -407,6 +408,9 @@ As such, it's not possible to use the Rumble feature of this controller.
 
 # 16 - 8BitDo NGC Modkit Paring Guide
 8bitdo Switch mode will not work properly with BlueRetro.
+
+Make sure to use either the **Default Gamepad only** or the **Default Gamepad/Keyboard** presets to make
+the triggers end button active. (Merge preset simulate the end button base on analog position.)
 
 ## 16.1 - First pairing
 
