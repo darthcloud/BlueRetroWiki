@@ -64,11 +64,12 @@ while the joysticks and triggers are left to their neutral position so that Blue
 
 | Name | Product Number | Firmware | Mode | Mapping Src Label | Mapping preset | Pairing Guide | Known issues | Un-confirm issues |
 | ---- | -------------- | -------- | ---- | ----------------- | -------------- | ------------- | ------------ | ---------------- |
-| 8bitdo GBros. Adapter | 83GA | v2.26 | Xinput | Game Cube | Default Gamepad | [7](#7---8bitdo-pairing-guide) |   | [#523](https://github.com/darthcloud/BlueRetro/issues/523) |
+| 8bitdo GBros. Adapter | 83GA | v2.26 | Xinput | GameCube | Default Gamepad | [7](#7---8bitdo-pairing-guide) |   | [#523](https://github.com/darthcloud/BlueRetro/issues/523) |
 | 8bitdo M30 Bluetooth | 80HA | v1.15 | Xinput | Saturn | Default Gamepad | [7](#7---8bitdo-pairing-guide), [7.3](#73---d-pad-as-joystick-or-d-pad-configuration) |   |   |
 | 8bitdo N30 Arcade Stick | NS30 | v5.10 | Xinput | Xbox One S / X\|S | Default Gamepad | [7](#7---8bitdo-pairing-guide) |   |   |
 | 8bitdo N64 | RB8-N64 | v2.00 | HID Generic | N64 | Default Gamepad |   |   |   |
 | 8bitdo N64 Modkit |  | | D | Switch N64 | Default Gamepad | [15](#15---8bitdo-n64-modkit-paring-guide) |   |   |
+| 8BitDo NGC Modkit |  |  | Android | GameCube | Default Gamepad | [16](#16---8bitdo-ngc-modkit-paring-guide) |   |  |
 | 8bitdo NeoGeo Gamepad |  |  | BT | NeoGeo | Default Gamepad |  |   |   |
 | 8bitdo SF30 Pro | 80DB | v2.00 | Xinput | 8bitdo SN30 / SF30 | Default Gamepad | [7](#7---8bitdo-pairing-guide) |   |   |
 | 8bitdo S30 Modkit |  |  | Xinput | Saturn | Default Gamepad | [7](#7---8bitdo-pairing-guide), [7.3](#73---d-pad-as-joystick-or-d-pad-configuration) |   |   |
@@ -404,3 +405,18 @@ As such, it's not possible to use the Rumble feature of this controller.
 3. LED will stop blinking once pairing is complete.
 4. Press A buttons a few times to make sure joystick center value is properly init.
 
+# 16 - 8BitDo NGC Modkit Paring Guide
+8bitdo Switch mode will not work properly with BlueRetro.
+
+## 16.1 - First pairing
+
+1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing).
+2. Power up 8BitDo NGC Modkit in Andoird mode (Start + B) (Only Android mode supported!!).
+3. LEDs on controller will stop flashing once pairing is complete.
+4. Press A buttons a few times to make sure joystick center value is properly init.
+
+## 16.2 - Reconnect
+
+1. Power up the 8BitDo NGC Modkit controller by holding start.
+2. LED will stop blinking once pairing is complete.
+3. Press A buttons a few times to make sure joystick center value is properly init.
