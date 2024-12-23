@@ -287,8 +287,8 @@ See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX
 ## Output Config
 
 ### Mode
-* **GamePad**: BlueRetro will emulate an Analog controller in **Digital** mode.
-* **GamePadAlt**: BlueRetro will emulate an Analog controller in **Analog** mode.
+* **GamePad**: BlueRetro will emulate a 3D controller in **Digital** mode.
+* **GamePadAlt**: BlueRetro will emulate a 3D controller in **Analog** mode.
 * **Keyboard**: BlueRetro will emulate a Saturn Keyboard.
 * **Mouse**: BlueRetro will emulate a Saturn Mouse. (Must use "Default Mouse" preset)
 
@@ -300,6 +300,9 @@ See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX
 
 ### Special buttons functions
 * **MT (Home)**: Toogle wired output mode between GamePad & GamePadAlt.
+
+## Known issues
+As stated in Output Config section, BlueRetro is emulating a 3D Controller in Digital (+) or Analog (O) modes ; **GamePad** mode is not emulating a standard Saturn Controller. As such, some games incompatible with the 3D Controller will not work properly, such as Golden Axe The Duel (see [issue #995](https://github.com/darthcloud/BlueRetro/issues/995)).
 
 # PC-FX
 
