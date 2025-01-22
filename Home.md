@@ -89,6 +89,8 @@ This page describe how the generic options of the Web Config apply to each syste
 * Button press between > 3 sec and < 6 sec (All LEDs blink slowly):\
   Start pairing mode.
 * Button press between > 6 sec and < 10 sec (All LEDs blink fast):\
+  Reset to default configuration only.
+* Button press > 30 sec:\
   Factory reset ESP32 to original BlueRetro firmware the device shipped with & reset configuration.
 
 ## 5.3 - BOOT (IO0) Internal install
@@ -101,6 +103,8 @@ This page describe how the generic options of the Web Config apply to each syste
 * Button press between > 6 sec and < 10 sec (All LEDs blink fast):\
   Start pairing mode.
 * Button press over > 10 sec (All LEDs blink very fast):\
+  Reset to default configuration only.
+* Button press > 30 sec:\
   Factory reset ESP32 to original BlueRetro firmware the device shipped with & reset configuration.
 * Quick double press:\
   System is powered down via power relay / power pin.
