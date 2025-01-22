@@ -40,7 +40,7 @@
 
 I can add support for it if it's uniquely identifiable in one of its modes of operation.\
 Follow this guide to get me a Bluetooth trace of it:\
-[Getting Bluetooth HCI trace with Windows 10](Bluetooth-HCI-trace-with-Win10)
+[Getting BlueRetro Debug Trace](Debug-trace)
 
 # ii - BlueRetro Joystick calibration
 
@@ -57,53 +57,51 @@ while the joysticks and triggers are left to their neutral position so that Blue
 ## 1.1 - List of tested Bluetooth Gamepads
 
 * Controller may have multiple hardware revision; only the ones listed under **Product Number** were tested.
-* Controller behavior may change between their various firmware version; only the firmware listed under **Firmware** is supported.
 * Controller may have various mode of operation; only the ones listed under **Mode** is supported.
 * Controller often spoof the name of another ones and may not be detectable; for thoses a mapping preset other than default may be required and is listed under **Mapping preset**.
-* Issues reproduced by developer are listed under **Known issues**.
-* Issues reported by user but not reproduced are listed under **Unconfirm issues**.
 
-| Name | Product Number | Firmware | Mode | Mapping Src Label | Mapping preset | Pairing Guide | Known issues | Un-confirm issues |
-| ---- | -------------- | -------- | ---- | ----------------- | -------------- | ------------- | ------------ | ---------------- |
-| 8bitdo GBros. Adapter | 83GA | v2.26 | Xinput | GameCube | Default Gamepad | [7](#7---8bitdo-pairing-guide) |   | [#523](https://github.com/darthcloud/BlueRetro/issues/523) |
-| 8bitdo M30 Bluetooth | 80HA | v1.15 | Xinput | Saturn | Default Gamepad | [7](#7---8bitdo-pairing-guide), [7.3](#73---d-pad-as-joystick-or-d-pad-configuration) |   |   |
-| 8bitdo N30 Arcade Stick | NS30 | v5.10 | Xinput | Xbox One S / X\|S | Default Gamepad | [7](#7---8bitdo-pairing-guide) |   |   |
-| 8bitdo N64 | RB8-N64 | v2.00 | HID Generic | N64 | Default Gamepad |   |   |   |
-| 8bitdo N64 Modkit |  | | D | Switch N64 | Default Gamepad | [15](#15---8bitdo-n64-modkit-paring-guide) |   |   |
-| 8BitDo NGC Modkit |  |  | Android | GameCube | Default Gamepad | [16](#16---8bitdo-ngc-modkit-paring-guide) |   |  |
-| 8bitdo NeoGeo Gamepad |  |  | BT | NeoGeo | Default Gamepad |  |   |   |
-| 8bitdo SF30 Pro | 80DB | v2.00 | Xinput | 8bitdo SN30 / SF30 | Default Gamepad | [7](#7---8bitdo-pairing-guide) |   |   |
-| 8bitdo S30 Modkit |  |  | Xinput | Saturn | Default Gamepad | [7](#7---8bitdo-pairing-guide), [7.3](#73---d-pad-as-joystick-or-d-pad-configuration) |   |   |
-| 8bitdo N30 Modkit |  |  | Xinput | NES | Default Gamepad | [7](#7---8bitdo-pairing-guide), [7.3](#73---d-pad-as-joystick-or-d-pad-configuration) |   |   |
-| Google Stadia | H2B | [Bluetooth mode](https://stadia.google.com/controller) | HID Generic | Default | Default Gamepad | [14](#14---google-stadia-paring-guide) |   |   |
-| Exlene GameCube |   | 2021-11 | Xinput (but they call it IOS) | Exlene Game Cube | **Exlene GameCube** | [12](#12---exlene-gamecube-paring-guide) | [#547](https://github.com/darthcloud/BlueRetro/issues/547) |   |
-| Hyperkin Admiral N64 | MO7389-AP | v1.5.010722 | Switch | N64 | Default Gamepad | [13](#13---hyperkin-admiral-paring-guide) | [#146](https://github.com/darthcloud/BlueRetro/issues/146) |   |
-| Microsoft Xbox Adaptive | 1836 | 5.15.3168.0 | BT | Xbox One S / X\|S | Default Gamepad | [4](#4---xbox-pairing-guide) |   | [#441](https://github.com/darthcloud/BlueRetro/issues/441) |
-| Microsoft Xbox One S | 1708 | 5.15.3168.0 | BT | Xbox One S / X\|S | Default Gamepad | [4](#4---xbox-pairing-guide) |   | [#441](https://github.com/darthcloud/BlueRetro/issues/441) |
-| Microsoft Xbox Series X\|S | 1954 | 5.15.3168.0 | BT | Xbox One S / X\|S | Default Gamepad | [4](#4---xbox-pairing-guide) |   | [#441](https://github.com/darthcloud/BlueRetro/issues/441) |
-| Nintendo Switch Famicom & NES | HAC-033, 034, 035, 036 |   | Switch | Switch NES | Default Gamepad | [6](#6---switch-pro--joycon-pairing-guide) | [#146](https://github.com/darthcloud/BlueRetro/issues/146) | [#468](https://github.com/darthcloud/BlueRetro/issues/468) [#473](https://github.com/darthcloud/BlueRetro/issues/473) |
-| Nintendo Switch Joycon (Dual) | HAC-015, 016 |   | Switch | Switch Joycon | **Switch Left/Right Joycon Upright** | [6.3](#63---dual-joycon-pairing-guide) | [#146](https://github.com/darthcloud/BlueRetro/issues/146) | [#468](https://github.com/darthcloud/BlueRetro/issues/468) [#473](https://github.com/darthcloud/BlueRetro/issues/473) |
-| Nintendo Switch Joycon (Single) | HAC-015, 016 |   | Switch | Switch Joycon | Default Gamepad | [6](#6---switch-pro--joycon-pairing-guide) | [#146](https://github.com/darthcloud/BlueRetro/issues/146) | [#468](https://github.com/darthcloud/BlueRetro/issues/468) [#473](https://github.com/darthcloud/BlueRetro/issues/473) |
-| Nintendo Switch MD & Genesis 3btns | HAC-045 |   | Switch | Switch MD / Genesis | Default Gamepad | [6](#6---switch-pro--joycon-pairing-guide) | [#146](https://github.com/darthcloud/BlueRetro/issues/146) | [#468](https://github.com/darthcloud/BlueRetro/issues/468) [#473](https://github.com/darthcloud/BlueRetro/issues/473) |
-| Nintendo Switch Mega Drive 6btns | HAC-046 |   | Switch | Switch MD / Genesis | Default Gamepad | [6](#6---switch-pro--joycon-pairing-guide) | [#146](https://github.com/darthcloud/BlueRetro/issues/146) | [#468](https://github.com/darthcloud/BlueRetro/issues/468) [#473](https://github.com/darthcloud/BlueRetro/issues/473) |
-| Nintendo Switch N64 | HAC-043 |   | Switch | Switch N64 | Default Gamepad | [6](#6---switch-pro--joycon-pairing-guide) | [#146](https://github.com/darthcloud/BlueRetro/issues/146) | [#468](https://github.com/darthcloud/BlueRetro/issues/468) [#473](https://github.com/darthcloud/BlueRetro/issues/473) |
-| Nintendo Switch Pro | HAC-013 |   | Switch | WiiU / Switch Pro | Default Gamepad | [6](#6---switch-pro--joycon-pairing-guide) | [#146](https://github.com/darthcloud/BlueRetro/issues/146) | [#468](https://github.com/darthcloud/BlueRetro/issues/468) [#473](https://github.com/darthcloud/BlueRetro/issues/473) |
-| Nintendo Switch SFC & SNES | HAC-042 |   | Switch | Switch SNES | Default Gamepad | [6](#6---switch-pro--joycon-pairing-guide) | [#146](https://github.com/darthcloud/BlueRetro/issues/146) | [#468](https://github.com/darthcloud/BlueRetro/issues/468) [#473](https://github.com/darthcloud/BlueRetro/issues/473) |
-| Nintendo Wiimote | RVL-036 |   | Wii | Wiimote | Default Gamepad | [5](#5---wii--wiiu-pro-pairing-guide) |   |   |
-| Nintendo Wiimote + Classic | RVL-005 |   | Wii | Wiimote + Classic | Default Gamepad | [5](#5---wii--wiiu-pro-pairing-guide) |   |   |
-| Nintendo Wiimote + Classic Pro | RVL-005 (-02) |   | Wii | Wiimote + Classic Pro | Default Gamepad | [5](#5---wii--wiiu-pro-pairing-guide) |   |   |
-| Nintendo Wiimote + Nunchuck | RVL-004 |   | Wii | Wiimote + Nunchuck | Default Gamepad | [5](#5---wii--wiiu-pro-pairing-guide) |   |   |
-| Nintendo WiiU Pro | WUP-005 |   | Wii | WiiU / Switch Pro | Default Gamepad | [5](#5---wii--wiiu-pro-pairing-guide) | [#3](https://github.com/darthcloud/BlueRetro/issues/3) |   |
-| PowerA GameCube | 1511638-01 |   | Switch | Game Cube | Default Gamepad | [6](#6---switch-pro--joycon-pairing-guide) | [#146](https://github.com/darthcloud/BlueRetro/issues/146) |   |
-| Retro-Bit SEGA Saturn Bluetooth |   | v1.02 | Xinput | Saturn | Default Gamepad | [8](#8---retro-bit-pairing-guide) |   |   |
-| Retro Fighters Brawler64 Bluetooth |   |   | Switch | N64 | Default Gamepad | [11.1.1](#1111---switch-mode) | [#146](https://github.com/darthcloud/BlueRetro/issues/146) [#548](https://github.com/darthcloud/BlueRetro/issues/548) |   |
-| Retro Fighters Brawler64 Bluetooth |   |   | Xinput | N64 | **Retro Fighters Brawlers64 Xinput** | [11.1.2](#1112---xinput-mode) | [#546](https://github.com/darthcloud/BlueRetro/issues/546) |   |
-| Retro Fighters Warrior Adapter |   |   | Xinput | Game Cube | Default Gamepad | [10](#10---retrofighters-warrior-adapter-paring-guide) |   |   |
-| Sony PS3 DualShock 3 |   |   | PS3 | PS3 | Default Gamepad | [2](#2---ps3-pairing-guide) |   |   |
-| Sony PS3 Sixaxis |   |   | PS3 | PS3 | Default Gamepad | [2](#2---ps3-pairing-guide) |   |   |
-| Sony PS4 DualShock 4 |   |   | PS4 | PS4 / PS5 | Default Gamepad | [3](#3---ps4--ps5-pairing-guide) |   |   |
-| Sony PS5 DualSense | CFI-ZCT1W | 0307 | PS5 | PS4 / PS5 | Default Gamepad | [3](#3---ps4--ps5-pairing-guide) |   |   |
-| Valve Steam Controller | 1001 | 0x5B0F21BD (2018-05-30) | Lizard (BLE) | KB & Mouse | **DC FPS for Steam ctrl lizard** | [9](#9---steam-controller-pairing-guide) |   |   |
+| Name                               | Product Number | Mode                          | Mapping Src Label     | Mapping preset                       | Pairing Guide                                                                         |
+|------------------------------------|----------------|-------------------------------|-----------------------|--------------------------------------|---------------------------------------------------------------------------------------|
+| 8bitdo GBros. Adapter              | 83GA           | Xinput                        | GameCube              | Default Gamepad                      | [7](#7---8bitdo-pairing-guide)                                                        |
+| 8bitdo M30 Bluetooth               | 80HA           | Xinput                        | Saturn                | Default Gamepad                      | [7](#7---8bitdo-pairing-guide), [7.3](#73---d-pad-as-joystick-or-d-pad-configuration) |
+| 8bitdo N30 Arcade Stick            | NS30           | Xinput                        | Xbox One S / X\|S     | Default Gamepad                      | [7](#7---8bitdo-pairing-guide)                                                        |
+| 8bitdo N64                         | RB8-N64        | HID Generic                   | N64                   | Default Gamepad                      |                                                                                       |
+| 8bitdo N64 Modkit                  |                | S                             | Switch N64            | Default Gamepad                      | [15](#15---8bitdo-n64-modkit-paring-guide)                                            |
+| 8BitDo NGC Modkit                  |                | Android                       | GameCube              | Default Gamepad                      | [16](#16---8bitdo-ngc-modkit-paring-guide)                                            |
+| 8bitdo NeoGeo Gamepad              |                | BT                            | NeoGeo                | Default Gamepad                      |                                                                                       |
+| 8bitdo SF30 Pro                    | 80DB           | Xinput                        | 8bitdo SN30 / SF30    | Default Gamepad                      | [7](#7---8bitdo-pairing-guide)                                                        |
+| 8bitdo S30 Modkit                  |                | Xinput                        | Saturn                | Default Gamepad                      | [7](#7---8bitdo-pairing-guide), [7.3](#73---d-pad-as-joystick-or-d-pad-configuration) |
+| 8bitdo N30 Modkit                  |                | Xinput                        | NES                   | Default Gamepad                      | [7](#7---8bitdo-pairing-guide), [7.3](#73---d-pad-as-joystick-or-d-pad-configuration) |
+| Atari VCS Classic                  | 1511233-01     | HID Generic                   | Xbox One S / X\|S     | Default Gamepad                      |                                                                                       |
+| Atari VCS Modern                   | 1511232-01     | HID Generic                   | Xbox One S / X\|S     | Default Gamepad                      |                                                                                       |
+| Google Stadia                      | H2B            | HID Generic                   | Default               | Default Gamepad                      | [14](#14---google-stadia-paring-guide)                                                |
+| Exlene GameCube                    |                | Switch                        | WiiU / Switch Pro     | Default Gamepad                      | [12](#12---exlene-gamecube-paring-guide)                                              |
+| Hyperkin Admiral N64               | MO7389-AP      | Switch                        | N64                   | Default Gamepad                      | [13](#13---hyperkin-admiral-paring-guide)                                             |
+| Microsoft Xbox Adaptive            | 1836           | BT                            | Xbox One S / X\|S     | Default Gamepad                      | [4](#4---xbox-pairing-guide)                                                          |
+| Microsoft Xbox One S               | 1708           | BT                            | Xbox One S / X\|S     | Default Gamepad                      | [4](#4---xbox-pairing-guide)                                                          |
+| Microsoft Xbox Series X\|S         | 1954           | BT                            | Xbox One S / X\|S     | Default Gamepad                      | [4](#4---xbox-pairing-guide)                                                          |
+| Nintendo Switch Famicom & NES      | HAC-033-036    | Switch                        | Switch NES            | Default Gamepad                      | [6](#6---switch-pro--joycon-pairing-guide)                                            |
+| Nintendo Switch Joycon (Dual)      | HAC-015-016    | Switch                        | Switch Joycon         | **Switch Left/Right Joycon Upright** | [6.3](#63---dual-joycon-pairing-guide)                                                |
+| Nintendo Switch Joycon (Single)    | HAC-015-016    | Switch                        | Switch Joycon         | Default Gamepad                      | [6](#6---switch-pro--joycon-pairing-guide)                                            |
+| Nintendo Switch MD & Genesis 3btns | HAC-045        | Switch                        | Switch MD / Genesis   | Default Gamepad                      | [6](#6---switch-pro--joycon-pairing-guide)                                            |
+| Nintendo Switch Mega Drive 6btns   | HAC-046        | Switch                        | Switch MD / Genesis   | Default Gamepad                      | [6](#6---switch-pro--joycon-pairing-guide)                                            |
+| Nintendo Switch N64                | HAC-043        | Switch                        | Switch N64            | Default Gamepad                      | [6](#6---switch-pro--joycon-pairing-guide)                                            |
+| Nintendo Switch Pro                | HAC-013        | Switch                        | WiiU / Switch Pro     | Default Gamepad                      | [6](#6---switch-pro--joycon-pairing-guide)                                            |
+| Nintendo Switch SFC & SNES         | HAC-042        | Switch                        | Switch SNES           | Default Gamepad                      | [6](#6---switch-pro--joycon-pairing-guide)                                            |
+| Nintendo Wiimote                   | RVL-036        | Wii                           | Wiimote               | Default Gamepad                      | [5](#5---wii--wiiu-pro-pairing-guide)                                                 |
+| Nintendo Wiimote + Classic         | RVL-005        | Wii                           | Wiimote + Classic     | Default Gamepad                      | [5](#5---wii--wiiu-pro-pairing-guide)                                                 |
+| Nintendo Wiimote + Classic Pro     | RVL-005 (-02)  | Wii                           | Wiimote + Classic Pro | Default Gamepad                      | [5](#5---wii--wiiu-pro-pairing-guide)                                                 |
+| Nintendo Wiimote + Nunchuck        | RVL-004        | Wii                           | Wiimote + Nunchuck    | Default Gamepad                      | [5](#5---wii--wiiu-pro-pairing-guide)                                                 |
+| Nintendo WiiU Pro                  | WUP-005        | Wii                           | WiiU / Switch Pro     | Default Gamepad                      | [5](#5---wii--wiiu-pro-pairing-guide) [Press -]()                                                |
+| PowerA GameCube                    | 1511638-01     | Switch                        | WiiU / Switch Pro     | Default Gamepad                      | [6](#6---switch-pro--joycon-pairing-guide)                                            |
+| Retro-Bit SEGA Saturn Bluetooth    |                | Xinput                        | Saturn                | Default Gamepad                      | [8](#8---retro-bit-pairing-guide)                                                     |
+| Retro Fighters Brawler64 Bluetooth |                | Switch                        | Switch N64            | Default Gamepad                      | [11](#11---retrofighters-brawler64-bluetooth-paring-guide)                                                         |
+| Retro Fighters Warrior Adapter     |                | Xinput                        | Game Cube             | Default Gamepad                      | [10](#10---retrofighters-warrior-adapter-paring-guide)                                |
+| Sony PS3 DualShock 3               |                | PS3                           | PS3                   | Default Gamepad                      | [2](#2---ps3-pairing-guide)                                                           |
+| Sony PS3 Sixaxis                   |                | PS3                           | PS3                   | Default Gamepad                      | [2](#2---ps3-pairing-guide)                                                           |
+| Sony PS4 DualShock 4               |                | PS4                           | PS4 / PS5             | Default Gamepad                      | [3](#3---ps4--ps5-pairing-guide)                                                      |
+| Sony PS5 DualSense                 | CFI-ZCT1W      | PS5                           | PS4 / PS5             | Default Gamepad                      | [3](#3---ps4--ps5-pairing-guide)                                                      |
+| Valve Steam Controller             | 1001           | Lizard (BLE)                  | KB & Mouse            | **DC FPS for Steam ctrl lizard**     | [9](#9---steam-controller-pairing-guide)                                              |
 
 ## 1.2 - List of tested Bluetooth Keyboards
 If your keyboard prompt for a pin on Windows you may have to do the same with BlueRetro.
@@ -116,6 +114,8 @@ This is only needed for older BT keyboard, BT 4.0+ (LE) will not ask for a pin.
 
 ## 1.3 - List of tested Bluetooth Mouses
 * Logitech MX Master 2S
+* Logitech M585
+* Logitech M720
 * Rapoo MT550
 * Rapoo 7200M
 
@@ -318,20 +318,9 @@ See [8bitdo support page FAQs for each controller](https://support.8bitdo.com/) 
 # 11 - RetroFighters Brawler64 Bluetooth Paring Guide
 
 ## 11.1 - First pairing
-
-### 11.1.1 - Switch Mode
 1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing).
 2. Power up Brawler64 by holding sync button until LEDs move in a up/down pattern.
 3. LED will stop blinking once pairing is complete.
-
-### 11.1.2 - Xinput Mode
-
-In this mode the controller will mock an Xbox controller and can't be uniquely identified.
-As such you need to load the **RetroFighters Brawlers64 Xinput** preset.
-
-1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing).
-2. Power up Brawler64 by holding both B & sync buttons until LEDs 1 & 4 start blinking.
-3. LED will stop blinking once pairing is complete and LEDs 1 & 4 will be on to indicate Xinput mode.
 
 ## 11.2 - Reconnect
 
@@ -339,13 +328,13 @@ As such you need to load the **RetroFighters Brawlers64 Xinput** preset.
 
 # 12 - Exlene GameCube Paring Guide
 
-The controller will mock an Xbox controller and can't be uniquely identified.
-As such you need to load the **Exlene GameCube** preset.
+The controller will mock an Switch Pro controller and can't be uniquely identified.
+As such you need to press (-) to toggle on the **Rotated name based mapping**.
 
 ## 12.1 - First pairing
 
 1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing).
-2. Power up the Exlene controller by holding Y + Home simultaneously until LED start blinking fast.
+2. Power up the Exlene controller by holding Home until LED start blinking fast.
 3. LED will stop blinking once pairing is complete.
 
 ## 12.2 - Reconnect
@@ -357,7 +346,7 @@ As such you need to load the **Exlene GameCube** preset.
 ## 13.1 - First pairing
 
 1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing).
-2. Power up the Exlene controller by holding Y + Home simultaneously until LED start blinking fast.
+2. Power up the controller by holding the Sync button until LED start blinking fast.
 3. LED will stop blinking once pairing is complete.
 
 ## 13.2 - Reconnect
@@ -377,23 +366,12 @@ As such you need to load the **Exlene GameCube** preset.
 
 1. Simply press Stadia button to power on Stadia controller and it will reconnect to BlueRetro.
 
-## 14.3 - Troubleshooting
-
-* If reconnect takes a long time you may need to re-pair the controller (See [14.1](#141---first-pairing))
-* To reset the controller hold the Stadia button for 10 seconds.
-
-If you still have troubles with Stadia Controller, check the official [FAQ](https://support.google.com/stadia/answer/13067284) and [troubleshooting tips](https://support.google.com/stadia/answer/9584135) for more instructions.
-
 # 15 - 8BitDo N64 Modkit Paring Guide
-8bitdo Switch mode will not work properly with BlueRetro.
-D-input mode do not expose the Rumble feature.
-
-As such, it's not possible to use the Rumble feature of this controller.
 
 ## 15.1 - First pairing
 
 1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing).
-2. Set switch at bottom of 8BitDo rumble to **D**.
+2. Set switch at bottom of 8BitDo rumble to **S**.
 3. Power up the 8BitDo N64 Modkit controller by holding start.
 4. Hold sync button until LED start blinking fast.
 5. LED will stop blinking once pairing is complete.
@@ -401,7 +379,7 @@ As such, it's not possible to use the Rumble feature of this controller.
 
 ## 15.2 - Reconnect
 
-1. Set switch at bottom of 8BitDo rumble to **D**.
+1. Set switch at bottom of 8BitDo rumble to **S**.
 2. Power up the 8BitDo N64 Modkit controller by holding start.
 3. LED will stop blinking once pairing is complete.
 4. Press A buttons a few times to make sure joystick center value is properly init.
