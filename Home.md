@@ -183,6 +183,10 @@ of the Web config manual for a video example.
 
 # 9 - BlueRetro debugging
 
+Preferred method (DO THIS!):
+* See [Getting BlueRetro Debug Trace](Debug-trace)
+
+Less usefull methods:
 * See [Getting BlueRetro debug logs via Serial port Windows 10](Getting-BlueRetro-debug-logs-via-Serial-port-Windows-10)
 * See [Getting Bluetooth HCI trace with Windows 10](Bluetooth-HCI-trace-with-Win10)
 

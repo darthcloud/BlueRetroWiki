@@ -21,6 +21,7 @@
   * [Flashing firmware Windows 10](https://github.com/darthcloud/BlueRetro/wiki/Flashing-firmware-Windows-10)
   * [OTA FW Update section](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-BLE-Web-Config-User-Manual#5---ota-fw-update-page)
 * [9 - BlueRetro debugging](https://github.com/darthcloud/BlueRetro/wiki#9---blueretro-debugging)
+  * [Getting BlueRetro Debug Trace](Debug-trace)
   * [Getting BlueRetro debug logs via Serial port Windows 10](Getting-BlueRetro-debug-logs-via-Serial-port-Windows-10)
   * [Getting Bluetooth HCI trace with Windows 10](Bluetooth-HCI-trace-with-Win10)
 * [10 - BlueRetro development](https://github.com/darthcloud/BlueRetro/wiki#10---blueretro-development)

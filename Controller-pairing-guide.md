@@ -92,7 +92,7 @@ while the joysticks and triggers are left to their neutral position so that Blue
 | Nintendo Wiimote + Classic         | RVL-005        | Wii          | Wiimote + Classic     | Default Gamepad                      | [5](#5---wii--wiiu-pro-pairing-guide)                                                 |
 | Nintendo Wiimote + Classic Pro     | RVL-005 (-02)  | Wii          | Wiimote + Classic Pro | Default Gamepad                      | [5](#5---wii--wiiu-pro-pairing-guide)                                                 |
 | Nintendo Wiimote + Nunchuck        | RVL-004        | Wii          | Wiimote + Nunchuck    | Default Gamepad                      | [5](#5---wii--wiiu-pro-pairing-guide)                                                 |
-| Nintendo WiiU Pro                  | WUP-005        | Wii          | WiiU / Switch Pro     | Default Gamepad                      | [5](#5---wii--wiiu-pro-pairing-guide) [Press -](#special-buttons-functions-8)         |
+| Nintendo WiiU Pro                  | WUP-005        | Wii          | WiiU / Switch Pro     | Default Gamepad                      | [5](#5---wii--wiiu-pro-pairing-guide) [Press -](BlueRetro-System-Specific-User-Manual#special-buttons-functions-8)         |
 | PowerA GameCube                    | 1511638-01     | Switch       | WiiU / Switch Pro     | Default Gamepad                      | [6](#6---switch-pro--joycon-pairing-guide)                                            |
 | Retro-Bit SEGA Saturn Bluetooth    |                | Xinput       | Saturn                | Default Gamepad                      | [8](#8---retro-bit-pairing-guide)                                                     |
 | Retro Fighters Brawler64 Bluetooth |                | Switch       | Switch N64            | Default Gamepad                      | [11](#11---retrofighters-brawler64-bluetooth-paring-guide)                            |
@@ -329,7 +329,7 @@ See [8bitdo support page FAQs for each controller](https://support.8bitdo.com/) 
 # 12 - Exlene GameCube Paring Guide
 
 The controller will mock an Switch Pro controller and can't be uniquely identified.
-As such you need to press (-) to toggle on the [**Rotated name based mapping**](#special-buttons-functions-8).
+As such you need to press (-) to toggle on the [**Rotated name based mapping**](BlueRetro-System-Specific-User-Manual#special-buttons-functions-8).
 
 ## 12.1 - First pairing
 
