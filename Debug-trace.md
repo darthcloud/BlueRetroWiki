@@ -8,7 +8,8 @@ To help improve support, please send me a BlueRetro debug trace generated direct
 The **debug mode** reuses the RAM normally reserved for the virtual memory card feature of BlueRetro. As such, the virtual memory card cannot be used while in **debug mode**. However, your virtual memory card content will not be overwritten, as it is stored on the adapter's flash memory. As an extra precaution, you may want to back up its content using either the Dreamcast or Nintendo 64 memory card manager pages.
 
 ## Step 1 - Enable debug mode
-Only Chromium-based browser are supported (ex: Google Chrome).
+Only Chromium-based browser are supported (ex: Google Chrome).\
+BlueRetro version v25.01 and up only.
 
 * Visit [blueretro.io](blueretro.io) and click `BlueRetro Advance config`.
 * Click the `Connect BlueRetro` button to open a Bluetooth device pairing menu.
