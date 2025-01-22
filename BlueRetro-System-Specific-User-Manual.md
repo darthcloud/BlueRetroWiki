@@ -452,6 +452,10 @@ Wii Original Classic controller and **TBD** ~~Steam controller~~ work this way. 
 
 See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml) for Bluetooth controller & GameCube controller buttons label correspondence.
 
+### Special buttons functions
+* **MS (SELECT | VIEW | SHARE | -)**: Toggle face buttons mapping between **Standard position base mapping** & **Rotated name based mapping**.
+  This is usefull for Switch controller that physically mimic a GameCube Controller.
+
 # Wii-Ext
 *refers to the connector found on the downside of Wii Remotes and on the front of NES Mini and SNES Mini consoles.*
 
