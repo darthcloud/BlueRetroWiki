@@ -294,10 +294,13 @@ See [8bitdo support page FAQs for each controller](https://support.8bitdo.com/) 
 
 # 9 - Steam controller Pairing Guide
 
+You need to first install the BLE firmware update:\
+https://help.steampowered.com/en/faqs/view/1796-5FC3-88B3-C85F
+
 ## 9.1 - First pairing
 
 1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing).
-2. Power on controller by holding B and then pressing the Steam button.
+2. Power on controller by holding Y and then pressing the Steam button.
 3. Logo will stop blinking on controller once pairing is complete.
 
 ## 9.2 - Reconnect
