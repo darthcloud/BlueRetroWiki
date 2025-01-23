@@ -456,6 +456,8 @@ See [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/2PACX
 * **MS (SELECT | VIEW | SHARE | -)**: Toggle face buttons mapping between **Standard position base mapping** & **Rotated name based mapping**.\
   This is usefull for Switch controller that physically mimic a GameCube Controller.
 
+**Note**: You will need to reload the "GameCube Merge analog & digital trigger" again if you were using it on version prior to v25.01. A new version of the preset compatible with this feature need to be used.
+
 # Wii-Ext
 *refers to the connector found on the downside of Wii Remotes and on the front of NES Mini and SNES Mini consoles.*
 
