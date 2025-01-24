@@ -62,7 +62,7 @@ BlueRetro version v25.01 and up only.
 * Visit [blueretro.io](https://blueretro.io/) and click `BlueRetro Advance config`.
 * Click the `Connect BlueRetro` button to open a Bluetooth device pairing menu.
 * Select your BlueRetro adapter from the device list and click `Pair` to access the configuration menu.
-* If you have used the virtual memory card feature, make sure to reenable it by setting `Accessories` brack from **None** to previous setting.\
+* If you have used the virtual memory card feature, make sure to reenable it by setting `Accessories` back from **None** to previous setting.\
 ![](img/web/advance_output_none.png)
 * In the Global config section, change `Memory Card Bank` to previously used bank and click `Save`.
 * Power cycle the adapter, and **debug mode** will be disabled.
