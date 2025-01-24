@@ -11,7 +11,7 @@ The **debug mode** reuses the RAM normally reserved for the virtual memory card 
 Only Chromium-based browser are supported (ex: Google Chrome).\
 BlueRetro version v25.01 and up only.
 
-* Visit [blueretro.io](blueretro.io) and click `BlueRetro Advance config`.
+* Visit [blueretro.io](https://blueretro.io/) and click `BlueRetro Advance config`.
 * Click the `Connect BlueRetro` button to open a Bluetooth device pairing menu.
 * Select your BlueRetro adapter from the device list and click `Pair` to access the configuration menu.
 * If you have used the virtual memory card feature, make sure to disable it by setting `Accessories` to **None** and clicking `Save` under the `Output config` section.\
@@ -39,7 +39,7 @@ BlueRetro version v25.01 and up only.
 
 ## Step 3 - Download debug trace
 
-* Visit [blueretro.io](blueretro.io) and click `BlueRetro Debug`.
+* Visit [blueretro.io](https://blueretro.io/) and click `BlueRetro Debug`.
 * Click the `Connect BlueRetro` button to open a Bluetooth device pairing menu.
 * Select your BlueRetro adapter from the device list and click `Pair` to access the debug menu.
 * Click the `Download debug trace` button to start downloading the debug trace.
@@ -59,7 +59,7 @@ BlueRetro version v25.01 and up only.
 
 ## Step 5 - Disable debug mode
 
-* Visit [blueretro.io](blueretro.io) and click `BlueRetro Advance config`.
+* Visit [blueretro.io](https://blueretro.io/) and click `BlueRetro Advance config`.
 * Click the `Connect BlueRetro` button to open a Bluetooth device pairing menu.
 * Select your BlueRetro adapter from the device list and click `Pair` to access the configuration menu.
 * If you have used the virtual memory card feature, make sure to reenable it by setting `Accessories` brack from **None** to previous setting.\
