@@ -247,7 +247,7 @@ Update firmware via the [Xbox accessories Win10 app](https://apps.microsoft.com/
 
 ## 6.3 - Dual Joycon Pairing Guide
 
-1. Go to https://blueretro.io/blueretro_presets.html and connect to your BlueRetro.
+1. Go to https://blueretro.io/presets.html and connect to your BlueRetro.
 2. First select output 1 and select "Switch Left Joycon Upright" click save, wait for green text to appear.\
    <img width="281" alt="chrome_CosPbgOsVu" src="https://user-images.githubusercontent.com/3744056/180513746-d27d6cda-9b59-4c58-8875-885ec6b73f68.png">
 3. Then select output 2 and select "Switch Right Joycon Upright" click save, wait for green text to appear.\
