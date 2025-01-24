@@ -164,7 +164,7 @@ This is only needed for older BT keyboard, BT 4.0+ (LE) will not ask for a pin.
     mkdir ~/Documents/sixpair
     cd ~/Documents/sixpair
     wget -O sixpair.c https://gist.github.com/wouterds/4ab5715966812009d634e3d034abc7fc/raw
-    gcc -o sixpair sixpair.c -lusb
+    gcc -o sixpair sixpair.c $(pkg-config --cflags --libs libusb)
     ```
 
     If everything went well you should now have a sixpair executable at `~/Documents/sixpair`.
