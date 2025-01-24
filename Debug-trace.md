@@ -56,3 +56,13 @@ BlueRetro version v25.01 and up only.
   * KDE Plasma: Compress -> Here as "br_debug_trace.bin.zip".
 * Upload the zip file to a new or existing [Github issue](https://github.com/darthcloud/BlueRetro/issues).\
 ![](img/github_upload.png)
+
+## Step 5 - Disable debug mode
+
+* Visit [blueretro.io](blueretro.io) and click `BlueRetro Advance config`.
+* Click the `Connect BlueRetro` button to open a Bluetooth device pairing menu.
+* Select your BlueRetro adapter from the device list and click `Pair` to access the configuration menu.
+* If you have used the virtual memory card feature, make sure to reenable it by setting `Accessories` brack from **None** to previous setting.\
+![](img/web/advance_output_none.png)
+* In the Global config section, change `Memory Card Bank` to previously used bank and click `Save`.
+* Power cycle the adapter, and **debug mode** will be disabled.
