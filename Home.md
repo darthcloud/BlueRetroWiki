@@ -154,32 +154,43 @@ Refer to [BlueRetro mapping reference](https://docs.google.com/spreadsheets/d/e/
 * Off: No error and Bluetooth inquiry mode disabled.
 
 # 8 - Updating firmware
-**Once flashed via OTA Web interface, FW flashed via USB won't be loaded anymore until the adapter is factory reset. (See [5 - Physical buttons usage](https://github.com/darthcloud/BlueRetro/wiki#5---physical-buttons-usage))**
 
-Download latest binary from [GitHub](https://github.com/darthcloud/BlueRetro/releases) and flash them on your BlueRetro.\
-\
-Only internal flash (SPIFFS) firmware are now supported. An universal version with system auto detection is provided in addition to system hard-coded versions.
+Download latest binary as indicated on the [GitHub release page](https://github.com/darthcloud/BlueRetro/releases).\
+An universal version with system auto detection is provided in addition to system hard-coded versions.
 
-## 8.1 - Via USB serial
-
-* Linux:
-```
-esptool.py -p /dev/ttyUSB0 -b 460800 --before default_reset --after hard_reset --chip esp32  write_flash\
---flash_mode dio --flash_size detect --flash_freq 40m 0x1000 bootloader.bin 0x8000 partition-table.bin 0xd000 ota_data_initial.bin 0x10000 BlueRetro.bin
-```
-
-* Windows: [Flashing firmware Windows 10](https://github.com/darthcloud/BlueRetro/wiki/Flashing-firmware-Windows-10)
-
-## 8.2 - Via Web-Bluetooth interface (OTA FW update)
-
-**Required FW v0.19 minimum to be already programmed via USB serial**
+## 8.1 - Via Web-Bluetooth interface (OTA FW update)
 
 1. Go to https://blueretro.io/ota.html and connect to your BlueRetro adapter (make sure it's powered on and no controller connected).
-2. Select the BlueRetro\*.bin you want then click Update Firmware button.
+2. Select the BlueRetro\*.bin you want, then click Update Firmware button.
 3. Via PC Chrome update should take around 5 minutes, with Android Chrome it will take around 45 minutes (!!!).
+4. Wait for BlueRetro LED to start flashing before closing browser page.
 
 See [OTA FW Update section](https://github.com/darthcloud/BlueRetro/wiki/BlueRetro-BLE-Web-Config-User-Manual#5---ota-fw-update-page)
 of the Web config manual for a video example.
+
+## 8.2 - Via USB serial
+
+### Linux/macOS:
+
+1. Install esptool:\
+   https://docs.espressif.com/projects/esptool/en/latest/esp32/installation.html
+
+2. Extract BlueRetro Firmware zip archive.
+
+3. Download BlueRetro flash script:\
+   `wget https://github.com/darthcloud/BlueRetro/raw/refs/heads/master/tools/flash_blueretro.py`
+
+4. Connect BlueRetro to PC with USB cable.
+
+5. Flash the Firmware with the script:\
+   `python3 flash_blueretro.py path/BlueRetro_system.bin`\
+   (Replace file path with atual location and firmware needed)
+
+**Note**: If device is not found you may need to install a USB serial driver:\
+https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/establish-serial-connection.html
+
+### Windows
+[Flashing firmware Windows 10](https://github.com/darthcloud/BlueRetro/wiki/Flashing-firmware-Windows-10)
 
 # 9 - BlueRetro debugging
 
