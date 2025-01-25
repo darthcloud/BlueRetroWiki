@@ -13,8 +13,8 @@
 * [6 - Button combinations functions](#6---button-combinations-functions)
 * [7 - LED usage IO17](#7---led-usage-io17)
 * [8 - Updating firmware](#8---updating-firmware)
-  * [8.1 - Via USB serial](#81---via-usb-serial)
-  * [8.2 - Via Web-Bluetooth interface (OTA FW update)](#82---via-web-bluetooth-interface-ota-fw-update)
+  * [8.1 - Via Web-Bluetooth interface (OTA FW update)](#81---via-web-bluetooth-interface-ota-fw-update)
+  * [8.2 - Via USB serial](#82---via-usb-serial)
 * [9 - BlueRetro debugging](#9---blueretro-debugging)
 * [10 - BlueRetro development](#10---blueretro-development)
 * [11 - BlueRetro Manufactoring Tools](#11---blueretro-manufactoring-tools)
@@ -184,7 +184,7 @@ of the Web config manual for a video example.
 
 5. Flash the Firmware with the script:\
    `python3 flash_blueretro.py path/BlueRetro_system.bin`\
-   (Replace file path with atual location and firmware needed)
+   (Replace file path with actual location and firmware needed)
 
 **Note**: If device is not found you may need to install a USB serial driver:\
 https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/establish-serial-connection.html
