@@ -119,7 +119,7 @@ detail about options supported for each system.
 Up to 128 mapping can be added. Simply click on +/- buttons to add or remove a mapping. The label
 used by default are quite generic. You can use the **Src label** and **Dst label** to select the
 actual controller type you are currently mapping from and to. The labels selection is only to help
-you and has no effect on the config at all. You can also consult the [mapping reference chart](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml).
+you translate the default BlueRetro labels in something more meaningful. It help making the mapping process easier and has no effect on the config at all and is not saved. You can also consult the [mapping reference chart](https://docs.google.com/spreadsheets/d/e/2PACX-1vT9rPK2__komCjELFpf0UYz0cMWwvhAXgAU7C9nnwtgEaivjsh0q0xeCEiZAMA-paMrneePV7IqdX48/pubhtml).
 
 The **Select Bluetooth device** dropbox let you select the active Bluetooth input for which the
 setting will be saved to. You need to save for each modified device mapping setting.
