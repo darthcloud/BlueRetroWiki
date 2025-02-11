@@ -395,6 +395,9 @@ As such you need to press (-) to toggle on the [**Rotated name based mapping**](
 Make sure to use either the **Default Gamepad only** or the **Default Gamepad/Keyboard** presets to make
 the triggers end button active. (Merge preset simulate the end button base on analog position.)
 
+You may want to mod this ModKit to remove the annoying connect-on-charge behavior:\
+See [8BitDo GC ModKit No-Connect on Charge Mod](8bitdo_mod)
+
 ## 16.1 - First pairing
 
 1. Boot up BlueRetro and make sure adapter is in inquiry mode (LED pulsing).
