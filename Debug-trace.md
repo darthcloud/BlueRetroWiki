@@ -19,7 +19,7 @@ BlueRetro version v25.01 and up only.
 * In the Global config section, change `Memory Card Bank` to **Debug mode** and click `Save`.
 * Power cycle the adapter, and **debug mode** will be enabled.
 
-![](img/enable_debug_mode.gif)
+![](img/web/enable_debug_mode.gif)
 
 **Note**: If the Bluetooth device pairing menu does not open and you are using a Chromium-based browser, open a new browser tab and enter chrome://flags, search for "Web Bluetooth API", and set the option to Enabled.
 
@@ -45,7 +45,7 @@ BlueRetro version v25.01 and up only.
 * Click the `Download debug trace` button to start downloading the debug trace.
 * The browser will automatically download a file named `br_debug_trace.bin` once the progress bar reaches 100%.
 
-![](img/download_debug_trace.gif)
+![](img/web/download_debug_trace.gif)
 
 ## Step 4 - Zip & Upload debug trace
 

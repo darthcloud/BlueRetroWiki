@@ -80,7 +80,7 @@ For the universal version of BlueRetro the GameID framework can be reused to sav
 config for different system. Simply boot BlueRetro on the system you want to set a new default and
 follow the same instruction as above.
 
-The game name will be undefined but the GameID will be the console name.
+The game name will be undefined but the GameID will be the console name.\
 ![](img/web/advance_persys.png)
 
 ## 2.2 - Global config
